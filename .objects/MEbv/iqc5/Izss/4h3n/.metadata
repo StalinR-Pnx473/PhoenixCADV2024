@@ -1,0 +1,17 @@
+﻿{
+  "Name": "uILogoffButton",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "4h3nNXwek0yFzhV4J6f6Rg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/4h3nNXwek0yFzhV4J6f6Rg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/IzssZMi__UG9DaOzzPYjow",
+  "Created": "2024-02-06T14:26:56.7179966Z",
+  "Updated": "2024-03-03T05:40:53.2208667Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

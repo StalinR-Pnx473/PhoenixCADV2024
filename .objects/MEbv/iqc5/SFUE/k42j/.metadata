@@ -1,0 +1,16 @@
+﻿{
+  "Id": "k42j7yv6CU2wNK69rDbrYQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/k42j7yv6CU2wNK69rDbrYQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/SFUEBDwmQUCdd2iuk-Z8sw",
+  "Name": "uICallInfoCFSLabel",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T06:44:41.7891425Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T06:45:32.6402894Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

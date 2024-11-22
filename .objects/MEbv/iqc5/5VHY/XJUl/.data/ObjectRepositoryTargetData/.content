@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="eF1HlkBRgEu6XI-ZTgNV5A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CvElementArea="446, 999, 37, 21" CvType="Button" DesignTimeRectangle="447, 1000, 36, 20" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;wnd ctrlname='pnlDispatchBase' /&gt;&lt;wnd ctrlname='ctrlUsrDispatch' /&gt;&lt;wnd ctrlname='ctrlCCUI' idx='2' /&gt;&lt;wnd ctrlname='dtDPTime' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='pnlDispatchBase' /&gt;&lt;wnd ctrlname='ctrlUsrDispatch' /&gt;&lt;wnd ctrlname='ctrlCCUI' /&gt;&lt;wnd ctrlname='dtDPTime' /&gt;" Guid="4c8a4197-528f-4ee2-9574-02751b5ee60a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACgAAAAYCAYAAACIhL/AAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADUSURBVFhH7dPLDcIwEATQ7YQquHNMH7SQcugAcaKAdEC+XB0njQzr2I5wFA75iUVkpJE2liw/rRS63u6QXKqeLSSXyqqF6Zj+m/UuBjY8NN2hlFigdf0PkIjctDwBsCgbmEoDetcOnJONgCfEFCNx30syAGoetMANWhflhYapNKB37cA52Qi47k/SA7Ncw1TaBr2LgTUP9QCY8DaoezTsEdHoeYTzwQOn371od9XFAq3rA3B6zGNrZRPgmgmAaVbDVBrQu34LKKlvQMWD3NIjVZBbhReAz5T3KCd9zwAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmPhoenixMain' /&gt;&lt;wnd ctrlname='frmDispatch' /&gt;" SearchSteps="Selector, FuzzySelector, Image, CV" Version="V3" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="fbe9c77487dfe4a3aab866ec6f56f0ac.png" xmlns="">0eEer7RBFZ02Q4isCibzEyQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

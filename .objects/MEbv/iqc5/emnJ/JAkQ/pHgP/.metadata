@@ -1,0 +1,16 @@
+﻿{
+  "Id": "pHgPb9K4P0S0AxCgKm9O4A",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/pHgPb9K4P0S0AxCgKm9O4A",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/JAkQOXWInk6rFxbLGYXYRQ",
+  "Name": "uIPenalityEdit",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T11:58:19.1834275Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T11:58:28.0087638Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

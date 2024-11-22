@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uILiveVideoLinkScreen",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "j9tVrUjexk-P3yneSDmaaQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/j9tVrUjexk-P3yneSDmaaQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/tBnq8dOGpUm4ard4nLyOhQ",
+  "Created": "2024-05-06T13:24:50.8452913Z",
+  "Updated": "2024-05-06T13:25:25.1566132Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

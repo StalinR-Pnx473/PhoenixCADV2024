@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Acknowledge",
+  "Type": "Screen",
+  "Id": "VtXe2MX6LU6jxZ_88V04rQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/VtXe2MX6LU6jxZ_88V04rQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/h5es0EizPUSkHahTS7e1RA",
+  "Created": "2024-11-18T13:02:16.1847127Z",
+  "Updated": "2024-11-18T13:02:16.1847127Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

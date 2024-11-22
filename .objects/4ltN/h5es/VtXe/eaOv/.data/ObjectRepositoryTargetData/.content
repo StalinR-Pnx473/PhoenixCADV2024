@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="PH87RVoEPUOqbiPj0Jr99w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="http://10.103.1.68/LAW/KPIFrameworkWeb/Error/errorHandler.aspx?PageTitle=Crash%20Entry&amp;MsgType=Warning&amp;Alert=(10086)Mandatory%20data%20missing%20Road%20Character%20Horizontal%20Alignment%20(100a)" DesignTimeRectangle="48, 243, 388, 28" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl parentid='htmlErrorInfo' tableRow='2' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='htmlErrorInfo' tag='TABLE' /&gt;&lt;webctrl type='' tag='TD' class='' aaname='' /&gt;" Guid="ba88d7b3-36a2-46c2-87b9-0245cc82ec0f" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acknowledge' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V3" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="876028da32cb9641d0aca342d5e10ae6.png" xmlns="">0THU3GG8rCkmA6LkU_8sScg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

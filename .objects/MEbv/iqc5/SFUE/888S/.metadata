@@ -1,0 +1,16 @@
+﻿{
+  "Id": "888Sht_VDk2hwjATUNC0jg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/888Sht_VDk2hwjATUNC0jg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/SFUEBDwmQUCdd2iuk-Z8sw",
+  "Name": "uIGeoInfoNearLocation",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T06:48:57.5171863Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T06:49:22.4553118Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

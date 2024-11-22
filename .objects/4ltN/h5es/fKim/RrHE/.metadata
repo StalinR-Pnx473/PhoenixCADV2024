@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIZipEdit",
+  "Type": "Element",
+  "TaxonomyType": "Text",
+  "Id": "RrHEjTspVEyIkMDaE_jltg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/RrHEjTspVEyIkMDaE_jltg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/fKim-pvEU0yZ2AdJDvBrQA",
+  "Created": "2024-05-06T13:45:10.3981116Z",
+  "Updated": "2024-05-06T13:45:25.6890297Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,16 @@
+﻿{
+  "Id": "JAkQOXWInk6rFxbLGYXYRQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/JAkQOXWInk6rFxbLGYXYRQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/emnJxCfvZ0m1QDLryu6YUQ",
+  "Name": "PlaintiffTab",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T10:53:01.7983592Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T12:04:00.3282796Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

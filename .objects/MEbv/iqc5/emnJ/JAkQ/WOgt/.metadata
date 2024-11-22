@@ -1,0 +1,16 @@
+﻿{
+  "Id": "WOgtp-pc9EyINq4-mUT2Cw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/WOgtp-pc9EyINq4-mUT2Cw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/JAkQOXWInk6rFxbLGYXYRQ",
+  "Name": "uICourtTypeArrowButton",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T11:56:32.9650601Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T11:56:45.9835803Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

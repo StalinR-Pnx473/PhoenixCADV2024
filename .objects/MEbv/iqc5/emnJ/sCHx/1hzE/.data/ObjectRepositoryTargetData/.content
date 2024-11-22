@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XqoB7zidAEygCfBT-jofJA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="180, 286, 96, 24" ElementType="CheckBox" FriendlyName="'No DL#'" FullSelectorArgument="&lt;wnd ctrlname='CtrlusrSummonsNJ' /&gt;&lt;wnd ctrlname='tbSummon' /&gt;&lt;wnd ctrlname='tnLicense' /&gt;&lt;wnd ctrlname='chkDLNone' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='CtrlusrSummonsNJ' /&gt;&lt;wnd ctrlname='tbSummon' /&gt;&lt;wnd ctrlname='tnLicense' /&gt;&lt;wnd ctrlname='chkDLNone' check:fulltext='No DL#' /&gt;" Guid="6944458e-a99e-44d5-af35-b0430e7b6fa5" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmAddSummons' /&gt;" SearchSteps="Selector, FuzzySelector" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="23, 231, 89, 33" ElementType="TabPage" FriendlyName="'&amp;License'" FullSelectorArgument="&lt;wnd ctrlname='CtrlusrSummonsNJ' /&gt;&lt;wnd ctrlname='tbSummon' /&gt;&lt;ctrl name='&amp;amp;License' role='page tab' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='CtrlusrSummonsNJ' /&gt;&lt;wnd ctrlname='tbSummon' /&gt;&lt;ctrl name='&amp;amp;License' role='page tab' automationid='' check:text='&amp;amp;License' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAF0AAAAlCAYAAAAgAOVvAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGoSURBVGhD7ZXBkYQgEEUNj4AIx1yMw5sheNwbS4utgKj0ltrW+l/Vr5rRhsY3DDbjODrk2UC6Qhbpfd8jN2f8cVMS6eA+IF0B3u0USH8I8suuIf0hIF0BSFcA0hWAdAUulz60xjVN42w3X9gwuNY0vsa4dpgvfQxIV0BBOoB0BVSkd5aOF+vSks5ZP47GLjGtP4xitjVpHz66aG7+zMn7EXlNqe6sp5x3SO9s8lBxDB/8NTVFiXFioQe1/GNX9ZTzAunrTsofhOYK17gmf/nydZ4rFlkWvKyLheYLHVpnJum1PeXoS58f/nDnzDXFOZN7LLcgJO+zJ52p7ilHXXpNPdccJcgUSE/+FZx1XH1POR+WHijO7Rfzr6XvyYipmTMgl57C442ztranHH3p9OLy9aUxNFeQtPdSI4KoMFYgnb5vFhmPr+0p5zbpe6GFJtJPxiSSCvc5f5KezbGEbVb1lPMK6RPRjl+yeSrefWnWMoF0T2mt8f3AWU85l0sH50C6ApdKz/+Ce/k62OkKQLoCkK4ApCsA6QpAugLklwPpCkC6ApD+OM79AonOtT+qPj7/AAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="15b1f5a022537b05f919f4283c09a291.png" xmlns="">0OtyeH-gl3UCutbs6y7bidg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIExportToExcelIcon",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "j4coGX8vRUCKWKBRutMHUA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/j4coGX8vRUCKWKBRutMHUA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/Hrp_8vdRGEaS72ZMdz21Qg",
+  "Created": "2024-05-07T10:38:24.4467861Z",
+  "Updated": "2024-05-07T10:38:38.4558729Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

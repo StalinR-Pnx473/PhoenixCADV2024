@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uISystemParameterDropdown",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "__VMqB6UokWH_aQEpWigAg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/__VMqB6UokWH_aQEpWigAg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/NUe2wANE_E6HwAALtEMKWw",
+  "Created": "2024-08-16T11:55:22.6841194Z",
+  "Updated": "2024-09-13T07:22:49.5062596Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

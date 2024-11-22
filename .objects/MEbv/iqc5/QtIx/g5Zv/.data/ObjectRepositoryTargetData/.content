@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="EESo07FOnUqYlqFWYVJTSQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="20da7c4b-3b11-4c74-bb23-74993469f540" CvElementArea="697, 7, 21, 21" CvType="CloseButton" DesignTimeRectangle="697, 7, 21, 21" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Close' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Close' role='push button' automationid='' check:text='Close' /&gt;" Guid="228d4b62-3a14-461a-bbde-2f70e9a23f20" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABmSURBVEhL7ZBBCsAwCAT7/yf6A88+ICWFwKRQVEigBA8DnmZYLzNruzk0IiLLoLciLvRWxIXecERVH973F/Smlgy5F+jQm35XJNCh919LKI+E6E2/Kwq9FXGhtyIu9E6RXZwSsXYDLor7sdKPUksAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmVehicleDetails' /&gt;" SearchSteps="Selector, Image" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="5ffe9a237d8a0acca1fbdb485c12dee7.png" xmlns="">0p6aO7U2AVE-hD1BOpuh0-Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="wNuoTkVhu0SveXIiGAW8VA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="188, 69, 292, 24" ElementType="Text" FriendlyName="'WindowsForms10.STATIC.a…'" FullSelectorArgument="&lt;wnd ctrlname='CtrlusrSummonsNJ' /&gt;&lt;wnd ctrlname='lblLocationHeader' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='CtrlusrSummonsNJ' /&gt;&lt;wnd ctrlname='lblLocationHeader' /&gt;" Guid="2ce841d2-3c43-4c6d-a04d-c6db384302da" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAASgAAAAcCAYAAADSmyIWAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABzSURBVHhe7dQxAQAwDASh+lf7DlIbNzBggbftAIoEBWQJCsgSFJAlKCBLUECWoIAsQQFZggKyBAVkCQrIEhSQJSggS1BAlqCALEEBWYICsgQFZAkKyBIUkCUoIEtQQJaggCxBAVmCArIEBWQJCsgSFBC1+26aVNbSv7/9AAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmAddSummons' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="18, 69, 148, 24" ElementType="Text" FriendlyName="'WindowsForms10.STATIC.a…'" FullSelectorArgument="&lt;wnd ctrlname='CtrlusrSummonsNJ' /&gt;&lt;wnd ctrlname='lblCallNbr' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='CtrlusrSummonsNJ' /&gt;&lt;wnd ctrlname='lblCallNbr' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAJgAAAAcCAYAAACd43bvAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABfSURBVHhe7dIxAQAwDASh+lf7DlIVtzHggLftoCIYKcFICUZKMFKCkRKMlGCkBCMlGCnBSAlGSjBSgpESjJRgpAQjJRgpwUgJRkowUoKREoyUYKQEIyUYKcFICUZo9wGOqlUSe4yUBgAAAABJRU5ErkJggg==" SearchSteps="Selector, FuzzySelector, Image" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4f29f056767f02df6ee0bf9501ec0c08.png" xmlns="">0EjdP_I83NEOHcQOejbwRsA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

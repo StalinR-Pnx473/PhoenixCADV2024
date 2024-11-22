@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_7T9Ys1NP0iliDNcScpg3g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="543, 110, 129, 21" ElementType="CheckBox" FriendlyName="'Use Call Location'" FullSelectorArgument="&lt;wnd ctrlname='chkUseCallLocation' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='chkUseCallLocation' check:fulltext='Use Call Location' /&gt;" Guid="c0af21cb-d106-4553-9bf5-40b028c9d12f" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmIncMJ' /&gt;" SearchSteps="Selector, FuzzySelector" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="503, 110, 23, 19" ElementType="Text" FriendlyName="'or'" FullSelectorArgument="&lt;wnd ctrlname='lblUseLocation' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='lblUseLocation' check:text='or' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABsAAAAXCAYAAAD6FjQuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACWSURBVEhLY/jw4/9/euFRy6iCRy2jCh6slu3/f8GB4f8BNHzhCET+xXIPVLn0Of9foJlBtGUPOiCGnFj+ACJ2pARqcMn/B0A+wjIIH10/CBNpGcxXHv9v3sMuBresYz+SPlRMgWUP/t9MB4lBgpLGltHMZ4g4gxuGK86oYRnCJ6gYIzVSxzLK8ahlVMGjllEF09Gy//8BmdQZsJkUKuEAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9e79800ca872f1e884554b326a3aec3a.png" xmlns="">0Cc8BOZ3vH0C26xh7y8AdEA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

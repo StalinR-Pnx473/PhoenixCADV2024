@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIAutoPopUpCheckbox",
+  "Type": "Element",
+  "TaxonomyType": "Checkbox",
+  "Id": "whi1omjv_U-XOvxlmui2cw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/whi1omjv_U-XOvxlmui2cw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/6oFZNLA_kUWbZBEpoZSy9g",
+  "Created": "2024-06-21T14:38:28.9232283Z",
+  "Updated": "2024-06-21T14:38:44.4353435Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

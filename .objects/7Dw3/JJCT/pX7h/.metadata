@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Fleet Log Entry Screen",
+  "Type": "Screen",
+  "Id": "pX7hveA4y0eZynNQBW2GSw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/pX7hveA4y0eZynNQBW2GSw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/JJCTt9Kxsku2prOmg4_IQg",
+  "Created": "2024-02-20T08:03:02.377175Z",
+  "Updated": "2024-02-20T08:03:09.6348141Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

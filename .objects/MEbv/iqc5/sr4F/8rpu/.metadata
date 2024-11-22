@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIScreenNameLabel",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "8rpuqc1aXUmfpc1b3sMfUQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/8rpuqc1aXUmfpc1b3sMfUQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/sr4FvA3tYEWFt8MKJeQEBQ",
+  "Created": "2024-01-23T09:50:35.1197895Z",
+  "Updated": "2024-01-23T09:51:01.7228528Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

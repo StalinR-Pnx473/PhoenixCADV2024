@@ -1,0 +1,16 @@
+﻿{
+  "Id": "8uWAkW65CEiuk-dJs_6JQw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/8uWAkW65CEiuk-dJs_6JQw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/B2zQje3EkUSDl_J95zzCiw",
+  "Name": "uIEyesDropdown",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T09:44:01.2442676Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T09:44:23.3479031Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

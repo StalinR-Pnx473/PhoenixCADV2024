@@ -1,0 +1,16 @@
+﻿{
+  "Id": "H3qTpwBMIECUotdckvC2Yw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/H3qTpwBMIECUotdckvC2Yw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/ATog21aGmUikpMronzSugw",
+  "Name": "uIAppearanceRequiredCheckBox",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T10:50:25.3758426Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T10:50:34.8294369Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

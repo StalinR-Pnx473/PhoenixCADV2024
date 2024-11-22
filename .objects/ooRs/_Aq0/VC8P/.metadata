@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Real Address Lookup Screen",
+  "Type": "Screen",
+  "Id": "VC8PTYeDbEOC4PpgXIp6Xg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/VC8PTYeDbEOC4PpgXIp6Xg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/_Aq0czXOq0aNRbYohD7LzA",
+  "Created": "2024-11-18T07:40:31.1323595Z",
+  "Updated": "2024-11-18T07:40:50.881912Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

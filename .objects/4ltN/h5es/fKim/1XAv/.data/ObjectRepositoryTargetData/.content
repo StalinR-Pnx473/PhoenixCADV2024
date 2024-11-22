@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="dvBT93CE_EqhEeXNHy5A5Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="http://10.103.1.68/LAW/CCP/frmCitizenIPCameraEntry.aspx?hdnMode=ADD&amp;JurisID=1000" CvElementArea="62, 132, 20, 19" CvType="Icon" DesignTimeRectangle="64, 134, 16, 16" DesignTimeScaleFactor="1" ElementType="Icon" FullSelectorArgument="&lt;webctrl id='Table5' tableRow='1' tag='TABLE' /&gt;&lt;webctrl id='cmdPrint' tableRow='1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='Table5' tag='TABLE' /&gt;&lt;webctrl id='cmdPrint' type='image' tag='INPUT' class='menuItem' aaname='Print' /&gt;" Guid="fa001265-00f0-455b-8ca4-8b79f74cc404" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEYSURBVDhPrZHNboMwEIT3BeGeF+SFOCSCNlF+sKDgQk3aXiptPAmLNggBVbD0afB6ZjCCqsrymlDTtPzAdfranlz7w63HuU5f3NPj4fc+wKHeh2E4yzDvP/nqr/rteVaY5xY8wxzV9ZXHkEK5iUbmYzmy1jGoOgVBENxDUwse8es8leWX/92OoWWnUggdMjbXeSqKhjUSmlrwxHH8pJKnPK9ZwMEShmVAOsgYy8Z89oYljJVKD10yy5kHw/+iXyA9dDqVDLRhSBRFPTITP1Q6AB2PHwymCv940yMz+AXpAHQ4FAy0YSlSLB2A3vc57z1QMc2hy3QeSmlqOH3zdArTUnROlJIk4yQxnnWUdrsLrwltt2dejzPfAFpIEkaD5+KzAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='ManageCitizenIPCamera638506179249482774' title='Citizen IPCamera - 5625 -' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V3" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="6157cf7b8b7854705907d1b1d5493122.png" xmlns="">0Zkpyk5qK506L3IEnFJw_0Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uILeftArrowButton",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "tfbPsU_tDEmunLlh4QN-eg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/tfbPsU_tDEmunLlh4QN-eg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/PSk1PzSV5UyPEZiEMgGs2w",
+  "Created": "2024-06-26T13:19:27.6503169Z",
+  "Updated": "2024-06-26T13:19:36.8451693Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

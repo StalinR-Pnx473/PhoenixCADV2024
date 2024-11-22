@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uICallTakingIBubbleLabel",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "IKxzjdWIfE-E-4DCjM8SXw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/IKxzjdWIfE-E-4DCjM8SXw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/sr4FvA3tYEWFt8MKJeQEBQ",
+  "Created": "2024-01-23T09:42:40.8761405Z",
+  "Updated": "2024-01-23T09:43:01.6657449Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

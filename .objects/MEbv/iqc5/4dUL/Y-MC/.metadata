@@ -1,0 +1,17 @@
+﻿{
+  "Name": "uIPremiseHistoryTab",
+  "Type": "Element",
+  "TaxonomyType": "Tab",
+  "Id": "Y-MCGWr230KrOe2o4WvVaA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/Y-MCGWr230KrOe2o4WvVaA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/4dUL2P5akESqqPvH9ncmSw",
+  "Created": "2024-01-17T07:25:16.4687295Z",
+  "Updated": "2024-06-19T14:50:46.8307797Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

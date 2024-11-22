@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uICSZEdit",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "bFJJWXJ7XUOLKNOZUrlOsA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/bFJJWXJ7XUOLKNOZUrlOsA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/KiZXiJaZrUa_LcvEA7CckA",
+  "Created": "2024-10-22T09:34:39.6905251Z",
+  "Updated": "2024-10-22T09:35:04.0888556Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

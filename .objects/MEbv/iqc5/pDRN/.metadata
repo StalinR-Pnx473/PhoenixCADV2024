@@ -1,0 +1,15 @@
+﻿{
+  "Name": "F3 - On Duty",
+  "Type": "Screen",
+  "Id": "pDRNr9xiF0yVqEwz0zYLIg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/pDRNr9xiF0yVqEwz0zYLIg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/iqc5IjgxGkefj9bmmSp_QA",
+  "Created": "2024-09-09T10:58:02.8931468Z",
+  "Updated": "2024-09-09T10:58:15.1857507Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

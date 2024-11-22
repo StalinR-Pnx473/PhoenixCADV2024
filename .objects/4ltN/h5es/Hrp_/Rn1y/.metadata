@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uILastNameEdit",
+  "Type": "Element",
+  "TaxonomyType": "Text",
+  "Id": "Rn1yoglxk0O_LdsBPeiZzg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/Rn1yoglxk0O_LdsBPeiZzg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/Hrp_8vdRGEaS72ZMdz21Qg",
+  "Created": "2024-05-07T10:36:10.7154129Z",
+  "Updated": "2024-05-07T10:36:25.2767729Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

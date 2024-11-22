@@ -1,0 +1,849 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="To_verify_call_taking_functionality_with_location_CFS_from_F2_screen_for_Police_call" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1050,5842" sap2010:WorkflowViewState.IdRef="To_verify_call_taking_functionality_with_location_CFS_from_F2_screen_for_Police_call_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:p="http://schemas.uipath.com/workflow/activities/cv" xmlns:p1="http://schemas.uipath.com/workflow/activities/ocr" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing" xmlns:sd1="clr-namespace:System.Data;assembly=System.Data" xmlns:uc="clr-namespace:UiPath.CV;assembly=UiPath.CV" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="104">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.Platform.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers.Scope</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+      <x:String>UiPath.Testing</x:String>
+      <x:String>UiPath.Java</x:String>
+      <x:String>UiPath.Java.Activities</x:String>
+      <x:String>UiPath.Core.Activities.SAP</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.CV</x:String>
+      <x:String>UiPath.Shared.ObjectLibrary</x:String>
+      <x:String>UiPath.CV.Activities</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.CV.Activities.Interfaces</x:String>
+      <x:String>UiPath.Vision.OCR</x:String>
+      <x:String>UiPath.OCR.Contracts</x:String>
+      <x:String>UiPath.OCR.Activities</x:String>
+      <x:String>UiPath.OCR.Contracts.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="78">
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Java</AssemblyReference>
+      <AssemblyReference>UiPath.Java.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Contracts</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Testing</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="To_verify_call_taking_functionality_with_location_CFS_from_F2_screen_for_Police_call_18778" sap:VirtualizedContainerService.HintSize="664,5777" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd1:DataTable" Name="CFSCodeValue" />
+      <Variable x:TypeArguments="sd1:DataTable" Name="ExtractCFSCode" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="TestCaseID_18778" sap:VirtualizedContainerService.HintSize="616,5680" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="b00915f0-6506-40bf-a921-92eddf90b6ff" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="582,5390" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Default="1213 Hamilton" Name="Location" />
+              <Variable x:TypeArguments="x:String" Name="AddressInTakeCallPopup" />
+              <Variable x:TypeArguments="x:String" Default="1213 Hamilton Ave;SOP" Name="AddressMatchFound" />
+              <Variable x:TypeArguments="x:String" Default="1213 Hamilton Ave;SOP" Name="ActiveLocation" />
+              <Variable x:TypeArguments="x:Boolean" Name="AddressIBubbleIsDisplayed" />
+              <Variable x:TypeArguments="x:String" Default="100" Name="CFSCode" />
+              <Variable x:TypeArguments="x:String" Name="CFSLookUpData" />
+              <Variable x:TypeArguments="x:String" Name="selectAtCFSCode" />
+              <Variable x:TypeArguments="x:String" Default="100" Name="CFS" />
+              <Variable x:TypeArguments="x:String" Name="variable2" />
+              <Variable x:TypeArguments="x:String" Name="getCallNo" />
+              <Variable x:TypeArguments="x:String" Name="getLocation" />
+              <Variable x:TypeArguments="x:String" Name="variable3" />
+              <Variable x:TypeArguments="x:Boolean" Name="locationValue" />
+              <Variable x:TypeArguments="x:String" Name="getLocationInInfoPane" />
+              <Variable x:TypeArguments="x:Boolean" Name="outPut" />
+              <Variable x:TypeArguments="x:String" Default="AutomationCAD" Name="Database" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Workflow File" sap:VirtualizedContainerService.HintSize="534,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" UnSafe="False" WorkflowFileName="PhoenixCAD\Global Methods\CAD1.118Login.xaml">
+              <ui:InvokeWorkflowFile.Arguments>
+                <InArgument x:TypeArguments="x:String" x:Key="UserName">
+                  <Literal x:TypeArguments="x:String">Kamal</Literal>
+                </InArgument>
+                <InArgument x:TypeArguments="x:String" x:Key="Password">
+                  <Literal x:TypeArguments="x:String">Pnx@2016</Literal>
+                </InArgument>
+                <InArgument x:TypeArguments="x:String" x:Key="Terminal">
+                  <Literal x:TypeArguments="x:String">345CAD</Literal>
+                </InArgument>
+                <InArgument x:TypeArguments="x:String" x:Key="DataBase">
+                  <Literal x:TypeArguments="x:String">AutomationCAD</Literal>
+                </InArgument>
+              </ui:InvokeWorkflowFile.Arguments>
+            </ui:InvokeWorkflowFile>
+            <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="534,25" sap2010:WorkflowViewState.IdRef="Delay_1" />
+            <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="534,25" sap2010:WorkflowViewState.IdRef="Delay_2" />
+            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="534,25" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+              <ui:CommentOut.Body>
+                <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,285" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DelayBefore="0.5" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="368,191" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_3" ScopeIdentifier="b00915f0-6506-40bf-a921-92eddf90b6ff" Shortcuts="[d(hk)][k(f2)][u(hk)]" Version="V1">
+                    <uix:NKeyboardShortcuts.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="Element 'File'" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Target>
+                          <uix:TargetAnchorable DesignTimeRectangle="15, 31, 47, 23" ElementType="TabPage" FullSelectorArgument="&lt;wnd ctrlname='_MDIChildBase_Toolbars_Dock_Area_Top' /&gt;&lt;ctrl name='DockTop' role='grouping' /&gt;&lt;ctrl name='Ribbon' role='property page' /&gt;&lt;ctrl name='Ribbon Tabs' role='page tab list' /&gt;&lt;ctrl name='File' role='page tab' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='_MDIChildBase_Toolbars_Dock_Area_Top' /&gt;&lt;ctrl name='DockTop' role='grouping' /&gt;&lt;ctrl name='Ribbon' role='property page' /&gt;&lt;ctrl name='Ribbon Tabs' role='page tab list' /&gt;&lt;ctrl name='File' role='page tab' automationid='' check:text='File' /&gt;" Guid="c48e79b4-2998-48f1-b3b2-585c08120906" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADMAAAAbCAYAAADRXrdxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADPSURBVFhHY0gpqPo/XDDD1cdf/w8XzKAVPuv/cMGjnhmseNQzgxWPemaw4lHPoOK1/5c8/48CjkwHie/7fwSFff9/I1b91MNU8syH/0sqscnB8KhnSMY09AyyB9A8U3n+/yNIigQC6nmSBnkG5jEcngF55Pn5/1Ew/dPv//9/bh/ULMow/WMG5Hh0gOw5CvDAeIZKMYGO6e8ZcH7Bpp5yPDAFAFpSe7RlLZI+8jEVPDN48KhnBise9cxgxcPLM72bHv8fLphB3zvx//DAif8B+acvLnijRbkAAAAASUVORK5CYII=" InformativeScreenshot="4e84faeb0eb663ff930162b642317288.png" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmPhoenixMain' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target DesignTimeRectangle="67, 31, 48, 23" ElementType="TabPage" FullSelectorArgument="&lt;wnd ctrlname='_MDIChildBase_Toolbars_Dock_Area_Top' /&gt;&lt;ctrl name='DockTop' role='grouping' /&gt;&lt;ctrl name='Ribbon' role='property page' /&gt;&lt;ctrl name='Ribbon Tabs' role='page tab list' /&gt;&lt;ctrl name='Call' role='page tab' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='_MDIChildBase_Toolbars_Dock_Area_Top' /&gt;&lt;ctrl name='DockTop' role='grouping' /&gt;&lt;ctrl name='Ribbon' role='property page' /&gt;&lt;ctrl name='Ribbon Tabs' role='page tab list' /&gt;&lt;ctrl name='Call' role='page tab' automationid='' check:text='Call' /&gt;" Guid="a87e9172-ab74-4eae-b05b-1b059b323dc9" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADQAAAAbCAYAAAAzgqwIAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAASxSURBVFhH3Zfba2NVFMb79/jiH+IfID7JwLz4IoJPyiAogj4o+OLDiA8iKIww4igD3kUtM82ladMmaXKuSZP0xKY5zb3NSdLl9+1zSU575laxTHrKR8M5+6z1/fZae2dn7eYbb8t10lqxPpLrpLUXXv5MlvVtpidfrXfk9i+t51r0SK/n/ceA7mVccY49mUzPzkmeIy180Ss9LzNEQHceHmHARDJWHxpAQ8nYY0kpnUqq6slGdYr/c/w/uzL5+ZjX833AD30pf/BJz/R+AejuRhvUc8max0oZswv1JW0OJY0AaQRLE8qeQlcExTzIl7I95OZkn0jaGvkTbvaUT3qm9xjQK7e+U33Jh5tmO9CRZC1XsnYPAQCGQGkETNkT6AqgEJ95CMK8Pkhf+aEv+qNPeqZ3MkRAr777QwA0ky3DiZQzWj6YqhoqhpkJq8VZS/1PUIybQpuprlDtNVD56YN+6Cv0SM/0ToYI6Ob795eA6ktq4OUDBDlEMFaMUKiWzTZktdiCs0RTl5WCYYshvr9WUBXkZX76yJkEaUQeQyAyRECvffhjADSVbd2Oy6gGYI4q8SbKnSGYjWqhDfyF+t83C76v4oRVQXzm2TTZXm2Vnz7oZ9kfPdM7GSKg1z/6Wd308HBH0xNk4uUaghGshVliG3bUwuRuQwMpC2urMZexLK5OO9l8qA7GGApkJq7MxVAVwe7FBY+JYx7m2zabKj99nPdGz/ROhgjozU9+DYA8DCo/QjqCWoDal5zeVIkWbdiTwvEc9mZiWKyYv3EYx2eye65yfiVmCwiM5+7pCsYjTtheauKQh/lUXgVw0Rc90zsZIqC3Pv0jAtqtFB4tbU/ymiZ5JNjS60hKsH8ka/QEG6hYNGTje4ztqKqGdaYEyEj+vTSgCWFhfNYa++8bWCOIx7iMzzzMx7yJfqAQiAwR0Du3/wqAJlKobD9e2g5mJgAz0IpGTbZaaLQBdiDMqr/Ogi2fsw24A091oH8Nx/59tJZLCI43ugA6EZvVQDzGZXzmYb5EH4Homd7JEAG99/nfEVCpkn0KbSIRAmqYJb0sujuRUzdYsDC0rSp34Au7Uk7tThSOVji/OPt85koXK66qxrfxeSj7hq7iMS7jM09y/oVCIDJEQB988cAH8iayV954elXSUkTQYrOLCtVhoqT6Oq8bEDcS9D7lDIPy+FfXQSvpLUAMpIbxBa0hPfzVK3nEy6m4ifkSRM/0ToaLFfJOpby3/uyyG2geVxqEg6ECjKlW4Uw7PZwo21IBbEEryv5ApOewAjUgdKWubWGmLenj/Wb5YXL8x4ieL1QoWkMK6M9LqdnH1E9qYpfXpVR+AOWl3W9I44jrywBoBsYNGBfpNzfwXMfnDiBorITPbWkmxH2SQqDYGgp3ual3Ilrpt0ur2h6plvKvkXRM3i8IihJchzIA0aAR3j8UR727/PnZRM/0Htvlwu8hPtSLP62UQqDY91B4Uph6YzGK91dK9EzvsZNCeJbjQ7Nwb6UUAsXOcuFpe+qNxCrcXSnRM73HTtv8LfHl71X10N79ZqVEz/Qe+z3EX3vVna/VQ/5fJYWeo1+sH39fl+uktRdfuiHXRzfkX+NrS86rSCkSAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:VerifyExecutionOptions.Target>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NKeyboardShortcuts.VerifyOptions>
+                  </uix:NKeyboardShortcuts>
+                </Sequence>
+              </ui:CommentOut.Body>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:CommentOut>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayBefore="5" DisplayName="enterAtLocation" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="534,217" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="b00915f0-6506-40bf-a921-92eddf90b6ff" Text="[Location + &quot;[k(Tab)][k(Tab)]&quot;]" Version="V1">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="81, 784, 501, 23" ElementType="InputBox" FullSelectorArgument="&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallTaking2019' /&gt;&lt;wnd ctrlname='flpContainer' /&gt;&lt;wnd ctrlname='pnlLocation' /&gt;&lt;wnd ctrlname='addrCallLocation' /&gt;&lt;wnd ctrlname='txtLocation' /&gt;&lt;wnd ctrlname='txtLocation_EmbeddableTextBox' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallTaking2019' /&gt;&lt;wnd ctrlname='flpContainer' /&gt;&lt;wnd ctrlname='pnlLocation' /&gt;&lt;wnd ctrlname='addrCallLocation' /&gt;&lt;wnd ctrlname='txtLocation' /&gt;&lt;wnd ctrlname='txtLocation_EmbeddableTextBox' /&gt;" Guid="9c244001-3dbc-4fe8-8b84-244f10a33b36" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAfkAAAAbCAYAAAB/TfbZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADISURBVHhe7dW7DcJAAETBS2iIthERdVCHsc3HZAiwDtkZIWS3mmB2S3hletQKAOQpu/2hAgB5Sn0e66JstusDAO0TeQAIJfIAEErkASCUyANAKJEHgFAiDwChRB4AQok8AIQSeQAIJfIAEErkASCUyANAKJEHgFAiDwChRB4AQok8AIQSeQAIJfIAEErkASCUyANAqK/IAwA5RB4AQq2RXwYAyFO67ll/dnpFO/UNGP7T/2tswPkdbbgEu+Yab3O08xTs3rq5fgAM+wH+XMFXxwAAAABJRU5ErkJggg==" InformativeScreenshot="a606bdaeff6344db0d4e1d437fa10a93.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmPhoenixMain' /&gt;&lt;wnd ctrlname='frmTakeCall' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="7, 785, 68, 18" ElementType="Text" FullSelectorArgument="&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallTaking2019' /&gt;&lt;wnd ctrlname='flpContainer' /&gt;&lt;wnd ctrlname='pnlLocation' /&gt;&lt;wnd ctrlname='lblLocation' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallTaking2019' /&gt;&lt;wnd ctrlname='flpContainer' /&gt;&lt;wnd ctrlname='pnlLocation' /&gt;&lt;wnd ctrlname='lblLocation' check:text='Location' /&gt;" Guid="e70a8097-8902-40a8-9a85-27feefb0ebd9" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEgAAAAWCAYAAABjadrAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGgSURBVFhH7ZU7ksIwDEB9NBrqnIM296CHE1AsqTZdKijJsOkXargDjdaS8lEce50MZjfMmJlXICu29GwnKkkSQJrf7fb4U+73efKRfRJRkAOUA49zFOQiCvIQBXmYJOh7vYTtqrCOPYutuDFUKwW79dU6FoL3EpSltL6MRUGCS72+bexVBBdEOUq14O76crqmC8hlXJNnGL/CcdGPb1UKlX7GdoJIpMg1x/GZPDPn5PlkHhJUEDeewlcbu8JBFyElDXMYKqgsoCpFgXilROHYmHmCTEEsRzbLImQOzaOWcBRrUWyxgUv9vyGgIN79fG/E99wkC3HkaGRRHZjfNeIXVM9Pp04wQrSZ0xBO0GkDO93M4WSOcZMUd+Y0Bdmu0gRBJc8vTwYzFC1PFEHPzloQ735fwLCx9xX07BWzHXGjYa+gCVfsHwTV460MhAvGYtw5zHD3m+vWxegFbLxIzWaHL+muBtczRDBBejGToQD72G85WEz/84xiUJKUxs3yODdja3bMZ96MBRH0SmRRcyIK8hAFeYiCPERBHqIgDyzoDD+LGsET2zgwiwAAAABJRU5ErkJggg==" SearchSteps="Selector, FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="534,25" sap2010:WorkflowViewState.IdRef="CommentOut_13">
+              <ui:CommentOut.Body>
+                <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,251" sap2010:WorkflowViewState.IdRef="Sequence_20">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NGetText DisplayName="getAddressInCallTakePopup" sap:VirtualizedContainerService.HintSize="368,157" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="b00915f0-6506-40bf-a921-92eddf90b6ff" Version="V1">
+                    <uix:NGetText.Target>
+                      <uix:TargetAnchorable DesignTimeRectangle="176, 141, 214, 24" ElementType="Text" FullSelectorArgument="&lt;wnd ctrlname='lblKeyText1' /&gt;&lt;ctrl name='1213 Hamilton Ave;SOP' role='text' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='lblKeyText1' /&gt;&lt;ctrl role='text' automationid='' /&gt;" Guid="44bff933-99e4-4186-8c7c-bc5bccc19701" InformativeScreenshot="734d4efa669ab1182ec952675ac081b0.png" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmMessage' /&gt;" SearchSteps="FuzzySelector" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="8, 143, 168, 22" ElementType="Text" FullSelectorArgument="&lt;wnd ctrlname='lblMessage1' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='lblMessage1' check:text='Address match Found :' /&gt;" Guid="1147cd2e-ee96-45ae-bb35-50ac077e5e02" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAKwAAAAaCAYAAAAqorewAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALpSURBVHhe7Ze/btswEMb1boaBvIwHA3mSLFnyGF485Q28xEu2zEXRBkHRtCha1pR4xzvekZQcxRGRG35IrBPv3/dJcbrj8egOh4P78vLbff3xx337+dd9f/3nnn85w1gcZlijKcywRlOYYY2mMMMaTWGGNZrCDGs0xQcb9sndrDvXdZ3b7M+JfzIe79zqtIuuu3I3j0p88bxdz3cw7L3b9Ev1XLudeg/w2Q0bdzVqvsmGpVpwPmafSzTs/nrCYsywlzLsMva3QMPutkNDq/VV/7Pb3vN7EkMDOEApTgXbh98xf/o24aI+3IZ+lHgpxiD1N1tyxvfA+oa/LNobDmJRPMqwB+Wcr0Hqr+jZ9Z17oH0iIwyLOQEyO8Zkz6vbp3H91PRmJPlFfG7D0gHFsDQOS0meuNFxAhMyNUrIA0sji9ydDFeNhc8IqT8slBgrPDj4wEKc5MUHA68phhI7CNfYnHB/sp9QJ1IxbG1vIp4zbKYfjMMstX6T/CI+s2FRkF482RyP+2v8nlpcLmBi3uQcO6vEBCMEAMPGXgjCANJQchZCob4ucMzPGeprvbIHTvSb1Kv0U9Uz1JzCjIaVy0sb5m8ffsYPUIvLBQ3g4hX4YilBhFIspSBQzrDxgaDkDZueZ1QMIu6vvGG1WkwzrHeeYat6hppTmM+wqvDAMJBcEB+gFpcLGiiKnEK+UwmRSzFPQSDNcCg+fAUQBrjcG1YziFaLmUz0m9Sr9FPVM9ScwmyGFeL0xIX1A6IhMoLV4mJBgcx1vzB/zvcWF8SXVopBHqQgENxPRRKCifmUetos/prPUah/jmFjvnTfkD/3eZxhq3rSXnpq88xm2HwhFC0YGY3dE/+7hAGKcU1MJC6D4s/xnPG6rMdjgoJAcIabNOlpfZqn/x0EPEHe6p4hjzLLexjWgzkBvtucHqMMWziv93MxwxrGZTDDGk1hhjWawgxrNIUZ1mgKM6zRFGZYoynMsEZTmGGNhnDuP3ON7SBjsKd2AAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NGetText.Target>
+                    <uix:NGetText.Text>
+                      <OutArgument x:TypeArguments="x:String">[AddressInTakeCallPopup]</OutArgument>
+                    </uix:NGetText.Text>
+                  </uix:NGetText>
+                </Sequence>
+              </ui:CommentOut.Body>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:CommentOut>
+            <uix:NGetAttributeGeneric x:TypeArguments="x:String" Attribute="text" DisplayName="Get Attribute 'uIAddressMatchFound'" sap:VirtualizedContainerService.HintSize="534,207" sap2010:WorkflowViewState.IdRef="NGetAttributeGeneric`1_2" Result="[AddressInTakeCallPopup]" Version="V3">
+              <uix:NGetAttributeGeneric.Target>
+                <uix:TargetAnchorable ContentHash="UX7dZjOII0OhGZhD3tmGMQ" CvTextArea="177, 144, 269, 16" CvType="AnyWordGroup" DesignTimeRectangle="176, 141, 273, 24" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;wnd ctrlname='lblKeyText1' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='lblKeyText1' /&gt;" Guid="a98f8ffe-ff76-4de7-a1ff-1ad661d6dcd7" InformativeScreenshot="4d4328a338311722846dbd23a28654b3.png" Reference="THDf1UhB6U6EKgZN7HF2zw/AcLFrISM60a8s-RGb8EqPA" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmMessage' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CvTextArea="22, 146, 152, 13" CvTextArgument="Address match Found :" CvType="Text" DesignTimeRectangle="8, 143, 168, 22" ElementType="Text" FullSelectorArgument="&lt;wnd ctrlname='lblMessage1' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='lblMessage1' check:text='Address match Found :' /&gt;" Guid="b241134c-d7d0-4fd3-81e2-c1ed72343ae5" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAKwAAAAaCAYAAAAqorewAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALXSURBVHhe7ZdNTgMxDIV7t6oSl+miEidhw4ZjdNMVh2DFjiOwZBcmk9ixYyeeKaVMhJE+UcYT/703A+ymrxD5/AqOs3ncsM5QuGGdoXDDOkPhhnWGwg3rDIUb1hmKPzbsR3g6pPrHyzXxf8b7S9jPej2Ep3clvnl+rud09taGfQ3HnHO3ewxn9R7gvxu27GrRfKsNS7Xg/M0+t2jYyyMuJdJvzA17L8NuY38bNOz5lPLtDw/z993pld9TGRrAAXpxKtglf8b89duEi/r2nPtR4r0Yg9Q/nsiZ2APrG36zaG84iBXxKGkPyrlYg9Tf07OHl/BG+0QWGBZzAmR2jMme988fy/qx9GZU+UX81oalA4phaRyWUj1xi+MEJmRtlJwHlkYWeZ4MZ8byzwipnxZKjJUfHHxgIU7y4oOB1xRDiR3ka2xOuL/aT65TMAxr7U3EW4Zt9INxmMXqt8ov4jc2LAoyiyeb4/F4jd9jxeUCVuatzrGzSkywQAAwbOmFIAwgDSVnIXTq6wKX/JxUX+uVPXCi36qe0Y+pZ665hulsSqAF1yGXVzfM3z78TBzAissFJXDxCnyxlCxCL1bTEahl2PJAUNqGrc8zDIOI+403rFaLaYb1rjOsqWeuuYbpbEqgBVehCg+kgeSC+ABWXC4o0RW5hvxNJUTuxSIdgTTDofjwJ4AwwP3esJpBtFrMZKLfqp7Rj6lnrrmG6WxKoAXXIMSZKQubB0RDNASz4mJBmcb1uLB4LvZWFsSX1otBHqQjENxPRRKCifmUetos8VrM0al/jWFLvnrfkL/18zLDmnrSXmaseW5m2HYhFC0bGY09U/67hAG6cU1MpCyDEs/xnOW6rMdjgo5AcIabtOrpMM0zfwYBJ8hbPZLyKLP8hmEjmBPgu23psciwnfN6P3czrOPcBzesMxRuWGco3LDOULhhnaFwwzpD4YZ1hsIN6wyFG9YZiBC+AaMTcbqc48HpAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetAttributeGeneric.Target>
+            </uix:NGetAttributeGeneric>
+            <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="verifyAddressInCallTakePopup" sap:VirtualizedContainerService.HintSize="534,60" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_1" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+              <uta:VerifyExpressionWithOperator.FirstExpression>
+                <InArgument x:TypeArguments="x:String">[AddressInTakeCallPopup]</InArgument>
+              </uta:VerifyExpressionWithOperator.FirstExpression>
+              <uta:VerifyExpressionWithOperator.SecondExpression>
+                <InArgument x:TypeArguments="x:String">[AddressMatchFound]</InArgument>
+              </uta:VerifyExpressionWithOperator.SecondExpression>
+            </uta:VerifyExpressionWithOperator>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="clickYesButton" sap:VirtualizedContainerService.HintSize="534,157" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b00915f0-6506-40bf-a921-92eddf90b6ff" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="144, 248, 75, 32" ElementType="Button" FullSelectorArgument="&lt;wnd ctrlname='cmdOk' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='cmdOk' check:text='Yes' /&gt;" Guid="3f7ae428-3268-4843-a9bb-165e977a3e26" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAE8AAAAkCAYAAADIB2cfAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGdSURBVGhD7ZbLccQgDIbpjG6oIS1QCoVQQ87uIMfcCA9hI4zHlg1rZ6zDNyyPJTvf/BIRP7/OMedgeRdgeRdA8sTXN7MD8oUmjcMMBvlCEzgwTRNTQZInhOCxHCnyGAxJXjb+djh5HSDJ4+QlHpQ867QU/gcpZxr7RoU96bRd790NSd6w5FntpL9bants/WYe1/NaCYtrUjtbnHsSJHlje55xyt8vlElzo+LfU6Y6B+uJqpzRnmeQ+HB3HCnyRmO1BCHQB7PITJSzCEvnoVdCiZeyjWr30V6Q5GXj48iPR6B+JNIe7n8prVFYFDtWVuaRyYtA6W09HriMC6HwvVWZD4Qkb3zyPDsvb0olJp2FnrlaL+7oRLg7jhR5H2FH3l6yrO+Xi+i69PtCkpeND2VLHiTrcJoOyj7D/0ueZ3mNi3Xf68LZsIdEfeABIcm7N3kAPAwz+X+5uVQz40o23B9HijwGQ5KXjb8dTl4HSPI4eQlOXgdI8jh5idPJm7/48jF+pspjFg7LY7ZBvtCkcZjBIF/lhKHB8i7A8k7j3B8vskp3PV2R+AAAAABJRU5ErkJggg==" InformativeScreenshot="1264739363fa5b2735abed06cc08db4c.png" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmMessage' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="240, 248, 75, 32" ElementType="Button" FullSelectorArgument="&lt;wnd ctrlname='cmdCancel' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='cmdCancel' check:text='No' /&gt;" Guid="2c983281-c042-44ba-aa7f-f47d4dc82268" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAE8AAAAkCAYAAADIB2cfAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAENSURBVGhD7daxDcMgFIRhNmMbdmEUCo/BIN4gZboXKzYyPLBRfHJCpCv+IqA0n04k5vEUYdciHhDxgAq8aZpYp9yrwpvnmR1EPCDiAREPiHhAxAMiHtBAeFG8NWLMkgvqLohbzq2P6vy3jYlnrPiY3xGv04bn3BuqXB/xOiW8INFbtb4DvOC2pa59G3dIvIS1r6/GOwKu38v7GhRP42i8syXq9/K+hsUrgRRW9GKXzy7k3z85v6mB8dL6nATi9arx9sV54p3XwkvrW85zPL55ujZegtJ/RfhrW3SEt6+vvbQVtnl/cwPh/V/EAyIeEPGAiAdEPCDiAREPiHhAXTx2Xu5V4LHPIh4Q8S4n8gIdOsvkTA5m+wAAAABJRU5ErkJggg==" SearchSteps="Selector, FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="clickLocation" sap:VirtualizedContainerService.HintSize="534,194" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b00915f0-6506-40bf-a921-92eddf90b6ff" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="75, 783, 509, 25" FullSelectorArgument="&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallTaking2019' /&gt;&lt;wnd ctrlname='flpContainer' /&gt;&lt;wnd ctrlname='pnlLocation' /&gt;&lt;wnd ctrlname='addrCallLocation' /&gt;&lt;wnd ctrlname='txtLocation' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallTaking2019' /&gt;&lt;wnd ctrlname='flpContainer' /&gt;&lt;wnd ctrlname='pnlLocation' /&gt;&lt;wnd ctrlname='addrCallLocation' /&gt;&lt;wnd ctrlname='txtLocation' check:text='1213 Hamilton Ave;SOP' /&gt;" Guid="59b49dab-898e-4de0-acaa-67c190677391" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAgEAAAAdCAYAAAAzbb+oAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAASCSURBVHhe7ZpLkuM2EER1PB1Ix9ENHF75ALpK7+bXtsc7h+0OmtQQQBWRACm1xGET70XkYiCw8CGCmWTP4fvfXYcQQgih9kQIQAghhBrV4dOnf7pBv/z6G0IIIYQa0Otfb1e5EAAAAAD7hhAAAADQKIQAAACARiEEAAAANAohAAAAoFEIAU/npTsfD93hcOiO55ex7dKd+n/7NgAAgHV5dwh4OR8LZpaMLup0GX/LKda5nHwN1WfC5TT2PZ57C/aEcQ6HUz/DFXg5d8cw97j+rYYAf88qt+sppHtjJe6TOBPqbMVzMJU4FwAALXJ/CLDm1subWXr7zTR9WFfrlB/kNfPcVAi46UtAaD92leU9j6m5rpYCKufF3adav0F+34oh4Kq17j8AwHa5LwTMvp0PD2v/kE0PZNO+4C3/ciqYQMWgthUCFIUQEPfjZ4QAE1aOK++ROQe1c2RNXe9bL3PP1TmwXxvW/tIBALA13hECBqO64bO2Mrib6yzrd2sIsOYS5Ov7cd1n69FJXA3nLmrOeZuaw1xg8iZWmaPYh4z4RcbfjzSGCWCunlqfN9urCntybTZrszUc8s8qCWXu8hyYOsWxAAAa4b4QENEGkFMykECtjrm22MejDXWqYLB5/aA0jplffEs2/URb8im1trytFgJq61k8x5k9iyY63h9poMUg59uK803uPGlLcw/KfN5ck/02IMxdrUGFBQCAVlkhBFiTNebhqNVRJm3ekAU100wq18jNw5hUaHP/l2GsJd8y1doK61UmW3hzTWsM6zBzVG3WzDPSHscx1FxMveTnk/pmvtFkY1uYVxovGbGdf1L4fda8xT5Vz0F1PwAA2uC5IcA8mMsBYGCmTmSZqeUmnkhmkkKANRineL2a36PbepTxSjPuydp1zdpeRGYMX9a7OrEw81hLqXYGAmlcd42p+94Q4PYcAKBhnhcCrBnIp7alUmeCMvEpN4UAMc/8ejW/R7f1CDNO850YaNZX11wSAkpmGWWvjeP2+5e94dv5as0ehRFb57oeGyhFEbVPS9YOANAyTwoBpfYSlTrugW//NPCYEBD/HccxY2wgBFjzs32TcYd90DXnjTBdV5YNIKH/sb83073rMaFqqeFfr5l0tiEg/GTDit63XmadhAAAgDrPCQH2oZxp8kZ7pVCnYlC+n+euEKC0dghwfz4Z9GOO1vymmqs5a4Q1054NIOo6G9S8Yo1YdzwL1fNiw15ao5btu2DtAACNs/EQoAxFXe+5JQQMWFMbxs+vV/N7dNsPfChJc8zDynQfdM26Ec59WSn8Xnjzttg9DYrzCteL/XUqfEpQwW26jwP1tQMAwDtDAMDtRBMvmDwAAKwDIQBWJ7yhkwEAAH4uhAAAAIBGIQQAAAA0CiEAAACgUQgBAAAAjVIMAQghhBDav7IQ8BB9/nfX+vzlA+jrffpyr759AL3+t2t9/X3H+mO/+vbn2671+n3HGg10DyIE3CBpultTb8z3SBr8EinT3ZqEce5J0jz3ImGee5Eyzj1JmudeJMz0Y+qt+x+WyEAlvhGp3AAAAABJRU5ErkJggg==" InformativeScreenshot="5ad8b98cafe57eed74f3179811e5f9de.png" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmPhoenixMain' /&gt;&lt;wnd ctrlname='frmTakeCall' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="7, 785, 68, 18" ElementType="Text" FullSelectorArgument="&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallTaking2019' /&gt;&lt;wnd ctrlname='flpContainer' /&gt;&lt;wnd ctrlname='pnlLocation' /&gt;&lt;wnd ctrlname='lblLocation' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallTaking2019' /&gt;&lt;wnd ctrlname='flpContainer' /&gt;&lt;wnd ctrlname='pnlLocation' /&gt;&lt;wnd ctrlname='lblLocation' check:text='Location' /&gt;" Guid="68e3af3e-52ee-4cc2-92d9-64d772aea7db" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEgAAAAWCAYAAABjadrAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGfSURBVFhH7ZU7ksIwDEB9NBrqnIM296CHE1AsqTZdKijJDOmX1HCHbbSRlI/izzoZzG6YMTOvQFZs6dlOVJIkgHS/+/37T3k8lslH9klEQQ5QDv6iIAdRkIcoyMMsQV/bNew3hXXsWWzFTaHaKDhsa+tYCN5LUJbS+jIWBQlu7fq2sVcRXBDlKNWDu+vLGZouIJfxhjzDeA3n1Ti+VylUzTO2E0QiRa4+js/kmT4nzyfzkKCCuPEUrn2shlNThJRk5jBUUFlAVYoC8UqJwrEx/QTpgliObJZFyByaR63hLNai2GoHt/Z/R0BBvPv5UYsfuUkW4shpkEUNYP7QiF9QOz+dOsEE0XpORzhBlx0cmmZOF32Mm6S4M6cryHaVZggqeX55MhhTtDxRBD27aEG8+2MBZmPvK+jZK2Y74lrDXkEzrtg/CGrHexkIF4zFuHMYc/e76zbE6AWsvUj1Zs2X9FCD6xkimKBmMR1TgH3stxwsZvx5RjEoSUrjZnmcm7E1O+Uzr8eCCHolsqglEQV5iII8REEeoiAPUZAHFgTwA4ZkxZZTdth8AAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="Element 'Location'" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Target>
+                    <uix:TargetAnchorable DesignTimeRectangle="75, 783, 509, 25" FullSelectorArgument="&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallTaking2019' /&gt;&lt;wnd ctrlname='flpContainer' /&gt;&lt;wnd ctrlname='pnlLocation' /&gt;&lt;wnd ctrlname='addrCallLocation' /&gt;&lt;wnd ctrlname='txtLocation' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallTaking2019' /&gt;&lt;wnd ctrlname='flpContainer' /&gt;&lt;wnd ctrlname='pnlLocation' /&gt;&lt;wnd ctrlname='addrCallLocation' /&gt;&lt;wnd ctrlname='txtLocation' check:text='1213 Hamilton Ave;SOP' /&gt;" Guid="88e50d1a-94eb-4b7e-8c92-fbcd1742fffa" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAgEAAAAdCAYAAAAzbb+oAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAASCSURBVHhe7ZpLkuM2EER1PB1Ix9ENHF75ALpK7+bXtsc7h+0OmtQQQBWRACm1xGET70XkYiCw8CGCmWTP4fvfXYcQQgih9kQIQAghhBrV4dOnf7pBv/z6G0IIIYQa0Otfb1e5EAAAAAD7hhAAAADQKIQAAACARiEEAAAANAohAAAAoFEIAU/npTsfD93hcOiO55ex7dKd+n/7NgAAgHV5dwh4OR8LZpaMLup0GX/LKda5nHwN1WfC5TT2PZ57C/aEcQ6HUz/DFXg5d8cw97j+rYYAf88qt+sppHtjJe6TOBPqbMVzMJU4FwAALXJ/CLDm1subWXr7zTR9WFfrlB/kNfPcVAi46UtAaD92leU9j6m5rpYCKufF3adav0F+34oh4Kq17j8AwHa5LwTMvp0PD2v/kE0PZNO+4C3/ciqYQMWgthUCFIUQEPfjZ4QAE1aOK++ROQe1c2RNXe9bL3PP1TmwXxvW/tIBALA13hECBqO64bO2Mrib6yzrd2sIsOYS5Ov7cd1n69FJXA3nLmrOeZuaw1xg8iZWmaPYh4z4RcbfjzSGCWCunlqfN9urCntybTZrszUc8s8qCWXu8hyYOsWxAAAa4b4QENEGkFMykECtjrm22MejDXWqYLB5/aA0jplffEs2/URb8im1trytFgJq61k8x5k9iyY63h9poMUg59uK803uPGlLcw/KfN5ck/02IMxdrUGFBQCAVlkhBFiTNebhqNVRJm3ekAU100wq18jNw5hUaHP/l2GsJd8y1doK61UmW3hzTWsM6zBzVG3WzDPSHscx1FxMveTnk/pmvtFkY1uYVxovGbGdf1L4fda8xT5Vz0F1PwAA2uC5IcA8mMsBYGCmTmSZqeUmnkhmkkKANRineL2a36PbepTxSjPuydp1zdpeRGYMX9a7OrEw81hLqXYGAmlcd42p+94Q4PYcAKBhnhcCrBnIp7alUmeCMvEpN4UAMc/8ejW/R7f1CDNO850YaNZX11wSAkpmGWWvjeP2+5e94dv5as0ehRFb57oeGyhFEbVPS9YOANAyTwoBpfYSlTrugW//NPCYEBD/HccxY2wgBFjzs32TcYd90DXnjTBdV5YNIKH/sb83073rMaFqqeFfr5l0tiEg/GTDit63XmadhAAAgDrPCQH2oZxp8kZ7pVCnYlC+n+euEKC0dghwfz4Z9GOO1vymmqs5a4Q1054NIOo6G9S8Yo1YdzwL1fNiw15ao5btu2DtAACNs/EQoAxFXe+5JQQMWFMbxs+vV/N7dNsPfChJc8zDynQfdM26Ec59WSn8Xnjzttg9DYrzCteL/XUqfEpQwW26jwP1tQMAwDtDAMDtRBMvmDwAAKwDIQBWJ7yhkwEAAH4uhAAAAIBGIQQAAAA0CiEAAACgUQgBAAAAjVIMAQghhBDav7IQ8BB9/nfX+vzlA+jrffpyr759AL3+t2t9/X3H+mO/+vbn2671+n3HGg10DyIE3CBpultTb8z3SBr8EinT3ZqEce5J0jz3ImGee5Eyzj1JmudeJMz0Y+qt+x+WyEAlvhGp3AAAAABJRU5ErkJggg==" InformativeScreenshot="87bfe3c03834467a8f1028e24cb69dd5.png" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmPhoenixMain' /&gt;&lt;wnd ctrlname='frmTakeCall' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                          <uix:Target DesignTimeRectangle="7, 785, 68, 18" ElementType="Text" FullSelectorArgument="&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallTaking2019' /&gt;&lt;wnd ctrlname='flpContainer' /&gt;&lt;wnd ctrlname='pnlLocation' /&gt;&lt;wnd ctrlname='lblLocation' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallTaking2019' /&gt;&lt;wnd ctrlname='flpContainer' /&gt;&lt;wnd ctrlname='pnlLocation' /&gt;&lt;wnd ctrlname='lblLocation' check:text='Location' /&gt;" Guid="8b1d0a66-2a13-4f73-8dcd-53dfa8c2b616" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEgAAAAWCAYAAABjadrAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGfSURBVFhH7ZU7ksIwDEB9NBrqnIM296CHE1AsqTZdKijJDOmX1HCHbbSRlI/izzoZzG6YMTOvQFZs6dlOVJIkgHS/+/37T3k8lslH9klEQQ5QDv6iIAdRkIcoyMMsQV/bNew3hXXsWWzFTaHaKDhsa+tYCN5LUJbS+jIWBQlu7fq2sVcRXBDlKNWDu+vLGZouIJfxhjzDeA3n1Ti+VylUzTO2E0QiRa4+js/kmT4nzyfzkKCCuPEUrn2shlNThJRk5jBUUFlAVYoC8UqJwrEx/QTpgliObJZFyByaR63hLNai2GoHt/Z/R0BBvPv5UYsfuUkW4shpkEUNYP7QiF9QOz+dOsEE0XpORzhBlx0cmmZOF32Mm6S4M6cryHaVZggqeX55MhhTtDxRBD27aEG8+2MBZmPvK+jZK2Y74lrDXkEzrtg/CGrHexkIF4zFuHMYc/e76zbE6AWsvUj1Zs2X9FCD6xkimKBmMR1TgH3stxwsZvx5RjEoSUrjZnmcm7E1O+Uzr8eCCHolsqglEQV5iII8REEeoiAPUZAHFgTwA4ZkxZZTdth8AAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:VerifyExecutionOptions.Target>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NGetAttribute Attribute="text" DisplayName="getLocation" sap:VirtualizedContainerService.HintSize="534,207" sap2010:WorkflowViewState.IdRef="NGetAttribute_1" ScopeIdentifier="b00915f0-6506-40bf-a921-92eddf90b6ff" Version="V1">
+              <uix:NGetAttribute.Result>
+                <OutArgument x:TypeArguments="x:String">[ActiveLocation]</OutArgument>
+              </uix:NGetAttribute.Result>
+              <uix:NGetAttribute.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="75, 783, 509, 25" FullSelectorArgument="&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallTaking2019' /&gt;&lt;wnd ctrlname='flpContainer' /&gt;&lt;wnd ctrlname='pnlLocation' /&gt;&lt;wnd ctrlname='addrCallLocation' /&gt;&lt;wnd ctrlname='txtLocation' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallTaking2019' /&gt;&lt;wnd ctrlname='flpContainer' /&gt;&lt;wnd ctrlname='pnlLocation' /&gt;&lt;wnd ctrlname='addrCallLocation' /&gt;&lt;wnd ctrlname='txtLocation' check:text='1213 Hamilton Ave;SOP' /&gt;" Guid="c4b91330-0e13-403b-9757-7879ef8e784e" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAgEAAAAdCAYAAAAzbb+oAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAASCSURBVHhe7ZpLkuM2EER1PB1Ix9ENHF75ALpK7+bXtsc7h+0OmtQQQBWRACm1xGET70XkYiCw8CGCmWTP4fvfXYcQQgih9kQIQAghhBrV4dOnf7pBv/z6G0IIIYQa0Otfb1e5EAAAAAD7hhAAAADQKIQAAACARiEEAAAANAohAAAAoFEIAU/npTsfD93hcOiO55ex7dKd+n/7NgAAgHV5dwh4OR8LZpaMLup0GX/LKda5nHwN1WfC5TT2PZ57C/aEcQ6HUz/DFXg5d8cw97j+rYYAf88qt+sppHtjJe6TOBPqbMVzMJU4FwAALXJ/CLDm1subWXr7zTR9WFfrlB/kNfPcVAi46UtAaD92leU9j6m5rpYCKufF3adav0F+34oh4Kq17j8AwHa5LwTMvp0PD2v/kE0PZNO+4C3/ciqYQMWgthUCFIUQEPfjZ4QAE1aOK++ROQe1c2RNXe9bL3PP1TmwXxvW/tIBALA13hECBqO64bO2Mrib6yzrd2sIsOYS5Ov7cd1n69FJXA3nLmrOeZuaw1xg8iZWmaPYh4z4RcbfjzSGCWCunlqfN9urCntybTZrszUc8s8qCWXu8hyYOsWxAAAa4b4QENEGkFMykECtjrm22MejDXWqYLB5/aA0jplffEs2/URb8im1trytFgJq61k8x5k9iyY63h9poMUg59uK803uPGlLcw/KfN5ck/02IMxdrUGFBQCAVlkhBFiTNebhqNVRJm3ekAU100wq18jNw5hUaHP/l2GsJd8y1doK61UmW3hzTWsM6zBzVG3WzDPSHscx1FxMveTnk/pmvtFkY1uYVxovGbGdf1L4fda8xT5Vz0F1PwAA2uC5IcA8mMsBYGCmTmSZqeUmnkhmkkKANRineL2a36PbepTxSjPuydp1zdpeRGYMX9a7OrEw81hLqXYGAmlcd42p+94Q4PYcAKBhnhcCrBnIp7alUmeCMvEpN4UAMc/8ejW/R7f1CDNO850YaNZX11wSAkpmGWWvjeP2+5e94dv5as0ehRFb57oeGyhFEbVPS9YOANAyTwoBpfYSlTrugW//NPCYEBD/HccxY2wgBFjzs32TcYd90DXnjTBdV5YNIKH/sb83073rMaFqqeFfr5l0tiEg/GTDit63XmadhAAAgDrPCQH2oZxp8kZ7pVCnYlC+n+euEKC0dghwfz4Z9GOO1vymmqs5a4Q1054NIOo6G9S8Yo1YdzwL1fNiw15ao5btu2DtAACNs/EQoAxFXe+5JQQMWFMbxs+vV/N7dNsPfChJc8zDynQfdM26Ec59WSn8Xnjzttg9DYrzCteL/XUqfEpQwW26jwP1tQMAwDtDAMDtRBMvmDwAAKwDIQBWJ7yhkwEAAH4uhAAAAIBGIQQAAAA0CiEAAACgUQgBAAAAjVIMAQghhBDav7IQ8BB9/nfX+vzlA+jrffpyr759AL3+t2t9/X3H+mO/+vbn2671+n3HGg10DyIE3CBpultTb8z3SBr8EinT3ZqEce5J0jz3ImGee5Eyzj1JmudeJMz0Y+qt+x+WyEAlvhGp3AAAAABJRU5ErkJggg==" InformativeScreenshot="7bb17a1050f9fa42d5ffdc2748c9e0c3.png" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmPhoenixMain' /&gt;&lt;wnd ctrlname='frmTakeCall' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="7, 785, 68, 18" ElementType="Text" FullSelectorArgument="&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallTaking2019' /&gt;&lt;wnd ctrlname='flpContainer' /&gt;&lt;wnd ctrlname='pnlLocation' /&gt;&lt;wnd ctrlname='lblLocation' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallTaking2019' /&gt;&lt;wnd ctrlname='flpContainer' /&gt;&lt;wnd ctrlname='pnlLocation' /&gt;&lt;wnd ctrlname='lblLocation' check:text='Location' /&gt;" Guid="d4b7e830-4ee8-48e9-9bf0-1e72e764cff2" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEgAAAAWCAYAAABjadrAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGfSURBVFhH7ZU7ksIwDEB9NBrqnIM296CHE1AsqTZdKijJDOmX1HCHbbSRlI/izzoZzG6YMTOvQFZs6dlOVJIkgHS/+/37T3k8lslH9klEQQ5QDv6iIAdRkIcoyMMsQV/bNew3hXXsWWzFTaHaKDhsa+tYCN5LUJbS+jIWBQlu7fq2sVcRXBDlKNWDu+vLGZouIJfxhjzDeA3n1Ti+VylUzTO2E0QiRa4+js/kmT4nzyfzkKCCuPEUrn2shlNThJRk5jBUUFlAVYoC8UqJwrEx/QTpgliObJZFyByaR63hLNai2GoHt/Z/R0BBvPv5UYsfuUkW4shpkEUNYP7QiF9QOz+dOsEE0XpORzhBlx0cmmZOF32Mm6S4M6cryHaVZggqeX55MhhTtDxRBD27aEG8+2MBZmPvK+jZK2Y74lrDXkEzrtg/CGrHexkIF4zFuHMYc/e76zbE6AWsvUj1Zs2X9FCD6xkimKBmMR1TgH3stxwsZvx5RjEoSUrjZnmcm7E1O+Uzr8eCCHolsqglEQV5iII8REEeoiAPUZAHFgTwA4ZkxZZTdth8AAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetAttribute.Target>
+            </uix:NGetAttribute>
+            <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="verifyAtLocation" sap:VirtualizedContainerService.HintSize="534,60" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_2" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+              <uta:VerifyExpressionWithOperator.FirstExpression>
+                <InArgument x:TypeArguments="x:String">[ActiveLocation]</InArgument>
+              </uta:VerifyExpressionWithOperator.FirstExpression>
+              <uta:VerifyExpressionWithOperator.SecondExpression>
+                <InArgument x:TypeArguments="x:String">[AddressMatchFound]</InArgument>
+              </uta:VerifyExpressionWithOperator.SecondExpression>
+            </uta:VerifyExpressionWithOperator>
+            <ui:UiElementExists DisplayName="verifyAddressIBubbleIsDisplayed" Exists="[AddressIBubbleIsDisplayed]" sap:VirtualizedContainerService.HintSize="534,107" sap2010:WorkflowViewState.IdRef="UiElementExists_1">
+              <ui:UiElementExists.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="4c63f719-13ca-4d04-9b13-a50af60f5fe6" InformativeScreenshot="108f321322307444a943f90094654be7" Selector="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmPhoenixMain' /&gt;&lt;wnd ctrlname='frmTakeCall' /&gt;&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallTaking2019' /&gt;&lt;wnd ctrlname='flpContainer' /&gt;&lt;wnd ctrlname='pnlLocation' /&gt;&lt;wnd ctrlname='addrCallLocation' /&gt;&lt;wnd ctrlname='cmdAddrInfo' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:UiElementExists.Target>
+            </ui:UiElementExists>
+            <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="verifyAddressIBubbleIsDisplayed" Expression="[AddressIBubbleIsDisplayed]" sap:VirtualizedContainerService.HintSize="534,62" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="clickPoliceCFS" sap:VirtualizedContainerService.HintSize="534,157" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b00915f0-6506-40bf-a921-92eddf90b6ff" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="81, 829, 62, 14" ElementType="InputBox" FullSelectorArgument="&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallTaking2019' /&gt;&lt;wnd ctrlname='flpContainer' /&gt;&lt;wnd ctrlname='pnlCFSNCmts' /&gt;&lt;wnd ctrlname='FlpCFScollections' /&gt;&lt;wnd ctrlname='lupCFS' /&gt;&lt;wnd ctrlname='txtCode' /&gt;&lt;wnd ctrlname='txtCode_EmbeddableTextBox' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallTaking2019' /&gt;&lt;wnd ctrlname='flpContainer' /&gt;&lt;wnd ctrlname='pnlCFSNCmts' /&gt;&lt;wnd ctrlname='FlpCFScollections' /&gt;&lt;wnd ctrlname='lupCFS' /&gt;&lt;wnd ctrlname='txtCode' /&gt;&lt;wnd ctrlname='txtCode_EmbeddableTextBox' /&gt;" Guid="b0f31b4d-95ee-484c-b6f7-c8e989ddd317" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEIAAAASCAYAAADv2ggfAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABDSURBVFhH7dAxEQAwDMSw8KeSyxQcJdTlu5hFPYiAqmejTeWe/M4IGAEjYASMgBEwAkbACBgBI2AEjIARMAJGoGfzABDzQpMbTEfWAAAAAElFTkSuQmCC" InformativeScreenshot="90cb6f9be8294c4b604043dfd7ee6d91.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmPhoenixMain' /&gt;&lt;wnd ctrlname='frmTakeCall' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="36, 827, 38, 15" ElementType="Text" FullSelectorArgument="&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallTaking2019' /&gt;&lt;wnd ctrlname='flpContainer' /&gt;&lt;wnd ctrlname='pnlCFSNCmts' /&gt;&lt;wnd ctrlname='FlpCFScollections' /&gt;&lt;wnd ctrlname='lblCFS' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallTaking2019' /&gt;&lt;wnd ctrlname='flpContainer' /&gt;&lt;wnd ctrlname='pnlCFSNCmts' /&gt;&lt;wnd ctrlname='FlpCFScollections' /&gt;&lt;wnd ctrlname='lblCFS' check:text='Police' /&gt;" Guid="56f3817c-12c5-4fe5-9004-a0305be9097b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACoAAAATCAYAAADmtp8+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD8SURBVEhL7ZSxDoMgEED9NJZ+DGv/gy+xTI79BH6hsw4mrk1K9AoCciIaNAwODC+p17vzeYdWbfsDR9fdlyKak5o3RTQrCaISaAVQLUzARCwvRNWREYT+LUYgqo5vctKZRbXB93Ukim6SfFMkmoHEiWIxCYygaz6tpo3zvGggjWtcPBZDnBfVDV2jcLr6Pyp9XUw0thEdQ3KCTUCY62O4dEax2Lohfqgd0U2Nifn+luWBDfaMPmFInSgmp2ggFjKL9uwBkn3Oi+ZcvYodfU1m0UHt9pKoZrU2nLcjGtagSfs+AJTbXItZPX0fnNF7kPAy3YMimpsimpuaN/AHZ9E+s7tA0ysAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="PressF7" EmptyFieldMode="None" sap:VirtualizedContainerService.HintSize="534,195" sap2010:WorkflowViewState.IdRef="NTypeInto_5" Text="%[k(F7)]" Version="V3" />
+            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="534,25" sap2010:WorkflowViewState.IdRef="CommentOut_5">
+              <ui:CommentOut.Body>
+                <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="482,625" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" ScopeId="{x:Null}" ScrollOffset="{x:Null}" Server="{x:Null}" CvMethod="ElementDetection, OCR" DesignTimeCacheId="1f9c3ff3-edea-4a78-996d-d60380c2a4f3" DisplayName="CV Screen Scope 'kpi.phoenix.cadclient.e...'" sap:VirtualizedContainerService.HintSize="434,531" sap2010:WorkflowViewState.IdRef="CVScope_1" SendOnPremData="False" Version="V5">
+                    <p:CVScope.Body>
+                      <ActivityAction x:TypeArguments="x:Object">
+                        <ActivityAction.Argument>
+                          <DelegateInArgument x:TypeArguments="x:Object" Name="CVSessionData" />
+                        </ActivityAction.Argument>
+                        <Sequence DisplayName="Do" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                          <p:CvExtractDataTableWithDescriptor InRegion="{x:Null}" ScrollOffset="{x:Null}" AddHeaders="True" DelayScreenshotAfterScroll="250" Descriptor="[&quot;Target: Table (0,98,435,400)&quot;]" DesignTimeCacheId="1f9c3ff3-edea-4a78-996d-d60380c2a4f3" DesignTimeScaleFactor="1" DisplayName="CV Extract Table - Table" sap:VirtualizedContainerService.HintSize="400,190" sap2010:WorkflowViewState.IdRef="CvExtractDataTableWithDescriptor_1" IgnoreEmptyRows="False" InformativeScreenshot="456fda9c21277305a959c33315abeaab" MaxTableScrollHeightInPixels="30000" NumberOfScrolls="2" RefreshBefore="True" Result="[CFSCodeValue]" Scroll="False" ScrollDirection="None" Version="V5">
+                            <p:CvExtractDataTableWithDescriptor.DesignTimeDescriptor>
+                              <uc:CvDescriptor Id="7e30272c-7811-496e-8c02-ece8d2e3237e">
+                                <uc:CvDescriptor.Target>
+                                  <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="0, 98, 435, 400" ElementType="Table" />
+                                </uc:CvDescriptor.Target>
+                              </uc:CvDescriptor>
+                            </p:CvExtractDataTableWithDescriptor.DesignTimeDescriptor>
+                          </p:CvExtractDataTableWithDescriptor>
+                        </Sequence>
+                      </ActivityAction>
+                    </p:CVScope.Body>
+                    <p:CVScope.DesignTimeCache>
+                      <uc:CVCache CvUiElements="{x:Null}" OcrTexts="{x:Null}" DataSent="False" />
+                    </p:CVScope.DesignTimeCache>
+                    <p:CVScope.DesignTimeCacheContainer>
+                      <uc:CvCacheContainer>
+                        <uc:CvCacheContainer.Caches>
+                          <scg:List x:TypeArguments="uc:CVCache" Capacity="1">
+                            <uc:CVCache DataSent="False" DisplayName="Screen CV Extract Table - Tabl (Main)" Id="1f9c3ff3-edea-4a78-996d-d60380c2a4f3" InformativeScreenshot="50161f5b084b0efb536496e32abab02a" LogicalPosition="0, 0" OcrText="Lookup X Include InActive Code Description A Code Description ^ 0 0350 Robbery/handgun/taxi 1 100 Theft 2 110 MV Accident - Personal Injury 3 111 Robbery - Armed/Weapon 4 113 Robbery - Threat of Force 5 114 Burglary 6 115 Disorderly Conduct 7 117 Retail Theft 8 118 Assault 9 119 Sexual Assault A 125 OWI/DWI B 155 Liquor Law Violation C 1D Dinesh Test D 200 Fraud E 206 Forgery v &lt; &gt;" Position="0, 0" ScreenshotGuid="52e3c06e-789b-4d65-b26f-f5fb2a41f3fe" ServerVersion="1">
+                              <uc:CVCache.CvAnchorRelations>
+                                <scg:List x:TypeArguments="uc:AnchorRelationInfo" Capacity="4">
+                                  <uc:AnchorRelationInfo IsTargetText="False" Target="2">
+                                    <uc:AnchorRelationInfo.Anchors>
+                                      <x:Array Type="x:Int32">
+                                        <x:Int32>2</x:Int32>
+                                      </x:Array>
+                                    </uc:AnchorRelationInfo.Anchors>
+                                  </uc:AnchorRelationInfo>
+                                  <uc:AnchorRelationInfo IsTargetText="False" Target="1">
+                                    <uc:AnchorRelationInfo.Anchors>
+                                      <x:Array Type="x:Int32">
+                                        <x:Int32>5</x:Int32>
+                                      </x:Array>
+                                    </uc:AnchorRelationInfo.Anchors>
+                                  </uc:AnchorRelationInfo>
+                                  <uc:AnchorRelationInfo IsTargetText="False" Target="0">
+                                    <uc:AnchorRelationInfo.Anchors>
+                                      <x:Array Type="x:Int32">
+                                        <x:Int32>4</x:Int32>
+                                      </x:Array>
+                                    </uc:AnchorRelationInfo.Anchors>
+                                  </uc:AnchorRelationInfo>
+                                </scg:List>
+                              </uc:CVCache.CvAnchorRelations>
+                              <uc:CVCache.CvTables>
+                                <x:Array Type="uc:CvTableInfo">
+                                  <uc:CvTableInfo>
+                                    <uc:CvTableInfo.Columns>
+                                      <x:Array Type="x:Int32">
+                                        <x:Int32>0</x:Int32>
+                                        <x:Int32>50</x:Int32>
+                                        <x:Int32>160</x:Int32>
+                                        <x:Int32>435</x:Int32>
+                                      </x:Array>
+                                    </uc:CvTableInfo.Columns>
+                                    <uc:CvTableInfo.Rows>
+                                      <x:Array Type="x:Int32">
+                                        <x:Int32>98</x:Int32>
+                                        <x:Int32>128</x:Int32>
+                                        <x:Int32>151</x:Int32>
+                                        <x:Int32>174</x:Int32>
+                                        <x:Int32>198</x:Int32>
+                                        <x:Int32>223</x:Int32>
+                                        <x:Int32>247</x:Int32>
+                                        <x:Int32>271</x:Int32>
+                                        <x:Int32>295</x:Int32>
+                                        <x:Int32>318</x:Int32>
+                                        <x:Int32>343</x:Int32>
+                                        <x:Int32>367</x:Int32>
+                                        <x:Int32>391</x:Int32>
+                                        <x:Int32>414</x:Int32>
+                                        <x:Int32>438</x:Int32>
+                                        <x:Int32>462</x:Int32>
+                                        <x:Int32>487</x:Int32>
+                                        <x:Int32>498</x:Int32>
+                                      </x:Array>
+                                    </uc:CvTableInfo.Rows>
+                                  </uc:CvTableInfo>
+                                </x:Array>
+                              </uc:CVCache.CvTables>
+                              <uc:CVCache.CvUiElements>
+                                <scg:List x:TypeArguments="uc:CvElementInfo" Capacity="128">
+                                  <uc:CvElementInfo Category="InputBox" Region="52, 69, 71, 21" />
+                                  <uc:CvElementInfo Category="InputBox" Region="236, 69, 162, 21" />
+                                  <uc:CvElementInfo Category="CheckBox" Region="305, 44, 14, 14" />
+                                  <uc:CvElementInfo Category="ArrowButton" Region="435, 107, 19, 20" />
+                                  <uc:CvElementInfo Category="ArrowButton" Region="5, 497, 20, 18" />
+                                  <uc:CvElementInfo Category="ArrowButton" Region="436, 481, 18, 18" />
+                                  <uc:CvElementInfo Category="ArrowButton" Region="419, 498, 18, 17" />
+                                  <uc:CvElementInfo Category="CloseButton" Region="433, 8, 20, 20" />
+                                  <uc:CvElementInfo Category="Button" Region="413, 68, 25, 22" />
+                                  <uc:CvElementInfo Category="Icon" Region="413, 69, 23, 20" />
+                                  <uc:CvElementInfo Category="Cell" Region="50, 128, 110, 23" />
+                                  <uc:CvElementInfo Category="Cell" Region="0, 128, 50, 23" />
+                                  <uc:CvElementInfo Category="Cell" Region="160, 462, 275, 25" />
+                                  <uc:CvElementInfo Category="Cell" Region="0, 367, 50, 24" />
+                                  <uc:CvElementInfo Category="Cell" Region="160, 414, 275, 24" />
+                                  <uc:CvElementInfo Category="Cell" Region="0, 198, 50, 25" />
+                                  <uc:CvElementInfo Category="Cell" Region="0, 295, 50, 23" />
+                                  <uc:CvElementInfo Category="Cell" Region="0, 174, 50, 24" />
+                                  <uc:CvElementInfo Category="Cell" Region="0, 223, 50, 24" />
+                                  <uc:CvElementInfo Category="Cell" Region="160, 198, 275, 25" />
+                                  <uc:CvElementInfo Category="Cell" Region="0, 271, 50, 24" />
+                                  <uc:CvElementInfo Category="Cell" Region="160, 174, 275, 24" />
+                                  <uc:CvElementInfo Category="Cell" Region="0, 343, 50, 24" />
+                                  <uc:CvElementInfo Category="Cell" Region="0, 438, 50, 24" />
+                                  <uc:CvElementInfo Category="Cell" Region="0, 247, 50, 24" />
+                                  <uc:CvElementInfo Category="Cell" Region="160, 438, 275, 24" />
+                                  <uc:CvElementInfo Category="Cell" Region="0, 151, 50, 23" />
+                                  <uc:CvElementInfo Category="Cell" Region="0, 391, 50, 23" />
+                                  <uc:CvElementInfo Category="Cell" Region="160, 223, 275, 24" />
+                                  <uc:CvElementInfo Category="Cell" Region="160, 391, 275, 23" />
+                                  <uc:CvElementInfo Category="Cell" Region="160, 343, 275, 24" />
+                                  <uc:CvElementInfo Category="Cell" Region="0, 318, 50, 25" />
+                                  <uc:CvElementInfo Category="Cell" Region="160, 295, 275, 23" />
+                                  <uc:CvElementInfo Category="Cell" Region="0, 414, 50, 24" />
+                                  <uc:CvElementInfo Category="Cell" Region="160, 247, 275, 24" />
+                                  <uc:CvElementInfo Category="Cell" Region="50, 174, 110, 24" />
+                                  <uc:CvElementInfo Category="Cell" Region="160, 98, 275, 30" />
+                                  <uc:CvElementInfo Category="Cell" Region="50, 98, 110, 30" />
+                                  <uc:CvElementInfo Category="Cell" Region="160, 151, 275, 23" />
+                                  <uc:CvElementInfo Category="Cell" Region="50, 198, 110, 25" />
+                                  <uc:CvElementInfo Category="Cell" Region="160, 367, 275, 24" />
+                                  <uc:CvElementInfo Category="Cell" Region="50, 223, 110, 24" />
+                                  <uc:CvElementInfo Category="Cell" Region="50, 151, 110, 23" />
+                                  <uc:CvElementInfo Category="Cell" Region="50, 343, 110, 24" />
+                                  <uc:CvElementInfo Category="Cell" Region="160, 128, 275, 23" />
+                                  <uc:CvElementInfo Category="Cell" Region="50, 295, 110, 23" />
+                                  <uc:CvElementInfo Category="Cell" Region="160, 318, 275, 25" />
+                                  <uc:CvElementInfo Category="Cell" Region="160, 271, 275, 24" />
+                                  <uc:CvElementInfo Category="Cell" Region="50, 247, 110, 24" />
+                                  <uc:CvElementInfo Category="Cell" Region="50, 391, 110, 23" />
+                                  <uc:CvElementInfo Category="Cell" Region="0, 98, 50, 30" />
+                                  <uc:CvElementInfo Category="Cell" Region="50, 438, 110, 24" />
+                                  <uc:CvElementInfo Category="Cell" Region="50, 367, 110, 24" />
+                                  <uc:CvElementInfo Category="Cell" Region="50, 414, 110, 24" />
+                                  <uc:CvElementInfo Category="Cell" Region="50, 271, 110, 24" />
+                                  <uc:CvElementInfo Category="Cell" Region="50, 318, 110, 25" />
+                                  <uc:CvElementInfo Category="Cell" Region="0, 462, 50, 25" />
+                                  <uc:CvElementInfo Category="Cell" Region="50, 462, 110, 25" />
+                                  <uc:CvElementInfo Category="Cell" Region="160, 487, 275, 11" />
+                                  <uc:CvElementInfo Category="Cell" Region="50, 487, 110, 11" />
+                                  <uc:CvElementInfo Category="ArrowButton" Confidence="Runtime" Region="38, 107, 15, 15" />
+                                  <uc:CvElementInfo Category="ArrowButton" Confidence="Runtime" Region="433, 7, 20, 21" />
+                                  <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="433, 7, 20, 20" />
+                                  <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="38, 107, 14, 14" />
+                                  <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="10, 468, 17, 19" />
+                                  <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="0, 487, 50, 11" />
+                                  <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="433, 126, 20, 22" />
+                                </scg:List>
+                              </uc:CVCache.CvUiElements>
+                              <uc:CVCache.OcrTexts>
+                                <scg:List x:TypeArguments="uc:OcrTextInfo" Capacity="128">
+                                  <uc:OcrTextInfo Region="7, 9, 42, 15" Text="Lookup" />
+                                  <uc:OcrTextInfo Region="439, 13, 8, 8" Text="X" />
+                                  <uc:OcrTextInfo Region="323, 44, 50, 13" Text="Include" />
+                                  <uc:OcrTextInfo Region="375, 44, 56, 13" Text="InActive" />
+                                  <uc:OcrTextInfo Region="16, 72, 33, 13" Text="Code" />
+                                  <uc:OcrTextInfo Region="155, 72, 78, 16" Text="Description" />
+                                  <uc:OcrTextInfo Region="40, 109, 10, 10" Text="A" />
+                                  <uc:OcrTextInfo Region="89, 106, 38, 15" Text="Code" />
+                                  <uc:OcrTextInfo Region="273, 107, 81, 18" Text="Description" />
+                                  <uc:OcrTextInfo Region="438, 112, 11, 9" Text="^" />
+                                  <uc:OcrTextInfo Region="13, 132, 10, 15" Text="0" />
+                                  <uc:OcrTextInfo Region="56, 132, 37, 16" Text="0350" />
+                                  <uc:OcrTextInfo Region="166, 132, 157, 19" Text="Robbery/handgun/taxi" />
+                                  <uc:OcrTextInfo Region="13, 156, 8, 15" Text="1" />
+                                  <uc:OcrTextInfo Region="56, 156, 28, 16" Text="100" />
+                                  <uc:OcrTextInfo Region="165, 156, 38, 15" Text="Theft" />
+                                  <uc:OcrTextInfo Region="12, 181, 11, 14" Text="2" />
+                                  <uc:OcrTextInfo Region="56, 180, 28, 16" Text="110" />
+                                  <uc:OcrTextInfo Region="166, 181, 25, 14" Text="MV" />
+                                  <uc:OcrTextInfo Region="191, 180, 64, 16" Text="Accident" />
+                                  <uc:OcrTextInfo Region="256, 183, 6, 11" Text="-" />
+                                  <uc:OcrTextInfo Region="265, 180, 61, 16" Text="Personal" />
+                                  <uc:OcrTextInfo Region="329, 181, 42, 18" Text="Injury" />
+                                  <uc:OcrTextInfo Region="12, 204, 11, 15" Text="3" />
+                                  <uc:OcrTextInfo Region="56, 204, 26, 16" Text="111" />
+                                  <uc:OcrTextInfo Region="166, 204, 60, 19" Text="Robbery" />
+                                  <uc:OcrTextInfo Region="227, 207, 7, 11" Text="-" />
+                                  <uc:OcrTextInfo Region="235, 204, 114, 18" Text="Armed/Weapon" />
+                                  <uc:OcrTextInfo Region="12, 228, 12, 15" Text="4" />
+                                  <uc:OcrTextInfo Region="56, 228, 28, 16" Text="113" />
+                                  <uc:OcrTextInfo Region="166, 228, 60, 19" Text="Robbery" />
+                                  <uc:OcrTextInfo Region="227, 232, 7, 10" Text="-" />
+                                  <uc:OcrTextInfo Region="236, 228, 47, 16" Text="Threat" />
+                                  <uc:OcrTextInfo Region="285, 228, 17, 15" Text="of" />
+                                  <uc:OcrTextInfo Region="303, 229, 40, 14" Text="Force" />
+                                  <uc:OcrTextInfo Region="12, 253, 11, 14" Text="5" />
+                                  <uc:OcrTextInfo Region="56, 252, 29, 16" Text="114" />
+                                  <uc:OcrTextInfo Region="166, 252, 61, 19" Text="Burglary" />
+                                  <uc:OcrTextInfo Region="12, 276, 11, 15" Text="6" />
+                                  <uc:OcrTextInfo Region="57, 277, 27, 15" Text="115" />
+                                  <uc:OcrTextInfo Region="166, 276, 74, 19" Text="Disorderly" />
+                                  <uc:OcrTextInfo Region="241, 276, 62, 16" Text="Conduct" />
+                                  <uc:OcrTextInfo Region="12, 301, 11, 14" Text="7" />
+                                  <uc:OcrTextInfo Region="56, 301, 28, 15" Text="117" />
+                                  <uc:OcrTextInfo Region="166, 300, 38, 15" Text="Retail" />
+                                  <uc:OcrTextInfo Region="207, 300, 39, 15" Text="Theft" />
+                                  <uc:OcrTextInfo Region="12, 324, 11, 15" Text="8" />
+                                  <uc:OcrTextInfo Region="56, 325, 28, 15" Text="118" />
+                                  <uc:OcrTextInfo Region="164, 324, 55, 15" Text="Assault" />
+                                  <uc:OcrTextInfo Region="12, 348, 11, 16" Text="9" />
+                                  <uc:OcrTextInfo Region="56, 348, 28, 16" Text="119" />
+                                  <uc:OcrTextInfo Region="166, 348, 46, 16" Text="Sexual" />
+                                  <uc:OcrTextInfo Region="214, 348, 54, 16" Text="Assault" />
+                                  <uc:OcrTextInfo Region="11, 373, 14, 14" Text="A" />
+                                  <uc:OcrTextInfo Region="56, 372, 28, 16" Text="125" />
+                                  <uc:OcrTextInfo Region="166, 373, 66, 15" Text="OWI/DWI" />
+                                  <uc:OcrTextInfo Region="12, 396, 12, 15" Text="B" />
+                                  <uc:OcrTextInfo Region="56, 396, 28, 16" Text="155" />
+                                  <uc:OcrTextInfo Region="166, 397, 47, 17" Text="Liquor" />
+                                  <uc:OcrTextInfo Region="215, 397, 30, 14" Text="Law" />
+                                  <uc:OcrTextInfo Region="246, 396, 64, 15" Text="Violation" />
+                                  <uc:OcrTextInfo Region="13, 420, 11, 16" Text="C" />
+                                  <uc:OcrTextInfo Region="56, 420, 21, 15" Text="1D" />
+                                  <uc:OcrTextInfo Region="166, 420, 49, 15" Text="Dinesh" />
+                                  <uc:OcrTextInfo Region="217, 421, 32, 14" Text="Test" />
+                                  <uc:OcrTextInfo Region="13, 445, 12, 14" Text="D" />
+                                  <uc:OcrTextInfo Region="55, 445, 29, 14" Text="200" />
+                                  <uc:OcrTextInfo Region="166, 444, 41, 15" Text="Fraud" />
+                                  <uc:OcrTextInfo Region="12, 468, 11, 15" Text="E" />
+                                  <uc:OcrTextInfo Region="55, 469, 29, 14" Text="206" />
+                                  <uc:OcrTextInfo Region="166, 469, 54, 18" Text="Forgery" />
+                                  <uc:OcrTextInfo Region="439, 485, 10, 9" Text="v" />
+                                  <uc:OcrTextInfo Region="11, 500, 9, 11" Text="&lt;" />
+                                  <uc:OcrTextInfo Region="423, 501, 9, 10" Text="&gt;" />
+                                </scg:List>
+                              </uc:CVCache.OcrTexts>
+                            </uc:CVCache>
+                          </scg:List>
+                        </uc:CvCacheContainer.Caches>
+                      </uc:CvCacheContainer>
+                    </p:CVScope.DesignTimeCacheContainer>
+                    <p:CVScope.OCREngine>
+                      <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd:Rectangle, x:String))">
+                        <ActivityFunc.Argument>
+                          <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                        </ActivityFunc.Argument>
+                        <p1:UiPathScreenOCR ApiKey="{x:Null}" Endpoint="{x:Null}" Output="{x:Null}" PredictionId="{x:Null}" Text="{x:Null}" UseLocalServer="{x:Null}" ComputeSkewAngle="False" ExtractWords="True" sap:VirtualizedContainerService.HintSize="200,25" sap2010:WorkflowViewState.IdRef="UiPathScreenOCR_1" Image="[Image]" Language="en" NoopExecution="False" Profile="Screen" Scale="1" Timeout="100000" />
+                      </ActivityFunc>
+                    </p:CVScope.OCREngine>
+                    <p:CVScope.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="ebd78dcf-c9ef-473d-ade2-5fbafe746935" InformativeScreenshot="2c5efae89601a30c232972508b4f7b6c" WaitForReady="INTERACTIVE">
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                      </ui:Target>
+                    </p:CVScope.Target>
+                    <p:CVScope.UseLocalServer>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </p:CVScope.UseLocalServer>
+                  </p:CVScope>
+                </Sequence>
+              </ui:CommentOut.Body>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:CommentOut>
+            <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="switchToCFSCodeLookUp" sap:VirtualizedContainerService.HintSize="534,1222" sap2010:WorkflowViewState.IdRef="WindowScope_2" InformativeScreenshot="b6de6ec186e6c01443fdc40cf16283ae" Selector="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='CodeLookupWindow' /&gt;">
+              <ui:WindowScope.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="482,1075" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="sd1:DataTable" Name="Test" />
+                      <Variable x:TypeArguments="x:String" Name="TestVariable" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:ExtractData DelayBetweenPagesMS="{x:Null}" NextLinkSelector="{x:Null}" ContinueOnError="True" DataTable="[ExtractCFSCode]" DisplayName="ExtractCFSLookupData" ExtractMetadata="&lt;extract-table get_columns_name='1' get_empty_columns='1' columns_name_source='Longest' /&gt;" sap:VirtualizedContainerService.HintSize="434,107" sap2010:WorkflowViewState.IdRef="ExtractData_3" MaxNumberOfResults="100" SimulateClick="True">
+                      <ui:ExtractData.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="bed8e9ba-6711-46af-a7c1-afb4ea7f0280" InformativeScreenshot="9bd8582c943b2aa018e3fa988dafba61" Selector="&lt;wnd ctrlname='pnlGrid' /&gt;&lt;wnd ctrlname='grdCodeBrowser' /&gt;&lt;ctrl name='Coded' role='table' /&gt;">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:ExtractData.Target>
+                    </ui:ExtractData>
+                    <Assign sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_4">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[CFSLookUpData]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">[ExtractCFSCode.ToString]</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <Assign DisplayName="cfsSelector" sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_5">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[selectAtCFSCode]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String" xml:space="preserve">["&lt;ctrl aastate='focusable, selectable' name='Code' role='cell' text='"+CFS+"     '/&gt;"]</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="clickLineUpButton" sap:VirtualizedContainerService.HintSize="434,157" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b00915f0-6506-40bf-a921-92eddf90b6ff" Version="V1">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable DesignTimeRectangle="442, 106, 21, 21" ElementType="Button" FullSelectorArgument="&lt;wnd ctrlname='pnlGrid' /&gt;&lt;wnd ctrlname='grdCodeBrowser' /&gt;&lt;ctrl name='Data Area' role='grouping' /&gt;&lt;ctrl name='Vertical scrollbar' role='scroll bar' /&gt;&lt;ctrl name='Line up' role='push button' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='pnlGrid' /&gt;&lt;wnd ctrlname='grdCodeBrowser' /&gt;&lt;ctrl name='Data Area' role='grouping' /&gt;&lt;ctrl name='Vertical scrollbar' role='scroll bar' /&gt;&lt;ctrl name='Line up' role='push button' automationid='' check:text='Line up' /&gt;" Guid="e170a565-fe26-4086-a0ea-b644284bf752" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEISURBVDhPpYzZSsNQFEXvT+Y9H+mA4oADDrWp1bZaCcEarAQRyR9sWQei9XKk3nTBesi5Oys0zacQsizrbQjBGkVRKCyXH0KOm/odret3IbRtu5Fg0cWiEYI3TBEsWlVvQvCGKYJFy/JVCN4wRbDofF4LwRumCBadzV6E4A1TBItOJs9C8IadeZ6791XBonfjSgjeEAl2eu+dYNHbUSkEb7gaXBcGiw5vnoQQj+JQ/B0LFh1cPwohHnmBf0UvLx6EEI/++nlt9PxsKgRvmCJY9PTkXgjeMEWw6PHRWAjeMEWw6OHBSAjeMEWw6P7eUAjeMEWw6O7OQNgd+vorur11JewOff2JFvoCD+0CVfrpkSwAAAAASUVORK5CYII=" InformativeScreenshot="f3053b36a613f3d9f40528962ccacb19.png" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='CodeLookupWindow' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="171, 101, 273, 29" FullSelectorArgument="&lt;wnd ctrlname='pnlGrid' /&gt;&lt;wnd ctrlname='grdCodeBrowser' /&gt;&lt;ctrl name='Column Headers' role='grouping' /&gt;&lt;ctrl name='Description' role='column header' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='pnlGrid' /&gt;&lt;wnd ctrlname='grdCodeBrowser' /&gt;&lt;ctrl name='Column Headers' role='grouping' /&gt;&lt;ctrl name='Description' role='column header' automationid='' check:text='Description' /&gt;" Guid="69ccab40-bb4c-4eeb-acdf-625ee1a6593b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAARUAAAAhCAYAAAD3cj/tAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATESURBVHhe7ZltTxxVFMfvl1ICuwHf9RNgYnjsFmh8a4yGUKlQCGKiRtNmU9tCu4FAG1Nc0pVSSluxgEW2tiK2hhArsYaQ1hKMiS9IjvfM7JyduXO32OkujuR/kl849zzccy/J/ZMJavtvIgAAKBeqvr6eAACgXKjd3V06dKiF+CcAAETFM7Wz85eICvsAABAFz9SzZ3+KqLAPAABR8Ew9fbojosI+AABEwTO1tbUtosI+AABEwTO1ufmHiAr7AAAQBTbnvz+PHz8RUWEfAACioJRy2djYElFhHwAAosC2vb1N6tGjTREV9kH8mR98rfhXwUfHuL1+PxnvUFQ3uGzNvQjl2gfsHyIq6+u/i6iwD+LP3IAWlfYvgvG5j6iWxcWM7zOj7YpqB5asuZKMvhk6d6R9wH+KiMra2m8iKuyD+HOrv45U2yVL7hK1aWFpGzHj8ab0fcD/CRGVhw83RFTYB/Fntk8/wtTF0rnkhzRrxnyfSamMrydzNJAz82avNzeTcuskX5jJ8WTfgvS7dQvUl/TtIecz4g5HKWPZhzHPYuatswr7+etAZRBRWV39VUSFfRB/Znr14zp80ZpbHe7QD6mDhgtrpzYxSDNefmaQEqqOemcM38v7cHp9e/kZPuw+2kTvfCjuj7l1wRlOzHcmZ23cx9wnfJZ56k28+CxQOURUVlZ+EVFhH8Sf6Z5aUq1j1tzKULt+WO005KzHqFXVUs90sGaoVT807p/+QItKOO/CvYpah2w53x6WeKLndmAdqjPm2mqC+5Q4S+CuJWYZNaByiKjcv7cuosI+iD9Xj2tRaRm15u6fdR/ROfanBqhGPgMMCv3OXk6slt6f8u3j9BoxH+daFNUcn9szbq8bpRY9s+Vssca8T6Cv5Fl4n2LcOsvpLfw+QEURUfn+7pqICvsg/uS6k6SaR6y5M836gdb0U47XuX79oJLUnQvXhXBqWVza6IysS/fynJruW3vG7XUj1KxnNX9erDHvE+greRbepxi3znJ6C3cCFUVEZfm7n0VU2Afx58oxLSpNmXBusp+q9WNtSnuxDDUF1ntzuklR9bEb2n9+b7Hu+XFeh87qnDNJ702WrgnuU+Is6SNaBI/Q6cLaeiZnVrEGVA4RlaU7D0RU2AfxJ9ulRaXxQjCeTrmfMUbcqdUPuCvrq70zS9nAuhjvqlbUmHbXbm+K0qG6B5Ru1A+4a3bPOK+D890ZqrqPsoUaZ45v7fX59wmf5QI16vuas0JnyvZpUbHfAZQXEZXFhZ9EVNgH8WeiM+EKSIAEdV621y+eLAiOj4aTOn75BFUZ8arO64Fec5aXP9UQrrXF3fV56qzyzak6QRO+nsWF89QgM1J0Svr+3Vk8rGdy7ujuGYiDsiOicvubH0VU2AegnHz2hqJX371mzYGDhYjK3Nc/iKiwD0A5+ZRF5Z2r1hw4WIio3LxxT0SFfQDKySevK3rl7SlrDhwsRFRmr98VUWEfgHLycb0Wlbdy1hw4WIioXJteFlFhHwAAoiCiMvXVkogK+wAAEAW2fD5PKnflWxEV9gEAIAoiKpPZBREV9gEAIAoiKl9OzIuosA8AAFEQUWFBAQCAl0VEhZ3xsZtOAAaDwV7GICowGKysls/n6R8J0jStbYWBGAAAAABJRU5ErkJggg==" SearchSteps="Selector, FuzzySelector, Image" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="pressPageDown" sap:VirtualizedContainerService.HintSize="434,137" sap2010:WorkflowViewState.IdRef="SendHotkey_3" Key="down" KeyModifiers="None" SpecialKey="True">
+                      <ui:SendHotkey.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="b0fb57e4-6cb8-4530-b7f1-a5d45cfb53ea">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:SendHotkey.Target>
+                    </ui:SendHotkey>
+                    <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="pressAtPageDown" sap:VirtualizedContainerService.HintSize="434,137" sap2010:WorkflowViewState.IdRef="SendHotkey_4" Key="down" KeyModifiers="None" SpecialKey="True">
+                      <ui:SendHotkey.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b0fb57e4-6cb8-4530-b7f1-a5d45cfb53ea" Selector="[selectAtCFSCode]">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:SendHotkey.Target>
+                    </ui:SendHotkey>
+                    <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_DOUBLE" DisplayName="doubleClickAtCode" sap:VirtualizedContainerService.HintSize="434,87" sap2010:WorkflowViewState.IdRef="Click_9" KeyModifiers="None" MouseButton="BTN_LEFT">
+                      <ui:Click.CursorPosition>
+                        <ui:CursorPosition Position="Center">
+                          <ui:CursorPosition.OffsetX>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:CursorPosition.OffsetX>
+                          <ui:CursorPosition.OffsetY>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:CursorPosition.OffsetY>
+                        </ui:CursorPosition>
+                      </ui:Click.CursorPosition>
+                      <ui:Click.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="37643b86-0fc5-4961-978c-f9f600389d3e" Selector="[selectAtCFSCode]">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:Click.Target>
+                    </ui:Click>
+                  </Sequence>
+                </ActivityAction>
+              </ui:WindowScope.Body>
+            </ui:WindowScope>
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="pressEnter" sap:VirtualizedContainerService.HintSize="534,154" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_10" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V1" />
+            <ui:SetValue AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="enterAtComment" sap:VirtualizedContainerService.HintSize="534,155" sap2010:WorkflowViewState.IdRef="SetValue_3" Text="Automation Test">
+              <ui:SetValue.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="82af0d34-ac5f-4e37-817a-7ed08b74b8c6" InformativeScreenshot="2a578164f83b4865c37977c12ed87037" Selector="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmPhoenixMain' /&gt;&lt;wnd ctrlname='frmTakeCall' /&gt;&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallTaking2019' /&gt;&lt;wnd ctrlname='flpContainer' /&gt;&lt;wnd ctrlname='pnlCFSNCmts' /&gt;&lt;wnd ctrlname='txtComments' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:SetValue.Target>
+            </ui:SetValue>
+            <ui:SetValue AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="enterAtSrc" sap:VirtualizedContainerService.HintSize="534,155" sap2010:WorkflowViewState.IdRef="SetValue_4" Text="P">
+              <ui:SetValue.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e54a84c3-e50f-49f1-8a02-119854fb5a83" InformativeScreenshot="3da678e51359cd703f7a2178f0228627" Selector="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmPhoenixMain' /&gt;&lt;wnd ctrlname='frmTakeCall' /&gt;&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallTaking2019' /&gt;&lt;wnd ctrlname='flpContainer' /&gt;&lt;wnd ctrlname='pnlSave' /&gt;&lt;wnd ctrlname='cddRcvSource' /&gt;&lt;wnd ctrlname='lstCoded' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:SetValue.Target>
+            </ui:SetValue>
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="tabOut" sap:VirtualizedContainerService.HintSize="534,154" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_11" Shortcuts="[d(hk)][k(tab)][u(hk)]" Version="V1" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="clickXmitButton" sap:VirtualizedContainerService.HintSize="534,157" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b00915f0-6506-40bf-a921-92eddf90b6ff" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="772, 935, 48, 22" ElementType="Button" FullSelectorArgument="&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallTaking2019' /&gt;&lt;wnd ctrlname='flpContainer' /&gt;&lt;wnd ctrlname='pnlSave' /&gt;&lt;wnd ctrlname='cmdCreateCall' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallTaking2019' /&gt;&lt;wnd ctrlname='flpContainer' /&gt;&lt;wnd ctrlname='pnlSave' /&gt;&lt;wnd ctrlname='cmdCreateCall' check:text='Xmit' /&gt;" Guid="ade596f1-7f16-4864-9bcb-caa1a7b85c52" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADQAAAAaCAYAAAD43n+tAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEfSURBVFhH7ZQxDoIwFIY5gKdw8B7Ozl7EAzA7MXoABu7gwoIzGwmj6diQuOHmsw9aabBCJSW0pE2+hLSF/F/fo8GjfoH1PEGb9Qqdr9RZgiBQCx0ud+fY7PbDQtvTzSm8kO14IdsxKhQWACTNu7mIAIEKQmnPIP/uV2C4QjnEtIY46j9Pgb1fEDgq135jvuXwlCkLklRStUrIWLiYAh+sCk01+MD9Yh9/xmp/RlF23x9hln/omNZSSIQFha5azbrUWhg+S/g+hZz4rg4zCGGr4bHK7dYLx6onnzoK2iskWk20XjPvrBALMdpKDF2hCTeeQaG21dpgAgyFrTdFSLoYlr4UlsQL2Y4Xsp1BIVx0EaUQTrrMl5DV8LA6rEwI4A17azvtQLFb2AAAAABJRU5ErkJggg==" InformativeScreenshot="c67d3de17037ee6bd8edf0371ffcd08d.png" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmPhoenixMain' /&gt;&lt;wnd ctrlname='frmTakeCall' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="826, 935, 50, 22" ElementType="Button" FullSelectorArgument="&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallTaking2019' /&gt;&lt;wnd ctrlname='flpContainer' /&gt;&lt;wnd ctrlname='pnlSave' /&gt;&lt;wnd ctrlname='pnlblink' /&gt;&lt;wnd ctrlname='cmdReset' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallTaking2019' /&gt;&lt;wnd ctrlname='flpContainer' /&gt;&lt;wnd ctrlname='pnlSave' /&gt;&lt;wnd ctrlname='pnlblink' /&gt;&lt;wnd ctrlname='cmdReset' check:text='Cancel' /&gt;" Guid="a52ab421-c387-4944-ab3f-5ca4dc6a718f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADYAAAAaCAYAAAD8K6+QAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAETSURBVFhH7ZjBFYMgDEDZjFNXyS4ZhYNjMIgTtLf2lgYtGjRW+yyvYjn895QI5pPIQXO9E5XC7bEdQxdDZ+Q/xJqmKRrpMhNr27ZIqlhpVLHS2C3mgCeZEYtefe67OAKL5NVYzy6xTgqcGstLTjGPZA2Q02JMUskhCU4IkNCOMXBinoP5HG0sq1h44cZqObCEPlxzQiZeM2FzYoLaRsk449G+Wv2HYum3J8SShMQ9r2en36esVqR7Z06xN60YdlZKJxX7VEzdvJxizNLhMbZMuOcktlRsqRVl6w5kFgtMj/v+MAgycQwIkVkTC8jWi+OTdhzWzy12VKpYaVSx0lgVKxnpkoidifOKaT8mj4r2Y1SH6An4CTWaUhA8DAAAAABJRU5ErkJggg==" SearchSteps="Selector, FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" ContinueOnError="True" DisplayName="ClickOkButton" sap:VirtualizedContainerService.HintSize="534,107" sap2010:WorkflowViewState.IdRef="Click_8" KeyModifiers="None" MouseButton="BTN_LEFT">
+              <ui:Click.CursorPosition>
+                <ui:CursorPosition Position="Center">
+                  <ui:CursorPosition.OffsetX>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetX>
+                  <ui:CursorPosition.OffsetY>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetY>
+                </ui:CursorPosition>
+              </ui:Click.CursorPosition>
+              <ui:Click.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1893c72e-1198-4566-85d8-d4e75642d7c8" InformativeScreenshot="83367225e5ee9186f4360e16d2e7c13e" Selector="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmGetCallCreationJuris' /&gt;&lt;wnd ctrlname='cmdSelectJuris' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:Click.Target>
+            </ui:Click>
+            <Delay Duration="00:00:10" sap:VirtualizedContainerService.HintSize="534,25" sap2010:WorkflowViewState.IdRef="Delay_3" />
+            <uta:VerifyControlAttribute AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="verifyAtAddressInInfoPane" sap:VirtualizedContainerService.HintSize="534,265" sap2010:WorkflowViewState.IdRef="VerifyControlAttribute_1" Operator="Equality" OutputArgument="Result" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False">
+              <uta:VerifyControlAttribute.ActivityToTest>
+                <ActivityAction>
+                  <ui:TextExists FormattedText="{x:Null}" DisplayName="Text Exists 'TD'" sap:VirtualizedContainerService.HintSize="334,155" sap2010:WorkflowViewState.IdRef="TextExists_3" Occurrence="1" Result="[outPut]" Text="[AddressMatchFound]">
+                    <ui:TextExists.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="f7922e9e-cbbf-422a-a6b5-b70b53860dfe" InformativeScreenshot="cc948256be88506df1171713bd774fe7" Selector="[string.Format(&quot;&lt;html app='kpi.phoenix.cadclient.exe' url='about:blank' /&gt;&lt;webctrl id='GEOInfo' tableCol='1' tableRow='1' tag='TABLE' /&gt;&lt;webctrl tableCol='1' tableRow='5' tag='TD' innertext='Near Loc: {0}' /&gt;&quot;, AddressMatchFound)]">
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:TextExists.Target>
+                  </ui:TextExists>
+                </ActivityAction>
+              </uta:VerifyControlAttribute.ActivityToTest>
+              <uta:VerifyControlAttribute.ArgumentsBridgeActivity>
+                <ActivityFunc x:TypeArguments="x:Object">
+                  <uta:ArgumentsBridge sap2010:WorkflowViewState.IdRef="ArgumentsBridge_1">
+                    <uta:ArgumentsBridge.Input>
+                      <InArgument x:TypeArguments="x:Object">
+                        <VariableValue x:TypeArguments="x:Object">
+                          <VariableValue.Variable>
+                            <Variable x:TypeArguments="x:Boolean" Name="_autogenerated_Result" />
+                          </VariableValue.Variable>
+                        </VariableValue>
+                      </InArgument>
+                    </uta:ArgumentsBridge.Input>
+                  </uta:ArgumentsBridge>
+                </ActivityFunc>
+              </uta:VerifyControlAttribute.ArgumentsBridgeActivity>
+              <uta:VerifyControlAttribute.Expression>
+                <InArgument x:TypeArguments="x:String">["True"]</InArgument>
+              </uta:VerifyControlAttribute.Expression>
+            </uta:VerifyControlAttribute>
+            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Workflow File" sap:VirtualizedContainerService.HintSize="534,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" UnSafe="False" WorkflowFileName="PhoenixCAD\Global Methods\CAD1.118LogOut.xaml">
+              <ui:InvokeWorkflowFile.Arguments>
+                <scg:Dictionary x:TypeArguments="x:String, Argument" />
+              </ui:InvokeWorkflowFile.Arguments>
+            </ui:InvokeWorkflowFile>
+            <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="534,62" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="TestCaseID - 18778 Executed Successfully" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 1920, 1032" FilePath="D:\Version1.118\CAD Client\kpi.phoenix.cadclient.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAXYSURBVFhHtVULTJVlGD6zJZJIc+LKGaFloCBpIl4RPQbJxYM3RAp1ajk9ZIRRiJlzKd5iCFpOyksTWV5QRiZLxUu4EFR0ysUQBRVBDZBQWKlMnr7n5XDkcsBzln3bs/8///+e93m+93m/99eYu3buT8P49z82C4w1/O35LSa+frsSFTV1HYIxjDX87fmtRgH38Io+Ez0X/o4+n57GWxHZcFR4IzwLvUIz0XvRaYn53wTkldyBQ3g2hsUUwnvzVei2FiNgWwl8Eq7BI+4K+n1xVmIsEsBgc0Bfs/Kvw33VRUzZUYIP95Ui7GC5YMGBWwhOvAGPdbkSY+r/7UFjia/pOUXw/a4Q+pQyrDj+J2KzqhCXXYXVGRVYfOg2pn5fJDGMNTevEmC+r6mn8hGSWIJl6Xex5UI1kq/VIqWkDj/m1YiIj/bckJhGAebl1Vjia9LR89DvvylkSX/cx6nKhzhT80iJqJVKRPxyS2IYa25ejSW+fpucgYTUrA7BGMaam1djia+5V8tQXH7vmWCsuXk1lvi6N/08UjLysP/kJew+cg670jIF/N30jmCsuXk1lviqDdZj3PQF8Jg8F4O1AUbwtzY4VGIIHllz82rM8TXup2NCYhgdsi6FhmJfYqLJgUMR0ckh8F07CNPXv4oRIXYm85Jb056v18qqUHjjjjRK2rFTGO03A/Hh4bi4eTMe6/WApyce2dhg4ciRbUTM3zgAvnpbRJ30xLpL/nINPqAzyaNp7l0T6Cm93bB1j+BAzEZk+vqiwdERGDoUT5YsEQExGg0uK8zWao0iSO43wxbRWV5CvqJAh4h8f/Rf3cOYvzlnm1Hc5DGx5Zs43H97EDIVSbmbG1h2iiCC1DMfBV4pjuTcJXdO8ui8iUby+QW+cPmhZwueJojq1itBEZEwQyWv6927RVBD374YaNsJn6t3RQqGxxr67RPZ3bjrpYUBWFQUgFkFEzAz1xuTT4/CuBNjTRM2X9xlnUp8x8qq3SZrLco/sp80W9OuI69MEnLuPCTPGzMuaDHtzBg4rOnevgA2V218PGBnJ7ueNnz4s9WqpZ34EoL01gha2Q1f5ngbyecV+rcgn5w5UmyIeBBlOi87m6hUu1+hcHWAk1kCho3oLE1HAXMPu7UgD7443kiu+80dXmkucE8Z0jYvyRqCgoBOnRCiyOnvVwqG1x2u/s5WYBXeXdoVE3a+LuT0neSB58Yayf2ODhYBJm0osLeX3Td1dZRCtrLiSLdu7Yqo8/OT7h8Y+BpYBbewrhgc/7KU3EiuGq85uS7ZUeI23FzTNm+plxdym+2azfjEwQGr1GlgPxCezs7G9/cCA8UmZ+2bsB/0IpxDrEXA+J+d2pDrDrpg4jZ7zNw1GmzYsHjvpwJqunSRYbK9GXn18uXApk0ybLBypQweVohNWuHkBIqVaahOCqtHG5zes4JLtA3cVaNNzRot5JOOvoPAVBf4rLNDTMEyyb8jay3mu9s9FVDfuTNKra1bCGA/SE+4ugJ5eSKmISFBwKHERuW72+rKaTgv0EmqwPKy07lrkk/Z6yjkOZVq5htWYW01ImPnPBXAxZl+vJUAEnDooLS0sRpEUpKAMY9V/HkFCj80olEAbRgSYyvNyJJzLFfUFqPs4d/Iuf8X0qvvyvWTMLeWAlovzJolAtgDJBRBfKbsoC31aWny7lcVus8gZJRrD7GBp2FubC9EHfoAqVWXhTS/9gHK/3kopGdvnZBjK0SmFv0lmexekfEZCQmphhLBZ7SDu28SEaMbCmcPGyw+/JmRmOWuq6/H5eJMrF8TJFZNm+OA3bnb2xdQO3t2447VV49lps8EfeeIvm64ZwNyamare4rgiWAzBn+tEwEkISkbjiVn8xkoOl5SXn5ulQU8HfzgELznMeU9S84rhVEQG5P3Y+a4wqvPC0bSDnfa3uKA4UTkQOJIZpdzKjZHtOHK97SBg4siDCn+26LvJCDoLRObAqvAzzXJOUFpgyGFBUuj+Rcda4inBvV2EAAAAABJRU5ErkJggg==" InformativeScreenshot="afeb75e37109000f544b7e26a3da7b0b.png" Selector="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmLogin' /&gt;" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

@@ -1,0 +1,16 @@
+﻿{
+  "Id": "9pK5rFbXuk2LUp76WHdp6g",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/9pK5rFbXuk2LUp76WHdp6g",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/ATog21aGmUikpMronzSugw",
+  "Name": "uIINSCheckBox",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T09:40:43.5322221Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T09:40:53.7551121Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hfFDQEVWuEGsNwbDKAFT1g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="http://10.103.1.68/law/login.aspx" CvElementArea="799, 682, 359, 55" CvType="InputBox" DesignTimeRectangle="833, 686, 322, 48" DesignTimeScaleFactor="1" ElementType="DropDown" FullSelectorArgument="&lt;webctrl id='usrLogin_lstProductDB' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='usrLogin_lstProductDB' tag='SELECT' type='' class='login-input lstProductDB' aaname='' /&gt;" Guid="ad49c015-1f40-4ef0-882a-ab9b6473c062" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Phoenix Law : Login Page' /&gt;" SearchSteps="Selector" Version="V3" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="12c5385febdd5f8eb0e4f093f5cb74ec.png" xmlns="">0EouzieLsGkGl_9Ek5SeDVg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XDizltw7CUyUClXF1XDMXA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="488, 98, 180, 16" FriendlyName="'kpi.phoenix.cadclient.e…'" Guid="72385564-a4d1-400d-a6ed-fea4905305b7" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAALQAAAAQCAYAAAC/QFXKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABJSURBVGhD7dJBDQAgDMBA/FshvCZw+GjukjroWQgxNCmGJsXQpBiaFEOTYmhSDE2KoUkxNCmGJsXQpBiaFEOTYmhSzn2zUqPZD2+bK20jXFYSAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmEditPlate' /&gt;" SearchSteps="Image" TargetType="ImageBased" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="435, 99, 48, 16" ElementType="Text" FriendlyName="'Model'" FullSelectorArgument="&lt;wnd ctrlname='lblModel' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='lblModel' check:text='Model' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADQAAAAUCAYAAADC1B7dAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAERSURBVFhH7ZPhEcMgCIXdzXlYxlnYxEXcgIoxCmp7bc70kpw/3iXxEeATNSEEepIW0NW1gE6Vd2StIz/ylDw5a8n53vsJCMGQMeNEASF6hqzzvfet/g9kCaJGTTOsjUVuBmQI3KBobgRdC4QEcWo8uaSuWe33ubVfc88EQk7Gz7ruM0iakiqqj2A6soCf/QLU+gy3Q0wFiu98X0pjXAgIs18a4Knl9Zqjxg59zrsDDfx94+YDyd0ScApINlfU/Nf68g6xL45bUao1Hag2P1pL8UcmJIHke6cTgLaG4o6JogqouwObf/wOSZ0B9KYh3cAWU45Lt+M8seoDxm8V0/yfYvb1CUB30AK6uhbQ1fUwoEAvbilnWRAVy7cAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1335cda37e1c71bcae63fd75e5f0868a.png" xmlns="">0lYf8_9rYE0GZbZPcyTLHBg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

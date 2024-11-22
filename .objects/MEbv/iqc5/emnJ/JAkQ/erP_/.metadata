@@ -1,0 +1,16 @@
+﻿{
+  "Id": "erP_1m3yVUGlSBchFnl86Q",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/erP_1m3yVUGlSBchFnl86Q",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/JAkQOXWInk6rFxbLGYXYRQ",
+  "Name": "uIDispositionDescriptionEdit",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T11:59:18.6242911Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T11:59:28.8472445Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

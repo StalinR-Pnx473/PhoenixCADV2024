@@ -1,0 +1,16 @@
+﻿{
+  "Id": "GZJ4fwtxwk-XgmPMQYZ53A",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/GZJ4fwtxwk-XgmPMQYZ53A",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/Qr6aw9Xjvke7hJVRkLuTKA",
+  "Name": "uIVisibilityArrowButton",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T13:12:40.9792443Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T13:12:52.3410805Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

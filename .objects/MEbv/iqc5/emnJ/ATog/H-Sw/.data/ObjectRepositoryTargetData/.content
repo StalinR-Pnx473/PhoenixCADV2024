@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NMgFqhFqJU2XveLLMZNyLw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="590, 523, 117, 24" ElementType="CheckBox" FriendlyName="'65 MPH Zone'" FullSelectorArgument="&lt;wnd ctrlname='CtrlusrSummonsNJ' /&gt;&lt;wnd ctrlname='tbSummon' /&gt;&lt;wnd ctrlname='lupOtherTrafficOffence' /&gt;&lt;wnd ctrlname='grbOffence1' /&gt;&lt;wnd ctrlname='chk65MPHZone' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='CtrlusrSummonsNJ' /&gt;&lt;wnd ctrlname='tbSummon' /&gt;&lt;wnd ctrlname='lupOtherTrafficOffence' /&gt;&lt;wnd ctrlname='grbOffence1' /&gt;&lt;wnd ctrlname='chk65MPHZone' check:fulltext='65 MPH Zone' /&gt;" Guid="ea8c6141-cba6-4596-8d7f-6e25af8095fd" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmAddSummons' /&gt;" SearchSteps="Selector, FuzzySelector" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b9851c7e3a9c43dc84d1b65f1a0db697.png" xmlns="">0uswbIuvCTkev8u_PRLQhWg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

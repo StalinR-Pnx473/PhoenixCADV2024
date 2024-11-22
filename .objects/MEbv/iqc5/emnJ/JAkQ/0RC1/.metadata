@@ -1,0 +1,16 @@
+﻿{
+  "Id": "0RC1Ql6wVEaQiy8gEJlyEA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/0RC1Ql6wVEaQiy8gEJlyEA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/JAkQOXWInk6rFxbLGYXYRQ",
+  "Name": "uIPlaintiffTypeArrowButton",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T10:54:14.7935735Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T10:54:28.8667649Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

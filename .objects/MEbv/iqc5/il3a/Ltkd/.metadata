@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIActivity1Edit",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "LtkdCPDQLkCp-FeVTDcHhg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/LtkdCPDQLkCp-FeVTDcHhg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/il3aTNe6S0qbwDqMWCMAyA",
+  "Created": "2024-02-27T13:15:00.9331602Z",
+  "Updated": "2024-02-27T13:15:17.2065885Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

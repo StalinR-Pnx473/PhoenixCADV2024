@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uICFSCodeScreen",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "n_2gwA_nq0mj_MY3cJ7skw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/n_2gwA_nq0mj_MY3cJ7skw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/tBnq8dOGpUm4ard4nLyOhQ",
+  "Created": "2024-04-16T13:10:54.7181083Z",
+  "Updated": "2024-04-16T13:11:09.5162047Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

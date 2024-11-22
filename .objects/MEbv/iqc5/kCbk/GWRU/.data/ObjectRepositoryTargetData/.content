@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="AnEe382FHESgdTC6Sl6bWw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="97, 143, 38, 20" FriendlyName="'WindowsForms10.Window.8…'" FullSelectorArgument="&lt;wnd ctrlname='txtVehYear' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='txtVehYear' /&gt;" Guid="d8e953a1-c18c-4843-87b5-8aa21e2973f2" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACoAAAAYCAYAAACMcW/9AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABNSURBVFhH7c6xCQAgEENR919FrHSwbHBWVtqZIoF8CKR8DUA5zA/ax5TcE6pWoOwCZecJXS7QcwL9KFB2gbILlF2g7Pyhirug6jOBojabKBtuv1fCpwAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmEditPlate' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="49, 143, 48, 19" ElementType="Text" FriendlyName="'Year'" FullSelectorArgument="&lt;wnd ctrlname='kpiWinLabel3' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='kpiWinLabel3' check:text='Year' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADQAAAAXCAYAAABEQGxzAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADySURBVFhH7ZTBDcMgDEXZjXm8DGtUPdWbsAgbuJgEMIQcKqXIQkR6F5tEPPOJCSHQSmwhrbzen8RSQvxsIa1sod/w5Kwh63xb946sseS8qD3E/08obR4IRQ1hIPkQUyLXCLCgdeRLHwmMIXMiRb2zpd72+OTjkNKwuFcHNukO8aY5YkcEAXO9j2Red/bj+iLexPR4T4pkpv0UyrTl6QziyOvGcWSJVqgOpjJN6DJ9BqHEqQHwpi+Fum+dTBQabOJynwRJRp5ef0IahVLt5o/HQlI2CaoXynUZq3w3unqMIYIqoTlsIe1sIe0sKcQsI3QQ6Av2rBSosrZm7wAAAABJRU5ErkJggg==" SearchSteps="Selector, FuzzySelector, Image" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="243853df0efbfac7f10a26997144cb45.png" xmlns="">0nuDx9LqBDka8Pqt_Y97Hgw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

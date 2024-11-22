@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Citizen IPCamera Screen",
+  "Type": "Screen",
+  "Id": "fKim-pvEU0yZ2AdJDvBrQA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/fKim-pvEU0yZ2AdJDvBrQA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/h5es0EizPUSkHahTS7e1RA",
+  "Created": "2024-05-06T13:36:44.7793112Z",
+  "Updated": "2024-05-06T13:36:47.4838499Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

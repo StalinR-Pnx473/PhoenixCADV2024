@@ -1,0 +1,16 @@
+﻿{
+  "Id": "ziZZeXJgskaek5f_jHcvqw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/ziZZeXJgskaek5f_jHcvqw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/emnJxCfvZ0m1QDLryu6YUQ",
+  "Name": "uIAttachmentsTab",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T07:09:08.0081867Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T07:09:18.4253806Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

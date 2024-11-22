@@ -1,0 +1,113 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="LogOut" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1234,1076" sap2010:WorkflowViewState.IdRef="LogOut_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Terminal</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.PDF.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Java.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="LogOut" sap:VirtualizedContainerService.HintSize="512,1011" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="PhoenixMainWindow" sap:VirtualizedContainerService.HintSize="450,900" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="e06026fa-42d8-462f-b633-a44dd31127b6" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,683" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'uIPhoenixIcon'" sap:VirtualizedContainerService.HintSize="354,157" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="http://10.103.1.68/LAW/KPIFrameworkWeb/Loader2010.aspx" ContentHash="A7euvtXLlEOYlejamKiImQ" CvElementArea="1805, 152, 28, 24" CvType="Icon" DesignTimeRectangle="1806, 152, 26, 26" DesignTimeScaleFactor="1" ElementType="Icon" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;form&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table' parentid='tdLogoMastHeadBar' tableRow='1' tag='TABLE' /&gt;&lt;webctrl id='PnxLogo' tableRow='1' tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='tdLogoMastHeadBar' tag='TABLE' /&gt;&lt;webctrl id='PnxLogo' type='' tag='IMG' class='' aaname='Police RMS' /&gt;" Guid="8439c60b-73d9-441c-9169-48756cca8283" ImageBase64="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" InformativeScreenshot="84fda3497be9cb3ce09a11ea8ce64f54.png" Reference="THDf1UhB6U6EKgZN7HF2zw/RYrw2DGSfEyaygMuE6zZ5w" ScopeSelectorArgument="&lt;html app='chrome.exe' title=':: Police - Phoenix Public Safety Solution :: AutomationPoliceCAD;SOP' /&gt;" SearchSteps="Selector, FuzzySelector, Image, CV" Version="V3" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'uILogout'" sap:VirtualizedContainerService.HintSize="354,157" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="http://10.103.1.68/LAW/KPIFrameworkWeb/Loader2010.aspx" ContentHash="Fv457yKAo0Kt1emQJD051Q" CvTextArea="1714, 241, 35, 13" CvType="AnyWordGroup" DesignTimeRectangle="1687, 236, 116, 23" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;form&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table' parentid='tdLogoMastHeadBar' tableRow='1' tag='TABLE' /&gt;&lt;webctrl aaname='Logout' class='rmText' parentid='mnuPhoenix' tableRow='1' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='tdLogoMastHeadBar' tag='TABLE' /&gt;&lt;webctrl class='rmText' parentid='mnuPhoenix' type='' tag='SPAN' /&gt;" Guid="e07a91bc-19f2-42ea-bf7d-8b6f78947e13" ImageBase64="" InformativeScreenshot="d6a321f8a97a829779229866289d4fa8.png" Reference="THDf1UhB6U6EKgZN7HF2zw/ITnWHEWRC0qEAXdaZ-AaVw" ScopeSelectorArgument="&lt;html app='chrome.exe' title=':: Police - Phoenix Public Safety Solution :: AutomationPoliceCAD;SOP' /&gt;" SearchSteps="Selector" Version="V3" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,195" sap2010:WorkflowViewState.IdRef="NTypeInto_1" Text="%[k(Enter)]" Version="V3" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" ContentHash="qeUqCrKL1Eez0WXLck-8cA" IconBase64="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" InformativeScreenshot="26270791b338bda6682425922647be82.jpg" Reference="THDf1UhB6U6EKgZN7HF2zw/tBnq8dOGpUm4ard4nLyOhQ" Selector="&lt;html app='chrome.exe' title=':: Police - Phoenix Public Safety Solution :: AutomationPoliceCAD;SOP' /&gt;" Title=":: Police - Phoenix Public Safety Solution :: AutomationPoliceCAD;SOP" Url="http://10.103.1.68/LAW/KPIFrameworkWeb/Loader2010.aspx" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

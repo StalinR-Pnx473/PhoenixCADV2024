@@ -1,0 +1,16 @@
+﻿{
+  "Id": "PGoQVBiHe0mcxKQes8Rvww",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/PGoQVBiHe0mcxKQes8Rvww",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/fYZhLs7KtEWAodyFWW1i6A",
+  "Name": "Main Tab",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T11:15:27.704414Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T11:16:37.2225625Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

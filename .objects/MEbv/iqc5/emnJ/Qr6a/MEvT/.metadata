@@ -1,0 +1,16 @@
+﻿{
+  "Id": "MEvTLFMYfE2ZK4TYpJrhSg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/MEvTLFMYfE2ZK4TYpJrhSg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/Qr6aw9Xjvke7hJVRkLuTKA",
+  "Name": "uIBreathalyzerCheckBox",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T13:27:32.7944345Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T13:27:41.5598853Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

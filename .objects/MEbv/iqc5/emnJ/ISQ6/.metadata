@@ -1,0 +1,16 @@
+﻿{
+  "Id": "ISQ6ItjKUk-CU3lYagNhQQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/ISQ6ItjKUk-CU3lYagNhQQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/emnJxCfvZ0m1QDLryu6YUQ",
+  "Name": "uIBusinessNameEdit",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T07:05:27.4055896Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T07:05:37.4699898Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

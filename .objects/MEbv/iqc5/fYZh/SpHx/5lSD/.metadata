@@ -1,0 +1,16 @@
+﻿{
+  "Id": "5lSD8Qmvb0uvpGD2h9DDvg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/5lSD8Qmvb0uvpGD2h9DDvg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/SpHx-XtMi0qB_09npbhiFQ",
+  "Name": "uIXmitButton",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T14:31:24.7944525Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T14:31:37.0109685Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

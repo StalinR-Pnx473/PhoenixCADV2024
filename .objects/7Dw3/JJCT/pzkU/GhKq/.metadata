@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIMenuItemButton",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "GhKq-PWNhEKv9bQfeGqoBw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/GhKq-PWNhEKv9bQfeGqoBw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/pzkUGShEDk24js1vOhpWEA",
+  "Created": "2024-02-20T10:04:56.8586823Z",
+  "Updated": "2024-02-20T10:05:53.3194505Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

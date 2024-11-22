@@ -1,0 +1,16 @@
+﻿{
+  "Id": "6pcdvBuX5km5STI76g0Tvg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/6pcdvBuX5km5STI76g0Tvg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/emnJxCfvZ0m1QDLryu6YUQ",
+  "Name": "uICETypeDropdown",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T07:01:09.1122727Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T07:01:20.3029823Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

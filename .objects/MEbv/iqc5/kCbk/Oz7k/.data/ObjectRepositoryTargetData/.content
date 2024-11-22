@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="4NXNCMin60mlVG2CifPJdw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="270, 143, 38, 20" FriendlyName="'WindowsForms10.Window.8…'" FullSelectorArgument="&lt;wnd ctrlname='txtExpYear' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='txtExpYear' /&gt;" Guid="0db8f1d4-bf84-4a37-acaa-cbd853889ac5" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACoAAAAYCAYAAACMcW/9AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABGSURBVFhH7c6xCQAgAANB919FrFwsG+gAWqZI4B++vyHpNNwHnWtH/oWmBdQdUHdA3QF1B9QdUHdA3QF11w9N/IGmXwLVue0uG6qcsqfCAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmEditPlate' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="242, 143, 25, 20" FriendlyName="'Exp Month/Year'" FullSelectorArgument="&lt;wnd ctrlname='txtExpMonth' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='txtExpMonth' check:fulltext='Exp Month/Year' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB0AAAAYCAYAAAAGXva8AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABESURBVEhL7c2hEQAgEANB+m+FQdFYOgATB/b+TW4mKmKHpFO9XnSuje+LkgX1zRTUN1NQ30xBfTMF9c0UFN+DVq4B1bkvB2H3UZLNJAAAAABJRU5ErkJggg==" SearchSteps="Selector, FuzzySelector, Image" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c8ae34eab4968b2230fc89798f671fc2.png" xmlns="">0RsDPYEAOYk23YUdR2ALaOw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

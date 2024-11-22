@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tJxtn57cmU6yQA-heDcYEw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CvElementArea="239, 248, 76, 32" CvTextArea="267, 255, 22, 15" CvTextArgument="No" CvType="Button" DesignTimeRectangle="240, 248, 75, 32" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;wnd ctrlname='cmdCancel' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='cmdCancel' check:text='No' /&gt;" Guid="5299c24e-9625-461c-b615-a7e2ff03a3c3" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAE8AAAAkCAYAAADIB2cfAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAENSURBVGhD7daxDcMgFIRhNmMbdmEUCo/BIN4gZboXKzYyPLBRfHJCpCv+IqA0n04k5vEUYdciHhDxgAq8aZpYp9yrwpvnmR1EPCDiAREPiHhAxAMiHtBAeFG8NWLMkgvqLohbzq2P6vy3jYlnrPiY3xGv04bn3BuqXB/xOiW8INFbtb4DvOC2pa59G3dIvIS1r6/GOwKu38v7GhRP42i8syXq9/K+hsUrgRRW9GKXzy7k3z85v6mB8dL6nATi9arx9sV54p3XwkvrW85zPL55ujZegtJ/RfhrW3SEt6+vvbQVtnl/cwPh/V/EAyIeEPGAiAdEPCDiAREPiHhAXTx2Xu5V4LHPIh4Q8S4n8gIdOsvkTA5m+wAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmMessage' /&gt;" SearchSteps="Selector, FuzzySelector, Image, CV" Version="V3" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvElementArea="144, 248, 75, 31" CvTextArea="168, 255, 27, 15" CvTextArgument="Yes" CvType="Button" DesignTimeRectangle="144, 248, 75, 32" ElementType="Button" FullSelectorArgument="&lt;wnd ctrlname='cmdOk' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='cmdOk' check:text='Yes' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAE8AAAAkCAYAAADIB2cfAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFlSURBVGhD7ZbNccQgDEbpjG6oIS1QCoVQQ850kGNuCgbZRtg7dlZ2gme+wzsIaffwRj82X99E4D0gTwHkKRDyzMcnOED4EsFOMZAIXyLggpQS6IA8BZCnAPIUQJ4CyFMwgLxI3hoyxlHYyQc35Sz5uM39NwPIy0RP1hiyPp57H4Qx5GX2Oqy8WU+xqRuJYeSlFMjlLjMu1Di4LNOQC10dv1e6cRa5zM3iB5KXKHrLQngPziJnipxVWK3nXckj3soObn+PXsVQ8tbjMdEfiZqT+692axFWxN4rq2cweRkevVfHQ45xI5R/txnzGxlP3sHlXfZZQ63lnbl5b/7jYh4n76izYt6Xq+h+9K/lOfK4s05300nZGh4kr73GzXvedVPtlBOi/uCAPEpegQ/Dwvwtt4zqzL0jOzGevAcBeQogTwHkKYA8BZCnAPIUQJ6C0/LAa4QvEewUA4nw1Qbgd0CeAsh7G6IfAQ81MZUmdWcAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="17cdf6a43d62b91bf86d4b3b59247b6a.png" xmlns="">0VmM3lQT9zUmiDosfqFaUDA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

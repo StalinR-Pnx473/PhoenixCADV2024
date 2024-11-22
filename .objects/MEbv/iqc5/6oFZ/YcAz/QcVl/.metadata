@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIRandomSubmitButton",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "QcVlQWADh0uzSFaRKxAw0g",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/QcVlQWADh0uzSFaRKxAw0g",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/YcAzUv5owEOUTcP0YDKWuQ",
+  "Created": "2024-06-24T13:21:58.4173544Z",
+  "Updated": "2024-06-24T13:22:09.2992594Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

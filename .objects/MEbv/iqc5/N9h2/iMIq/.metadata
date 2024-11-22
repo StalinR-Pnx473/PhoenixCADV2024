@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uICallCreatedPopUp",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "iMIqlydfYU6D09LqQBYrKg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/iMIqlydfYU6D09LqQBYrKg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/N9h2qU66wUelFQi4ufCu7A",
+  "Created": "2024-09-16T11:16:25.4980497Z",
+  "Updated": "2024-09-16T11:17:39.7946602Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

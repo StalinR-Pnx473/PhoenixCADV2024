@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tKR4JGisfkmeXHY3uxEaow" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="596, 158, 75, 19" ElementType="CheckBox" FriendlyName="'Critical ?'" FullSelectorArgument="&lt;wnd ctrlname='ctrlCCUI' /&gt;&lt;wnd ctrlname='chkCritical' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='ctrlCCUI' /&gt;&lt;wnd ctrlname='chkCritical' check:fulltext='Critical ?' /&gt;" Guid="24c6ded2-7d93-4b3c-99e2-655c0e6bf08a" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='CCExternalWin' /&gt;" SearchSteps="Selector, FuzzySelector" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="118, 160, 466, 40" ElementType="InputBox" FriendlyName="'WindowsForms10.EDIT.app…'" FullSelectorArgument="&lt;wnd ctrlname='ctrlCCUI' /&gt;&lt;wnd ctrlname='txtComments' /&gt;&lt;wnd ctrlname='txtComments_EmbeddableTextBox' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='ctrlCCUI' /&gt;&lt;wnd ctrlname='txtComments' /&gt;&lt;wnd ctrlname='txtComments_EmbeddableTextBox' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAdYAAAAsCAYAAADYZJmRAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADSSURBVHhe7dUxEYBAEMDA92+FoXodGKI5BiyQcouNhazj3AMANNbc1wAA/xkrAISMFQBCxgoAIWMFgJCxAkDIWAEgZKwAEDJWAAgZKwCEjBUAQsYKACFjBYCQsQJAyFgBIGSsABAyVgAIGSsAhIwVAELGCgAhYwWAkLECQMhYASBkrAAQMlYACBkrAISMFQBCxgoAIWMFgJCxAkDIWAEgZKwAEDJWAAgZKwCEjBUAQsYKACFjBYCQsQJAyFgBIGSsABAyVgAIGSsAhL6xvgEACnseQBXGOm82ar0AAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="618e21740e599169c8c377f2a60b4737.png" xmlns="">0bpgSyi0GzEKC7fyotVWObA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

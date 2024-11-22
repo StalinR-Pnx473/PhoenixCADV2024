@@ -1,0 +1,16 @@
+﻿{
+  "Id": "YnaQx4Br70e1h0AgXnmoZg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/YnaQx4Br70e1h0AgXnmoZg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/JAkQOXWInk6rFxbLGYXYRQ",
+  "Name": "uICourtTypeDropdown",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T11:55:27.0680833Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T11:55:45.6980308Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

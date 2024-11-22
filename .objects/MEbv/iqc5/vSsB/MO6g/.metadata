@@ -1,0 +1,16 @@
+﻿{
+  "Id": "MO6gUXwfu02scsHpq_gicQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/MO6gUXwfu02scsHpq_gicQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/vSsBaPwfB0uUVH_HkmuMEw",
+  "Name": "uICallNoAndLocationEdit",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T07:28:22.1981624Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T07:30:01.5049179Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

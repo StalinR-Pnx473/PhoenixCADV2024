@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIMultiplePlate",
+  "Type": "Element",
+  "TaxonomyType": "Tab",
+  "Id": "-o1330u2_0WdRf6zQpzS9w",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/-o1330u2_0WdRf6zQpzS9w",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/6oFZNLA_kUWbZBEpoZSy9g",
+  "Created": "2024-06-21T14:47:36.0655837Z",
+  "Updated": "2024-06-21T14:47:59.4664354Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

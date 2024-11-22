@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uICaseInfoIcon",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "rtTsmEs_3E24iYqqagtkSA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/rtTsmEs_3E24iYqqagtkSA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/huSZywIohEigyE73zkzgSA",
+  "Created": "2024-09-11T14:29:00.0905644Z",
+  "Updated": "2024-09-11T14:29:14.5147675Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

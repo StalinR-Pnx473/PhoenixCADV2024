@@ -1,0 +1,16 @@
+﻿{
+  "Id": "3Of3Dt73D0OYlq_YU3mb6A",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/3Of3Dt73D0OYlq_YU3mb6A",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/emnJxCfvZ0m1QDLryu6YUQ",
+  "Name": "uILicenseTab",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T07:05:57.0933527Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T07:06:13.3839942Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

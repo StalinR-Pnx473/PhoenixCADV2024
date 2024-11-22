@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hZ2dVG8vKkKR95HDnW2Dyg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="485, 71, 90, 19" FriendlyName="'WindowsForms10.Window.8…'" FullSelectorArgument="&lt;wnd ctrlname='lupMake' /&gt;&lt;wnd ctrlname='txtCode' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='lupMake' /&gt;&lt;wnd ctrlname='txtCode' /&gt;" Guid="df251777-813f-4e1f-aa54-136b313abc3e" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAF4AAAAXCAYAAACChfjKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABkSURBVGhD7dCxDcAgFMTQ7L8KSpXF/gYgCpBSUHJubMkLvKequucXHnrDt/fz4D94u9tCnwkfTHgo4aGEhxIeSngo4aGEhxIeSngo4aGEhxIeSngo4aGEhzrCe+4N79mFR64+APfjgS2dZI33AAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmEditPlate' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="435, 73, 48, 16" ElementType="Text" FriendlyName="'Make'" FullSelectorArgument="&lt;wnd ctrlname='lblMake' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='lblMake' check:text='Make' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADQAAAAUCAYAAADC1B7dAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEgSURBVFhH7ZThDcQgCIXZzXlYxlncxEXcgAOrBau9XFIv8S7+eEkVKe8TFVJK9E/aQKtrA31Pkbxz5OMo9rkeAwUEArgxEpBjQM7HPtZpGSBHyBqZFljHJn8MCAi9Z+Oeoo3FYy74FijyWLpWpbELkORzHEMZp0A4zGs1ByiIGVv8MC5Fc5ds8RgVPJuuEBZIzCOFui7H7H8kPu7mJCD+lvuCocyroQ6okYWo3wOzGdwC6oada4rmAdldM3AdUHkoVC2Q407AxXyfU3RuoGoikJofzeX12dj1KFmgI09ywN7Jch+bO3qjqUD1IlszHZA1lgHbDlk47ex1fK+5QIPCDVCJ2yMjz34PJJIj/CaXpXVVj4FW0wZaXRtodf0ZUKIXVRGG3zzxmkEAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="dcbbdd4380168bdbeb43ffc1b017f56c.png" xmlns="">0vZvRpsQ120e7zNUGREvKbg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

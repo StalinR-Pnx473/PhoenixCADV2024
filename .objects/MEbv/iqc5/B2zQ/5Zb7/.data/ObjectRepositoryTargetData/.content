@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="DHSwJYLpC0aZQc-JdKyTIg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="361, 328, 14, 16" ElementType="CheckBox" FriendlyName="'Checkbox'" FullSelectorArgument="&lt;wnd ctrlname='CtrlAddIncNames' /&gt;&lt;wnd ctrlname='addrName' /&gt;&lt;wnd ctrlname='chkValidate' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='CtrlAddIncNames' /&gt;&lt;wnd ctrlname='addrName' /&gt;&lt;wnd ctrlname='chkValidate' /&gt;" Guid="1d47aba6-961c-46d1-92fd-099d172b4b26" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmAddIncNames' /&gt;" SearchSteps="Selector, FuzzySelector" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="aef45e6e817c80f61fc4e7bef6a1bdb7.png" xmlns="">0wof4NrZIekirYw9v2NmHKw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

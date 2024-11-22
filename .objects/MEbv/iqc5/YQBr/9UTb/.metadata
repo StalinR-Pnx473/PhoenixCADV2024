@@ -1,0 +1,16 @@
+﻿{
+  "Id": "9UTbVzWUm0Sa4lN67KWcew",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/9UTbVzWUm0Sa4lN67KWcew",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/YQBro6g1g0u1MFBGlsZ7OA",
+  "Name": "uIStack/CallInfoBubble",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-19T06:51:03.1457101Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-19T06:51:18.4305797Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

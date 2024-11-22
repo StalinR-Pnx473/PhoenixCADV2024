@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="5H0p_7Xs6E2wjDIYj6Y63Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="316, 656, 92, 20" ElementType="CheckBox" FriendlyName="'Overtime'" FullSelectorArgument="&lt;wnd ctrlname='CtrlusrSummonsNJ' /&gt;&lt;wnd ctrlname='tbSummon' /&gt;&lt;wnd ctrlname='lupOtherTrafficOffence' /&gt;&lt;wnd ctrlname='grbOffence2' /&gt;&lt;wnd ctrlname='chkOverTime' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='CtrlusrSummonsNJ' /&gt;&lt;wnd ctrlname='tbSummon' /&gt;&lt;wnd ctrlname='lupOtherTrafficOffence' /&gt;&lt;wnd ctrlname='grbOffence2' /&gt;&lt;wnd ctrlname='chkOverTime' check:fulltext='Overtime' /&gt;" Guid="3170aceb-f475-431b-9071-a217272d47b8" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmAddSummons' /&gt;" SearchSteps="Selector, FuzzySelector" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a9831190c5a79283ad6b83fec7721329.png" xmlns="">0sbbte8nqY0Ct_XcMzMp8MQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

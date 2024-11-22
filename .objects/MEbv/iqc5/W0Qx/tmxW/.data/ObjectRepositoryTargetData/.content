@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tuV9APrLOU6mY8a-x010-A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="825, 641, 319, 48" ElementType="DropDown" FriendlyName="'AutomationCAD'" FullSelectorArgument="&lt;wnd ctrlname='pnlLoingCtrl' /&gt;&lt;wnd ctrlname='lstCADServer' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='pnlLoingCtrl' /&gt;&lt;wnd ctrlname='lstCADServer' /&gt;" Guid="2b8f9624-831d-49b5-893c-a423803e2b8d" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmLogin' /&gt;" SearchSteps="Selector, FuzzySelector" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="830, 594, 313, 24" ElementType="Text" FriendlyName="'*'" FullSelectorArgument="&lt;wnd ctrlname='pnlLoingCtrl' /&gt;&lt;wnd ctrlname='txtClientIP' /&gt;&lt;wnd ctrlname='txtClientIP_EmbeddableTextBox' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='pnlLoingCtrl' /&gt;&lt;wnd ctrlname='txtClientIP' /&gt;&lt;wnd ctrlname='txtClientIP_EmbeddableTextBox' check:text='*' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAT0AAAAcCAYAAAATHGi6AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEQSURBVHhe7dixbYRAFEVRl0NAI9ThgEamj6ljStiYxLiZb9hFsiWDJcLxP8HRwmx+9Ya3ZVkC4L9b1894r48QPSCF29Ebx/H0HKAHogekInpAKqIHpPJn9Oo8xDCVaD/ORA/o2Un0WrTWns+tTDHM9fW8ne3xEz2gZ7+j10pMw7bwhimmaV96x+92NlfRA/p2fr3dVl2t3/GbS416rD/RA3p28U2vRXmuvBJl/643zFGP/0QP6NnF0isxb9fa0vb3PYDb2quWHtC/i6V3TfSAnokekIroAamIHpCK6AGpiB6QiugBqYgekIroAamIHpCK6AGpiB6Qyse6ih6Qx+3oAfTs9vUWoGeiB6Tyit4jvgBEBuqYP53KtQAAAABJRU5ErkJggg==" SearchSteps="Selector, FuzzySelector, Image" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="41edd012d7c9a9d10240352a17203374.png" xmlns="">01GjsIV2N3k6VJ7bcnFHkoQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

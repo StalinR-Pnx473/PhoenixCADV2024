@@ -1,0 +1,15 @@
+﻿{
+  "Name": "NCIC Response Screen",
+  "Type": "Screen",
+  "Id": "PSk1PzSV5UyPEZiEMgGs2w",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/PSk1PzSV5UyPEZiEMgGs2w",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/iqc5IjgxGkefj9bmmSp_QA",
+  "Created": "2024-06-26T13:12:37.2149635Z",
+  "Updated": "2024-06-26T13:12:48.583254Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

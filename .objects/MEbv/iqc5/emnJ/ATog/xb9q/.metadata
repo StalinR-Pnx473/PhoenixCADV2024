@@ -1,0 +1,16 @@
+﻿{
+  "Id": "xb9qqlbB80W2fXoTLRjfKg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/xb9qqlbB80W2fXoTLRjfKg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/ATog21aGmUikpMronzSugw",
+  "Name": "uIOffenseDate/TimeEdit",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T09:33:33.3013991Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T09:33:54.8531589Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

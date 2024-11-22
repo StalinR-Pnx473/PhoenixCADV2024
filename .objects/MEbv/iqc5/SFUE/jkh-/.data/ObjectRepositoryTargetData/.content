@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="RRbiVVZJKkSQ4_uGUveUOA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="d5633a89-9e9c-4e84-b81f-55d0e603d8d6" CvTextArea="10, 34, 70, 14" CvTextArgument="GEO Info" CvType="Text" DesignTimeRectangle="11, 33, 68, 19" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl tableCol='1' tableRow='1' tag='B' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='' tag='B' aaname='GEO Info' check:text='GEO Info' /&gt;" Guid="13b2931f-f673-43ea-b7d2-dab18480d602" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEgAAAAXCAYAAACoNQllAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGuSURBVFhH7ZbtrcMgDEXZi6XYh0XyK5NkFx4EjA0YTPOqVpV8JUslNf44cUhMUC2lgAQpIEEKSJACEjQBdAZnTDDU3Hn/c3kX/DXx6a3saXT5YAdfF6OtxOeyuZBtXd6S/VLOrAEQBukCnK5ctwVQ1sz/dPFaB+i+Nvhi81LDmKutYUul/pQj17EXowU0gVB13/09QHfjBNCyuZrXBG7oQPNcsmDvq1NHAJExtj7MwuAjljUUHSG6oYgreLuKTXIvCP0HEEzvc0DkbHglSF90Wg/76bnDAiAAF81zgPBaqjvenPKb+uCjXazWQPNGY24eAiJj/gwQ2icBjXtxTVONEwR+EKtMcQdpAxAZf2KQvC86rb8FKOft11l1iiA/9FuB8GD5M4hpAosTDumPn0HPANVYDCC6jwCiBYxvmm1AVBGWh4urN+TqP6J3AnowQVmzhmVAfXNpKia+zRTh9CyG5xaf6yGg6gd9ljq6CR8AZZGRJ0YTznxa46fqnV/SCC2Zjd9e7TqVXOGAVUhdXObxnwBSgRSQIAUkSAEJUkCCKqDjONQY+40Jiq/g75gJf11XEpDQWM05AAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;html app='kpi.phoenix.cadclient.exe' url='about:blank' /&gt;" SearchSteps="Selector, Image" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c1bbce042a8b1899a62031f862d2d62e.png" xmlns="">0WynWsKWATkmNVUlyajIbBA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

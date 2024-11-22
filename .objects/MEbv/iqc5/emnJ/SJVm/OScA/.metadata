@@ -1,0 +1,16 @@
+﻿{
+  "Id": "OScAsa368UOa6alpPlQU2A",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/OScAsa368UOa6alpPlQU2A",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/SJVmgy-nLkmYlfM_TvjICg",
+  "Name": "uIEditVehicleButton",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T08:00:35.9224703Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T08:00:43.8279825Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

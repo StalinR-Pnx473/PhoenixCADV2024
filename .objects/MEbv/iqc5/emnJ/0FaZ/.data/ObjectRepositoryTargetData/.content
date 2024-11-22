@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hVv1H311PEGP_nbYlhYigg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="192, 104, 115, 32" FriendlyName="'WindowsForms10.Window.8…'" FullSelectorArgument="&lt;wnd ctrlname='CtrlusrSummonsNJ' /&gt;&lt;wnd ctrlname='txtCeNo' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='CtrlusrSummonsNJ' /&gt;&lt;wnd ctrlname='txtCeNo' /&gt;" Guid="ad62ef3c-2650-4d89-b249-f55189ddb372" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHcAAAAkCAYAAACzI6XTAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB8SURBVHhe7dExDYBQFMBA/FshTBh7Dj4bCyCA5ppUwW0zs9wcbvgbdz9OR37F1f+DGw5uOLjh4IaDGw5uOLjh4IaDGw5uOLjh4IaDGw5uOLjh4IaDGw5uOLjh4IaDGw5uOLjh4IaDGw5uOLjh4IaDG+4T140fuO4NN/usC6cwNJAWGCx7AAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmAddSummons' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="114, 108, 72, 22" ElementType="Text" FriendlyName="'CE#'" FullSelectorArgument="&lt;wnd ctrlname='CtrlusrSummonsNJ' /&gt;&lt;wnd ctrlname='lblCE' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='CtrlusrSummonsNJ' /&gt;&lt;wnd ctrlname='lblCE' check:text='CE#' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEwAAAAaCAYAAAAdQLrBAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFDSURBVFhH7ZddCoMwDIC9m+fxMj2LN+lFBBFEkGytzRb7Y40yyDAP30tJO/KliV0zDAMo51FhTFQYExXGRIUxUWFMZArrO4CmiehgysSOps3Epix9unf7nRZmi2s9LO/Y1dh9HEGYMAtzm08YiZO5I8zvbQ2MuGYNrIVYRJAwKitzm0IycfIo7CjJElP3Pq/rv2v+xuVvMiJHGLYhrXgMSiNJ8oVtbbcVpkzpPDHCfLV38+QAaz9SHyostOPR7SpwuSWT9qsPfIcQYaHqN4QdkjnX72MOfMdjheUHfn0kPKwl688WDxUZ8Z9Dn/BYYaxnBYnhCQskA38TWRv4DjnCdtX/7cPV76GFOTnwHYKEOU60TNQuKKwK2Xd14DuECQtge+7I/2XhC0vfW17gyQ+OTGGCUWFMVBgTFcZEhTFRYSwGeAE+wBO1p4CtWgAAAABJRU5ErkJggg==" SearchSteps="Selector, FuzzySelector, Image" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ad5016dd074faac4b5b6c1706593107a.png" xmlns="">0X4PQDRt6_0mLk2rlzbZWog</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

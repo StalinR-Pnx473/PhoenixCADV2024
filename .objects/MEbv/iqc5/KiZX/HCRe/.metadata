@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uISkinEdit",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "HCRexug_2kmi8uXrvk1JKg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/HCRexug_2kmi8uXrvk1JKg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/KiZXiJaZrUa_LcvEA7CckA",
+  "Created": "2024-10-17T11:25:15.1941252Z",
+  "Updated": "2024-10-17T11:26:21.8607331Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

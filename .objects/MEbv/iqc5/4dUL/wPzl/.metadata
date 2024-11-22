@@ -1,0 +1,16 @@
+﻿{
+  "Id": "wPzlzn2wjk29dk0LN6ju1Q",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/wPzlzn2wjk29dk0LN6ju1Q",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/4dUL2P5akESqqPvH9ncmSw",
+  "Name": "uIInitiateLiveStreamButton",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T08:05:45.2528732Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T08:05:57.7339763Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

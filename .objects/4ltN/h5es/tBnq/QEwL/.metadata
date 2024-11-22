@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uICitizenServicesModule",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "QEwL3ZmqckyFJxHjBzBWLg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/QEwL3ZmqckyFJxHjBzBWLg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/tBnq8dOGpUm4ard4nLyOhQ",
+  "Created": "2024-05-06T13:23:13.3953331Z",
+  "Updated": "2024-05-06T13:24:20.4549348Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

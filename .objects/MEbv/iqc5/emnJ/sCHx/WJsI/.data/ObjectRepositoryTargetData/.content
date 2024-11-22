@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-Py4fV1bpky70CbtmCHmgw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="181, 435, 246, 30" FriendlyName="'kpi.phoenix.cadclient.e…'" Guid="dd65a542-dfaf-4186-a7f5-f3cd82b5bec0" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAPYAAAAeCAYAAAAfBeMnAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC1SURBVHhe7dfBicJAAIbRKccS7cC7ZQhTg2Xsde8WMWpOBta9ih8v8PhDSI7DR8Y6HdYYY1lrGzvnfN6PNY4/QMHjPG8Hezvpf70AfB3FhiLFhh7FhiLFhh7FhiLFhh7FhiLFhh7FhiLFhh7FhiLFhp73xT7f1u/aX9fLP89fvwU+S7Ghxz82FCk29Cg2FCk29Cg2FCk29Cg2FCk29Cg2FCk29Cg2FCk29OyKvR1ua21i55zrDhOKmXgDLfuSAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmAddSummons' /&gt;" SearchSteps="Image" TargetType="ImageBased" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="426, 435, 17, 30" ElementType="Button" FriendlyName="'Open'" FullSelectorArgument="&lt;wnd ctrlname='CtrlusrSummonsNJ' /&gt;&lt;wnd ctrlname='tbSummon' /&gt;&lt;wnd ctrlname='tnLicense' /&gt;&lt;wnd ctrlname='cddDLClass' /&gt;&lt;wnd ctrlname='lstCoded' /&gt;&lt;ctrl name='--' role='combo box' /&gt;&lt;ctrl idx='2' name='Open' role='drop down button' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='CtrlusrSummonsNJ' /&gt;&lt;wnd ctrlname='tbSummon' /&gt;&lt;wnd ctrlname='tnLicense' /&gt;&lt;wnd ctrlname='cddDLClass' /&gt;&lt;wnd ctrlname='lstCoded' /&gt;&lt;ctrl name='--' role='combo box' /&gt;&lt;ctrl automationid='' name='Open' role='drop down button' check:text='Open' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABUAAAAiCAYAAACwaJKDAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACjSURBVEhL7Y7BDYMwEAQpJxW5FjpIES4h8su1WHm7kiVr6YhRHHOA+d1Jg+BsRjPhhpleIWIkRfoZ4PlACOEyX+n8prksc86n+ZFKaeuyFiu1UisVaas0xrj5rmmd7ZamlOCcg/d+8yPhjme8U+9VpS3xPyHZLRVqcU9IVKWCiHtCoi4VKOsJyaFSLYdLNViplVoppRRK6VVWKV9GUqTlOXSABRzraNhmP8j7AAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="cf254cb51a7be5b0f2cd8b2057f382f2.png" xmlns="">0fXjAJKHX1E2vCl-Q-CGkDw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

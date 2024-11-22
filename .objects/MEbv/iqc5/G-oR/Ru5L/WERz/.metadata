@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIAddNewAddressFlagButton",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "WERzjYL63Ua7TVcJscNHfg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/WERzjYL63Ua7TVcJscNHfg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/Ru5L4evzuUap19ZsvTJMhA",
+  "Created": "2024-02-06T12:23:44.4267679Z",
+  "Updated": "2024-02-06T12:25:06.1455696Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

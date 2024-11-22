@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6oglSjpcZkiiI835zHimzA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CvTextArea="31, 66, 98, 14" CvType="AnyWordGroup" DesignTimeRectangle="30, 65, 912, 42" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;wnd ctrlname='txtComments' /&gt;&lt;wnd ctrlname='txtComments_EmbeddableTextBox' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='txtComments' /&gt;&lt;wnd ctrlname='txtComments_EmbeddableTextBox' /&gt;" Guid="420e6941-a224-4885-9c23-99d35887440a" ImageBase64="" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmIPCamera' /&gt;" SearchSteps="Selector" Version="V3" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="6c39f00c024ee4b4de175c76f064ef14.png" xmlns="">0IVJbxOs5_EahAMEK4cDM5g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

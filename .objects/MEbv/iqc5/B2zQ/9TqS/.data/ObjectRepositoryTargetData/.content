@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="eeqxe9ORBE6dtjqIvI-zBQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="326, 352, 16, 21" ElementType="CheckBox" FriendlyName="'Checkbox'" FullSelectorArgument="&lt;wnd ctrlname='CtrlAddIncNames' /&gt;&lt;wnd ctrlname='cszName' /&gt;&lt;wnd ctrlname='chkVerify' /&gt;&lt;ctrl role='check box' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='CtrlAddIncNames' /&gt;&lt;wnd ctrlname='cszName' /&gt;&lt;wnd ctrlname='chkVerify' /&gt;&lt;ctrl role='check box' automationid='' /&gt;" Guid="80f7122d-15bb-48d1-afea-e13ef5519a8c" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmAddIncNames' /&gt;" SearchSteps="Selector, FuzzySelector" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="47, 355, 48, 16" ElementType="Text" FriendlyName="'CSZ'" FullSelectorArgument="&lt;wnd ctrlname='CtrlAddIncNames' /&gt;&lt;wnd ctrlname='lblAddrCSZ' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='CtrlAddIncNames' /&gt;&lt;wnd ctrlname='lblAddrCSZ' check:text='CSZ' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADQAAAAUCAYAAADC1B7dAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD8SURBVFhH7ZVBDoMgEAB5Gomv4eBT6MF/4MVn4MlHVG/2B9tlQUWk1qQpIYbDGLNLyA7sKpumF9yJIpQ7KDTjy30oQr/RgWAMmI/obK6t93FWwaOPxR28gf6wf0ohV5hoI7m+Ab4IhLkDAzz4h30QNo4z/J8BJBbB5RDJIRqF8MR1LBegZUW3GssZ0giZglkNKpYjrPBZoYQyt3y2TzZCFjp9mpEKpA7zZv5i8T1ZCa3QepwTtcWUOGlZj6Qz5Bf4jZ2AabWLM5ZICKH+vyplP+927bVWW0gnZHCttP5LELoFJ+uziG9zFRJv4bRCCShCuVOEcoc98XEfZngD8piYx1riXnIAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d3a52d0c9891cdfb61d97174b1c3e59d.png" xmlns="">0hQCtG2mq-UmviWd2TjGbew</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

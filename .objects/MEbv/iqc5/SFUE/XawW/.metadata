@@ -1,0 +1,16 @@
+﻿{
+  "Id": "XawWmWTMvUOLvhWc3slsrQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/XawWmWTMvUOLvhWc3slsrQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/SFUEBDwmQUCdd2iuk-Z8sw",
+  "Name": "uIComments",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T06:55:04.240687Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T06:55:39.5038251Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

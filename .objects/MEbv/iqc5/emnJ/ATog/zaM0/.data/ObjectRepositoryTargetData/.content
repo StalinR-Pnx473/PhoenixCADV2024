@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="vICumbqQQ02KzgJinu0QeQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="485, 445, 193, 20" ElementType="CheckBox" FriendlyName="'4-97 Careless Driving'" FullSelectorArgument="&lt;wnd ctrlname='CtrlusrSummonsNJ' /&gt;&lt;wnd ctrlname='tbSummon' /&gt;&lt;wnd ctrlname='lupOtherTrafficOffence' /&gt;&lt;wnd ctrlname='grbOffence1' /&gt;&lt;wnd ctrlname='chkCarelessDriving' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='CtrlusrSummonsNJ' /&gt;&lt;wnd ctrlname='tbSummon' /&gt;&lt;wnd ctrlname='lupOtherTrafficOffence' /&gt;&lt;wnd ctrlname='grbOffence1' /&gt;&lt;wnd ctrlname='chkCarelessDriving' check:fulltext='4-97 Careless Driving' /&gt;" Guid="aa740901-973c-4a1c-933f-33ff11395956" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmAddSummons' /&gt;" SearchSteps="Selector, FuzzySelector" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="75c098177fd741ab15c45a6a36057b9b.png" xmlns="">0X9XxjBYKbka0Xv2B3k1MBg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

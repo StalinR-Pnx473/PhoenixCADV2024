@@ -1,0 +1,16 @@
+﻿{
+  "Id": "MbOc7OIboEqYNUXnORtmbQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/MbOc7OIboEqYNUXnORtmbQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/EIWnqfKBGEW3Wor6ITJERA",
+  "Name": "uICancelHoldCheckBox",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T12:40:08.389746Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T12:40:44.4417949Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

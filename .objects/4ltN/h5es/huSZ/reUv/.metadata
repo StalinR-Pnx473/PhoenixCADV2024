@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uICaseNoEdit1",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "reUvPcrF-U2I2C-u4kh0bQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/reUvPcrF-U2I2C-u4kh0bQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/huSZywIohEigyE73zkzgSA",
+  "Created": "2024-09-11T14:21:57.0535102Z",
+  "Updated": "2024-09-11T14:24:16.4793133Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

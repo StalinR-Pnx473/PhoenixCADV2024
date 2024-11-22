@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIFileButton",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "qtydV-Tgk0qnY913d3RuTw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/qtydV-Tgk0qnY913d3RuTw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/M-hqxVDJxES1bwx-byQbDQ",
+  "Created": "2024-10-24T08:14:09.4115848Z",
+  "Updated": "2024-11-12T09:52:43.1645833Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uILoginButton",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "Z6fPd1y6QUiR4SsM0aO83Q",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/Z6fPd1y6QUiR4SsM0aO83Q",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/SYO3i-fhJk2YymTvpeMLgg",
+  "Created": "2024-04-15T15:17:10.3353118Z",
+  "Updated": "2024-04-15T15:17:23.4091244Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

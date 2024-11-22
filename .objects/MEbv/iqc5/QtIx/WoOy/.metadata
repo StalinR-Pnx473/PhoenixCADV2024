@@ -1,0 +1,17 @@
+﻿{
+  "Name": "uIPlateExpYear",
+  "Description": "\t\t\t\t\t\t",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "WoOyKRcUmUGx9EaODxUqww",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/WoOyKRcUmUGx9EaODxUqww",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/QtIxGrGvikKAqd5_9QjWeQ",
+  "Created": "2024-06-26T13:47:19.6091333Z",
+  "Updated": "2024-06-26T13:47:32.0913975Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

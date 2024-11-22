@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="T1xxQ5vDwkyxo5XPnYxsIQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="40, 419, 162, 20" ElementType="CheckBox" FriendlyName="'3-33 Unclear Plates'" FullSelectorArgument="&lt;wnd ctrlname='CtrlusrSummonsNJ' /&gt;&lt;wnd ctrlname='tbSummon' /&gt;&lt;wnd ctrlname='lupOtherTrafficOffence' /&gt;&lt;wnd ctrlname='grbOffence1' /&gt;&lt;wnd ctrlname='chkUnclearPlate' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='CtrlusrSummonsNJ' /&gt;&lt;wnd ctrlname='tbSummon' /&gt;&lt;wnd ctrlname='lupOtherTrafficOffence' /&gt;&lt;wnd ctrlname='grbOffence1' /&gt;&lt;wnd ctrlname='chkUnclearPlate' check:fulltext='3-33 Unclear Plates' /&gt;" Guid="b7165250-e7ee-4000-b128-58438b012c53" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmAddSummons' /&gt;" SearchSteps="Selector, FuzzySelector" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="61f9917caaee274214eec846d817286f.png" xmlns="">0vRjux90BkkucvtXcGjV_Pg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

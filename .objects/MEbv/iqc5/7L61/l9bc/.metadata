@@ -1,0 +1,16 @@
+﻿{
+  "Id": "l9bc2fIw5k-3TxNdbhOFSQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/l9bc2fIw5k-3TxNdbhOFSQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/7L61R6F6ZEWORQhoQhyMmQ",
+  "Name": "uINotifyDistributionListTable",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T07:42:34.8360692Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T07:44:25.0011544Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

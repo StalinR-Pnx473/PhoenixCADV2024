@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIVehicleNo",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "n3QQh5Ww8E2W6YWtoOXYPw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/n3QQh5Ww8E2W6YWtoOXYPw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/QtIxGrGvikKAqd5_9QjWeQ",
+  "Created": "2024-06-26T13:44:09.0316199Z",
+  "Updated": "2024-06-26T13:44:21.6912103Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

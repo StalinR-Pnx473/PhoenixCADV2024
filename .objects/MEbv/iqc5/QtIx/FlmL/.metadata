@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIColor",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "FlmLBzDvkkuwdMOPVvQ47Q",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/FlmLBzDvkkuwdMOPVvQ47Q",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/QtIxGrGvikKAqd5_9QjWeQ",
+  "Created": "2024-06-26T13:48:17.5297452Z",
+  "Updated": "2024-06-26T13:48:32.2721071Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

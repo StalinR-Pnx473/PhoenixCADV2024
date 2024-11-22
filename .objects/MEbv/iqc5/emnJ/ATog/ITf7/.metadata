@@ -1,0 +1,16 @@
+﻿{
+  "Id": "ITf7nYlXAUu7E5f_Hvct1w",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/ITf7nYlXAUu7E5f_Hvct1w",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/ATog21aGmUikpMronzSugw",
+  "Name": "uIPropDamageCheckBox",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T10:43:46.2034843Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T10:43:55.6863409Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

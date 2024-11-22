@@ -1,0 +1,16 @@
+﻿{
+  "Id": "zMLFnrdTFkK-ThqpkBBcVQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/zMLFnrdTFkK-ThqpkBBcVQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/G-oR_yfRvUae3J-fNEIjYQ",
+  "Name": "uICFSPoliceSearchIcon",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-16T14:31:55.5639767Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-16T14:32:11.5113287Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

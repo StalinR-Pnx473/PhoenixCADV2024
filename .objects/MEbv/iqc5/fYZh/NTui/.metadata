@@ -1,0 +1,16 @@
+﻿{
+  "Id": "NTuiQiT6nU6JLNBAcupP9Q",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/NTuiQiT6nU6JLNBAcupP9Q",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/fYZhLs7KtEWAodyFWW1i6A",
+  "Name": "uIPlatesTab",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T08:13:30.4465994Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T08:13:43.7198434Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

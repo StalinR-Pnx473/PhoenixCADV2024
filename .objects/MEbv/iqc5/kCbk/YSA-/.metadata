@@ -1,0 +1,16 @@
+﻿{
+  "Id": "YSA-IgyrZU6jDdRpty3mvQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/YSA-IgyrZU6jDdRpty3mvQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/kCbkHl_H-kmVAex0N0LEKQ",
+  "Name": "uIPlateStateDropdown",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T08:02:36.486582Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T08:02:49.8230105Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

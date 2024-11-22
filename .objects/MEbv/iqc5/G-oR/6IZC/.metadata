@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIPlateTypeDropdown",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "6IZCmEw810qo13CiZ_2dRA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/6IZCmEw810qo13CiZ_2dRA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/G-oR_yfRvUae3J-fNEIjYQ",
+  "Created": "2024-10-17T06:50:31.1517409Z",
+  "Updated": "2024-10-17T06:51:18.1255885Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

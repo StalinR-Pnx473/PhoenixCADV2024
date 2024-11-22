@@ -1,0 +1,16 @@
+﻿{
+  "Id": "t8OxDeuRykmoPVb3uumFqA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/t8OxDeuRykmoPVb3uumFqA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/7Plt2J_RrUa9VElsuQozwA",
+  "Name": "uICaptureButton",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T14:18:32.4275768Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T14:18:41.4931123Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

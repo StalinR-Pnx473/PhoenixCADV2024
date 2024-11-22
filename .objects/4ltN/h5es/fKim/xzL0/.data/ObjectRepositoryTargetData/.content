@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3WY85ktlk0Scyc5r_AT_2g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="http://10.103.1.68/LAW/CCP/frmCitizenIPCameraEntry.aspx?hdnMode=ADD&amp;JurisID=1000" CvElementArea="582, 235, 16, 16" CvType="CheckBox" DesignTimeRectangle="583, 236, 16, 16" DesignTimeScaleFactor="1" ElementType="CheckBox" Guid="ed3c8661-601c-4d11-adef-de17c6802589" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='ManageCitizenIPCamera638506179249482774' title='Citizen IPCamera - 5625 -' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V3" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="cb18978a52a80ef25896cf020ab4e0cf.png" xmlns="">0gonMfyWabEq9zkZ_ZidOow</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

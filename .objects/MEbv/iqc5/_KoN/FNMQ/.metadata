@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uILinkNameValue",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "FNMQM8l5gE6A-yZwEbUNlg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/FNMQM8l5gE6A-yZwEbUNlg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/_KoNWNtFfkK2pL6B8z8ELw",
+  "Created": "2024-05-07T15:31:06.2800726Z",
+  "Updated": "2024-05-07T15:32:35.4913689Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

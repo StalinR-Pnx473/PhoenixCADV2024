@@ -1,0 +1,16 @@
+﻿{
+  "Id": "rq0I1VJ0Qke2IPb8JCZ_Gg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/rq0I1VJ0Qke2IPb8JCZ_Gg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/B2zQje3EkUSDl_J95zzCiw",
+  "Name": "uICSZZipCodeEdit",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T10:08:28.3303957Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T10:08:41.6171744Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

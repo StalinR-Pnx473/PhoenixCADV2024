@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIWDAGroup",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "rrB1hPc1h0CfSrGxA5iO9w",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/rrB1hPc1h0CfSrGxA5iO9w",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/pDRNr9xiF0yVqEwz0zYLIg",
+  "Created": "2024-09-09T11:37:23.6080056Z",
+  "Updated": "2024-09-09T11:37:47.3751549Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

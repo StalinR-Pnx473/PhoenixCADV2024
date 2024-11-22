@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="F1JglS8FU0qd31ZaqdyYgw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="40, 445, 206, 20" ElementType="CheckBox" FriendlyName="'4-81 Failure'" FullSelectorArgument="&lt;wnd ctrlname='CtrlusrSummonsNJ' /&gt;&lt;wnd ctrlname='tbSummon' /&gt;&lt;wnd ctrlname='lupOtherTrafficOffence' /&gt;&lt;wnd ctrlname='grbOffence1' /&gt;&lt;wnd ctrlname='chkFailObserveSignal' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='CtrlusrSummonsNJ' /&gt;&lt;wnd ctrlname='tbSummon' /&gt;&lt;wnd ctrlname='lupOtherTrafficOffence' /&gt;&lt;wnd ctrlname='grbOffence1' /&gt;&lt;wnd ctrlname='chkFailObserveSignal' check:fulltext='4-81 Failure to observe signal' /&gt;" Guid="7393996f-7f01-4f99-8342-84e41625351a" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmAddSummons' /&gt;" SearchSteps="Selector, FuzzySelector" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="3910943c2909a2fe94d94c05b3247db5.png" xmlns="">0DmmJqI7PAkqou3-luLRflA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

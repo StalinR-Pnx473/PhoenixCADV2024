@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uITrafficStopButton",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "RLoc352oDkeV2Jb0orgC-Q",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/RLoc352oDkeV2Jb0orgC-Q",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/pzkUGShEDk24js1vOhpWEA",
+  "Created": "2024-02-20T08:14:23.7425183Z",
+  "Updated": "2024-02-20T08:14:38.7103304Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

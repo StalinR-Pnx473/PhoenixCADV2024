@@ -1,0 +1,16 @@
+﻿{
+  "Id": "CZXf6O_WkEirnxRoEdpAag",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/CZXf6O_WkEirnxRoEdpAag",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/ATog21aGmUikpMronzSugw",
+  "Name": "uIOffenseDate/TimeArrowButton",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T09:34:13.5788976Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T09:34:28.9449332Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

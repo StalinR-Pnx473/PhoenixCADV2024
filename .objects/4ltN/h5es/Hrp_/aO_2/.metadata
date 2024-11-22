@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uILocationEdit",
+  "Type": "Element",
+  "TaxonomyType": "Text",
+  "Id": "aO_2cIOifUaA7-SjU7HeWg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/aO_2cIOifUaA7-SjU7HeWg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/Hrp_8vdRGEaS72ZMdz21Qg",
+  "Created": "2024-05-07T10:35:46.2080749Z",
+  "Updated": "2024-05-07T10:35:57.2142017Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

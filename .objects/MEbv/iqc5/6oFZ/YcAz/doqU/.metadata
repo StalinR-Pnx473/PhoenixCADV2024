@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIStateDescription",
+  "Type": "Element",
+  "TaxonomyType": "Text",
+  "Id": "doqUttoKYUq9HoeblxcXCg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/doqUttoKYUq9HoeblxcXCg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/YcAzUv5owEOUTcP0YDKWuQ",
+  "Created": "2024-06-24T12:01:44.4570415Z",
+  "Updated": "2024-06-24T12:02:47.7370158Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

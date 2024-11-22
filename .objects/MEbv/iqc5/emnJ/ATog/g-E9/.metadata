@@ -1,0 +1,16 @@
+﻿{
+  "Id": "g-E94tMfYU-KB2bg2HdfBg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/g-E94tMfYU-KB2bg2HdfBg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/ATog21aGmUikpMronzSugw",
+  "Name": "uIOvertimeCheckBox",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T10:49:31.9654533Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T10:49:40.5057387Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

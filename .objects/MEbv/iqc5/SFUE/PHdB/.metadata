@@ -1,0 +1,16 @@
+﻿{
+  "Id": "PHdB5r8G_U2QA9qE-Gt8TQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/PHdB5r8G_U2QA9qE-Gt8TQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/SFUEBDwmQUCdd2iuk-Z8sw",
+  "Name": "uIAltGeo",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T06:51:26.5921343Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T06:51:36.0048008Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

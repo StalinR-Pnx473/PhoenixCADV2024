@@ -1,0 +1,16 @@
+﻿{
+  "Id": "tJT0warmmkOf-FFhlgl8lg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/tJT0warmmkOf-FFhlgl8lg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/JAkQOXWInk6rFxbLGYXYRQ",
+  "Name": "uIPayDateArrowButton",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T11:51:42.4344116Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T11:51:55.8332572Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

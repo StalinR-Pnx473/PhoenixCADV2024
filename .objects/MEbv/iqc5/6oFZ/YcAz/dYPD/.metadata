@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIPlateTypeCode",
+  "Type": "Element",
+  "TaxonomyType": "Text",
+  "Id": "dYPD_86q70-s_wXC7FNpCw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/dYPD_86q70-s_wXC7FNpCw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/YcAzUv5owEOUTcP0YDKWuQ",
+  "Created": "2024-06-24T13:18:01.0267823Z",
+  "Updated": "2024-06-24T13:18:15.0083739Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

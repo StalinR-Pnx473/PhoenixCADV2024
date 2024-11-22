@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIStateSearchIcon",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "Ly0qezmJaEClWAukFIS2OQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/Ly0qezmJaEClWAukFIS2OQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/YcAzUv5owEOUTcP0YDKWuQ",
+  "Created": "2024-06-24T13:08:58.4825533Z",
+  "Updated": "2024-06-24T13:09:38.6749241Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

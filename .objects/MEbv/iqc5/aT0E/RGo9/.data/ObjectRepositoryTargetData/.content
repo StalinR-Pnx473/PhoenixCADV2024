@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6dtBIJHGeEmck38wS_BP7A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="472, 239, 208, 22" FriendlyName="'Flags'" FullSelectorArgument="&lt;wnd ctrlname='CtrlAddPlates' /&gt;&lt;wnd ctrlname='txtInsPolicyNo' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='CtrlAddPlates' /&gt;&lt;wnd ctrlname='txtInsPolicyNo' check:fulltext='Flags' /&gt;" Guid="1ca59be9-f20b-43a1-99a1-7ea077a02cab" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAANQAAAAaCAYAAADPPHLcAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACtSURBVHhe7dM9CoNAFIVR97+VkCq78qdQFzBxEAVNlfGW58CFx+u/bprWYmaZCcosuDOo1/tjZo07gxrHtdTVJ/C/2s7RkaDgIUFB0C2oZTsWQUGjPai9I0HBQ4KCIEFBkKAgSFAQJCgIEhQEXYIahqXUCQra1HaOjgQFDwkKggQFQYKCIEFBkKAgSFAQdAtq3o5ZUNBoD2rv6BKUmbXtJygze76u7+diZonN5QuaMGNObKlWLAAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmAddPlates' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="407, 241, 61, 19" ElementType="Text" FriendlyName="'Policy #'" FullSelectorArgument="&lt;wnd ctrlname='CtrlAddPlates' /&gt;&lt;wnd ctrlname='lblPolicyNo' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='CtrlAddPlates' /&gt;&lt;wnd ctrlname='lblPolicyNo' check:text='Policy #' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEEAAAAXCAYAAABUICKvAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGuSURBVFhH7ZTNzYMwDIazGlK3idRV4MAeiEPXgBNT0B7aDuDPjgM4f0gt8FUIDo8aERvs16+rHo83HB11v7/h6JwiIKcICIrwwsOxOUVAfixCB0V2gaKN3f0fi0WotQKlJFeoI3FxpAg30Jivaz9mCfR+W09bQpaV0AYxK4kgC2+LC6jEx0I2dgI1rm98rq+QFV0Yg6wuAk9UNsYTHp3iCCRF8AXx8nSJ9/63KCfiHmpe5jqETt1YBC5STsCszzCdpAhhngGnOeUiptn0+pEruTb57pDVRTBNDtOOFkkiDc8SIiSbc11mVk+K4iDfjXkzK6r6/gVLqKhpaTcsaryvcHL48UbE9z03kjd07iDHQoNzNI9p8gtkeefGezFBTRJZn2UVEXQVv+sbnmjlPGcn8LOECNE8C92RQMNvLIaQ9ygqC+fFWLYVwTSGuy0KMFMap5EQIZInqTTuOjLXmHGT/Q65J13j5iIQ3NBoR2d6KREIcozI89cs5RSLbJxEm94bsliEX0ANxnb7W3YoAjtk3n2fsSMRprWa/S/4gl2uw9qgCE88HJtTBOQUoX/CH5YP8c9cCkf5AAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fb46ccead1cef8c2cef60e85ea0de907.png" xmlns="">0xgG9UbY-00yQ51Yld-Lqxg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

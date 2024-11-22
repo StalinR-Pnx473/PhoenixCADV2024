@@ -1,0 +1,16 @@
+﻿{
+  "Id": "YZx4dfK7D0aB6p_xydkRKw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/YZx4dfK7D0aB6p_xydkRKw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/ATog21aGmUikpMronzSugw",
+  "Name": "uIUrineTestCheckBox",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T10:44:15.251611Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T10:44:24.0833913Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

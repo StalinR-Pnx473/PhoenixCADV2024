@@ -1,0 +1,16 @@
+﻿{
+  "Id": "YeJzN5uy6UKYFoFh-6yitA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/YeJzN5uy6UKYFoFh-6yitA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/Qr6aw9Xjvke7hJVRkLuTKA",
+  "Name": "uIRadarCheckBox",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T13:27:06.257853Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T13:27:15.0069407Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

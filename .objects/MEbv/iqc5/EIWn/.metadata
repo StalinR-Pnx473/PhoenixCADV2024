@@ -1,0 +1,15 @@
+﻿{
+  "Id": "EIWnqfKBGEW3Wor6ITJERA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/EIWnqfKBGEW3Wor6ITJERA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/iqc5IjgxGkefj9bmmSp_QA",
+  "Name": "Hold Unit Screen",
+  "Type": "Screen",
+  "Created": "2024-01-17T11:10:55.0279022Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T11:11:00.5826619Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

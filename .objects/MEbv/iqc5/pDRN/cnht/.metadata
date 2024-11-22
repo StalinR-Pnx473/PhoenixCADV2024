@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIXmit",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "cnhtvT96TkSkvor_GrPfzw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/cnhtvT96TkSkvor_GrPfzw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/pDRNr9xiF0yVqEwz0zYLIg",
+  "Created": "2024-09-09T11:59:42.164856Z",
+  "Updated": "2024-09-09T11:59:54.751252Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

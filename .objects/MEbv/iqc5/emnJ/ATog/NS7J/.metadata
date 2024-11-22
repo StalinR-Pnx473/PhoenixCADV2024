@@ -1,0 +1,16 @@
+﻿{
+  "Id": "NS7JFuwU7kuKRxnsoWcMfQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/NS7JFuwU7kuKRxnsoWcMfQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/ATog21aGmUikpMronzSugw",
+  "Name": "uIMPHZoneLabel",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T10:36:29.7055708Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T10:36:41.5934697Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

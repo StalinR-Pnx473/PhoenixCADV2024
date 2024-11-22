@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uINamePencilIcon",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "ofYGG8h6o0KEX4_Zv-9Xbg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/ofYGG8h6o0KEX4_Zv-9Xbg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/G-oR_yfRvUae3J-fNEIjYQ",
+  "Created": "2024-10-17T09:53:55.4343705Z",
+  "Updated": "2024-10-17T09:54:49.7946172Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

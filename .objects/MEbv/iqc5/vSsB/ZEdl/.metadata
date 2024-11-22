@@ -1,0 +1,16 @@
+﻿{
+  "Id": "ZEdlx7U620GMEPl3cyPIUA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/ZEdlx7U620GMEPl3cyPIUA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/vSsBaPwfB0uUVH_HkmuMEw",
+  "Name": "uIShowSystemCommentsCheckBox",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T07:33:34.2630645Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T07:33:45.4225757Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

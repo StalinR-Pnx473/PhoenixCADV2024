@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIBussinessNameEdit",
+  "Type": "Element",
+  "TaxonomyType": "Text",
+  "Id": "_o8X7RTD606dNRaaq6Feig",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/_o8X7RTD606dNRaaq6Feig",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/Hrp_8vdRGEaS72ZMdz21Qg",
+  "Created": "2024-05-07T10:34:59.1151374Z",
+  "Updated": "2024-05-07T10:35:13.0392705Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIActivityDropdown",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "VqxxAchhVU6u3JwWYLJuXA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/VqxxAchhVU6u3JwWYLJuXA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/G-oR_yfRvUae3J-fNEIjYQ",
+  "Created": "2024-06-20T14:38:11.9125512Z",
+  "Updated": "2024-06-20T14:38:38.8126635Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

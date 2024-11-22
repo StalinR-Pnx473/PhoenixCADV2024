@@ -1,0 +1,202 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="systemParameter1620AsFalse" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1075,2475" sap2010:WorkflowViewState.IdRef="systemParameter1620AsFalse_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.PDF.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Java.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Terminal</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="systemParameter1620AsFalse" sap:VirtualizedContainerService.HintSize="608,2410" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="{x:Null}" ConnectionId="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Chrome Phoenix Law  Login Page" sap:VirtualizedContainerService.HintSize="546,2299" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="{x:Null}" InteractionMode="DebuggerApi" IsIncognito="{x:Null}" OpenMode="{x:Null}" OutUiElement="{x:Null}" ScopeGuid="9ae28662-2ca5-4957-9736-2ba1300401c5" Timeout="{x:Null}" UserDataFolderMode="{x:Null}" UserDataFolderPath="{x:Null}" Version="V2" WebDriverMode="{x:Null}">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="512,2082" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="CADRMSLogin" sap:VirtualizedContainerService.HintSize="450,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" Level="{x:Null}" LogEntry="{x:Null}" LogExit="{x:Null}" Timeout="{x:Null}" UnSafe="False" WorkflowFileName="CAD RMS V2022\LogonToCADRMS.xaml">
+              <ui:InvokeWorkflowFile.Arguments>
+                <InArgument x:TypeArguments="x:String" x:Key="UserName">Stalin</InArgument>
+                <InArgument x:TypeArguments="x:String" x:Key="Password">Pnx@2023</InArgument>
+                <InArgument x:TypeArguments="x:String" x:Key="Database">AutomationPoliceCAD</InArgument>
+              </ui:InvokeWorkflowFile.Arguments>
+            </ui:InvokeWorkflowFile>
+            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="clickSystemParameterIcon" sap:VirtualizedContainerService.HintSize="450,157" sap2010:WorkflowViewState.IdRef="NClick_1" InScope="{x:Null}" InUiElement="{x:Null}" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" Timeout="{x:Null}" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="http://10.103.1.68/LAW/KPIFrameworkWeb/Loader2010.aspx" CVScreenId="fc528bf4-cfe6-4df1-a50e-c12f2ef1a5d2" ContentHash="8DJcosRuT06V4xGr3Ri_1g" CvElementArea="1626, 155, 23, 20" CvType="Icon" DesignTimeRectangle="1627, 154, 23, 23" DesignTimeScaleFactor="1" ElementType="Icon" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;form&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table' parentid='tdLogoMastHeadBar' tableRow='1' tag='TABLE' /&gt;&lt;webctrl id='btnSysParam' tableRow='1' tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='tdLogoMastHeadBar' tag='TABLE' /&gt;&lt;webctrl id='btnSysParam' type='' tag='IMG' class='' aaname='System Parameter' /&gt;" Guid="30759281-bc7a-45d0-b4f5-7b76fa144e6d" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAYAAACN1PRVAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARMSURBVEhLvdVrUJRlGMbxt0QhNEXloMQuB5EBYTm0DhUrEEQCoqZykMRjWsNoo2WH8TAILMQMoxs5aBAYG6ErB0UI2AEWYhEBBWTNcgTUtBozAtQUrW//XphGl6VvzuyH38zzfLmuuZ+Z+30FXddVzEVo7B3GXAR996+Yi9DcPYS5CDpxPPMwY1lV522EBnE8Y80XhyguPc0n+1OeiWmuqqZvrGxEvDzV3DvCVwX5pCtTaD3bSfbBLzl46DCHc/PJK1BT9M0JSjTllJaf4XRVLdV19Wjrm6hvbKGppY2qM5XseD95QuaYjIofEOp7RjCmbbtGYVERx44dRd9mQOrih928QBxeeo35TkFIpApcXJawYEEwHh6heHmFIfN9E1+/EFbHrufmzVtkZByYkDlGWX5JLOu+h7HS/CwKc7NpbmpE19KDra2cmY6bsHffwPwFCTi4xWHvEouddDW2klWit5jjtAora388FvrT33+NzM/SJmSOUZb1Imh0tzCWG72Q1v3hjN6oo1pnQGLnQ3JkMIsXJyDx2Yar/zu4BWz9zzZcfDfj4P42ltMD8fFZwsDAdTIyUydkjknT9CCc0t/B2IZ5s6kMmctw8Uaqv9cTH5uE4T0pyhgZfvK1OHgl4+i5brxgnnsCNvbRWFoFM+U5rwllprlpx7snl/la26AKmEXHOify1odxZGMkasVcLqcFkb8jClf3aF6YsVSc5HWxRMHUaa8y1TKEKVNkeHsrxp/xf8tKuhBq2gcxFjhjFl/IZ9O3VULnJmc6RK1bXBms2sJIw3bU28ORS+VYWYQxzUpkHYbljAgspsnxXhT0pMw0N63kAkJd5yDGvKxfZJ/bdH7fLGU0W8Zojg+jKhmPcgL4p2INj5p3os2MIdjZn6nP+4nP9zIWFoHiZJ54eb7ypMw0N63kPJP2TGpnzxv21nwrt+GPJCfuvivlwQ5n/kqS8HCXCw/VCm6f3kmrMoqloSvwD1iBt08k7u4KwsPj6OsfGN9R09zU4g7xQ9x7V1zkp/YpVYSGRhA8ZyaZi2zJ9belNtyWn+McGd4koWHFfFJCZBz9PJ3SsgpxsWuoqqkTaamq1lJWXsau3TsnZI5JVbcjtFy6hylN7XkOZOWwPyWLD5J3sXy2DWWKObStdiN9TSzxCUnEJa4lITGemJVRRESFExUTQeSyCJavXEZOnnpSZqr6HMLZy/cwpb80TIthiKaeOzRe+I3oRX58FCTjeMaH1Op+5EzzFU41XERT00GBpp6cwgpU+SdR5Wk4ptFSWnd+UmZqURtC+5X7mPr6pJbde/byaUoqew4oWezhSmL8ctKzssgpOMGRogoKTtRQfKqJ0tp2KhsNfNfyE9pzA+gu/ILeMDgpM6VAj9B59QGmisoa2CsWPQvTzMLaywhd/Q8xh/Yr4s/z4vXHmEPvjccIvTf+Fg/mITQa/sRchI9VBsxF6Oq7j3nc51/DnJEZST0z3AAAAABJRU5ErkJggg==" InformativeScreenshot="a5c7206810b7cea9a3718c9c6a919dd7.png" Reference="THDf1UhB6U6EKgZN7HF2zw/LOiOv78SgE-9E0ADVW_Wcg" ScopeSelectorArgument="&lt;html app='chrome.exe' title=':: Police - Phoenix Public Safety Solution :: AutomationPoliceCAD;SOP' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V3" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="{x:Null}" ConnectionId="{x:Null}" ContinueOnError="{x:Null}" DisplayName="System Parameter Screen" sap:VirtualizedContainerService.HintSize="450,1636" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InUiElement="{x:Null}" IsIncognito="{x:Null}" OpenMode="{x:Null}" OutUiElement="{x:Null}" ScopeGuid="3129cfa3-97ca-4034-9909-6ac3293676ba" Timeout="{x:Null}" UserDataFolderMode="{x:Null}" UserDataFolderPath="{x:Null}" Version="V2" WebDriverMode="{x:Null}">
+              <uix:NApplicationCard.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,1419" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NTypeInto ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickBeforeMode="Single" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DeselectAfter="{x:Null}" DisplayName="enterParameterID" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,217" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InScope="{x:Null}" InUiElement="{x:Null}" OutUiElement="{x:Null}" SecureText="{x:Null}" Text="1620" Timeout="{x:Null}" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://ch68.prophoenix.com/LAW/KPIFrameworkWeb/Home/frmSysParams.aspx?KPIInt=TRUE&amp;RepositoryID=1201" CVScreenId="966652a8-87b2-4fb6-95c2-de4860ee5533" ContentHash="2XlmSfbXiEGzcA9WZeQavw" CvElementArea="320, 141, 299, 23" CvType="InputBox" DesignTimeRectangle="322, 194, 296, 20" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tableRow='4' tag='TABLE' /&gt;&lt;webctrl id='txtParamID' tableRow='2' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='txtParamID' type='text' tag='INPUT' class='textbox' aaname='' /&gt;" Guid="d464ac84-8ac7-45dd-8159-8ec1cae2d7e6" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAS0AAAAYCAYAAACvI6tEAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB/SURBVHhe7dQxDYAwAABB/AtBA04Q0aESYGMB9n5yl7yF3+YclyRVMi1JqZ5p7ccpScv2OS2AFZkWkGJaQIppASmmBaSYFpBiWkCKaQEppgWkmBaQYlpAimkBKaYFpJgWkGJaQIppASmmBaSYFpDyOy1JWrXXtCSpkGlJCjWuGyH5hIRsr4z8AAAAAElFTkSuQmCC" InformativeScreenshot="26abf7403d03d75956c9fd0e74a8704b.png" Reference="THDf1UhB6U6EKgZN7HF2zw/o5f9SxbdqEumvqyeHhUAUw" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='SysParam' title='System Parameter - 1201' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V4" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="246, 197, 70, 13" ElementType="Text" FullSelectorArgument="&lt;webctrl tableRow='4' tag='TABLE' /&gt;&lt;webctrl id='ParamID' tableRow='2' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='ParamID' type='' tag='SPAN' class='' aaname='ParameterID' check:innerText='ParameterID' /&gt;" Guid="61974aa3-6828-49c5-9ab6-ce9a7bfec634" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEoAAAARCAYAAAB6mTpFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA/SURBVFhH7dAxAQAgDMAw/FvdgYQhgQrIEQM5987yJyoSFYmKREWiIlGRqEhUJCoSFYmKREWiIlGRqEhUMvsA4d+V32lj8G8AAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="clickSearchButton" sap:VirtualizedContainerService.HintSize="354,157" sap2010:WorkflowViewState.IdRef="NClick_2" InScope="{x:Null}" InUiElement="{x:Null}" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" Timeout="{x:Null}" Version="V3">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="https://ch68.prophoenix.com/LAW/KPIFrameworkWeb/Home/frmSysParams.aspx?KPIInt=TRUE&amp;RepositoryID=1201" CVScreenId="7ac0d0e5-d524-4632-8db7-de6fb88b0d1a" ContentHash="AKnb4zd2UkC_THFIpliZyA" CvElementArea="1565, 229, 93, 23" CvTextArea="1594, 235, 36, 11" CvTextArgument="Search" CvType="Button" DesignTimeRectangle="1567, 231, 90, 20" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl parentid='tab0' tableCol='10' tableRow='4' tag='TABLE' /&gt;&lt;webctrl id='cmdSearch' tableRow='1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='tab0' tag='TABLE' /&gt;&lt;webctrl id='cmdSearch' type='submit' tag='INPUT' class='CustomBtn' aaname='Search' check:text='Search' /&gt;" Guid="6cc0c634-4c5b-48c2-b8a6-6a8efd49a498" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAF4AAAAYCAYAAABz00ofAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKxSURBVGhD7ZTvThNBFMXn7RDaBV8FLLC0NPENECQFJLxBI5CWagH9ZkRJtC3yRwhYW4PETS1IQBTp8c7ubDtApxroLF/mwy/3nnvuzJRTgFWrDgzBY4K/I+rBP5xZNgRA0+AvLmqo1WqmaqrK4M/P/xAXpmqqyuDPzn4bNKIM/vT0l0EjyuCPj0+Jn6ZqqsrgDw9PcHR0gkPCrVr1HqbvMzDm04PpjVb7t9UvMUzvxJf/d7/9Whl8pfKDOJbQpzefdIP1zGBT1iyO50Jf3b+9foEYBR/Lqnz9Whm84xwFRsam33J7qanHcX3x1xCe2m46519Uhs+fxcG644h208y9cxuTvHd3LEzm+dklRElHbdq9NA8OZfAHB9UAWYRdD3AYackrTFhgA4vSnoXEe69PL/h7H5GwGGyuF4bdIL0dcd6aRoHvcc/txXvi3vRAow8KZfD7+xXiewv0+LkEBcVDsaaQI53q97+QBl2JLdr1zsv+YIruSMWojyEl+d6+d79HFoP+Pmn3zf7slR09P5+PMvhSyUG57KBEuDVQnUE/C+PxWwezEYbO8fXr+28m0Unhca9cXsdYiGFgnubzUQo+ilmx3/w8v1/sk343HgZ7kJF8qi0/3+21Mvhi8RuKnwnt9QNGKTTWl5HmGUTYEJ6SXh0LUZDU1+cMkTnqX0/gnj9f4b2Yzw5J++J8aAKrXM8JT76H5u7Opff1V2Xwu7tfiQOPPV5Ju1XSbfPT6KMgGv9OQhh51fCTvQ2v41FBnM9jpEvMuxIYoZ2OUfKSNs1sJKX75fN9ycZ7bk/+yigF35tq8fmEbqOvDH5nZ9+gEWXwm1tfsNUC4zef+/zLVwa/vlHCBuHVsqIa/6a+MvjCWrHOmqIa/+a+Mvhc7hNyecJULVUZvEE/14I3BIsJ/k5w8BdrGk11gZ8hjwAAAABJRU5ErkJggg==" InformativeScreenshot="958edfb163b4d6380015c6f026d94178.png" Reference="THDf1UhB6U6EKgZN7HF2zw/Sq2X8bWpFkWACSpdEn5s4g" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='SysParam' title='System Parameter - 1201' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V4" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="7ac0d0e5-d524-4632-8db7-de6fb88b0d1a" CvTextArea="1332, 198, 42, 13" CvTextArgument="Sort By" CvType="Text" DesignTimeRectangle="1333, 197, 41, 13" ElementType="Text" FullSelectorArgument="&lt;webctrl tableRow='4' tag='TABLE' /&gt;&lt;webctrl id='lblSortBy' tableRow='2' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='lblSortBy' type='' tag='SPAN' class='' aaname='Sort By' check:innerText='Sort By' /&gt;" Guid="565d58b5-aba3-4fc9-b1f5-754e6ba67ce9" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAC0AAAARCAYAAABJoiVMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEpSURBVEhL7ZTNDYMwDIUzXXsBiRk6RsQgSDAHB5iDAzNwYAQ3JoG8kIDSqj8gcXgSYMfvszGIcRzobLqgf6UL+ldyoVtJQghQQmUH8Uj1VUJC1sHYpK6g1PFR2stfyUJPhSQ1EOQm8hbuIxUHjV415Qo81stC85SzgnoIuuqozOxkrAEbJpRLBcqx+4NuJoeVVh3UMApCm3svpn2xIVgPhPLXopHq+TI9Dapz9JQQ7q31gIGx1wLJuathhj9EKKoPc0NuI1xYg2IDWq+vhzkzw8Fbtz42NwxtZM2/D+0+m/1gbUALNButO8Iu+Xp7PT40aTxj/mRrJhZMms1hx7wDuPP+h4jQWCtkiuu3yPsJhOpq7a7HX8WT3nhbB4XenjLruJPe0QmhB3oC/DRc0SK0geMAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NSelectItem AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="selectSystemParameterDropdown" sap:VirtualizedContainerService.HintSize="354,157" sap2010:WorkflowViewState.IdRef="NSelectItem_1" InScope="{x:Null}" InUiElement="{x:Null}" Item="False" OutUiElement="{x:Null}" Timeout="{x:Null}" Version="V3">
+                      <uix:NSelectItem.Target>
+                        <uix:TargetAnchorable BrowserURL="https://ch68.prophoenix.com/LAW/KPIFrameworkWeb/Home/frmSysParams.aspx?KPIInt=TRUE&amp;RepositoryID=1201" CVScreenId="ebe2332c-994c-4b0d-b01d-8417f45a7232" ContentHash="sNjZ3Y5_fEimQzCy4UM3yg" CvElementArea="952, 304, 690, 24" CvType="InputBox" DesignTimeRectangle="956, 306, 684, 20" DesignTimeScaleFactor="1" ElementType="DropDown" FullSelectorArgument="&lt;webctrl parentid='divSys' tableRow='1' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='divSys' tag='TABLE' /&gt;&lt;webctrl type='' tag='SELECT' class='' aaname='' /&gt;" Guid="86806d06-5d33-4dce-b6a9-bb8991cb743f" InformativeScreenshot="c43189198225fc7a7f92f85376e1d79d.png" Reference="THDf1UhB6U6EKgZN7HF2zw/__VMqB6UokWH_aQEpWigAg" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='SysParam' title='System Parameter - 1201' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="ebe2332c-994c-4b0d-b01d-8417f45a7232" CvTextArea="672, 310, 276, 14" CvTextArgument="Show the Summons/Citation Entry in CAD (1620)" CvType="Text" DesignTimeRectangle="673, 310, 275, 13" ElementType="Text" FullSelectorArgument="&lt;webctrl tableRow='10' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='SPAN' class='' aaname='Show the Summons/Citation Entry in CAD (1620)' check:innerText='Show the Summons/Citation Entry in CAD (1620)' /&gt;" Guid="586453a0-707d-4754-bf37-afa6f6a062da" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAARcAAAARCAYAAAD3/eh9AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATsSURBVHhe7VhLUltBDPQBoYrzuHwQqswBcgIWcA4WnIEFR3gZzbfV0szLw34QJ7PoSjyjkVqtD4bD5+fHMjExMXFtzOUyMTGxC+ZymZiY2AVzuUxMTOyCP18ub4/L/eG4vHh3e+MnY98aRKuHx+Xdu1N4Xk5X0vTleFhOr/7d7eJ6+uyPt+X8cFgOx2fnbn+8P90tB6fnaLlkkgdAIfyNAy7Nev/01s6uFTv60fn9a0NhBt3kfLec3+A+QgbJO/ewxfaLcOrk8yZ8Y4+uIQ4c8qfhkzrZnERbeOO88xBjeYvl9dh5j3GAA+tOPhNn/044qJkNUMvFDLUsm2Mm942F22e5OEMR/J5IkNuG5Ag65WYxy8Y04paFscX2i/hqva/SJ5cjLRbNQ85aHVKdzmYgrbbJ10hvrx5ylpeAWS7pzvuhajmCnVpU6UuI9iH2OmdYLt4DQC7cCbaXspXg+VyTaIlHoda+CaGfEmMl9mijVqw0nnDDQuOCi7xDHnWrS37IE2LGd8EW71KDpM92aWY74JZ0Cvk6d/qNUwPm0l2erRmUfvkMOWMcz1bOGg/97bedS7zQvMeOFohRrbq9oOOmHqSY4ewXa6KGBoHDsoF7th0u31InyUXF9t+mfuj0dZe/fzf0RcC6ci95fnQf8K9FQqYUhwnkpq6PkXi885dII1WKnwtWBJb/EziRUWxOkhNEyF3Jj23ED8ZEDjFGLVLOo8TMzV4GIcaofKRZIBdV7HTXzYl8ooaN+3P46YecsTHZliHx9fB0B0LlaG1Rc5t/sU35Vi1IN4Vc79qLEdnPoBesT4pZbGoNNHcNeYs5b+HeuctoMaVGqCXqBVB9o8F9q+C8i/WpmgpGeTQuRifxTfPLXLp/0K0keoXDInEgtC13chb+LSSFiF/UFNs0RCe2FYveukjNgrYsDHKIw17zswOODaG5U7NgHpAD2+p4mlvJF7lGGH+XLhc5Q137tsIpxeFhQT34HcYncL1Hd5i3eeflBbqM4ih+V+IuoHtda49vwJWXC/YE91qC8NB2/O6i5ZIAybJo8rkQHy0X8RHsXkLgSC7aPpomRLSGzGeD2MZ2C0B8Fgb96gL87HLBszj02c6zGWsj8aBGqqlTjvUt11PZpjhJj1tYLgG5Xz3NGpDfBu69mBm1bgq9OPAG54vuujlAf5cz0xPGRjjQIgngdx4n5gLLxREMi7Va1CaKDpwaVQsYPlPSCCPAIHaMRXdnEiYiNxSeIU/NOXEsHLx8Ll4uOUb1Q4sOucrn5DO8Qd3qG+EEGhTEeNQochZ9S3zkgk1NOUqcrm3KudjK/7WOxZbfYXyC0mnlTj4XTcw7yzWBe9ID8tvAPSDWj+7l7PQqcS2fpp/l6/lSMMth5Y7OVL1inT298l19xzOQgH0gUN9cUiIiegEkNSqqIBLL7yih6BeGRTeggxgr+YpkV2JHfyV2T5zaUADFQQpb7tIfDPddLuVzi1nOWS/5XHy6uYr2PT1VDEGJowek1T6fqXqG+ANb3VRa555OHF/BcBbkt56GXi/EM47ZwBpbIL8N3DOaRhkSi7hW1PqJX3gj8OwVvBytHxx6xa07Ryv3RjurycqvRRO3AD3cE+vwv0HcKtYX5f4QDu2HasJcLhP/Hf6GYbwu8rfFH8op6ul8w5rLZWJiYhfM5TIxMbEDPpbfpI4y5Z0mbegAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NSelectItem.Target>
+                    </uix:NSelectItem>
+                    <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="clickSaveButton" sap:VirtualizedContainerService.HintSize="354,157" sap2010:WorkflowViewState.IdRef="NClick_3" InScope="{x:Null}" InUiElement="{x:Null}" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" Timeout="{x:Null}" Version="V3">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="https://ch68.prophoenix.com/LAW/KPIFrameworkWeb/Home/frmSysParams.aspx?KPIInt=TRUE&amp;RepositoryID=1201" CVScreenId="7ac0d0e5-d524-4632-8db7-de6fb88b0d1a" ContentHash="XPiMTuHrPUC9QEPsolHPDw" CvElementArea="15, 123, 20, 19" CvType="Icon" DesignTimeRectangle="18, 126, 16, 16" DesignTimeScaleFactor="1" ElementType="Icon" FullSelectorArgument="&lt;webctrl tableRow='1' tag='TABLE' /&gt;&lt;webctrl id='cmdSave' tableRow='1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='cmdSave' type='image' tag='INPUT' class='menuItem' aaname='Save' /&gt;" Guid="4915bb11-4370-4e9b-b15b-5ae95a48d2ef" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHISURBVDhPrZPrThphEIbnpriWpjGmaWqNsQdbazRqCdfAD2hTqVV3v91eB3cgJOAaDyBdVsLKqdqfjPvOOoQ1BIllkifvhJnv2c0XlgaDO54nD8J/Dz/8f1K/f8cglUo9i0qlIucV6vVuGWDouF8lh8PhVLBTKpUkc7mcSNVD3e4tAwzd37EQVS6XJ4LCjpLJZESuHup0/jKIhbsj4bTCjvn1TjKdTotQPRSGfQ7DQSx0d0bCSW8HUCLcX0kI4QDUbvcZYOi42yPhtBLhz+WEUD3UavUYYOiardmFhaWEUD10fd1lIEJ7kx17Q/ppmMIbNnuvpVeheqjZvOFmsxMvWl/YOVpnc/SJzeHH6OLfy+XjvkxhOeKtyOxIZv94lRCqh3z/hgGGjvVZZOifwvq+KKlC9VCj0eZGI5Shc7jG5uBD4uA4QRBwvVaT3v62IKlC9dDVVZsBhpCZ/dWR4DH1ep09z5Peyr+UVKF6qFZrMcAQMv1/TQKy0nH8yVm5F5IqVA9dXLb4MqJarSYOz4p+enAAOj8PWCkWi5zNZmUJT34K7OXzeXkZddDZWcDjYIgnzgr2x8+Td+rzacS8kk68P9Fl+zyf9PkeZlKwEizL0JkAAAAASUVORK5CYII=" InformativeScreenshot="93483f302f422ceff629dfe1e255c140.png" Reference="THDf1UhB6U6EKgZN7HF2zw/vXUE6lfB-0mgsFDA41vnPA" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='SysParam' title='System Parameter - 1201' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V4" Visibility="Interactive" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="clickOkButton" sap:VirtualizedContainerService.HintSize="354,157" sap2010:WorkflowViewState.IdRef="NClick_4" InScope="{x:Null}" InUiElement="{x:Null}" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" Timeout="{x:Null}" Version="V3">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable ContentHash="kXV9dHhHFUCATCvwNj70zQ" DesignTimeRectangle="0, 0, 0, 0" FullSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='System Parameter - 1201 - Google Chrome' /&gt;&lt;ctrl name='ch68.prophoenix.com says' role='dialog' /&gt;&lt;ctrl name='OK' role='push button' /&gt;" Guid="d70c099e-8d38-4924-9ed2-34e64aeabbc6" Reference="THDf1UhB6U6EKgZN7HF2zw/qozQx6CYIUa-qVLTLywmaw" SearchSteps="Selector" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="clickCloseButton" sap:VirtualizedContainerService.HintSize="354,157" sap2010:WorkflowViewState.IdRef="NClick_5" InScope="{x:Null}" InUiElement="{x:Null}" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" Timeout="{x:Null}" Version="V3">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="https://ch68.prophoenix.com/LAW/KPIFrameworkWeb/Home/frmSysParams.aspx?KPIInt=TRUE&amp;RepositoryID=1201" CVScreenId="7ac0d0e5-d524-4632-8db7-de6fb88b0d1a" ContentHash="XztQF9atR0mwnK-X6vywAw" CvElementArea="1879, 6, 19, 19" CvType="CloseButton" DesignTimeRectangle="1866, 1, 46, 31" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl name='System Parameter - 1201 - Google Chrome' role='pane' /&gt;&lt;ctrl name='Close' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='System Parameter - 1201 - Google Chrome' role='pane' /&gt;&lt;ctrl name='Close' role='push button' automationid='' check:text='Close' /&gt;" Guid="dfe60820-c59e-40cf-8654-9f19e8ec1d66" InformativeScreenshot="ce2300a9b0aedb8e026934b00d815304.png" Reference="THDf1UhB6U6EKgZN7HF2zw/AZ7ny1NGi0Cuh7LYM6-yNw" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='System Parameter - 1201 - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="CADRMSLogOut" sap:VirtualizedContainerService.HintSize="354,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" Level="{x:Null}" LogEntry="{x:Null}" LogExit="{x:Null}" Timeout="{x:Null}" UnSafe="False" WorkflowFileName="CAD RMS V2022\LogOut.xaml">
+                      <ui:InvokeWorkflowFile.Arguments>
+                        <scg:Dictionary x:TypeArguments="x:String, Argument" />
+                      </ui:InvokeWorkflowFile.Arguments>
+                    </ui:InvokeWorkflowFile>
+                  </Sequence>
+                </ActivityAction>
+              </uix:NApplicationCard.Body>
+              <uix:NApplicationCard.TargetApp>
+                <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" ContentHash="0mJ8IudInEqGc3gJgqu_DA" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFxSURBVDhPY6A64OTmlvT08T8Qk5D6NT454x8Ig9ggMZAcVBl2oK2rXxiXmPYLqOl/fHL63/CouOchEbGPoAb9B8mB1ECVowKQBEhhXFL6H31D41omJiZmkLiEpLQDxEA4/odhCMhpcYnpv0Ga+fkF1KHCDKbmVj1hUXHP0AwAuwTFOyD/gSRANkOFGERExUzRNSJjkB6oUgaGmPiUbyA/w5wNAhKSUvYBweFXQTg2IfU7ugGggIUqZWAACvwDBRiUiwHsnVxXIGuOTUz9CdIDlYYYgKwAFBbBYdF3DYxM6kGu4uTkEjc2teiwtnWYo6CoHAqyDMUAiBcQBiBjFVX1OKgyMAAZCPIuihdggYgNW9rYz4QqAwNQQIPEUQIRFo3IGq1sHWZraOlkS0pJO0GVMYCiGOQ9jGgEAVhCghkgr6gUDJUCOxtkM0gzSA2+1FgES8pxSWm/w6Jin0ICLP0vWAxfUoYBkNNA/iMrM5EOGBgAbhv5+a23N0oAAAAASUVORK5CYII=" InformativeScreenshot="886846d1828f81ad306ebe47650c7c7f.jpg" Reference="THDf1UhB6U6EKgZN7HF2zw/NUe2wANE_E6HwAALtEMKWw" Selector="&lt;html app='chrome.exe' htmlwindowname='SysParam' title='System Parameter - 1201' /&gt;" Title="System Parameter - 1201" Url="https://ch68.prophoenix.com/LAW/KPIFrameworkWeb/Home/frmSysParams.aspx?KPIInt=TRUE&amp;RepositoryID=1201" />
+              </uix:NApplicationCard.TargetApp>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NApplicationCard>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="1912, 83, 1936, 1048" BrowserType="Chrome" ContentHash="wRmspUwYo0y1Ljs5J17OBg" IconBase64="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" InformativeScreenshot="fcf195bb774d516af443826aa68de6b3.jpg" Reference="THDf1UhB6U6EKgZN7HF2zw/RPQPkOzAfEifg20MvvyyLg" Selector="&lt;html app='chrome.exe' title='Phoenix Law : Login Page' /&gt;" Title="Phoenix Law : Login Page" Url="https://ch68.prophoenix.com/LAW/Login.aspx" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

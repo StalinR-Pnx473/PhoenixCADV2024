@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Message Popup",
+  "Type": "Screen",
+  "Id": "sr4FvA3tYEWFt8MKJeQEBQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/sr4FvA3tYEWFt8MKJeQEBQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/iqc5IjgxGkefj9bmmSp_QA",
+  "Created": "2024-01-23T09:41:45.8665221Z",
+  "Updated": "2024-01-23T09:41:56.7352419Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

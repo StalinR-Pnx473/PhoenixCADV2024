@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XztQF9atR0mwnK-X6vywAw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://ch68.prophoenix.com/LAW/KPIFrameworkWeb/Home/frmSysParams.aspx?KPIInt=TRUE&amp;RepositoryID=1201" CVScreenId="7ac0d0e5-d524-4632-8db7-de6fb88b0d1a" CvElementArea="1879, 6, 19, 19" CvType="CloseButton" DesignTimeRectangle="1866, 1, 46, 31" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl name='System Parameter - 1201 - Google Chrome' role='pane' /&gt;&lt;ctrl name='Close' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='System Parameter - 1201 - Google Chrome' role='pane' /&gt;&lt;ctrl name='Close' role='push button' automationid='' check:text='Close' /&gt;" Guid="dfe60820-c59e-40cf-8654-9f19e8ec1d66" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='System Parameter - 1201 - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="ce2300a9b0aedb8e026934b00d815304.png" xmlns="">0-Rq-Z1jMhkuAJoT_cKtUeg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

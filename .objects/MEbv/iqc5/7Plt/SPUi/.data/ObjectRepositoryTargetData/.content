@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_waQ4J3ZQkydDotbQklcMw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="693, 7, 21, 21" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Close' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Close' role='push button' automationid='' check:text='Close' /&gt;" Guid="13bd8e64-3ab3-48da-ad16-175b79dea264" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABiSURBVEhL7Y9BCoAwDATz/3/m3CdUxiqIKG5DiyIZGGgvGdbqRMysuf2n8F7E3YcJGZGFjMhCd6SUsnp+3wmhJfvxpwBCKIJKAOGbS47HlRCElvQIGZGFjMjCZWQ0f4tYXQA4prkP0d2/nwAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmAddIncAtachment' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a1a21afb-0809-496f-afae-c3d0275d3372" CvTextArea="14, 9, 304, 12" CvTextArgument="Add Incident Attachment - Press Esc to close the window" CvType="Text" DesignTimeRectangle="14, 9, 304, 12" ElementType="Text" Guid="8c397dc6-e58b-4b21-ba4b-c261483733fb" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6a331c2ec8d972080426047894b804e2.png" xmlns="">0ARPUYYrfj0miyGueNouJhw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

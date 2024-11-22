@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Officer Initiated Call Screen",
+  "Type": "Screen",
+  "Id": "iPl3BtYPKEGnc3askxEHiQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/iPl3BtYPKEGnc3askxEHiQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/iqc5IjgxGkefj9bmmSp_QA",
+  "Created": "2024-03-03T06:18:22.0251575Z",
+  "Updated": "2024-03-03T06:18:38.6906048Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

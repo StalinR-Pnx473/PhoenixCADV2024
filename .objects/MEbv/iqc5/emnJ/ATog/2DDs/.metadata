@@ -1,0 +1,16 @@
+﻿{
+  "Id": "2DDsie-jUk6_n3pLCoFHeA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/2DDsie-jUk6_n3pLCoFHeA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/ATog21aGmUikpMronzSugw",
+  "Name": "uIREGCheckBox",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T09:40:21.3872825Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T09:40:31.5642838Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

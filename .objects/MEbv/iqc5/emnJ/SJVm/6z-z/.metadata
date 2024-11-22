@@ -1,0 +1,16 @@
+﻿{
+  "Id": "6z-zVA5fzEasjSJ3oJpF-Q",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/6z-zVA5fzEasjSJ3oJpF-Q",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/SJVmgy-nLkmYlfM_TvjICg",
+  "Name": "uICommercialVehicleCheckBox",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T07:55:35.1452048Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T07:55:48.2705234Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

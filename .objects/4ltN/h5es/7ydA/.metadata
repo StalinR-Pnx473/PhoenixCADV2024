@@ -1,0 +1,15 @@
+﻿{
+  "Name": "NCIC Code Screen Tab",
+  "Type": "Screen",
+  "Id": "7ydAKBDdqkWzhczeq0eESQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/7ydAKBDdqkWzhczeq0eESQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/h5es0EizPUSkHahTS7e1RA",
+  "Created": "2024-06-10T14:39:54.3020578Z",
+  "Updated": "2024-06-10T14:39:57.9114574Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

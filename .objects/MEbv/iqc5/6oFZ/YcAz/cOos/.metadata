@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uINLETStateDescription",
+  "Type": "Element",
+  "TaxonomyType": "Text",
+  "Id": "cOosvvWVEkuGjmrhFzrRwQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/cOosvvWVEkuGjmrhFzrRwQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/YcAzUv5owEOUTcP0YDKWuQ",
+  "Created": "2024-06-24T13:20:37.3452872Z",
+  "Updated": "2024-06-24T13:20:51.2970733Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

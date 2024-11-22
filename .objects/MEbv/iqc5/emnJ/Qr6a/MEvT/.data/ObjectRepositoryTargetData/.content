@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="KclVTCaqpEy-Uyd3cQyeQQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="374, 545, 154, 28" ElementType="CheckBox" FriendlyName="'Breathalyzer'" FullSelectorArgument="&lt;wnd ctrlname='CtrlusrSummonsNJ' /&gt;&lt;wnd ctrlname='tbSummon' /&gt;&lt;wnd ctrlname='tbOfficer' /&gt;&lt;wnd ctrlname='chkBreathalyzer' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='CtrlusrSummonsNJ' /&gt;&lt;wnd ctrlname='tbSummon' /&gt;&lt;wnd ctrlname='tbOfficer' /&gt;&lt;wnd ctrlname='chkBreathalyzer' check:fulltext='Breathalyzer' /&gt;" Guid="1f360cdb-3ef0-40df-845f-391833845e19" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmAddSummons' /&gt;" SearchSteps="Selector, FuzzySelector" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="21f4d67054be7f55c2cb30aabbb55831.png" xmlns="">0GD0KWEXXAUKJoYEdGKXDhA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIState",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "Z0OQb9XlHE6oNTNJgm2_IA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/Z0OQb9XlHE6oNTNJgm2_IA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/PSk1PzSV5UyPEZiEMgGs2w",
+  "Created": "2024-06-26T13:15:45.3610077Z",
+  "Updated": "2024-06-26T13:16:00.8248041Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

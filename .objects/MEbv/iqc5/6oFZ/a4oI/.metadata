@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIIncidentCode",
+  "Type": "Element",
+  "TaxonomyType": "Text",
+  "Id": "a4oIe5_JREizFAEqbP1csg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/a4oIe5_JREizFAEqbP1csg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/6oFZNLA_kUWbZBEpoZSy9g",
+  "Created": "2024-06-21T14:25:34.2768396Z",
+  "Updated": "2024-06-21T14:26:02.9398818Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIForceLoginButton",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "IBMBA031AkufzFKpVQNoCA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/IBMBA031AkufzFKpVQNoCA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/2pMcuOK5E0aizS4vFzew9Q",
+  "Created": "2024-11-12T10:08:33.7374528Z",
+  "Updated": "2024-11-12T10:09:07.2068436Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

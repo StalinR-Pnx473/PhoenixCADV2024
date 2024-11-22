@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIClickCallSearch",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "5oGlAucJMEKzDbwkniuuvg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/5oGlAucJMEKzDbwkniuuvg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/FgKONO6vWkq6VTrRCPK49g",
+  "Created": "2024-09-11T12:34:28.8941288Z",
+  "Updated": "2024-09-11T12:34:43.2451118Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

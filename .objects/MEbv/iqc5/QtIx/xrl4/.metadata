@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIDescriptionEdit",
+  "Type": "Element",
+  "TaxonomyType": "Text",
+  "Id": "xrl4jFg7mEm_CbJlmZ51lA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/xrl4jFg7mEm_CbJlmZ51lA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/QtIxGrGvikKAqd5_9QjWeQ",
+  "Created": "2024-06-26T13:49:07.1251243Z",
+  "Updated": "2024-06-26T13:49:19.0653711Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

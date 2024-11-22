@@ -1,0 +1,16 @@
+﻿{
+  "Id": "sPsk7wqo0kaR0BszlA7ZaQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/sPsk7wqo0kaR0BszlA7ZaQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/N-mYgqaKIkmxjuR7xcOGUg",
+  "Name": "uICategorySearchButton",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T13:36:32.7146865Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T13:36:43.3722941Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

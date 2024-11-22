@@ -1,0 +1,15 @@
+﻿{
+  "Id": "YQBro6g1g0u1MFBGlsZ7OA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/YQBro6g1g0u1MFBGlsZ7OA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/iqc5IjgxGkefj9bmmSp_QA",
+  "Name": "Link/Merge Call Screen",
+  "Type": "Screen",
+  "Created": "2024-01-19T06:49:26.9306431Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-19T06:49:39.3752037Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Id": "Vfj4BVW8u0e3yWf5gacTVw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/Vfj4BVW8u0e3yWf5gacTVw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/TWMOkOYXy0mE93-JBhooZA",
+  "Name": "uISortCriticalCheckBox",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T11:43:17.5273547Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T11:43:17.5273547Z"
+}

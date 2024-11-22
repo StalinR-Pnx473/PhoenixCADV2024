@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIAttachToCallCheckBox",
+  "Type": "Element",
+  "TaxonomyType": "Checkbox",
+  "Id": "9NBuIP6AS0CkQgN75Cd-OQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/9NBuIP6AS0CkQgN75Cd-OQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/YcAzUv5owEOUTcP0YDKWuQ",
+  "Created": "2024-06-24T13:21:32.7572012Z",
+  "Updated": "2024-06-24T13:21:44.0176991Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

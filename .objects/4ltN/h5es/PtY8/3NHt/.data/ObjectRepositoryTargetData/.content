@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="37azA4WaK0GszwBx0Itbfg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="http://10.103.1.68/LAW/Static/frmCFSSrch.aspx?KPIInt=TRUE&amp;RepositoryID=5011&amp;ModuleName=Settings&amp;ScreenName=CFS%20Code&amp;ScreenHeight=1080&amp;ScreenWidth=1920" CvElementArea="983, 220, 93, 23" CvType="InputBox" DesignTimeRectangle="985, 222, 90, 20" DesignTimeScaleFactor="1" ElementType="DropDown" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='IFRAME' /&gt;&lt;webctrl parentid='tdCFSType' tableRow='3' tag='TABLE' /&gt;&lt;webctrl id='cddCFSType_DropDown' tableRow='1' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl parentid='tdCFSType' tag='TABLE' /&gt;&lt;webctrl id='cddCFSType_DropDown' type='' tag='SELECT' class='' aaname='' /&gt;" Guid="d00b9fbd-3d91-451e-82b7-db4383dd3dee" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title=':: Police - Phoenix Public Safety Solution :: AutomationPoliceCAD;SOP' /&gt;" SearchSteps="Selector" Version="V3" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b55352a26c7fc4f3d241761394e8a7c8.png" xmlns="">0VhckSqDSCEWKVce6tjw_Kw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

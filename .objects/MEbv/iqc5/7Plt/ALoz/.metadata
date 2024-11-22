@@ -1,0 +1,16 @@
+﻿{
+  "Id": "ALozXRKiJk2Hr4-zHtwQdw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/ALozXRKiJk2Hr4-zHtwQdw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/7Plt2J_RrUa9VElsuQozwA",
+  "Name": "uIAddDrawingButton",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T14:21:01.9113743Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T14:21:11.9903916Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

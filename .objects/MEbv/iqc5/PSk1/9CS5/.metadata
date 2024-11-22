@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIRefreshButton",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "9CS5a0_zyUe8Dwhwgt1GJg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/9CS5a0_zyUe8Dwhwgt1GJg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/PSk1PzSV5UyPEZiEMgGs2w",
+  "Created": "2024-06-26T13:16:22.2079971Z",
+  "Updated": "2024-06-26T13:16:31.8521394Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

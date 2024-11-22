@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIAddressIbubbleIcon",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "07KNHTVBEkC3FSF2IyksQQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/07KNHTVBEkC3FSF2IyksQQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/pDRNr9xiF0yVqEwz0zYLIg",
+  "Created": "2024-09-09T11:53:51.365224Z",
+  "Updated": "2024-09-09T11:54:04.3221238Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

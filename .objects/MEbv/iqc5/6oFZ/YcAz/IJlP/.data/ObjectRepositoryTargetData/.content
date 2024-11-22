@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Dpk91V9A2Ue4mhoS20_k3w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="14531fd1-1d8c-49f0-a15e-8da44f4aec2f" CvElementArea="561, 219, 108, 34" CvType="InputBox" DesignTimeRectangle="562, 220, 105, 32" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;wnd ctrlname='pnlNCICQry' /&gt;&lt;wnd ctrlname='tbNCICQry' /&gt;&lt;wnd ctrlname='tbPlate' /&gt;&lt;wnd ctrlname='lupState' /&gt;&lt;wnd ctrlname='txtCode' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='pnlNCICQry' /&gt;&lt;wnd ctrlname='tbNCICQry' /&gt;&lt;wnd ctrlname='tbPlate' /&gt;&lt;wnd ctrlname='lupState' /&gt;&lt;wnd ctrlname='txtCode' /&gt;" Guid="8b8e0266-9f9b-43b9-a6ed-dc50f11acf8b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAG0AAAAkCAYAAACDr7TyAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACCSURBVGhD7dEhCoBAAABB//8VMfmxq5cUg4LB7sKEge27zDkPWkwLeqat207Ea9oYg5+6h11tWoRpQaYFmRZkWpBpQaYFmRZkWpBpQaYFmRZkWpBpQaYFmRZkWpBpQaYFmRZkWpBpQaYFmRZkWpBpQaYFmRZkWtDnNBqeaXSYljOPEwWQrxCt1FrZAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmPhoenixMain' /&gt;&lt;wnd ctrlname='frmNCICRequest' /&gt;" SearchSteps="Selector, FuzzySelector, Image, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="14531fd1-1d8c-49f0-a15e-8da44f4aec2f" CvElementArea="272, 218, 284, 36" CvType="InputBox" DesignTimeRectangle="274, 220, 280, 32" FullSelectorArgument="&lt;wnd ctrlname='pnlNCICQry' /&gt;&lt;wnd ctrlname='tbNCICQry' /&gt;&lt;wnd ctrlname='tbPlate' /&gt;&lt;wnd ctrlname='txtPlateNbr' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='pnlNCICQry' /&gt;&lt;wnd ctrlname='tbNCICQry' /&gt;&lt;wnd ctrlname='tbPlate' /&gt;&lt;wnd ctrlname='txtPlateNbr' check:fulltext='Pur-Attn' /&gt;" Guid="9e0329eb-319e-4046-87b6-142125cf2e80" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAARwAAAAkCAYAAABbqoWUAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACfSURBVHhe7dShDYAwAABB9l+FoJiuqjgM4Oiru+RX+G2MMSWpyHAkZd3D2Y9Tkpb0OhyAvxkOkDEcIGM4QMZwgIzhABnDATKGA2QMB8gYDpAxHCBjOEDGcICM4QAZwwEyhgNkDAfIGA6QMRwgYzhAxnCAjOEAGcMBMoYDZAwHyBgOkDEcIGM4QMZwgIzhAJnP4UjSih7DkaTVGY6kqDEvFuSGbVgZXNAAAAAASUVORK5CYII=" SearchSteps="Selector, Image" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="cd645962f89d74164d1e2e5cdf7c8370.png" xmlns="">0iteKROO_REC2cUUsqp6qlQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

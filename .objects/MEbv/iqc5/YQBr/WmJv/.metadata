@@ -1,0 +1,16 @@
+﻿{
+  "Id": "WmJv8AXfrUCdy1rwIEcaGw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/WmJv8AXfrUCdy1rwIEcaGw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/YQBro6g1g0u1MFBGlsZ7OA",
+  "Name": "uICloseCallCheckBox",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-19T07:29:04.9759071Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-19T07:29:20.2473889Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

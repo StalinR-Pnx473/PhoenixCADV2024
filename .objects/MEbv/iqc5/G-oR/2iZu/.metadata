@@ -1,0 +1,16 @@
+﻿{
+  "Id": "2iZuf2C4mUC6m6F1lDxGRw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/2iZuf2C4mUC6m6F1lDxGRw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/G-oR_yfRvUae3J-fNEIjYQ",
+  "Name": "uICFSFireSearchIcon",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-16T14:33:03.6053338Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-16T14:33:35.6651393Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

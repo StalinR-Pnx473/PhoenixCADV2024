@@ -1,0 +1,16 @@
+﻿{
+  "Id": "KG60nGulVkOV3Q_bT26kpQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/KG60nGulVkOV3Q_bT26kpQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/B2zQje3EkUSDl_J95zzCiw",
+  "Name": "uICriticalFlagCheckBox",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T10:59:13.2320659Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T10:59:27.9478143Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

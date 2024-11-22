@@ -1,0 +1,15 @@
+﻿{
+  "Id": "7Plt2J_RrUa9VElsuQozwA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/7Plt2J_RrUa9VElsuQozwA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/iqc5IjgxGkefj9bmmSp_QA",
+  "Name": "Add Incident Attachment Screen",
+  "Type": "Screen",
+  "Created": "2024-01-18T14:09:17.8157307Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T14:09:31.2579889Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

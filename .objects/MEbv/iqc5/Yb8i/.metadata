@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Code Lookup Screen",
+  "Type": "Screen",
+  "Id": "Yb8ija4PAEOo-9bcpNLlnQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/Yb8ija4PAEOo-9bcpNLlnQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/iqc5IjgxGkefj9bmmSp_QA",
+  "Created": "2024-02-23T06:52:07.8248847Z",
+  "Updated": "2024-02-23T06:52:19.0814162Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

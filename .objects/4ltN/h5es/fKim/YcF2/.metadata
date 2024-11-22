@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIJurisDropdown",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "YcF2Bfn4bkKBVMYWSLy4xw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/YcF2Bfn4bkKBVMYWSLy4xw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/fKim-pvEU0yZ2AdJDvBrQA",
+  "Created": "2024-05-06T13:37:22.5063543Z",
+  "Updated": "2024-05-06T13:37:37.3832155Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

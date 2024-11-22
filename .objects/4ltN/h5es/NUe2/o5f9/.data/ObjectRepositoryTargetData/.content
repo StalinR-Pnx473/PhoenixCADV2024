@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2XlmSfbXiEGzcA9WZeQavw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://ch68.prophoenix.com/LAW/KPIFrameworkWeb/Home/frmSysParams.aspx?KPIInt=TRUE&amp;RepositoryID=1201" CVScreenId="966652a8-87b2-4fb6-95c2-de4860ee5533" CvElementArea="320, 141, 299, 23" CvType="InputBox" DesignTimeRectangle="322, 194, 296, 20" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tableRow='4' tag='TABLE' /&gt;&lt;webctrl id='txtParamID' tableRow='2' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='txtParamID' type='text' tag='INPUT' class='textbox' aaname='' /&gt;" Guid="d464ac84-8ac7-45dd-8159-8ec1cae2d7e6" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAS0AAAAYCAYAAACvI6tEAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB/SURBVHhe7dQxDYAwAABB/AtBA04Q0aESYGMB9n5yl7yF3+YclyRVMi1JqZ5p7ccpScv2OS2AFZkWkGJaQIppASmmBaSYFpBiWkCKaQEppgWkmBaQYlpAimkBKaYFpJgWkGJaQIppASmmBaSYFpDyOy1JWrXXtCSpkGlJCjWuGyH5hIRsr4z8AAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='SysParam' title='System Parameter - 1201' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="246, 197, 70, 13" ElementType="Text" FullSelectorArgument="&lt;webctrl tableRow='4' tag='TABLE' /&gt;&lt;webctrl id='ParamID' tableRow='2' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='ParamID' type='' tag='SPAN' class='' aaname='ParameterID' check:innerText='ParameterID' /&gt;" Guid="61974aa3-6828-49c5-9ab6-ce9a7bfec634" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEoAAAARCAYAAAB6mTpFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA/SURBVFhH7dAxAQAgDMAw/FvdgYQhgQrIEQM5987yJyoSFYmKREWiIlGRqEhUJCoSFYmKREWiIlGRqEhUMvsA4d+V32lj8G8AAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="26abf7403d03d75956c9fd0e74a8704b.png" xmlns="">0iD0mKlg9A062EROKgVn1Ww</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uISaveButton",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "azyqcCQdS0Wwn8LhJT4mLA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/azyqcCQdS0Wwn8LhJT4mLA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/fKim-pvEU0yZ2AdJDvBrQA",
+  "Created": "2024-05-06T13:48:37.3519995Z",
+  "Updated": "2024-05-06T13:48:44.7029538Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

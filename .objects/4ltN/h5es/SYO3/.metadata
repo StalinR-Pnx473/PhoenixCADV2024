@@ -1,0 +1,16 @@
+﻿{
+  "Name": "CAD RMS Login Screen",
+  "Type": "Screen",
+  "Id": "SYO3i-fhJk2YymTvpeMLgg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/SYO3i-fhJk2YymTvpeMLgg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/h5es0EizPUSkHahTS7e1RA",
+  "Created": "2024-04-15T14:19:52.9972959Z",
+  "Updated": "2024-09-11T13:48:30.7523962Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

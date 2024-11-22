@@ -1,0 +1,17 @@
+﻿{
+  "Id": "WJOWXd0gVU6mHoBwlQ50dQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/WJOWXd0gVU6mHoBwlQ50dQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/B2zQje3EkUSDl_J95zzCiw",
+  "Name": "uIKGISButton",
+  "Description": "\t",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T09:42:38.4339898Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T09:42:47.0246303Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

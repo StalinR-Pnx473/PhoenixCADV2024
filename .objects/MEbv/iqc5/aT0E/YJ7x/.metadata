@@ -1,0 +1,16 @@
+﻿{
+  "Id": "YJ7xt2jH8E6Q2jJ4rpdyFg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/YJ7xt2jH8E6Q2jJ4rpdyFg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/aT0E-vpZYEmlb76E0mIHAQ",
+  "Name": "uIInsuranceCodeEdit",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T13:12:49.4896246Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T13:13:04.3129713Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uISearchButton",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "Jtt4VmFy5EyKv5z8f16Vwg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/Jtt4VmFy5EyKv5z8f16Vwg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/Hrp_8vdRGEaS72ZMdz21Qg",
+  "Created": "2024-05-07T10:37:05.9996829Z",
+  "Updated": "2024-05-07T10:37:14.8013889Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

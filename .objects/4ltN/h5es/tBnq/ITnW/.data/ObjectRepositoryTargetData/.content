@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Fv457yKAo0Kt1emQJD051Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="http://10.103.1.68/LAW/KPIFrameworkWeb/Loader2010.aspx" CvTextArea="1714, 241, 35, 13" CvType="AnyWordGroup" DesignTimeRectangle="1687, 236, 116, 23" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;form&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table' parentid='tdLogoMastHeadBar' tableRow='1' tag='TABLE' /&gt;&lt;webctrl aaname='Logout' class='rmText' parentid='mnuPhoenix' tableRow='1' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='tdLogoMastHeadBar' tag='TABLE' /&gt;&lt;webctrl class='rmText' parentid='mnuPhoenix' type='' tag='SPAN' /&gt;" Guid="e07a91bc-19f2-42ea-bf7d-8b6f78947e13" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title=':: Police - Phoenix Public Safety Solution :: AutomationPoliceCAD;SOP' /&gt;" SearchSteps="Selector" Version="V3" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="d6a321f8a97a829779229866289d4fa8.png" xmlns="">0Qu5iIaQxyUKXx6pKSNuMWQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

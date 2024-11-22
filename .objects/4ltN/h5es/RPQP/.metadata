@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Phoenix Law  Login Page",
+  "Type": "Screen",
+  "Id": "RPQPkOzAfEifg20MvvyyLg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/RPQPkOzAfEifg20MvvyyLg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/h5es0EizPUSkHahTS7e1RA",
+  "Created": "2024-11-18T13:02:18.3660096Z",
+  "Updated": "2024-11-18T13:02:18.3660096Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

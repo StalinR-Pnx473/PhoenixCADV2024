@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QQnrOgr2uEKmIkbjNlWnXA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="536, 150, 75, 19" ElementType="CheckBox" FriendlyName="'Critical ?'" FullSelectorArgument="&lt;wnd ctrlname='CtrlusrLinkCall' /&gt;&lt;wnd ctrlname='chkCritical' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='CtrlusrLinkCall' /&gt;&lt;wnd ctrlname='chkCritical' check:fulltext='Critical ?' /&gt;" Guid="a9be6f1d-a777-4ec2-99ee-2292c272f4f4" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmLinkCall' /&gt;" SearchSteps="Selector, FuzzySelector" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1527616ee8dfced22d3bd70825f3f324.png" xmlns="">0oGduwgQ-NEyrLBwDeZL6Zw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uICommandEdit",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "nI6sbPQJjkKYRAPRKX0DCA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/nI6sbPQJjkKYRAPRKX0DCA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/5VHY118380ife2Xk7NFeZg",
+  "Created": "2024-02-19T11:00:51.6114931Z",
+  "Updated": "2024-02-19T11:01:11.4298073Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

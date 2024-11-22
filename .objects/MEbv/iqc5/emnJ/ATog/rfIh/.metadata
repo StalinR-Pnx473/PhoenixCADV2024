@@ -1,0 +1,16 @@
+﻿{
+  "Id": "rfIhCUu5HE22Wf0bYMIkeA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/rfIhCUu5HE22Wf0bYMIkeA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/ATog21aGmUikpMronzSugw",
+  "Name": "uIBloodTestCheckBox",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T10:41:57.5502592Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T10:42:06.7704137Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

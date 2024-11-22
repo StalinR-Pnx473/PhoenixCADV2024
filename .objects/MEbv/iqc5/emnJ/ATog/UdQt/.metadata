@@ -1,0 +1,16 @@
+﻿{
+  "Id": "UdQteqDuMk6mmbX8Uh6U5A",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/UdQteqDuMk6mmbX8Uh6U5A",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/ATog21aGmUikpMronzSugw",
+  "Name": "uIConstructionZoneCheckBox",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T10:40:17.0186062Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T10:40:26.7709767Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

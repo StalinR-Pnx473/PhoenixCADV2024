@@ -1,0 +1,16 @@
+﻿{
+  "Id": "xBURJ3myrES6CK0NdkUFrQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/xBURJ3myrES6CK0NdkUFrQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/B2zQje3EkUSDl_J95zzCiw",
+  "Name": "uIConditionDropdown",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T09:48:05.0909012Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T09:48:14.2014329Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

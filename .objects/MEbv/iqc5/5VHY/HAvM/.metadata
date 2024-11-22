@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIDispatchTo",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "HAvM1N_P6k2XvTI4wDzuHQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/HAvM1N_P6k2XvTI4wDzuHQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/5VHY118380ife2Xk7NFeZg",
+  "Created": "2024-02-19T11:09:22.0425079Z",
+  "Updated": "2024-02-19T11:09:40.6612749Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

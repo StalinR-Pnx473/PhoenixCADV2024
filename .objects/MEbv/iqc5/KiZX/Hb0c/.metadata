@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uISexEdit",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "Hb0cqMF7kkOSe5J9KUVjuA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/Hb0cqMF7kkOSe5J9KUVjuA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/KiZXiJaZrUa_LcvEA7CckA",
+  "Created": "2024-10-17T10:15:31.1182341Z",
+  "Updated": "2024-10-17T10:16:55.5015335Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

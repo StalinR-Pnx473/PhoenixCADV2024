@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIResetButton",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "LkiO81KEx0-x3w-7FwG_OQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/LkiO81KEx0-x3w-7FwG_OQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/SYO3i-fhJk2YymTvpeMLgg",
+  "Created": "2024-04-15T15:17:33.6366096Z",
+  "Updated": "2024-04-15T15:17:47.1474731Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

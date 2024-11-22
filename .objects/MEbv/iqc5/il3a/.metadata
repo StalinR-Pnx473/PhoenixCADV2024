@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Traffic Stop Screen",
+  "Type": "Screen",
+  "Id": "il3aTNe6S0qbwDqMWCMAyA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/il3aTNe6S0qbwDqMWCMAyA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/iqc5IjgxGkefj9bmmSp_QA",
+  "Created": "2024-02-27T13:09:54.7351948Z",
+  "Updated": "2024-02-27T13:10:06.5075613Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

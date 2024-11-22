@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="E1CPlW9f9EWUcfR4uMWGdw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="338, 91, 15, 19" ElementType="CheckBox" FriendlyName="'Checkbox'" FullSelectorArgument="&lt;wnd ctrlname='CtrlAddPlates' /&gt;&lt;wnd ctrlname='Ctrlplate' /&gt;&lt;wnd ctrlname='chkVerify' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='CtrlAddPlates' /&gt;&lt;wnd ctrlname='Ctrlplate' /&gt;&lt;wnd ctrlname='chkVerify' /&gt;" Guid="e5455ce9-1181-43eb-b66d-39daf47c60d4" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmAddPlates' /&gt;" SearchSteps="Selector, FuzzySelector" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="420, 89, 48, 19" ElementType="Text" FriendlyName="'VIN#'" FullSelectorArgument="&lt;wnd ctrlname='CtrlAddPlates' /&gt;&lt;wnd ctrlname='kpiWinLabel19' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='CtrlAddPlates' /&gt;&lt;wnd ctrlname='kpiWinLabel19' check:text='VIN#' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADQAAAAXCAYAAABEQGxzAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG2SURBVFhH3ZXbbYMwFIa9HOkEGaEDEHWXkC2qvsIE6QjkpQ996AaEVDr170vw5WAcCakOlT7VF8D/51vEOP7SlhD04J8Qgv1QKTwktN/vyxfiGud4EqGbLOQxCfH9JbA9oev1RrlYIa6vFFghhOaC80IXaipBdeu2adpafqfu7mX3GdVXnag3dUvf7KhqLl6bHuNALcr9iSrmPYvM5wdE/evn/QEhHcIGn+ioFjtqel2PhWRwORFheFYIEvb77YERnhBu+JQMmN9yCG9m0CIHdleAE2p6Xxp4QhCR42HMmGA8gzieX+8S+P92fFHl8EGQOkMI7M4cVw+3nKoH4twKoU2/i63nT0CI+Pz+ICuVkgHJS8ELFq/YrJApW4lYyJWQ302cH3AXWpIBSSHnzCBUeKZSQuG7VgjPYDyW6Mxq1JZbR8jOdMfeemkhiVnhNlwh91ZbuBDAqkJ6cBmIObCLQqZNve+GhqhZjekszaO2HGRWETK/Sdx2yBHSW8+/TFwJfTO6z8eIXBmwLPT/KKHckE8hhIDDcMvCCnF9pbBNodyQTyE0DKMJOS4yCfH9JaCEcilfaKQ/Lk68uW5Am2YAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="688ac99a7cccf3994916402a3e9a9d14.png" xmlns="">0fUg_neWJO0y96UWRc1MUMA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

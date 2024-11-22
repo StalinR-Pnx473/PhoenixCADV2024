@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="vZN_XKLmN0mzswlhUig_rA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="25d492d9-b2d0-46ee-a313-d5655fe632c1" CvElementArea="27, 80, 69, 31" CvTextArea="41, 86, 42, 18" CvTextArgument="Local" CvType="Button" DesignTimeRectangle="28, 81, 68, 30" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;wnd ctrlname='btnlocal' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='btnlocal' check:text='Local' /&gt;" Guid="07791bce-4cd4-459d-a9de-711a264e3cd0" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEgAAAAiCAYAAAD8gp97AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGySURBVGhD7ZnNrYMwEISpjobcDaUkghoQuUZwIwodQBTtYwwW/sO+REr8vCPNIXiM2U9rIuGCWEExoIgYUEQOoHme6X6/0+12o7Zts/EwDLJ2WwYgBADm8XjQ6/Wi9/udhVHr8/mUtduQDECgOE2T9yY5eBxHuXt0GYDQasuyeCfnYNSOLtLlAPJNzMlgoIsBWc4GUC0KKgpBtWcs5I8D6qtyfZCCRO0f/5YZUMQMKGIGFHF6gPqKyjWHrLJ/Tk3CyhVlRf0+vhXu2r5XUoBUxmtRH9la+DOry6qXmTNAsP4M6QDSOsfMHJ2yXT9+KxjKWMO+Znqfq8FOB9DeFd4CVcegsFDOcU9VucE07GzFBAAFx1V3rYCioHeHthgD0t5RZm7fYikC+uQWO18rZUDOy3i3/fI+fZlvawCcWsuGqK7/NKAzo9hgRvvnCeU2KAdsr1MFJLNahzhjuj05HaIzLqH88Bb7b2ZAETOgiIOA8ME694/2QUA48sDRh29yDsbZGI6+dBmA1MEhgjl1EmpFY0QPDiEEuq6j6/VKl8slCzdNI7eWDQdyALFMMaCIGFBQRH87fkoygNSs2gAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmNCICRespDtl' /&gt;" SearchSteps="Selector, Image" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="474562d37776ecbec21ad818fb4a329e.png" xmlns="">0SREHH4rcWEuoMzgW21zXzw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

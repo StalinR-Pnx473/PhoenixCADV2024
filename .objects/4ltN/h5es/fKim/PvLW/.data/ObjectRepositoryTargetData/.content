@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="lni8gSvwzUSGNBXosJhcog" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="http://10.103.1.68/LAW/CCP/frmCitizenIPCameraEntry.aspx?hdnMode=ADD&amp;JurisID=1000" CvElementArea="228, 299, 440, 22" CvType="InputBox" DesignTimeRectangle="228, 300, 440, 20" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='tblMain' tableRow='3' tag='TABLE' /&gt;&lt;webctrl id='txtEmail' tableRow='14' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='tblMain' tag='TABLE' /&gt;&lt;webctrl id='txtEmail' type='text' tag='INPUT' class='textbox' aaname='' /&gt;" Guid="8d6af866-f939-4002-99c0-245545b7e8ef" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAbwAAAAYCAYAAACBSkiTAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACLSURBVHhe7dVBDYBAEMBA/AtBA05wcRbgxwcwsJ1JqqHbWuuSJGl6hidJSvQMbz9OSZLG9Tk8AJjE8ABIMDwAEgwPgATDAyDB8ABIMDwAEgwPgATDAyDB8ABIMDwAEgwPgATDAyDB8ABIMDwAEgwPgATDAyDB8ABI+B2eJEnTeg1PkqTJGZ4kKdC6boQZpZA9qSKSAAAAAElFTkSuQmCC" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='ManageCitizenIPCamera638506179249482774' title='Citizen IPCamera - 5625 -' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V3" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArea="185, 304, 40, 12" CvTextArgument="E-Mail" CvType="Text" DesignTimeRectangle="186, 304, 38, 13" ElementType="Text" FullSelectorArgument="&lt;webctrl id='tblMain' tableRow='3' tag='TABLE' /&gt;&lt;webctrl id='lblEmail' tableRow='14' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id='tblMain' tag='TABLE' /&gt;&lt;webctrl id='lblEmail' type='' tag='SPAN' class='' aaname='E-Mail' check:innerText='E-Mail' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACoAAAARCAYAAACrfj41AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD0SURBVEhL7ZTLDYMwDEA7ADdm45ZlYIQOkAPHbICEWIA7EhIzZAWXkDixUdpCC1WRcnhqcf15SlxuWmu4Akn0aJLoN0x1Afc8A1mPPsZE+ypbEjgFNEPI4bSgMK9qQ3yQIF2cDntKV9oeQsI0P28WVV2IvYaI5iX0Lo6D1sO2cqJoCWqutY1HaEQBUnBRHE7xc/AG9p4owxXTvEAQ7c31mVz32bhe0RP1q+Fu4VPR2IlisWfZSSK6fLcnaQZgrzCMrglygmgcKor19s/HRc060N687uei9Dcuinn4BjlIlLPl9fRONLI6tG6v6D+TRI/mIqIaHsiIiBqr/GGNAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1e27d5181615b2422e924baf178ffb4a.png" xmlns="">0bx76wB7LJkmBluvYZNHjsw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

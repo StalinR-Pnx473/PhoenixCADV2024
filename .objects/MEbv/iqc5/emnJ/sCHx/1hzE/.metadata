@@ -1,0 +1,16 @@
+﻿{
+  "Id": "1hzEPNI7mkWgHcAXEeyVGw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/1hzEPNI7mkWgHcAXEeyVGw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/sCHxE-wMn0KjG8WlPgAf3g",
+  "Name": "uINoDLNoCheckBox",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T07:10:36.987506Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T07:10:49.9548534Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

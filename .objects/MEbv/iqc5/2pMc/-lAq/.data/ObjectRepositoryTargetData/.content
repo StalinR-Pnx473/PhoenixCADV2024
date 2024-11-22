@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="S7xVJSNdjEKNopIUdin23g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="5a33b7a3-4da7-4214-aa45-41a8d92fbe90" CvElementArea="772, 671, 379, 47" CvType="InputBox" DesignTimeRectangle="824, 671, 326, 46" DesignTimeScaleFactor="1" ElementType="DropDown" FullSelectorArgument="&lt;wnd ctrlname='pnlLoingCtrl' /&gt;&lt;wnd ctrlname='lstCADServer' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='pnlLoingCtrl' /&gt;&lt;wnd ctrlname='lstCADServer' /&gt;" Guid="7ab4279a-eab6-4c2a-bf8f-4e003385818e" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmLogin' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="5a33b7a3-4da7-4214-aa45-41a8d92fbe90" CvElementArea="780, 676, 34, 35" CvType="Icon" DesignTimeRectangle="778, 674, 38, 39" ElementType="Icon" Guid="ae9b1237-eb22-4352-a060-9cb22bfd1ce1" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACYAAAAnCAYAAABjYToLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAITSURBVFhH7Zc9S0MxFIb9KW7iJHXq4KCgQwXFOvg5WOliwUXBQcRB8AMFKzpYdbE6tY79g5HnQkoMJ7dJbgpS7vBAe3POyZub5Jxzp6ZnKuo/UgoLpRQWSiFhs3NVtVzbEGFM8vHFW9h8dVFt7TXUxeWVeu28q8Fg4MVn90td396rg+ZRFkOKLTFS2PrmrnpsP4uTxsCiWKA0l4lTGFvBSqXg0H56yWgdn4jocckXWGzedjuFnZ6d/wnUeftQjWZLLSzVRPs88MHXFnpz9yDag1OYGWRltS7axECsbvd7GFuyAS9h0ngRfGKXwkwmX1jRLG7DDU8irNfrZ+ljrb4j2vpAyiAGlUDHLSzMhuRIadLJ1K6T+jk2o6qGNDdECStKv/8z/C3NDd5nbHv/MHsDMYI5U/gSg1hmDGlu8BImjdMpkMWBQq+3D/jPc1f5GquwIky+MM5HTFdhw/aTMkg/SYRpyEGIpBslLeSJRQQ22OJj5y+N5AtBwsaBNDd4CeOa09SZAWMgJg1jspJkPmf7dHrgvGAnwUKwYVF2o8l4cmEpmHxh3CzJJga2tlC64HxoZ+C669YnpD/DlrQhtTykEckHnMKAYGYgE1ZNSwN8f+o6yW/93HwzNlyOvAXmCgNuISuTgseAIPuWSowUZqLTBOfP/DZ0Qd+FLT74hhyBIGEueKu6BUpRUyGJsHFQCgujon4BJmjDe2lHD9QAAAAASUVORK5CYII=" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fdb192a84bd4f3ce861072e6aa07c94f.png" xmlns="">0xc1p4EaitUSheNCs866aOw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

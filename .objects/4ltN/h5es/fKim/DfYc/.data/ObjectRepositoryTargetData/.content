@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="v74wNsa290aCvDw2FWPHxQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="http://10.103.1.68/LAW/CCP/frmCitizenIPCameraEntry.aspx?hdnMode=ADD&amp;JurisID=1000" CvElementArea="403, 266, 109, 21" CvType="InputBox" DesignTimeRectangle="404, 267, 107, 20" DesignTimeScaleFactor="1" ElementType="DropDown" FullSelectorArgument="&lt;webctrl parentid='tblMain' tableRow='1' tag='TABLE' /&gt;&lt;webctrl id='custHeaderCSZ_State_DropDown' tableRow='1' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='tblMain' tag='TABLE' /&gt;&lt;webctrl id='custHeaderCSZ_State_DropDown' type='' tag='SELECT' class='' aaname='' /&gt;" Guid="3221fc33-1854-44bb-9333-da31eaee3f29" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='ManageCitizenIPCamera638506179249482774' title='Citizen IPCamera - 5625 -' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArea="145, 271, 80, 14" CvTextArgument="City/State/Zip" CvType="Text" DesignTimeRectangle="146, 271, 78, 13" ElementType="Text" FullSelectorArgument="&lt;webctrl id='tblMain' tableRow='3' tag='TABLE' /&gt;&lt;webctrl id='lblCity' tableRow='10' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id='tblMain' tag='TABLE' /&gt;&lt;webctrl id='lblCity' type='' tag='SPAN' class='' aaname='City/State/Zip' check:innerText='City/State/Zip' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFIAAAARCAYAAABO4PtZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHoSURBVFhH7ZVRcoMwDES5IJPzMNyEnIR89wj54BRcwbVsY6/WIoSEpjMtHzvT2JItvZVpM8+zO/W+TpAH6QR5kE6QB+l5kPfBtZfBTdbeUxpd3/RuNPc+q7FrXH+z91DTtXXtdTL3WBVISW6apsiCJ1B3QuGipBn7HgHeuuGu823tiU3Cgbj1uoZF3WjnPpACGSFqQLJWubcb5OSGS2k43EPFjt1y3s+CZEO1XjAmCUBuHJKdFCjgnl/7YjAMGqfAS6ZxrRk9qfGMaHBZX4y1YqNpZV3fow3Vink4NAg9mt97RnxfVAG5NWUIo4oVE8pvdl1+q6kO+akgABz1hKH5rjpWm0TgJHfl2VrmViChx2AinHUQSCyEm9OQWbFAdNgCKWsJ/MNYei1JOMHVZ8or1FAZaoBEE+T7CjkvPO30N8NZ9uUCvnBlCorwWdlw8rSou+1YC1aMpZpF4R+Ose71IsgUTIfKWihsC6RXGHcyY+zYHHpuQQhkA45qnGNTDdDgfBvivs/LZmTV+ah1kGSulwIpijDhaSzJCNIrQuOitUuckxVgwB3UTKkhAcN4bwKaWMWmJnN8WLfMM3pdlGqWfQUSY+iVVSDfEX+DsJBf1ZqhOxRAPvhEHQeSp/GP6XMg/7lOkIdodt87JLwRkmIAIAAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, Image, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="10b9f9c72a4336b8e175518f600f198d.png" xmlns="">0KgR_BzHDcEa67E1Blsbxow</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

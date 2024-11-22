@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uITerminal",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "z0GXstoESEa-gVepWq1ceQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/z0GXstoESEa-gVepWq1ceQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/2pMcuOK5E0aizS4vFzew9Q",
+  "Created": "2024-11-12T10:07:49.1615513Z",
+  "Updated": "2024-11-12T10:08:19.111917Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

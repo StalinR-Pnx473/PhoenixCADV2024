@@ -1,0 +1,16 @@
+﻿{
+  "Id": "_z8sfQWJKkqiaD8KHwcgLA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/_z8sfQWJKkqiaD8KHwcgLA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/Qr6aw9Xjvke7hJVRkLuTKA",
+  "Name": "uIIssuingOfficerCodeEdit",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T13:03:54.2822914Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T13:04:09.1024132Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

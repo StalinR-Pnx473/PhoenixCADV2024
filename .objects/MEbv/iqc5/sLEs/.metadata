@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Common Name Lookup Screen",
+  "Type": "Screen",
+  "Id": "sLEsksXPSUyO5pXcaRpmtQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/sLEsksXPSUyO5pXcaRpmtQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/iqc5IjgxGkefj9bmmSp_QA",
+  "Created": "2024-08-01T07:57:51.4491912Z",
+  "Updated": "2024-08-01T07:58:07.4956759Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

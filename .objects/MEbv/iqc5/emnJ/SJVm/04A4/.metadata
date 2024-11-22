@@ -1,0 +1,16 @@
+﻿{
+  "Id": "04A4-v2qIUieMafQuqULCA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/04A4-v2qIUieMafQuqULCA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/SJVmgy-nLkmYlfM_TvjICg",
+  "Name": "uIAddVehicleButton",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T07:50:40.6171452Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T07:50:51.9164216Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

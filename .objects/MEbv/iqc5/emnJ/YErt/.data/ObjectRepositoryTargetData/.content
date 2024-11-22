@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tRRh_TENh0WOmn9DeudF7w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="17, 190, 170, 32" ElementType="CheckBox" FriendlyName="'Business Name'" FullSelectorArgument="&lt;wnd ctrlname='CtrlusrSummonsNJ' /&gt;&lt;wnd ctrlname='chkBussinessName' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='CtrlusrSummonsNJ' /&gt;&lt;wnd ctrlname='chkBussinessName' check:fulltext='Business Name' /&gt;" Guid="b38195f0-01d2-46dd-9612-d8dc58d5e8e4" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmAddSummons' /&gt;" SearchSteps="Selector, FuzzySelector" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="192, 190, 634, 32" FriendlyName="'WindowsForms10.Window.8…'" FullSelectorArgument="&lt;wnd ctrlname='CtrlusrSummonsNJ' /&gt;&lt;wnd ctrlname='txtNameDtl' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='CtrlusrSummonsNJ' /&gt;&lt;wnd ctrlname='txtNameDtl' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAn4AAAAkCAYAAAAXWjfYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADZSURBVHhe7dYxDYBQFMBA/FshTBj7DmBjAQy83iX10G2tdUmSJGl+xk+SJCnSM377cUqSJGlgn+MHAMAsxg8AIML4AQBEGD8AgAjjBwAQYfwAACKMHwBAhPEDAIgwfgAAEcYPACDC+AEARBg/AIAI4wcAEGH8AAAijB8AQITxAwCIMH4AABHGDwAgwvgBAEQYPwCACOMHABBh/AAAIowfAECE8QMAiDB+AAARxg8AIML4AQBEGD8AgAjjBwAQYfwAACJ+x0+SJEnzeo2fJEmSZmf8JEmSEq3rBvLjzysKDFOFAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="09799b3df1c290be3b63bfdf61a2554c.png" xmlns="">0WAYsmhdsckOXD-adYxX8PA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

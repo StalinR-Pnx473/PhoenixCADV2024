@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIURL",
+  "Type": "Element",
+  "TaxonomyType": "Text",
+  "Id": "bR-c8brsDESwq9v0hLZHbA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/bR-c8brsDESwq9v0hLZHbA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/rPHf10P5DE28ZIUa_sxd-Q",
+  "Created": "2024-05-07T13:18:03.3564933Z",
+  "Updated": "2024-05-07T13:18:13.3842799Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

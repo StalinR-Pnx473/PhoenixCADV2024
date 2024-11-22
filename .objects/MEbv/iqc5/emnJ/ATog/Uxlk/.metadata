@@ -1,0 +1,16 @@
+﻿{
+  "Id": "UxlkCvsiBk61VfgelZ57Ug",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/UxlkCvsiBk61VfgelZ57Ug",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/ATog21aGmUikpMronzSugw",
+  "Name": "uIDescribeLocationCheckBox",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T08:21:57.5588716Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T08:22:10.7272062Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

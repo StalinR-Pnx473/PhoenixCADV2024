@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIClickRecordsModule",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "QknHz6CwbUeZW_H-xHSsqw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/QknHz6CwbUeZW_H-xHSsqw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/FgKONO6vWkq6VTrRCPK49g",
+  "Created": "2024-09-11T12:30:14.1504825Z",
+  "Updated": "2024-09-11T12:31:45.9546057Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

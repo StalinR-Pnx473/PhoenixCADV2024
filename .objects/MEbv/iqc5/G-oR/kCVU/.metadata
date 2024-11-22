@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIPlatePencilIcon",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "kCVUAiBWqECHxXvxw4xe6A",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/kCVUAiBWqECHxXvxw4xe6A",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/G-oR_yfRvUae3J-fNEIjYQ",
+  "Created": "2024-10-16T08:12:06.1914286Z",
+  "Updated": "2024-10-17T09:53:19.8197576Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Update Name Details Screen",
+  "Type": "Screen",
+  "Id": "KiZXiJaZrUa_LcvEA7CckA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/KiZXiJaZrUa_LcvEA7CckA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/iqc5IjgxGkefj9bmmSp_QA",
+  "Created": "2024-10-17T10:07:20.5171527Z",
+  "Updated": "2024-10-17T10:09:24.5715154Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "Id": "7L61R6F6ZEWORQhoQhyMmQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/7L61R6F6ZEWORQhoQhyMmQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/iqc5IjgxGkefj9bmmSp_QA",
+  "Name": "Notify Distribution List Screen",
+  "Type": "Screen",
+  "Created": "2024-01-17T07:39:26.7012107Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T07:39:31.0513982Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="GtbDBwMHQ0yJRpmL00uH_g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://ch68.prophoenix.com/LAW/Records/frmCBE.aspx?AutoRefresh=false&amp;Type=CAD&amp;hdnMode=CHG&amp;JurisID=1000&amp;IncidentID=100040002764350" CVScreenId="b62dfafe-b419-4b39-9817-38b4440b4ed1" CvElementArea="383, 298, 41, 26" CvTextArea="392, 303, 23, 12" CvTextArgument="Edit" CvType="Button" DesignTimeRectangle="383, 298, 41, 26" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl tableRow='3' tag='TABLE' /&gt;&lt;webctrl aaname='Edit' class='igtab_BlueThemeTHText' tableRow='21' tag='SPAN' /&gt;" FuzzyMatches="10000" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl class='igtab_BlueThemeTHText' type='' tag='SPAN' /&gt;" Guid="67abf6be-d7e0-48b8-b3a9-d5c76ecbc892" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='CADINQ63861680585798147363861680585798147327' title='Call Entry - 2410' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f1b27546a3285d6dd71f75e826807bc3.png" xmlns="">0h9b6VY5RoEObq9Ggr-oh-g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

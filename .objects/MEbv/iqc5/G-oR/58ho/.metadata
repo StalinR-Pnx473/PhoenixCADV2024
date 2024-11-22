@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIAddressCheckBox",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "58hoRylP4kO3KBCnPzSHog",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/58hoRylP4kO3KBCnPzSHog",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/G-oR_yfRvUae3J-fNEIjYQ",
+  "Created": "2024-01-23T08:08:46.6365752Z",
+  "Updated": "2024-01-23T08:09:33.7753355Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

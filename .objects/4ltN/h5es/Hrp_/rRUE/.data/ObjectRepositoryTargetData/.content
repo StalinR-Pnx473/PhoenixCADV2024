@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="FZVzbx2ypUqFLBcKuuuWTA" Reference="THDf1UhB6U6EKgZN7HF2zw/rRUEeBHa002NXKFrSQGjDQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="http://10.103.1.68/LAW/CCP/frmCitCameraSrch.aspx?KPIInt=TRUE&amp;RepositoryID=5617&amp;ModuleName=Citizen%20Services&amp;ScreenName=Live%20Video%20Link&amp;ScreenHeight=1080&amp;ScreenWidth=1920" CvElementArea="911, 228, 17, 17" CvType="CheckBox" DesignTimeRectangle="913, 230, 13, 13" DesignTimeScaleFactor="1" ElementType="CheckBox" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='IFRAME' /&gt;&lt;webctrl tableRow='4' tag='TABLE' /&gt;&lt;webctrl id='adrMainAddress_chkVerify' tableRow='1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='adrMainAddress_chkVerify' type='checkbox' tag='INPUT' class='' aaname='' /&gt;" Guid="f617af1f-6a50-4762-a423-de6a26c097dc" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title=':: Police - Phoenix Public Safety Solution :: AutomationPoliceCAD;SOP' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V3" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvElementArea="563, 224, 346, 22" CvType="InputBox" DesignTimeRectangle="564, 225, 345, 20" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='IFRAME' /&gt;&lt;webctrl tableRow='4' tag='TABLE' /&gt;&lt;webctrl id='adrMainAddress_txtFrom' tableRow='1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='adrMainAddress_txtFrom' type='text' tag='INPUT' class='textbox' aaname='' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAV0AAAAYCAYAAABZai7cAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACESURBVHhe7dQxDYBAAMBA/AtBA04QwYCEZyYBJr7TXVILXc7zGJKkJtOVpLDbdNdtlyRN6HW6APzLdAFCpgsQMl2AkOkChEwXIGS6ACHTBQiZLkDIdAFCpgsQMl2AkOkChEwXIGS6ACHTBQiZLkDIdAFCn9OVJP3f43QlSXMzXUnKOsYFtmb/AxOaYREAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a29a85ad5a9a676f3cdd1b237e96255a.png" xmlns="">0A1xJwHoCJkuPeynzeGbrCQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

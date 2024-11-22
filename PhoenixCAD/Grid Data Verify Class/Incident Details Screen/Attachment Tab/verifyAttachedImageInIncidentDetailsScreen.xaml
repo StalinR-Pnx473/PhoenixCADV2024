@@ -1,0 +1,290 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="verifyAttachedImageInIncidentDetailsScreen" this:verifyAttachedImageInIncidentDetailsScreen.Image="SampleSNAG1.snag" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="Image" Type="InArgument(x:String)" />
+  </x:Members>
+  <mva:VisualBasic.Settings>
+    <x:Null />
+  </mva:VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>1047,3006</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>verifyAttachedImageInIncidentDetailsScreen_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.Testing</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Terminal</AssemblyReference>
+      <AssemblyReference>UiPath.PDF.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Java.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Testing</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="verifyAttachedImageInIncidentDetailsScreen" sap:VirtualizedContainerService.HintSize="912,2941" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:Int32" Name="rowCounter" />
+      <Variable x:TypeArguments="x:Int32" Name="Tablerow" />
+      <Variable x:TypeArguments="sd:DataTable" Name="TableValue" />
+      <Variable x:TypeArguments="x:String" Name="GetFileName" />
+      <Variable x:TypeArguments="x:String" Name="strRowCounter" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="{x:Null}" ConnectionId="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Incidents Details Screen" sap:VirtualizedContainerService.HintSize="864,2844" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="{x:Null}" IsIncognito="{x:Null}" OpenMode="{x:Null}" OutUiElement="{x:Null}" ScopeGuid="e591250e-ae08-4c17-a0bc-9c3fd883eae2" Timeout="{x:Null}" UserDataFolderMode="{x:Null}" UserDataFolderPath="{x:Null}" Version="V2" WebDriverMode="{x:Null}">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="830,2554" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Assign sap:VirtualizedContainerService.HintSize="782,82" sap2010:WorkflowViewState.IdRef="Assign_1">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:Int32">[rowCounter]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:Int32">0</InArgument>
+              </Assign.Value>
+            </Assign>
+            <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[TableValue]" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenPages="{x:Null}" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Table' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-0' ReferenceIdx='0' Name='Column-0'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-1' ReferenceIdx='1' Name='Column-1'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-2' ReferenceIdx='2' Name='Column-2'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-3' ReferenceIdx='3' Name='Column-3'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-4' ReferenceIdx='4' Name='Column-4'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-5' ReferenceIdx='5' Name='Column-5'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-6' ReferenceIdx='6' Name='Column-6'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-7' ReferenceIdx='7' Name='Column-7'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-8' ReferenceIdx='8' Name='Column-8'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-9' ReferenceIdx='9' Name='Column-9'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract-table get_columns_name='1' get_empty_columns='1' columns_name_source='Longest' /&gt;" sap:VirtualizedContainerService.HintSize="782,157" sap2010:WorkflowViewState.IdRef="NExtractData_1" InScope="{x:Null}" InUiElement="{x:Null}" LimitExtractionTo="None" MaximumResults="0" OutUiElement="{x:Null}" ScopeIdentifier="e591250e-ae08-4c17-a0bc-9c3fd883eae2" Timeout="{x:Null}" Version="V3">
+              <uix:NExtractData.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="4, 180, 1670, 464" DesignTimeScaleFactor="1" ElementType="Table" FullSelectorArgument="&lt;wnd ctrlname='ctrlUsrIncContextInfo' /&gt;&lt;wnd ctrlname='tbCallInfo' /&gt;&lt;wnd ctrlname='tbAttachments' /&gt;&lt;wnd ctrlname='ctrlUsrAttachments' /&gt;&lt;wnd ctrlname='pnlGrid' /&gt;&lt;wnd ctrlname='grdAttachments' /&gt;&lt;ctrl name='TxtAttach' role='table' /&gt;" Guid="b7399ee4-18d7-4fb6-8e76-b51e3b7a4b77" InformativeScreenshot="4bdf578d2e67157ada3bc72f7cc6b6ab.png" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmIncidentEx' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+              </uix:NExtractData.Target>
+            </uix:NExtractData>
+            <Assign sap:VirtualizedContainerService.HintSize="782,82" sap2010:WorkflowViewState.IdRef="Assign_2">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:Int32">[Tablerow]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:Int32">[TableValue.Rows.Count]</InArgument>
+              </Assign.Value>
+            </Assign>
+            <ui:RepeatNumberOfTimesX DisplayName="Repeat Number of Times" sap:VirtualizedContainerService.HintSize="782,2039" sap2010:WorkflowViewState.IdRef="RepeatNumberOfTimesX_1" NumberOfTimes="[Tablerow]" StartAt="1">
+              <ui:RepeatNumberOfTimesX.Body>
+                <ActivityAction x:TypeArguments="x:Int32">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentItem" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="748,1875" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <Assign sap:VirtualizedContainerService.HintSize="700,82" sap2010:WorkflowViewState.IdRef="Assign_3">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:Int32">[rowCounter]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:Int32">[rowCounter+1]</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <Assign DisplayName="CovertingRowCountValueAsString" sap:VirtualizedContainerService.HintSize="700,82" sap2010:WorkflowViewState.IdRef="Assign_4">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[strRowCounter]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">[rowCounter.ToString]</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <uix:NGetText ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Get Text 'SampleSNAG1.snag'" sap:VirtualizedContainerService.HintSize="700,157" sap2010:WorkflowViewState.IdRef="NGetText_1" InScope="{x:Null}" InUiElement="{x:Null}" OutUiElement="{x:Null}" ScopeIdentifier="e591250e-ae08-4c17-a0bc-9c3fd883eae2" ScrapingOptions="{x:Null}" TextString="[GetFileName]" Timeout="{x:Null}" Version="V3" WordsInfo="{x:Null}">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable CVScreenId="bacb66d3-c4be-4d3a-bfd1-1e2ee1fa884e" CvTextArea="8, 203, 111, 14" CvType="AnyWordGroup" DesignTimeRectangle="5, 202, 714, 18" DesignTimeScaleFactor="1" ElementType="Cell" FullSelectorArgument="[string.Format(&quot;&lt;wnd ctrlname='ctrlUsrIncContextInfo' /&gt;&lt;wnd ctrlname='tbCallInfo' /&gt;&lt;wnd ctrlname='tbAttachments' /&gt;&lt;wnd ctrlname='ctrlUsrAttachments' /&gt;&lt;wnd ctrlname='pnlGrid' /&gt;&lt;wnd ctrlname='grdAttachments' /&gt;&lt;ctrl name='TxtAttach' role='table' /&gt;&lt;ctrl name='TxtAttach row {0}' role='row' /&gt;&lt;ctrl name='File Name' role='cell' /&gt;&quot;, strRowCounter)]" FuzzySelectorArgument="&lt;wnd ctrlname='ctrlUsrIncContextInfo' /&gt;&lt;wnd ctrlname='tbCallInfo' /&gt;&lt;wnd ctrlname='tbAttachments' /&gt;&lt;wnd ctrlname='ctrlUsrAttachments' /&gt;&lt;wnd ctrlname='pnlGrid' /&gt;&lt;wnd ctrlname='grdAttachments' /&gt;&lt;ctrl name='TxtAttach' role='table' /&gt;&lt;ctrl name='TxtAttach row 1' role='row' /&gt;&lt;ctrl name='File Name' role='cell' automationid='' /&gt;" Guid="94e1dbda-45c6-496a-8793-1a75c7de5cd7" InformativeScreenshot="2a00cfe64ae89e8ea442d0e01c4fef98.png" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmIncidentEx' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="700,92" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[GetFileName]" />
+                    <If Condition="[Image.Equals(GetFileName)]" sap:VirtualizedContainerService.HintSize="700,1236" sap2010:WorkflowViewState.IdRef="If_1">
+                      <If.Then>
+                        <Sequence sap:VirtualizedContainerService.HintSize="664,1049" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Double" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click 'File Name'" sap:VirtualizedContainerService.HintSize="616,157" sap2010:WorkflowViewState.IdRef="NClick_1" InScope="{x:Null}" InUiElement="{x:Null}" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="e591250e-ae08-4c17-a0bc-9c3fd883eae2" Timeout="{x:Null}" Version="V3">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable CVScreenId="308bef09-1941-4569-ab95-6631d37535dd" CvTextArea="8, 203, 111, 14" CvTextArgument="SampleSNAG1.snag" CvType="Text" DesignTimeRectangle="5, 202, 714, 18" DesignTimeScaleFactor="1" ElementType="Cell" FullSelectorArgument="&lt;wnd ctrlname='ctrlUsrIncContextInfo' /&gt;&lt;wnd ctrlname='tbCallInfo' /&gt;&lt;wnd ctrlname='tbAttachments' /&gt;&lt;wnd ctrlname='ctrlUsrAttachments' /&gt;&lt;wnd ctrlname='pnlGrid' /&gt;&lt;wnd ctrlname='grdAttachments' /&gt;&lt;ctrl name='TxtAttach' role='table' /&gt;&lt;ctrl name='TxtAttach row 1' role='row' /&gt;&lt;ctrl name='File Name' role='cell' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='ctrlUsrIncContextInfo' /&gt;&lt;wnd ctrlname='tbCallInfo' /&gt;&lt;wnd ctrlname='tbAttachments' /&gt;&lt;wnd ctrlname='ctrlUsrAttachments' /&gt;&lt;wnd ctrlname='pnlGrid' /&gt;&lt;wnd ctrlname='grdAttachments' /&gt;&lt;ctrl name='TxtAttach' role='table' /&gt;&lt;ctrl name='TxtAttach row 1' role='row' /&gt;&lt;ctrl name='File Name' role='cell' automationid='' /&gt;" Guid="1c7e7b18-d6b2-47b9-9269-eba65e83ffbc" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAs4AAAAWCAYAAADQHhpHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANnSURBVHhe7dxNkpswEIZh3264gNe5BMdhn2yTC7DLOXwQVym0flCrJbBw2Q5JvU9VFwMSQsPqmy5qLtfr1d3vd/fr52+KoiiKoiiKolR9fX1bs7IPznKBoiiKoiiKoqjt8sEZAAAAQO3H9zn+5EJw1hcAAAAABFVwPqXb5IbL6Ij0AAAA+Fv6O84+vF7cJdUwuVscersjwXlrn+n6qFZprTuP/r5hqn+72zTkde1a3uxGAj4AAMB/qa/j7APm4HSWnMcPBsTe4Ly3zxSc9Xhj3Xm8uHG5x/5hEEKznZvP5b4QqDv2CQAAgH9OX8dZurCbHeabm4YUGtvBdFKdWmnS6s7t2rSNc8c1gO4FXOnspnnq+t4+9V7SQ5vryrkcdQAPz6sazFa1XlvRuS464vW7Cnbesaffh9TjPQAAAOCYAx3n9ucLlg+F5vOI9T77GYQOunFuzrR2nRQGQ4gsAncRhDf2ua6hQnGx7kL2E9eSDvK6jp23pWeezFHh3nbEm+/GKN5N63307BUAAACH9HWcRQx2qau5BjVLBzcb4vbOe8fsvOWn4rtiP97Yp7rPB08ZMGv5zzTySQ6nRYjV3V/T+a321rA1x17fW0uPHbkPAAAAT+vrOFsSJKtPKXJYXT8VeBTq9HkV+FQg1mP+2fpZ6nmW3mexfuw6z41rxe/UujfS40lrXoP+VGOzq908b/zORahfdO4BAAAAx/R3nAvq8wAf1GzgjMGtGf42znvH7Lxddp/5vvC5w2DW1cE0VAi2EqpNl93Pfy44Zyqs23v1uX2WHSM4AwAAvF1fx3kec2dU6CBnglropurAp0Lc3rkZ8/+lIiXVYiyEYb2fecqfVPTuM4RWCcfhmuy7uHcRwnVYu/i9hF47qZ4hzH6XPeYALnuI8+29+tyMlXsxod532dU6AAAAeInOjnMKmbl09zX/K7YlII5LeN0IfI/DoXrGbhfV7Gedu7PPag25lAKohFsTgoW/J18P8/PaRXhX76Acs0G/3OPm/sz55jsWPizHcd1FBwAAwMv0dZw/oRFs8QQJ0fqvGgAAALxEZ8f5AwjOTyu73bxDAACAdzhPxxkAAAA4sfN0nAEAAIATo+MMAAAAdKDjDAAAAHRodpzTRY4cOXLkyJEjR44cOdZHPtUAAAAAHnLuD+kt3dqACsIIAAAAAElFTkSuQmCC" InformativeScreenshot="726178c0b45919e4228a99e086e5fa93.png" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmIncidentEx' /&gt;" SearchSteps="Selector, FuzzySelector, Image, CV" Version="V4" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="308bef09-1941-4569-ab95-6631d37535dd" CvTextArea="6, 183, 57, 13" CvTextArgument="File Name" CvType="Text" DesignTimeRectangle="4, 180, 715, 22" FullSelectorArgument="&lt;wnd ctrlname='ctrlUsrIncContextInfo' /&gt;&lt;wnd ctrlname='tbCallInfo' /&gt;&lt;wnd ctrlname='tbAttachments' /&gt;&lt;wnd ctrlname='ctrlUsrAttachments' /&gt;&lt;wnd ctrlname='pnlGrid' /&gt;&lt;wnd ctrlname='grdAttachments' /&gt;&lt;ctrl name='Column Headers' role='grouping' /&gt;&lt;ctrl name='File Name' role='column header' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='ctrlUsrIncContextInfo' /&gt;&lt;wnd ctrlname='tbCallInfo' /&gt;&lt;wnd ctrlname='tbAttachments' /&gt;&lt;wnd ctrlname='ctrlUsrAttachments' /&gt;&lt;wnd ctrlname='pnlGrid' /&gt;&lt;wnd ctrlname='grdAttachments' /&gt;&lt;ctrl name='Column Headers' role='grouping' /&gt;&lt;ctrl name='File Name' role='column header' automationid='' check:text='File Name' /&gt;" Guid="d970693b-52ca-4db5-b80d-c683a901e21e" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAs8AAAAaCAYAAABIHrECAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANsSURBVHhe7dpvSxRRFMfxeVdiu2jPfAU+qSBTM6I3EIYUbStJVE8ECaMsBP9AhmFQtG5UrCj9E6NCECpEiUKK6IkgnObO7Jm9d/bO6goGxffAh869c+6doUc/FoONjQ0BAAD4F2xvb+Mv8f3/Y0Oi8NzZ2QkAAABgF0l43tnZAQAAAJDS0XE86Z3w/PPnbwAAAAAWDc+md8Lz1tYvAAAAABYNz6Z3wvO3bz8AAAAAWDQ8m94Jz5ubWwAAAAAsGp5N74Tn9fXve7d4XdqDMzLtewYAAAD8JzQ8m94Jz58/f41VroXBOJDAcViGJs3+aZlMZqp9M/TuvpnU3j7uAgAAAA6YhmfTO+F5bW0z9uyqtIVhdlzXPnuZ8YnOxWF88Jm9t4+7AAAAgAOm4dn0TnheXV2Pla9IPjgld3Xt26+bmZae5Fdqz1lVPVcstkvQM+3sxWcWpZjXe4x2KZY9Z6vPe+6uSzm1rr1vj98EAAAAZNDwbHonPH/48CVWGpJc0CdjuvbtOzMVKeQC6R6z5rqn3LMqOTcl3WEwLpTsvdRsqFQIg3FuSEpmHc0FkitU4udjfVEwdtY628w3AQAAABk0PJveCc/vVj7FHl2OQqr+mhs7Kbei/fDfZMbTRyaky1lbrNnHF9ok6JrwnPfP1801Wtfd2eCbAAAAgAwank3vhOflt2uxh4NyKOiVm7r27dv9aG8qaBue84Zz97gcD9rk/GjqfdGM5670dzVaN/NNAAAAQAYNz6Z3wvPrV6uxuaK0Bj1yQ9e+/ax+N6nZuYG8BK351F15GZjzzKff02idfgYAAADsg4Zn0zvheWnxY+z+pTB4dsuIrn37zsy8nGsJpLV/Ppkd6b8ks9XeUXf3HTkW/Srsu/ejzPaH4TrjWeN1E98EAAAAZNDwbHonPC9U3sfuXZSW4IQM69q3XzdzW47afyLRclFmkmcWz90zZ3Phmdre8JHaPS1HTmS/c7f1Xr8JAAAAyKDh2fROeH7xfAUAAACARcOz6Z3w/LS8DAAAAMCi4dn0TnguPXkDAAAAwKLh2fROeH786CUAAAAAi4Zn0zvh+eHcEgAAAACLhmfTO+H5wewCAAAAAIuGZ9Mn4dlsAgAAAMiWhGeKoiiKoiiKouprcuJptZNaeLY3KYqiKIqiKIqKq5aTRf4AUeCOqebW/xEAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NClick.Target>
+                          </uix:NClick>
+                          <uix:NApplicationCard AttachMode="ByInstance" CloseMode="{x:Null}" ConnectionId="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Use Application: 0219a18c-9931-47e3-977f-32e5ec24e88f" sap:VirtualizedContainerService.HintSize="616,705" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InUiElement="{x:Null}" IsIncognito="{x:Null}" OpenMode="{x:Null}" OutUiElement="{x:Null}" ScopeGuid="ba972456-8ee2-4e6f-9461-4e3afc43d547" UserDataFolderMode="{x:Null}" UserDataFolderPath="{x:Null}" Version="V2" WebDriverMode="{x:Null}">
+                            <uix:NApplicationCard.Body>
+                              <ActivityAction x:TypeArguments="x:Object">
+                                <ActivityAction.Argument>
+                                  <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                                </ActivityAction.Argument>
+                                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="582,415" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <uta:VerifyControlAttribute AlternativeVerificationTitle="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Control Attribute" sap:VirtualizedContainerService.HintSize="534,317" sap2010:WorkflowViewState.IdRef="VerifyControlAttribute_1" KeepScreenshots="{x:Null}" Operator="Equality" OutputArgument="Result" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False">
+                                    <uta:VerifyControlAttribute.ActivityToTest>
+                                      <ActivityAction>
+                                        <uix:NGetAttributeGeneric x:TypeArguments="x:Boolean" Attribute="relativeVisibility" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Get Attribute" sap:VirtualizedContainerService.HintSize="334,207" sap2010:WorkflowViewState.IdRef="NGetAttributeGeneric`1_2" InUiElement="{x:Null}" ScopeIdentifier="ba972456-8ee2-4e6f-9461-4e3afc43d547" Timeout="{x:Null}" Version="V3">
+                                          <uix:NGetAttributeGeneric.OutUiElement>
+                                            <OutArgument x:TypeArguments="ui:UiElement">
+                                              <VariableReference x:TypeArguments="ui:UiElement">
+                                                <VariableReference.Variable>
+                                                  <Variable x:TypeArguments="ui:UiElement" Name="_autogenerated_OutUiElement" />
+                                                </VariableReference.Variable>
+                                              </VariableReference>
+                                            </OutArgument>
+                                          </uix:NGetAttributeGeneric.OutUiElement>
+                                          <uix:NGetAttributeGeneric.Result>
+                                            <OutArgument x:TypeArguments="x:Boolean">
+                                              <VariableReference x:TypeArguments="x:Boolean">
+                                                <VariableReference.Variable>
+                                                  <Variable x:TypeArguments="x:Boolean" x:Name="__ReferenceID0" Name="_autogenerated_Result" />
+                                                </VariableReference.Variable>
+                                              </VariableReference>
+                                            </OutArgument>
+                                          </uix:NGetAttributeGeneric.Result>
+                                          <uix:NGetAttributeGeneric.Target>
+                                            <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" FullSelectorArgument="&lt;wnd app='snagiteditor.exe' cls='SnagIt9Editor' title='Snagit Editor - [d860f8a5-5d0d-4136-861d-d13bccd51858]' /&gt;&lt;wnd cls='Afx:*' title='d860f8a5-5d0d-4136-861d-d13bccd51858' /&gt;&lt;wnd cls='SnagIt7PaintControl' /&gt;" Guid="9552d2a4-3c2a-4b11-a173-51aa7930031c" SearchSteps="Selector" />
+                                          </uix:NGetAttributeGeneric.Target>
+                                        </uix:NGetAttributeGeneric>
+                                      </ActivityAction>
+                                    </uta:VerifyControlAttribute.ActivityToTest>
+                                    <uta:VerifyControlAttribute.ArgumentsBridgeActivity>
+                                      <ActivityFunc x:TypeArguments="x:Object">
+                                        <uta:ArgumentsBridge sap2010:WorkflowViewState.IdRef="ArgumentsBridge_1" Result="{x:Null}">
+                                          <uta:ArgumentsBridge.Input>
+                                            <InArgument x:TypeArguments="x:Object">
+                                              <VariableValue x:TypeArguments="x:Object" Variable="{x:Reference __ReferenceID0}" />
+                                            </InArgument>
+                                          </uta:ArgumentsBridge.Input>
+                                        </uta:ArgumentsBridge>
+                                      </ActivityFunc>
+                                    </uta:VerifyControlAttribute.ArgumentsBridgeActivity>
+                                    <uta:VerifyControlAttribute.Expression>
+                                      <InArgument x:TypeArguments="x:String">["True"]</InArgument>
+                                    </uta:VerifyControlAttribute.Expression>
+                                  </uta:VerifyControlAttribute>
+                                </Sequence>
+                              </ActivityAction>
+                            </uix:NApplicationCard.Body>
+                            <uix:NApplicationCard.TargetApp>
+                              <uix:TargetApp Area="329, 353, 995, 493" FilePath="C:\Program Files (x86)\TechSmith\Snagit 12\snagiteditor.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFySURBVFhH7ZZNSgNBFITnAG5cCXoAL5FVcgLvILiK62H+byG4FpfjwoWHCa4DLgOCgqBVoXroDO8lhBmCiyn4mE5Pva7+G0gyadKkY1RV1R1Yg1+HdVmWt7KPpyzLLjD4Yy/Mpa7rB9ao/Dg1TTPDIKv+oGOAib0pxheMY4V/gRZ8R30/ivEVmYfyrPE4ia5/G7JPsdkDW/mK5wLHdUbYVl/s+wRPgDvR9SvGV2y2wC2viqK4Rpsr24iWfXwHmXUBxfiyigJcpcI/EHafpul5nudXbLOP74yd2EExvqyiiAVoGSh7J/Qv+U4eq3aL7L6sooDOe8OVy96JfXwnj1lPZPdlFQXCBPC8lL3TSSYADh4B7sFcXhPZfVlFgfgSgiVXrZUz/CSXsPsMEfSC3zufIZ78Ds26gGJ8WUV9tBNznjdh+9DKA4rxZRWNiWJ8WUVjohhfMO37wzGUlWJ8wXQDeMutAYbwjvsyU8ykSZP+i5LkDzD70VccvCwSAAAAAElFTkSuQmCC" InformativeScreenshot="4b32db484cd18cf8b0a640baa75483fd.png" Selector="&lt;wnd app='snagiteditor.exe' cls='SnagIt9Editor' title='Snagit Editor - [1abd1b22-c8e2-45d2-950e-1d5caf5e022f]' /&gt;&lt;wnd aaname='Workspace' cls='MDIClient' /&gt;&lt;wnd cls='Afx:*' title='1abd1b22-c8e2-45d2-950e-1d5caf5e022f' /&gt;" Title="Snagit Editor - [0219a18c-9931-47e3-977f-32e5ec24e88f]" />
+                            </uix:NApplicationCard.TargetApp>
+                          </uix:NApplicationCard>
+                          <ui:Break sap:VirtualizedContainerService.HintSize="616,25" sap2010:WorkflowViewState.IdRef="Break_1" />
+                        </Sequence>
+                      </If.Then>
+                      <If.Else>
+                        <Sequence sap2010:WorkflowViewState.IdRef="Sequence_5">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </Sequence>
+                      </If.Else>
+                    </If>
+                  </Sequence>
+                </ActivityAction>
+              </ui:RepeatNumberOfTimesX.Body>
+            </ui:RepeatNumberOfTimesX>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" ContentHash="ekO7KA8ULU-Jn2QaltzL3A" FilePath="D:\CAD Client\kpi.phoenix.cadclient.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEaSURBVFhH7ZTbCoJAEIYlgoggguhZiw5QVBdB14HQ00T0CqUP4AN41puJAVe92F3HRZegHfgQFvH7/1nQMmPmZ+Z8uYJOCm01vJe64PF8cZ+Ftho89DxPC8IAeZ73QpZlJWmattsAfsBavsk0yRsD3Ox7ST3A4uTC/OjC7ODCdO/AZOfAeOvAaPOB4foDg1UVwLZtIUmSqG2AIq9vgNcc5coBKHIWgNec0RhAdAUUOSJrjsRxrLYBihxBMa85QzkARY7ImjOkAURXQJEjKOY1Z0RRpLYBihyRNUe5cgCKHEEprzmjMYDoCqjImiNhGKptgApvA3V57wFkzbUGEMmDIGgfAKH84ShypQBdyn3fFwfQSaE1Y+bvx7K+Vs0alqBeFFIAAAAASUVORK5CYII=" InformativeScreenshot="6eb02aa27b2625d690136541590c24fe.png" Reference="THDf1UhB6U6EKgZN7HF2zw/4dUL2P5akESqqPvH9ncmSw" Selector="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmIncidentEx' /&gt;" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

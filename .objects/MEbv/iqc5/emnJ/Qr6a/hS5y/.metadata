@@ -1,0 +1,16 @@
+﻿{
+  "Id": "hS5ydVCwrUylw9SBYCeAWQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/hS5ydVCwrUylw9SBYCeAWQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/Qr6aw9Xjvke7hJVRkLuTKA",
+  "Name": "uIRoadDropdown",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T13:11:06.9940404Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T13:11:30.5668011Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

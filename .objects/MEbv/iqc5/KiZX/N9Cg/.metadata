@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIRaceEdit",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "N9Cg5sbsNECP15CC0I-hPw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/N9Cg5sbsNECP15CC0I-hPw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/KiZXiJaZrUa_LcvEA7CckA",
+  "Created": "2024-10-17T10:25:47.0695335Z",
+  "Updated": "2024-10-17T10:26:24.8202017Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

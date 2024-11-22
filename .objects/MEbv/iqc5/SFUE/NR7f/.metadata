@@ -1,0 +1,16 @@
+﻿{
+  "Id": "NR7fcxKvuUy28xRIVK6BbA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/NR7fcxKvuUy28xRIVK6BbA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/SFUEBDwmQUCdd2iuk-Z8sw",
+  "Name": "uIGeoInfoLatitude",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T06:51:48.0241782Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T06:52:20.5436868Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

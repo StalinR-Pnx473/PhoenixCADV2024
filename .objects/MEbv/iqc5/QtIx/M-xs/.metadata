@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIHistoryButton",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "M-xsw-rkVkiVQXHi48Vo7A",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/M-xsw-rkVkiVQXHi48Vo7A",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/QtIxGrGvikKAqd5_9QjWeQ",
+  "Created": "2024-06-26T13:49:37.5459644Z",
+  "Updated": "2024-06-26T13:49:47.4027752Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

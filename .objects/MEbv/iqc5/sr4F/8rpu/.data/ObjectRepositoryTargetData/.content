@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="iXpNI8GsX0q5Fg8cFqvuJw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CvTextArea="15, 9, 48, 15" CvTextArgument="Message" CvType="Text" DesignTimeRectangle="15, 9, 48, 15" DesignTimeScaleFactor="1" ElementType="Text" Guid="698a9a1a-7062-4dab-906a-a2a3c2f1d7f8" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmMessage' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V3" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e5aaab3cf07b1e0d3a87da638b2a8a5d.png" xmlns="">0P7zQjZ_rKkOez3moXNf4bQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

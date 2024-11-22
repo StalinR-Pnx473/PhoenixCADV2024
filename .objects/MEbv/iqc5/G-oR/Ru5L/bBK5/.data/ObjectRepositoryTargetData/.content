@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rKTAMs75wESa7038Myyhqw" Reference="THDf1UhB6U6EKgZN7HF2zw/bBK5Gv4kqEqviXnfExxqfQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CvTextArea="95, 102, 45, 14" CvType="AnyWordGroup" DesignTimeRectangle="93, 101, 54, 17" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname=' Critical  ' parentid='Table1' tableCol='1' tableRow='1' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='Table1' type='' class='' tag='SPAN' /&gt;" Guid="3a4bf027-837d-4592-b8f7-a533e1b98743" ScopeSelectorArgument="&lt;html app='kpi.phoenix.cadclient.exe' url='about:blank' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArea="10, 102, 21, 13" CvTextArgument="PD" CvType="Text" DesignTimeRectangle="11, 101, 19, 17" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='Table1' tableCol='1' tableRow='1' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='Table1' type='' class='' tag='SPAN' aaname='PD' check:text='PD' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABcAAAAVCAYAAACt4nWrAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACZSURBVEhL7ZPLCcAgEAXty6ZsJ6QNz2IFVpBLKnmJPzRmDeYLAQf2Is9xXZThRbqc5Cu5gWADGFF8nEMGUILOMGFCItEktxUPqMptcY3JpTyEXEKFFYeSfmPoLMrFJpQay2/5kHylyFmaxxJlVfmkwW02G02TPBfdlBdjKbg5livyGSPfr1+Wk3X6KRZU5cef6Hm6nOSvcmAB9x2k3rHoC1kAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a879a93a627bb1242d3b08cba359a120.png" xmlns="">0OOhiYyesUU2Tig2PryZ08w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

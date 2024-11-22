@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="58vVYa-460emf9FJFobEeg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CvTextArea="104, 41, 31, 12" CvType="AnyWordGroup" DesignTimeRectangle="103, 38, 269, 19" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;wnd ctrlname='lblLinkName' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='lblLinkName' /&gt;" Guid="df10f3dd-dfad-4399-b195-8e2ee61f4788" ImageBase64="" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmIPCamera' /&gt;" SearchSteps="Selector" Version="V3" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="8eb16c5aa9918706bbd30e2fc9721816.png" xmlns="">0DsljUYzjR0y-CqiBT2CpEA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

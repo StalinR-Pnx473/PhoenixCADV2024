@@ -1,0 +1,16 @@
+﻿{
+  "Id": "Ew-TMmLcO0CkejLZ4MFUAQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/Ew-TMmLcO0CkejLZ4MFUAQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/ATog21aGmUikpMronzSugw",
+  "Name": "uICorrespondingStatueNoDescriptionEdit",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T10:31:40.4740752Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T10:31:53.1545698Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

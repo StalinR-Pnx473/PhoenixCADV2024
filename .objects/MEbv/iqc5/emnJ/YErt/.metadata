@@ -1,0 +1,16 @@
+﻿{
+  "Id": "YErt7dYlu0KQBJSeneNG_Q",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/YErt7dYlu0KQBJSeneNG_Q",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/emnJxCfvZ0m1QDLryu6YUQ",
+  "Name": "uIBusinessNameCheckBox",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T07:04:05.051361Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T07:04:17.9081634Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

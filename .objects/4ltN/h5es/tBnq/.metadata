@@ -1,0 +1,15 @@
+﻿{
+  "Name": "PhoenixMainWindow",
+  "Type": "Screen",
+  "Id": "tBnq8dOGpUm4ard4nLyOhQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/tBnq8dOGpUm4ard4nLyOhQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/h5es0EizPUSkHahTS7e1RA",
+  "Created": "2024-04-16T12:55:28.9943365Z",
+  "Updated": "2024-04-16T12:56:18.1460163Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

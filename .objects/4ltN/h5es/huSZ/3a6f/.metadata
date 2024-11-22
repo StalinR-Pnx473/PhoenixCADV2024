@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uICallNoEdit2",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "3a6fhq7KXEeqSMSC-UCWhQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/3a6fhq7KXEeqSMSC-UCWhQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/huSZywIohEigyE73zkzgSA",
+  "Created": "2024-09-11T14:36:39.5901445Z",
+  "Updated": "2024-09-11T14:36:46.227516Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

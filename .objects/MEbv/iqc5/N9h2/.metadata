@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Other Agency Call Screen PopUp",
+  "Type": "Screen",
+  "Id": "N9h2qU66wUelFQi4ufCu7A",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/N9h2qU66wUelFQi4ufCu7A",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/iqc5IjgxGkefj9bmmSp_QA",
+  "Created": "2024-09-16T11:13:22.3022211Z",
+  "Updated": "2024-09-16T11:15:43.8876394Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

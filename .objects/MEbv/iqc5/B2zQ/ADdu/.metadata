@@ -1,0 +1,16 @@
+﻿{
+  "Id": "ADduLQiQ4066-PuuAO0RdA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/ADduLQiQ4066-PuuAO0RdA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/B2zQje3EkUSDl_J95zzCiw",
+  "Name": "uISSNoEdit",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T09:46:45.2336192Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T09:46:57.0855077Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

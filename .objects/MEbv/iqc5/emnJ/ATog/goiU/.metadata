@@ -1,0 +1,16 @@
+﻿{
+  "Id": "goiUuE0_c0-yu2s1qjQDCQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/goiUuE0_c0-yu2s1qjQDCQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/ATog21aGmUikpMronzSugw",
+  "Name": "uIEBTDCheckBox",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T10:44:39.0670977Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T10:44:47.8926101Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

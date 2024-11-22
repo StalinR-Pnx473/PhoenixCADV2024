@@ -1,0 +1,16 @@
+﻿{
+  "Id": "Lv4F9ntanUipsSZ7nP1jHg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/Lv4F9ntanUipsSZ7nP1jHg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/Qr6aw9Xjvke7hJVRkLuTKA",
+  "Name": "uIOfficerDescriptionEdit",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T13:02:48.032327Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T13:02:58.7675211Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

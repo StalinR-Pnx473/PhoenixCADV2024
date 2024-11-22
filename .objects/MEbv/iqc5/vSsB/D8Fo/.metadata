@@ -1,0 +1,16 @@
+﻿{
+  "Id": "D8Fojou7HUO1FGalTnYXNg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/D8Fojou7HUO1FGalTnYXNg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/vSsBaPwfB0uUVH_HkmuMEw",
+  "Name": "uIAscendingRadioButton",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T07:35:40.2721113Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T07:35:48.7511721Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

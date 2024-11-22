@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIORVinNo",
+  "Type": "Element",
+  "TaxonomyType": "Text",
+  "Id": "KASS-9uo4UGSJoE2rbanEw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/KASS-9uo4UGSJoE2rbanEw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/YcAzUv5owEOUTcP0YDKWuQ",
+  "Created": "2024-06-24T13:10:28.7589822Z",
+  "Updated": "2024-06-24T13:10:43.6318378Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

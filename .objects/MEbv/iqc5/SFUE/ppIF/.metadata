@@ -1,0 +1,16 @@
+﻿{
+  "Id": "ppIFj9_OJkGJeQj-W5bmEw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/ppIFj9_OJkGJeQj-W5bmEw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/SFUEBDwmQUCdd2iuk-Z8sw",
+  "Name": "uIGeoInfoArea",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T06:49:26.0452492Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T06:49:45.9920576Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

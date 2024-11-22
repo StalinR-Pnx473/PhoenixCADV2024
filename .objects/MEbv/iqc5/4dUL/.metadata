@@ -1,0 +1,15 @@
+﻿{
+  "Id": "4dUL2P5akESqqPvH9ncmSw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/4dUL2P5akESqqPvH9ncmSw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/iqc5IjgxGkefj9bmmSp_QA",
+  "Name": "Incidents Details Screen",
+  "Type": "Screen",
+  "Created": "2024-01-17T07:16:20.9855813Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T07:17:16.6212525Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

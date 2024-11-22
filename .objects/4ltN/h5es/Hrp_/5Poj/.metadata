@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIManageIPCameraLink",
+  "Type": "Element",
+  "TaxonomyType": "Link",
+  "Id": "5PojOZdf5k6meMD1rF5oSA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/5PojOZdf5k6meMD1rF5oSA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/Hrp_8vdRGEaS72ZMdz21Qg",
+  "Created": "2024-05-06T13:33:39.0826738Z",
+  "Updated": "2024-05-06T13:34:12.0159532Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,16 @@
+﻿{
+  "Id": "_dq8jq5jMUaXHIomOtiLYA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/_dq8jq5jMUaXHIomOtiLYA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/SFUEBDwmQUCdd2iuk-Z8sw",
+  "Name": "uICallInfoRcvSrcLabel",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T06:45:37.460633Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T06:46:10.1949982Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

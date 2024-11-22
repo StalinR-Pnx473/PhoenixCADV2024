@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Dispatch Alert Screen",
+  "Type": "Screen",
+  "Id": "BsQ464aDU0OdmIm2qsUGgQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/BsQ464aDU0OdmIm2qsUGgQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/JJCTt9Kxsku2prOmg4_IQg",
+  "Created": "2024-02-20T10:14:46.390199Z",
+  "Updated": "2024-02-20T10:14:53.8114334Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

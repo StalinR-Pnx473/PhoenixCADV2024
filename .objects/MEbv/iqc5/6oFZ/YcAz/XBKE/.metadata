@@ -1,0 +1,17 @@
+﻿{
+  "Name": "uIResponseButton",
+  "Description": "\t\t",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "XBKEDQgvJE2wCJZZb5JAsA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/XBKEDQgvJE2wCJZZb5JAsA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/YcAzUv5owEOUTcP0YDKWuQ",
+  "Created": "2024-06-24T13:23:05.7893333Z",
+  "Updated": "2024-06-24T13:23:16.0626594Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

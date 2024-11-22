@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uICloseButton",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "GoJ9V8Zf2EeRtcnOcpKs-Q",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/GoJ9V8Zf2EeRtcnOcpKs-Q",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/PSk1PzSV5UyPEZiEMgGs2w",
+  "Created": "2024-06-26T13:20:19.2087856Z",
+  "Updated": "2024-06-26T13:20:28.4569528Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

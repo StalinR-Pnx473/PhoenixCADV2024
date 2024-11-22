@@ -1,0 +1,16 @@
+﻿{
+  "Id": "D0PoavLpJka4j62gPDODrw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/D0PoavLpJka4j62gPDODrw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/7L61R6F6ZEWORQhoQhyMmQ",
+  "Name": "uIAllJurisCheckBox",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T07:41:41.3231063Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T07:42:09.5359017Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

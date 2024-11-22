@@ -1,0 +1,17 @@
+﻿{
+  "Name": "uIPlateStateTypeSearchButton",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "QMsygsR7a0qPxHLU6vZ0Wg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/QMsygsR7a0qPxHLU6vZ0Wg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/YcAzUv5owEOUTcP0YDKWuQ",
+  "Created": "2024-06-24T13:19:34.8338578Z",
+  "Updated": "2024-06-26T09:30:45.4473704Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

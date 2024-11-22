@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="JtlnnQ4yu0mKiT-eNuyxRw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="http://10.103.1.68/LAW/CCP/frmCitCamera.aspx?hdnMode=ADD&amp;JurisID=1000&amp;CitizenAddrID=100010002763861" CvElementArea="150, 180, 474, 23" CvType="InputBox" DesignTimeRectangle="152, 181, 470, 20" DesignTimeScaleFactor="1" ElementType="DropDown" FullSelectorArgument="&lt;webctrl id='tbl3' tableRow='1' tag='TABLE' /&gt;&lt;webctrl id='lstJuris' tableRow='3' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='tbl3' tag='TABLE' /&gt;&lt;webctrl id='lstJuris' type='' tag='SELECT' class='SELECTInActive' aaname='' /&gt;" Guid="a249401b-caa0-421b-8373-2911d8a843b1" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='CitCameraLocation638507035326880591' title='Camera Details - 5612 -' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArea="117, 186, 32, 11" CvTextArgument="Juris" CvType="Text" DesignTimeRectangle="119, 185, 29, 13" ElementType="Text" FullSelectorArgument="&lt;webctrl id='tbl3' tableRow='1' tag='TABLE' /&gt;&lt;webctrl id='lblJuris' tableRow='3' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id='tbl3' tag='TABLE' /&gt;&lt;webctrl id='lblJuris' type='' tag='SPAN' class='' aaname='Juris' check:innerText='Juris' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACEAAAARCAYAAABTnsXCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC5SURBVEhLY3j37t3/gcajjoDhUUfAMMIR1+b9nyfM838SDDftwVBMNIab1fj/NDZ5NIwZEvsaKXcEiZiwI2C+ipn3/w4W/p1FoWD18xbN+78KLr4HwkYKidNNID4ShpkHxFRzBKrhqI5AOPQmql1QTMWQQLYAuyPgGC2q6eIIFHPhGCGH4QhY3MENhVkK00SuI/DIQRyB7kq04MJIVCBMgiMw9Yf+33kNYT5mdAwAHnUEDA8CR7z7DwBHg43hIKunPgAAAABJRU5ErkJggg==" SearchSteps="Selector, FuzzySelector, Image, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="19da78bc0c84b2e59ed33e29ab5b5e1a.png" xmlns="">0MiwiFOqrLEaWFVunACH56A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

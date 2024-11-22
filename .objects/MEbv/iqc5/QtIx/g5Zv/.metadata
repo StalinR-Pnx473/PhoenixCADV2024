@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIColseXButton",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "g5ZvKtUVfUuwHMCuRqnXvw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/g5ZvKtUVfUuwHMCuRqnXvw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/QtIxGrGvikKAqd5_9QjWeQ",
+  "Created": "2024-06-26T14:58:18.5437384Z",
+  "Updated": "2024-06-26T14:58:29.6289928Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="zDQ02bLgYU657Df8ocZUdg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CvElementArea="676, 896, 65, 21" CvType="InputBox" DesignTimeRectangle="677, 897, 63, 19" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallTaking2019' /&gt;&lt;wnd ctrlname='flpContainer' /&gt;&lt;wnd ctrlname='pnlNameDtl' /&gt;&lt;wnd ctrlname='cddSex' /&gt;&lt;wnd ctrlname='lstCoded' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallTaking2019' /&gt;&lt;wnd ctrlname='flpContainer' /&gt;&lt;wnd ctrlname='pnlNameDtl' /&gt;&lt;wnd ctrlname='cddSex' /&gt;&lt;wnd ctrlname='lstCoded' check:text='-' /&gt;" Guid="6a7b31e3-aad0-41e8-aa50-10dfd1da555a" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmPhoenixMain' /&gt;&lt;wnd ctrlname='frmTakeCall' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V3" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArea="532, 901, 54, 11" CvTextArgument="DOB / Sex" CvType="Text" DesignTimeRectangle="528, 900, 59, 15" ElementType="Text" FullSelectorArgument="&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallTaking2019' /&gt;&lt;wnd ctrlname='flpContainer' /&gt;&lt;wnd ctrlname='pnlNameDtl' /&gt;&lt;wnd ctrlname='lblNameDOB' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallTaking2019' /&gt;&lt;wnd ctrlname='flpContainer' /&gt;&lt;wnd ctrlname='pnlNameDtl' /&gt;&lt;wnd ctrlname='lblNameDOB' check:text='DOB / Sex' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAD8AAAATCAYAAAAnMdWSAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFfSURBVFhH7ZS9jcMwDIW1WhAgywRwk0UCpMsWBtJmhjSpM0GKuwECnkn9URRl2TrgCp2Lr7Asku+RtM376wNVvvtkM19FCeyBzXwVJbAHKubvcDQGDGe4Z0nGIb1zvPH3y3IEnlfY7a/wEOfzNdpYYP4EIwsgEUy8fPZmoziZ4wXn/QHOT/+c8rgccmO303zDGlltPhFfmFIqdo15fCfrTcyZx3d+I5wWbGC8jzn1TWkwb6dNyUqikqbYTYgrW546xRVM2rUXsaL5aHp3eYX7qDFo9TGMPzIvJ68LmhNqsbHG5+NT9wQ9rumFZiIN5vHsN2ufTiii1dIJ8aXmE868ps+x0rzrPCtI65gIsEXjBPUc2YQnI3lDdLAm3cXmFz6jcbDneqMtC8xP5hhaImoAu5May3No0/Ji5TlCP7BSvFh9rB2aQ3eaf3gOEdQLm/kqSmAPbOarKIE98I/Nf+AHwzHK/IEcilYAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fc543d2b4793dca21c575058ed76d639.png" xmlns="">0x5jMKzuXhk2W5RJsl_Nn5w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

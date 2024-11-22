@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIPropertyTab",
+  "Type": "Element",
+  "TaxonomyType": "Tab",
+  "Id": "lSmN5ymbv0OtnarKR0Khxg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/lSmN5ymbv0OtnarKR0Khxg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/6oFZNLA_kUWbZBEpoZSy9g",
+  "Created": "2024-06-21T14:45:44.8247132Z",
+  "Updated": "2024-06-21T14:47:01.2723742Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

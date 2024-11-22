@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIRptLocationLabel",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "WngR1uTa-k6Ye56TOuNuhw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/WngR1uTa-k6Ye56TOuNuhw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/SFUEBDwmQUCdd2iuk-Z8sw",
+  "Created": "2024-04-09T15:38:36.7642938Z",
+  "Updated": "2024-04-09T15:39:15.8713763Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

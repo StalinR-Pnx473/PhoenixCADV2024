@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIRightArrowButton",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "wbIFXpijl0-FnYQlVzSFNw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/wbIFXpijl0-FnYQlVzSFNw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/PSk1PzSV5UyPEZiEMgGs2w",
+  "Created": "2024-06-26T13:19:49.6747168Z",
+  "Updated": "2024-06-26T13:20:03.7532174Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

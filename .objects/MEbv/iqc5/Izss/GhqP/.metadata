@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uICallInfoInTooTip",
+  "Type": "Element",
+  "TaxonomyType": "Tooltip",
+  "Id": "GhqPsWgHMkyQhaNOEuPZYg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/GhqPsWgHMkyQhaNOEuPZYg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/IzssZMi__UG9DaOzzPYjow",
+  "Created": "2024-06-19T14:43:55.230731Z",
+  "Updated": "2024-06-19T14:44:55.532067Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

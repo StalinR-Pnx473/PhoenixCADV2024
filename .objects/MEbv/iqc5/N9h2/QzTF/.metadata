@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIOkButton",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "QzTFvDIkpE6W2bwioWhmLQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/QzTFvDIkpE6W2bwioWhmLQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/N9h2qU66wUelFQi4ufCu7A",
+  "Created": "2024-09-16T11:14:44.4380554Z",
+  "Updated": "2024-09-16T11:15:08.1527586Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

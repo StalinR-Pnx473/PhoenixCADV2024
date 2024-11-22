@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIDLClassEdit",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "SgvubJ9E1EmHySkxtyWFnQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/SgvubJ9E1EmHySkxtyWFnQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/KiZXiJaZrUa_LcvEA7CckA",
+  "Created": "2024-10-17T12:40:02.3916194Z",
+  "Updated": "2024-10-17T12:40:30.3398137Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

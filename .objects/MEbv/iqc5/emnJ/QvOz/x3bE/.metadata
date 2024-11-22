@@ -1,0 +1,16 @@
+﻿{
+  "Id": "x3bEoKLkc0WLudRsA0puuQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/x3bEoKLkc0WLudRsA0puuQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/QvOz3fjE5Ui44khVuczWSA",
+  "Name": "uINarrativeTextBoxEdit",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T13:31:48.809545Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T13:31:58.1530808Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

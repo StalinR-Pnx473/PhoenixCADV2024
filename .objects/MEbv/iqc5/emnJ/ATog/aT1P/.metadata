@@ -1,0 +1,16 @@
+﻿{
+  "Id": "aT1PvbQArUqkd3qKghnOtw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/aT1PvbQArUqkd3qKghnOtw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/ATog21aGmUikpMronzSugw",
+  "Name": "uIDrugsCheckBox",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T10:43:20.3259455Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T10:43:28.8433867Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

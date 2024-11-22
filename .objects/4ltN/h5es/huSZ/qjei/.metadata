@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIEditTab",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "qjeinJiN3kySLCLE_QxS9g",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/qjeinJiN3kySLCLE_QxS9g",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/huSZywIohEigyE73zkzgSA",
+  "Created": "2024-09-11T14:40:22.0899108Z",
+  "Updated": "2024-09-11T14:40:34.8613125Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

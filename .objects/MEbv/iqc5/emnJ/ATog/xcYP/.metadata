@@ -1,0 +1,16 @@
+﻿{
+  "Id": "xcYPU_9SSUW0dz7SEDmNzw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/xcYPU_9SSUW0dz7SEDmNzw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/ATog21aGmUikpMronzSugw",
+  "Name": "uIFailureToObserveSignalCheckBox",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T10:21:49.9302925Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T10:21:58.7147517Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

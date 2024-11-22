@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIBundleCheckBox",
+  "Type": "Element",
+  "TaxonomyType": "Checkbox",
+  "Id": "945jnZajCEuGf-ucg0pn6w",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/945jnZajCEuGf-ucg0pn6w",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/YcAzUv5owEOUTcP0YDKWuQ",
+  "Created": "2024-06-24T13:12:21.1198005Z",
+  "Updated": "2024-06-24T13:12:38.9926694Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

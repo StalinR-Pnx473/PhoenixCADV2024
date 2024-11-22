@@ -1,0 +1,16 @@
+﻿{
+  "Id": "5hd3fjQ4rkKjehT8ONYowA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/5hd3fjQ4rkKjehT8ONYowA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/B2zQje3EkUSDl_J95zzCiw",
+  "Name": "uIEmailEdit",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T10:58:02.6871681Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T10:58:15.7501207Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

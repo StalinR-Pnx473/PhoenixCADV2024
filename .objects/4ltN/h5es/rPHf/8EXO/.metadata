@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uICameraNameEdit",
+  "Type": "Element",
+  "TaxonomyType": "Text",
+  "Id": "8EXO39fVK0uqLh3_j0-bLQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/8EXO39fVK0uqLh3_j0-bLQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/rPHf10P5DE28ZIUa_sxd-Q",
+  "Created": "2024-05-07T13:17:15.0347839Z",
+  "Updated": "2024-05-07T13:17:43.9922033Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

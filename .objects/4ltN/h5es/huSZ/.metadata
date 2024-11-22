@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Records Module Call Entry Screen",
+  "Type": "Screen",
+  "Id": "huSZywIohEigyE73zkzgSA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/huSZywIohEigyE73zkzgSA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/h5es0EizPUSkHahTS7e1RA",
+  "Created": "2024-09-11T14:20:42.8376261Z",
+  "Updated": "2024-09-11T14:20:46.4684886Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

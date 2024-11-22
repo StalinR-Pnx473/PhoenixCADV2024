@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIPrimaryPhoneNoEdit",
+  "Type": "Element",
+  "TaxonomyType": "Text",
+  "Id": "7vI8lyK3zkqPnR0dJBur0g",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/7vI8lyK3zkqPnR0dJBur0g",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/fKim-pvEU0yZ2AdJDvBrQA",
+  "Created": "2024-05-06T13:47:41.704931Z",
+  "Updated": "2024-05-06T13:47:50.5978725Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

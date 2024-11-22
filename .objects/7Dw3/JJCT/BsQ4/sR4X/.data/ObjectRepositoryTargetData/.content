@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="E3EE14f_tEKBkp9FvpPKPg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="226, 141, 298, 36" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;ctrl name='852 S Broad St, Trenton' role='text' /&gt;&lt;ctrl name='852 S Broad St, Trenton' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='852 S Broad St, Trenton' role='text' /&gt;&lt;ctrl role='text' automationid='' /&gt;" Guid="69a11f60-9ee9-49aa-8665-441098799e24" ScopeSelectorArgument="&lt;wnd app='phoenix.wdav2.client.shell.exe' cls='HwndWrapper*' title='Acknowledgment' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="2a94642a5427e0008a6e48d105b16da4.png" xmlns="">0CKZ1KoQql0uOYZcIPPQOng</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

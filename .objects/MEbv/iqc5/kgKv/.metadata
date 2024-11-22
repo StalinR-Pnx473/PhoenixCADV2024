@@ -1,0 +1,15 @@
+﻿{
+  "Name": "ApartmentSearchScreen",
+  "Type": "Screen",
+  "Id": "kgKvS8H8kk6vEIMbBAQx4g",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/kgKvS8H8kk6vEIMbBAQx4g",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/iqc5IjgxGkefj9bmmSp_QA",
+  "Created": "2024-04-15T13:58:54.4706776Z",
+  "Updated": "2024-04-15T14:00:43.9083606Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

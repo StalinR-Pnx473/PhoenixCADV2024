@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uISexDropdown",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "CyY_SbgudUWpr6fDfYlRDQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/CyY_SbgudUWpr6fDfYlRDQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/G-oR_yfRvUae3J-fNEIjYQ",
+  "Created": "2024-01-23T08:10:22.925127Z",
+  "Updated": "2024-01-23T08:10:47.4078619Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,16 @@
+﻿{
+  "Id": "iYkskZR8g0idYCnImLCcYA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/iYkskZR8g0idYCnImLCcYA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/aT0E-vpZYEmlb76E0mIHAQ",
+  "Name": "uIColor2SearchButton",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T13:04:01.5694162Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T13:04:17.5944346Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

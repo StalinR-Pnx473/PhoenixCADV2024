@@ -1,0 +1,16 @@
+﻿{
+  "Id": "UhyB02ED1k6Tg8-U2_J-Fw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/UhyB02ED1k6Tg8-U2_J-Fw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/ATog21aGmUikpMronzSugw",
+  "Name": "uIParkingOffenseCodeEdit",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T10:45:41.3660623Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T10:45:52.9141697Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

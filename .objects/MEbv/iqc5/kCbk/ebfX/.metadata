@@ -1,0 +1,16 @@
+﻿{
+  "Id": "ebfXeadf80O13ISqWTkj1w",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/ebfXeadf80O13ISqWTkj1w",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/kCbkHl_H-kmVAex0N0LEKQ",
+  "Name": "uIStyleDescriptionEdit",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T08:14:28.1012308Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T08:14:48.3646652Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

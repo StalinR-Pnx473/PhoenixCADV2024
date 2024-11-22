@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIAddressEdit",
+  "Type": "Element",
+  "TaxonomyType": "Text",
+  "Id": "_CdSKsGNfEm8krTV9i-x7A",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/_CdSKsGNfEm8krTV9i-x7A",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/Hrp_8vdRGEaS72ZMdz21Qg",
+  "Created": "2024-05-07T10:34:05.5609574Z",
+  "Updated": "2024-05-07T10:34:15.1525714Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

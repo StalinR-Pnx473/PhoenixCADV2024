@@ -1,0 +1,16 @@
+﻿{
+  "Id": "OIS_E8SMJ0SjVRGo0BZf9A",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/OIS_E8SMJ0SjVRGo0BZf9A",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/emnJxCfvZ0m1QDLryu6YUQ",
+  "Name": "uIOfficerTab",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T07:08:00.1515316Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T07:08:12.1352906Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

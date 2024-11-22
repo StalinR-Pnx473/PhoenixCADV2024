@@ -1,0 +1,16 @@
+﻿{
+  "Id": "BiE7GqvZ9EWqaqIhewZOIw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/BiE7GqvZ9EWqaqIhewZOIw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/B2zQje3EkUSDl_J95zzCiw",
+  "Name": "uIFlagsDropdown",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T10:58:40.0917016Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T10:58:56.7552634Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

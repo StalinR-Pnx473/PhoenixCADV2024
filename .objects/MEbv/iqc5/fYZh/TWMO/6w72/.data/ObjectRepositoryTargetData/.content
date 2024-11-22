@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="JXkbnx_e6UmZHaxy_hqe9g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="800, 157, 133, 22" ElementType="CheckBox" FriendlyName="'Share Comment'" FullSelectorArgument="&lt;wnd ctrlname='ctrlUpdate' /&gt;&lt;wnd ctrlname='flpControls' /&gt;&lt;wnd ctrlname='PnlComments' /&gt;&lt;wnd ctrlname='pnlCmtChkAllNAddNRef' /&gt;&lt;wnd ctrlname='ChkSharecmt' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='ctrlUpdate' /&gt;&lt;wnd ctrlname='flpControls' /&gt;&lt;wnd ctrlname='PnlComments' /&gt;&lt;wnd ctrlname='pnlCmtChkAllNAddNRef' /&gt;&lt;wnd ctrlname='ChkSharecmt' check:fulltext='Share Comment' /&gt;" Guid="628b09fa-2304-487a-90ac-f0a83839d5f2" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmUpdate' /&gt;" SearchSteps="Selector, FuzzySelector" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="29, 128, 753, 47" ElementType="InputBox" FriendlyName="'WindowsForms10.EDIT.app…'" FullSelectorArgument="&lt;wnd ctrlname='ctrlUpdate' /&gt;&lt;wnd ctrlname='flpControls' /&gt;&lt;wnd ctrlname='PnlComments' /&gt;&lt;wnd ctrlname='pnlCmtChkAllNAddNRef' /&gt;&lt;wnd ctrlname='txtcmttab' /&gt;&lt;wnd ctrlname='txtcmttab_EmbeddableTextBox' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='ctrlUpdate' /&gt;&lt;wnd ctrlname='flpControls' /&gt;&lt;wnd ctrlname='PnlComments' /&gt;&lt;wnd ctrlname='pnlCmtChkAllNAddNRef' /&gt;&lt;wnd ctrlname='txtcmttab' /&gt;&lt;wnd ctrlname='txtcmttab_EmbeddableTextBox' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAvUAAAAzCAYAAAAXbPcNAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEtSURBVHhe7dYxDcAwEMDA8KdSdQqOEuryUcvC0g1nDF7XvQcAAOha8z4DAAA0mXoAAIgz9QAAEGfqAQAgztQDAECcqQcAgDhTDwAAcaYeAADiTD0AAMSZegAAiDP1AAAQZ+oBACDO1AMAQJypBwCAOFMPAABxph4AAOJMPQAAxJl6AACIM/UAABBn6gEAIM7UAwBAnKkHAIA4Uw8AAHGmHgAA4kw9AADEmXoAAIgz9QAAEGfqAQAgztQDAECcqQcAgDhTDwAAcaYeAADiTD0AAMSZegAAiDP1AAAQZ+oBACDO1AMAQJypBwCAOFMPAABxph4AAOJMPQAAxJl6AACIM/UAABBn6gEAIM7UAwBAnKkHAIA4Uw8AAHGmHgAA4kw9AADE/VP/BQAAqNpzAMmYJZ/bHOktAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5e8bb0d7aad107ec88540387a23fa695.png" xmlns="">0cAt7AuIWqEWsqQQ1aY2imA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

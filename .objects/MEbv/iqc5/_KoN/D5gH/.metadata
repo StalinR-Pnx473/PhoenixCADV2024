@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uiClickHereToOpen",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "D5gHQwjw2kihXRLnqAUTGg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/D5gHQwjw2kihXRLnqAUTGg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/_KoNWNtFfkK2pL6B8z8ELw",
+  "Created": "2024-05-07T15:36:21.5526037Z",
+  "Updated": "2024-05-07T15:36:30.5054254Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

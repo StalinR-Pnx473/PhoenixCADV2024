@@ -1,0 +1,16 @@
+﻿{
+  "Id": "tzos_A1hoEmW22bH0TKdhA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/tzos_A1hoEmW22bH0TKdhA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/kCbkHl_H-kmVAex0N0LEKQ",
+  "Name": "uICancelButton",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T08:19:42.9538525Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T08:19:52.1937048Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

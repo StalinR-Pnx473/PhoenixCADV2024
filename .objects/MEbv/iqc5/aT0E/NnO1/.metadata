@@ -1,0 +1,16 @@
+﻿{
+  "Id": "NnO1u3NAEkOspDPdY-5ZpA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/NnO1u3NAEkOspDPdY-5ZpA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/aT0E-vpZYEmlb76E0mIHAQ",
+  "Name": "uIStyleSearchButton",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T13:06:07.4656271Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T13:06:19.0602942Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIPrintButton",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "rca7PXs5Uk6OP6PTlFEsxg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/rca7PXs5Uk6OP6PTlFEsxg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/PSk1PzSV5UyPEZiEMgGs2w",
+  "Created": "2024-06-26T13:16:54.6672693Z",
+  "Updated": "2024-06-26T13:17:04.5313783Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

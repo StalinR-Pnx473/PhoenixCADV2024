@@ -1,0 +1,29 @@
+Selector_1:<wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmPhoenixMain' />
+Selector_2:<wnd ctrlname='frmDispatch' />
+Selector_3:<wnd ctrlname='pnlDispatchBase' />
+Selector_4:<wnd ctrlname='ctrlUsrDispatch' />
+Selector_5:<wnd ctrlname='ctrlCCUI' />
+Selector_6:<wnd ctrlname='ctrlSelUnitCollection' />
+Selector_7:<wnd ctrlname='lupUnit3' />
+Selector_8:<wnd ctrlname='pnlUnitEntry' />
+Selector_9:<wnd ctrlname='txtUnitRef' />
+AppPath:D:\CAD Client
+PID:17764
+TID:21376
+aaname:
+aastate:focusable
+app:kpi.phoenix.cadclient.exe
+cls:WindowsForms10.Window.8.app.0.37504c8_r8_ad1
+foreground:True
+hasFocus:False
+hwnd:6555786
+isMDIChild:False
+position:UiPath.Core.Region
+relativeVisibility:True
+role:
+subsystem:win32
+text:400
+title:
+visibility:0
+wndExtStyles:0
+wndStyles:1442906112

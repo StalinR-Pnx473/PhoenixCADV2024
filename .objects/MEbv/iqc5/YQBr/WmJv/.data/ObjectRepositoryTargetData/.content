@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="X0vdp_uXUEiZqnk_Sl4TWg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="114, 126, 18, 19" ElementType="CheckBox" FriendlyName="'Checkbox'" FullSelectorArgument="&lt;wnd ctrlname='CtrlusrLinkCall' /&gt;&lt;wnd ctrlname='chkclosecall' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='CtrlusrLinkCall' /&gt;&lt;wnd ctrlname='chkclosecall' /&gt;" Guid="0f9ef2f4-0975-4b88-bab6-824afc2ef7bd" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmLinkCall' /&gt;" SearchSteps="Selector, FuzzySelector" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="32, 123, 76, 19" ElementType="Text" FriendlyName="'Close call?'" FullSelectorArgument="&lt;wnd ctrlname='CtrlusrLinkCall' /&gt;&lt;wnd ctrlname='lblClosecall' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='CtrlusrLinkCall' /&gt;&lt;wnd ctrlname='lblClosecall' check:text='Close call?' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFAAAAAXCAYAAACcTMh5AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHFSURBVFhH7ZNfbsIwDMZzs4rL0AdOQnlg12hfOAUVT+UI478EbLuC56hx6ropYmnFNskPvyqNY+fzl8RcLl+gxKMGDsSc8aPEY87nT1DiMSf8KPGogQNRAwdijqcPUOJ5jYHFDIwxYJI32ITivwnXFqFzZAO3sEhQgBXhmUHxHw2ksQf7COSbw/EDxmELmTMvLUSMCSv5/F+AaxNj38cD/WjgHQcjQJukq/5YskQBdygXk/rfkRa0tvKHIGMyJ1lUTX0O7UVYPZslJHzOTCDbiPVWm9Dpa1K+nEdGMzBPa3GNGYyAyNoAMqxuiEzq1Gjl0F7MBLGuOcQVpJ0DxTnSwnN6DWwONXRoLzcwE+vINCuu72ZSbYnc65GGTo1nDGQ3N9gXYvaHO4zBOnPN44l34nkjbO4amebtvCSrWv+EnafmKaePvnU0X++xgqmtjVrWNs60rfnYxkpnYKgnx2gGemH4tOaliAVE1s1UMHdPWOa0jJWN9UHrfMOoCcdtY39g4BOMaKCFDOHMIBfC5C2jG9N5ZvzkqYYncFChdbYG3STOMwbS/6MbuNvfQIlHDRyIGjgQNXAg5n13AyUeNPCKAyWOK3wDvqR9L9JzXW4AAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="734d479012ba9c7e109cceb79225bd2e.png" xmlns="">0kgzNLHuKWUGLK1p1LrxHxw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

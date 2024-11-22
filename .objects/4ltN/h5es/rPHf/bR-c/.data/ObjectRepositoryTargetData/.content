@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="bfKvmu7XmEG3X6AdfGGutg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="http://10.103.1.68/LAW/CCP/frmCitCamera.aspx?hdnMode=ADD&amp;JurisID=1000&amp;CitizenAddrID=100010002763861" CvElementArea="150, 240, 474, 22" CvType="InputBox" DesignTimeRectangle="152, 241, 470, 20" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='tbl3' tableRow='1' tag='TABLE' /&gt;&lt;webctrl id='txtURL' tableRow='8' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='tbl3' tag='TABLE' /&gt;&lt;webctrl id='txtURL' type='text' tag='INPUT' class='textbox' aaname='' /&gt;" Guid="8b1008a3-8318-4ccb-906a-5fb2d97af99f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAdoAAAAYCAYAAABdszykAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACQSURBVHhe7dUxEYAwAMBA/AtBA05wUQtlYwEmmu3/LhqyjTGmJElqMlpJksLu0e7HKUmSFvU6WgDgP6MFgJDRAkDIaAEgZLQAEDJaAAgZLQCEjBYAQkYLACGjBYCQ0QJAyGgBIGS0ABAyWgAIGS0AhIwWAEJGCwAhowWA0OdoJUnSmh6jlSRJ6zNaSZKyxrwAcYyULce4SyoAAAAASUVORK5CYII=" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='CitCameraLocation638507035326880591' title='Camera Details - 5612 -' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V3" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArea="123, 246, 26, 11" CvTextArgument="URL" CvType="Text" DesignTimeRectangle="124, 245, 24, 13" ElementType="Text" FullSelectorArgument="&lt;webctrl id='tbl3' tableRow='1' tag='TABLE' /&gt;&lt;webctrl id='lblURL' tableRow='8' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id='tbl3' tag='TABLE' /&gt;&lt;webctrl id='lblURL' type='' tag='SPAN' class='' aaname='URL' check:innerText='URL' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABwAAAARCAYAAADOk8xKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACVSURBVEhLY3j37t1/euJRC6mOB9DCa/P+zxPm+T8pZt7/OzjE7iwK/T8JxEfDq/ZB1QPx6SZMMWRMloXzFt1ElRcO/b/zGkQPbS18d/P/zhh6WohFD00sRMFNe1AMpJ0PYXJohhNvIZb4QA9CXHzy4hCM9/xfBTYACSMFGbqFIAyzAGYpgo+MEQ5Cs5D2eNRCKuN3/wHH/VsYsS5xCAAAAABJRU5ErkJggg==" SearchSteps="Selector, FuzzySelector, Image, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e34af5e3f89ab23d916bd55438e60845.png" xmlns="">0bYqY0FEIzUCKrTMRKo131Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,16 @@
+﻿{
+  "Id": "OLstVSbzXk6B-VWBh76MpA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/OLstVSbzXk6B-VWBh76MpA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/JAkQOXWInk6rFxbLGYXYRQ",
+  "Name": "uIPayDateEdit",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T11:49:59.1351845Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T11:50:11.2457144Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

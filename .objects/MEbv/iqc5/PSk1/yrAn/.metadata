@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIIncidentSearchIcon",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "yrAn0Du4T0iv7avt1ZzglA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/yrAn0Du4T0iv7avt1ZzglA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/PSk1PzSV5UyPEZiEMgGs2w",
+  "Created": "2024-06-26T13:18:28.0739556Z",
+  "Updated": "2024-06-26T13:18:59.4971845Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

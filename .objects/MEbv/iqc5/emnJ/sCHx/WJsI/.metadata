@@ -1,0 +1,16 @@
+﻿{
+  "Id": "WJsIiZh-S022zuUDzhE0WA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/WJsIiZh-S022zuUDzhE0WA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/sCHxE-wMn0KjG8WlPgAf3g",
+  "Name": "uIDLClassDropdown",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T07:14:23.5084798Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T07:14:40.5579133Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

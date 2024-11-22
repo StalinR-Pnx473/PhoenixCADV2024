@@ -1,0 +1,16 @@
+﻿{
+  "Id": "iPp2Of_Ol0K40p-muepgMQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/iPp2Of_Ol0K40p-muepgMQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/4dUL2P5akESqqPvH9ncmSw",
+  "Name": "uICallNo",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T07:17:26.0547572Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T07:18:39.2216439Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

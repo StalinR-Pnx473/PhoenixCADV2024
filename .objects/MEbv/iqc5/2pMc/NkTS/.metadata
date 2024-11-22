@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uITerminalEdit",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "NkTS3X88WUekB1QhH-HXEw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/NkTS3X88WUekB1QhH-HXEw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/2pMcuOK5E0aizS4vFzew9Q",
+  "Created": "2024-10-24T08:00:52.7453388Z",
+  "Updated": "2024-10-24T08:01:16.8082483Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

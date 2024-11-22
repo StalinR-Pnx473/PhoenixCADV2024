@@ -1,0 +1,16 @@
+﻿{
+  "Id": "U2p9D6PnE0aV4eGv8oCn1g",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/U2p9D6PnE0aV4eGv8oCn1g",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/aT0E-vpZYEmlb76E0mIHAQ",
+  "Name": "uIExpYearEdit",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T13:08:01.3016877Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T13:08:13.1065932Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

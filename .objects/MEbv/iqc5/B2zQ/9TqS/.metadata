@@ -1,0 +1,16 @@
+﻿{
+  "Id": "9TqSVOuLIkCvrkDNY87XZw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/9TqSVOuLIkCvrkDNY87XZw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/B2zQje3EkUSDl_J95zzCiw",
+  "Name": "uICSZCheckBox",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T10:08:56.6889361Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T10:09:07.7071327Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

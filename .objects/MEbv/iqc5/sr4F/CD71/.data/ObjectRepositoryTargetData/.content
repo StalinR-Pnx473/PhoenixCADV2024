@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fGouWquC0kWDTsvChPRnFw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CvTextArea="175, 184, 191, 15" CvType="AnyWordGroup" DesignTimeRectangle="176, 182, 296, 22" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;wnd ctrlname='lblKeyText2' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='lblKeyText2' /&gt;" Guid="d80732d4-f6fd-417a-aae4-133f8b5814f9" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmMessage' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V3" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArea="139, 185, 35, 12" CvTextArgument="CSZ :" CvType="Text" DesignTimeRectangle="8, 181, 168, 22" ElementType="Text" FullSelectorArgument="&lt;wnd ctrlname='lblCSZ' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='lblCSZ' check:text='CSZ :' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAKwAAAAaCAYAAAAqorewAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFfSURBVHhe7dgxjsIwEEBR7oaQuAwFEiehockxaKhyCCo6jrDldrN24iRj7zgLodlR/kpPWrAz1VfisAl/En19C/DvESxcIVi4QrBwhWDhCsHCFYKFKwQLVwgW826nro/MsVV7WjmU65u9nB+VawfZjFe18dp+gL0Ba3a/7FNgJ7kO36cID7fw/6ORbeqn+9ztSQEbQU7z9P73hGsJFgYzxiREG78zg+6EaMtg1bz63fUp512/Z3t5GusEi4p6jEr5yN81crf2BdfjsG9mHsFiqTHYmQh1YKXsrqzCXnoUGIQZ/SBrEev10h1W04/87Dr1UrboRSsX5vTDrEWs2BhgeuPXa+MZtvkVcxn6dBQw5ixAsKgyz50pZP3SNT3m1REh3k3VUaB2Js1xhsWnyheraHy0W7/BTgFPwRvMs/FfwfI7LJwhWLhCsHCFYOEKwcIVgoUrBAtXCBauECwcEfkBAAhKpvhSQk8AAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="14a82d912a174689a2163f5373aa482a.png" xmlns="">0Q-ZMXxrTPUiqTUqLHlVAYQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

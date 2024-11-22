@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIPrintIcon",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "y7cqo7RopEaSWepO0wXDMA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/y7cqo7RopEaSWepO0wXDMA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/Hrp_8vdRGEaS72ZMdz21Qg",
+  "Created": "2024-05-07T10:37:30.5497028Z",
+  "Updated": "2024-05-07T10:38:04.5389213Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

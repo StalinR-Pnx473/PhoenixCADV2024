@@ -1,0 +1,16 @@
+﻿{
+  "Id": "vjuG-LkJXkuhFmcXkB9xww",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/vjuG-LkJXkuhFmcXkB9xww",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/ATog21aGmUikpMronzSugw",
+  "Name": "uIFailureToInspectCheckBox",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T10:24:19.5107552Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T10:24:28.4487956Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

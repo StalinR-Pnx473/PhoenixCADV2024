@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uISettingsModule",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "wdhTjQzSOUKBmC_l1cOIuA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/wdhTjQzSOUKBmC_l1cOIuA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/tBnq8dOGpUm4ard4nLyOhQ",
+  "Created": "2024-04-16T12:56:39.7424097Z",
+  "Updated": "2024-04-16T13:11:16.7901554Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

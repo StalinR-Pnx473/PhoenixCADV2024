@@ -1,0 +1,16 @@
+﻿{
+  "Id": "R-Hg0Ep1Tke8jTZIDukJ5A",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/R-Hg0Ep1Tke8jTZIDukJ5A",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/ATog21aGmUikpMronzSugw",
+  "Name": "uIMeterNoEdit",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T10:49:56.2945351Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T10:50:07.0906939Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

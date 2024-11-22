@@ -1,0 +1,16 @@
+﻿{
+  "Id": "FSp0pTVYPE6rXX-SsxMrOQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/FSp0pTVYPE6rXX-SsxMrOQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/G-oR_yfRvUae3J-fNEIjYQ",
+  "Name": "uIOEMSearchIcon",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-16T14:35:40.6908801Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-16T14:35:56.3572414Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

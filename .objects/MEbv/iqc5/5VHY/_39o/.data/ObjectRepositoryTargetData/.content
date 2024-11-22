@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="dyv6Ps1iWk-q_1hVX0yNgQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CvElementArea="688, 941, 15, 15" CvTextArea="706, 942, 89, 12" CvTextArgument="Use Call Location" CvType="CheckBox" DesignTimeRectangle="689, 939, 109, 21" DesignTimeScaleFactor="1" ElementType="CheckBox" FullSelectorArgument="&lt;wnd ctrlname='pnlDispatchBase' /&gt;&lt;wnd ctrlname='ctrlUsrDispatch' /&gt;&lt;wnd ctrlname='ctrlCCUI' idx='2' /&gt;&lt;wnd ctrlname='chkUseCallLocation' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='pnlDispatchBase' /&gt;&lt;wnd ctrlname='ctrlUsrDispatch' /&gt;&lt;wnd ctrlname='ctrlCCUI' /&gt;&lt;wnd ctrlname='chkUseCallLocation' check:fulltext='Use Call Location' /&gt;" Guid="a78710d6-5197-4a38-964c-d75d4d4456f4" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmPhoenixMain' /&gt;&lt;wnd ctrlname='frmDispatch' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V3" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="8f464017f4ea640358c60497dd05c890.png" xmlns="">0qf0PyiINdU66WY4swo6O2Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

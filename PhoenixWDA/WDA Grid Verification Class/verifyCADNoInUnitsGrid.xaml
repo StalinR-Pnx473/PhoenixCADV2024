@@ -1,0 +1,244 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Units_Grid_Verification" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="CADNo" Type="InArgument(x:String)" />
+  </x:Members>
+  <mva:VisualBasic.Settings>
+    <x:Null />
+  </mva:VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>1273,2171</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>Units_Grid_Verification_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.Testing</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>UiPath.Terminal.Enums</x:String>
+      <x:String>UiPath.Terminal.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Java.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Terminal</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Testing</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>UiPath.Terminal.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Terminal.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Units_Grid_Verification" sap:VirtualizedContainerService.HintSize="1283,2106" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="SingleWindow" DisplayName="WDA Main Window" sap:VirtualizedContainerService.HintSize="1235,2009" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="18c0f1ab-5ea1-4240-8f10-90f72e1dd347" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1201,1719" sap2010:WorkflowViewState.IdRef="Sequence_6">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:Int32" Name="rowCounter" />
+              <Variable x:TypeArguments="x:String" Name="TableLength" />
+              <Variable x:TypeArguments="x:String" Name="TableRow" />
+              <Variable x:TypeArguments="sd:DataTable" Name="StackTable" />
+              <Variable x:TypeArguments="sd:DataTable" Name="UnitsTable" />
+              <Variable x:TypeArguments="x:Int32" Name="UnitsTableRowCount" />
+              <Variable x:TypeArguments="sd:DataTable" Name="TestTableValue" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Assign sap:VirtualizedContainerService.HintSize="1153,82" sap2010:WorkflowViewState.IdRef="Assign_5">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:Int32">[rowCounter]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:Int32">0</InArgument>
+              </Assign.Value>
+            </Assign>
+            <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[UnitsTable]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='CV' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column1' ReferenceIdx='0' Name='Column1'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='1' ReferenceIdx='1' Name='1'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='UNIT#' ReferenceIdx='2' Name='UNIT#'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='CC' ReferenceIdx='3' Name='CC'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='ET' ReferenceIdx='4' Name='ET'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='CFS' ReferenceIdx='5' Name='CFS'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='PRI' ReferenceIdx='6' Name='PRI'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='AREA' ReferenceIdx='7' Name='AREA'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='LOCATION' ReferenceIdx='8' Name='LOCATION'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='CAD#' ReferenceIdx='9' Name='CAD#'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='PF1' ReferenceIdx='10' Name='PF1'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='PF2' ReferenceIdx='11' Name='PF2'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='VEH#' ReferenceIdx='12' Name='VEH#'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='2' ReferenceIdx='13' Name='2'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='3' ReferenceIdx='14' Name='3'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="[Nothing]" sap:VirtualizedContainerService.HintSize="1153,157" sap2010:WorkflowViewState.IdRef="NExtractData_2" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="18c0f1ab-5ea1-4240-8f10-90f72e1dd347" Version="V3">
+              <uix:NExtractData.Target>
+                <uix:TargetAnchorable CvElementArea="0, 228, 1903, 418" CvType="Table" DesignTimeRectangle="0, 228, 1903, 418" DesignTimeScaleFactor="1" ElementType="Table" Guid="492d9bf5-a4c0-49d1-9339-797b6117baf4" InformativeScreenshot="b6f13761b62a3af2b281d7a0f9faac2d.png" ScopeSelectorArgument="&lt;wnd aaname='Wireless Digital Assistant - Phoenix - Public Safety System - [S*' app='phoenix.wdav2.client.shell.exe' cls='HwndWrapper*' title='Wireless Digital Assistant - Phoenix - Public Safety System - [S*' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V3" Visibility="Interactive" />
+              </uix:NExtractData.Target>
+            </uix:NExtractData>
+            <Assign sap:VirtualizedContainerService.HintSize="1153,82" sap2010:WorkflowViewState.IdRef="Assign_6">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:Int32">[UnitsTableRowCount]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:Int32">[UnitsTable.Rows.Count]</InArgument>
+              </Assign.Value>
+            </Assign>
+            <ui:RepeatNumberOfTimesX DisplayName="Repeat Number of Times" sap:VirtualizedContainerService.HintSize="1153,1204" sap2010:WorkflowViewState.IdRef="RepeatNumberOfTimesX_2" NumberOfTimes="[UnitsTableRowCount]" StartAt="1">
+              <ui:RepeatNumberOfTimesX.Body>
+                <ActivityAction x:TypeArguments="x:Int32">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentItem" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1119,1040" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="x:String" Name="str_RowCounter" />
+                      <Variable x:TypeArguments="x:String" Name="variable1" />
+                      <Variable x:TypeArguments="x:String" Name="getCADNoInGrid" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <Assign sap:VirtualizedContainerService.HintSize="1057,82" sap2010:WorkflowViewState.IdRef="Assign_7">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:Int32">[rowCounter]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:Int32">[rowCounter+1]</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <Assign sap:VirtualizedContainerService.HintSize="1057,82" sap2010:WorkflowViewState.IdRef="Assign_8">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[str_RowCounter]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">[rowCounter.ToString]</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <uix:NGetText DisplayName="Get Text '24.000019'" sap:VirtualizedContainerService.HintSize="1057,157" sap2010:WorkflowViewState.IdRef="NGetText_4" ScopeIdentifier="18c0f1ab-5ea1-4240-8f10-90f72e1dd347" TextString="[getCADNoInGrid]" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable CvTextArea="1280, 493, 134, 27" CvType="AnyWordGroup" DesignTimeRectangle="1282, 485, 131, 41" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="[string.Format(&quot;&lt;ctrl automationid='radBusyIndicator' /&gt;&lt;ctrl automationid='radBusyIndicator' /&gt;&lt;ctrl idx='{0}' name='Phoenix.WDAV2.Client.Models.CADUnitDomainModel' role='list item' /&gt;&lt;ctrl idx='9' name='Item: Phoenix.WDAV2.Client.Models.CADUnitDomainModel, Column Dis*' role='push button' /&gt;&lt;ctrl name='24.000019' role='push button' /&gt;&lt;ctrl name='24.000019' role='text' /&gt;&quot;, str_RowCounter)]" FuzzySelectorArgument="&lt;ctrl automationid='radBusyIndicator' /&gt;&lt;ctrl automationid='radBusyIndicator' /&gt;&lt;ctrl name='Phoenix.WDAV2.Client.Models.CADUnitDomainModel' role='list item' /&gt;&lt;ctrl name='Item: Phoenix.WDAV2.Client.Models.CADUnitDomainModel, Column Dis*' role='push button' /&gt;&lt;ctrl name='24.000019' role='push button' /&gt;&lt;ctrl role='text' automationid='' /&gt;" Guid="f41f11f9-4943-4d85-a6b5-2a84dda9ba27" ImageBase64="" InformativeScreenshot="d2c0f760fe986bee0b16f57c890a2da8.png" ScopeSelectorArgument="&lt;wnd aaname='Wireless Digital Assistant - Phoenix - Public Safety System - [S*' app='phoenix.wdav2.client.shell.exe' cls='HwndWrapper*' title='Wireless Digital Assistant - Phoenix - Public Safety System - [S*' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CvTextArea="1280, 493, 134, 27" CvTextArgument="24.000019" CvType="Text" DesignTimeRectangle="1282, 474, 147, 62" ElementType="Button" FullSelectorArgument="&lt;ctrl automationid='radBusyIndicator' /&gt;&lt;ctrl automationid='radBusyIndicator' /&gt;&lt;ctrl idx='4' name='Phoenix.WDAV2.Client.Models.CADUnitDomainModel' role='list item' /&gt;&lt;ctrl idx='9' name='Item: Phoenix.WDAV2.Client.Models.CADUnitDomainModel, Column Dis*' role='push button' /&gt;&lt;ctrl name='24.000019' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='radBusyIndicator' /&gt;&lt;ctrl automationid='radBusyIndicator' /&gt;&lt;ctrl name='Phoenix.WDAV2.Client.Models.CADUnitDomainModel' role='list item' /&gt;&lt;ctrl name='Item: Phoenix.WDAV2.Client.Models.CADUnitDomainModel, Column Dis*' role='push button' /&gt;&lt;ctrl name='24.000019' role='push button' automationid='' check:text='24.000019' /&gt;" Guid="7acd05ad-010e-4767-bdc5-37a90669ea47" ImageBase64="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" SearchSteps="Selector, FuzzySelector, Image, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1057,92" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[getCADNoInGrid]" />
+                    <If Condition="[CADNo.Equals(getCADNoInGrid)]" sap:VirtualizedContainerService.HintSize="1057,387" sap2010:WorkflowViewState.IdRef="If_2">
+                      <If.Then>
+                        <Sequence sap:VirtualizedContainerService.HintSize="596,229" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="534,60" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_2" Operator="Contains" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+                            <uta:VerifyExpressionWithOperator.FirstExpression>
+                              <InArgument x:TypeArguments="x:String">[CADNo]</InArgument>
+                            </uta:VerifyExpressionWithOperator.FirstExpression>
+                            <uta:VerifyExpressionWithOperator.SecondExpression>
+                              <InArgument x:TypeArguments="x:String">[getCADNoInGrid]</InArgument>
+                            </uta:VerifyExpressionWithOperator.SecondExpression>
+                          </uta:VerifyExpressionWithOperator>
+                          <ui:Break sap:VirtualizedContainerService.HintSize="534,25" sap2010:WorkflowViewState.IdRef="Break_2" />
+                        </Sequence>
+                      </If.Then>
+                      <If.Else>
+                        <Sequence sap:VirtualizedContainerService.HintSize="416,174" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="354,62" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="CADNo is Not Verified" />
+                        </Sequence>
+                      </If.Else>
+                    </If>
+                  </Sequence>
+                </ActivityAction>
+              </ui:RepeatNumberOfTimesX.Body>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:RepeatNumberOfTimesX>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="1912, 83, 1936, 1048" ContentHash="hvtwBL_ixEOn7rcOiZuErQ" FilePath="D:\Phoenix WDA V2\phoenix.wdav2.client.shell.exe" IconBase64="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" InformativeScreenshot="aa9fe0464ce52ed35c46c684831577ab.png" Selector="&lt;wnd aaname='Wireless Digital Assistant - Phoenix - Public Safety System - [S*' app='phoenix.wdav2.client.shell.exe' cls='HwndWrapper*' title='Wireless Digital Assistant - Phoenix - Public Safety System - [S*' /&gt;" Title="Wireless Digital Assistant - Phoenix - Public Safety System - [Stalin] Stalin, R || STA {*}  || Svr-AutomationCAD:8833 || ProPhoenix Township Police Dept" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

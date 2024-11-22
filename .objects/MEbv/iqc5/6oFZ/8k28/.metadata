@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIUnitNo",
+  "Type": "Element",
+  "TaxonomyType": "Text",
+  "Id": "8k28Ruw07UqGa6GW0hB81w",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/8k28Ruw07UqGa6GW0hB81w",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/6oFZNLA_kUWbZBEpoZSy9g",
+  "Created": "2024-06-21T14:11:54.1247427Z",
+  "Updated": "2024-06-21T14:12:12.9852579Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

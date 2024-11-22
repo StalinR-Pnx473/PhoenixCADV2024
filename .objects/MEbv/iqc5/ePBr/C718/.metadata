@@ -1,0 +1,17 @@
+﻿{
+  "Name": "uICommentsEdit",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "C718xek8G0q4hlWKkazdMg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/C718xek8G0q4hlWKkazdMg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/ePBrxVomlEeA8I8BgAD9_Q",
+  "Created": "2024-01-18T13:53:43.3401942Z",
+  "Updated": "2024-09-16T10:39:24.7625133Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

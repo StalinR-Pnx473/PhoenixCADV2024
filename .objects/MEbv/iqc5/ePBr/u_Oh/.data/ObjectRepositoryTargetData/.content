@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Z4H0qM1Wu0GcXx-H6OjQkw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="571, 148, 14, 16" ElementType="CheckBox" FriendlyName="'Checkbox'" FullSelectorArgument="&lt;wnd ctrlname='chkCritical' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='chkCritical' /&gt;" Guid="a8372085-6f54-4248-b294-2f5212e008f9" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmIncMJ' /&gt;" SearchSteps="Selector, FuzzySelector" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="554, 164, 46, 19" ElementType="Text" FriendlyName="'Critical'" FullSelectorArgument="&lt;wnd ctrlname='lblCritical' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='lblCritical' check:text='Critical' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADIAAAAXCAYAAABJXhw0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD+SURBVFhH7ZTBDYMgFIZdzqTrmLiLMXEBN9CTRyfw4M04gcfe/kIt9ImIijSlDSZfIiI/fPA0mu6AK2wvXdZZgohvBBHfCCJfoU6RRxHyuMCo9B0QGdDGbDAPkKTodO+KiZIGU1+gVCel/XTcUexF3hJVres3oBO5irWIaQdlaIqKy/Jw9Rm/f1Fmw3ohoi2gJym5oe3VOU+KdMkcpj0NdRELEXZvKi36rtykBtVqw9gzmvFRka2F7oi0hmwxr0Rk2IqM2W0eaCwttyJC4lmKrk5EBtE6FVwU2SqtZRU4E+Fs/H73RFibloj9x85wI/IbBBHfCCK+EUR8409EgAcCWUaf/+8HkwAAAABJRU5ErkJggg==" SearchSteps="Selector, FuzzySelector, Image" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6015a83026da0fabcc65dd83af7d4172.png" xmlns="">06AuKZypJf0G2mdBZrtV00Q</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

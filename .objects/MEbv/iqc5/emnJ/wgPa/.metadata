@@ -1,0 +1,16 @@
+﻿{
+  "Id": "wgPa4a57r0uMMLejO_WPDg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/wgPa4a57r0uMMLejO_WPDg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/emnJxCfvZ0m1QDLryu6YUQ",
+  "Name": "uIOffenseTab",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T07:06:54.3590507Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T07:07:12.2543541Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

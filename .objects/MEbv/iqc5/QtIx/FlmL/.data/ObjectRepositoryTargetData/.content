@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Mv63-PRMhUC1eTjq-ZuuSA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="143157a8-4c50-49c8-8b60-35d8e03cc7e0" CvTextArea="435, 124, 33, 12" CvType="AnyWordGroup" DesignTimeRectangle="434, 121, 114, 20" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;wnd ctrlname='CtrlusrVehicleInfo' /&gt;&lt;wnd ctrlname='lblColor1' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='CtrlusrVehicleInfo' /&gt;&lt;wnd ctrlname='lblColor1' /&gt;" Guid="af847ebe-9c0f-4f9f-9f3a-1b3e5c84a8af" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmVehicleDetails' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="143157a8-4c50-49c8-8b60-35d8e03cc7e0" CvTextArea="387, 124, 38, 12" CvTextArgument="Color :" CvType="Text" DesignTimeRectangle="327, 121, 100, 20" ElementType="Text" FullSelectorArgument="&lt;wnd ctrlname='CtrlusrVehicleInfo' /&gt;&lt;wnd ctrlname='label7' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='CtrlusrVehicleInfo' /&gt;&lt;wnd ctrlname='label7' check:text='Color :' /&gt;" Guid="e8856f6e-a547-4616-bda7-f25e751f439e" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGgAAAAYCAYAAAAWPrhgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFESURBVGhD7ZQxbsJAEEV9F67kW3AE10mZI6zgDMguqeighM4FFDkBC4ZqGC+79nqzJBsUoYn8iycZ/cFI/zGTnc9XAnKBIOFAkHAgSDjZ6XQlIBcIEg4LuvADkAoEPcuuoOnHhKZzRYdY/kdAkKGmas5lt4V3FLSJzlog6FX0ctQulj8Agl6EK3qxjOaHVX7PLZ3EQNDPcwWp9o/wReiSlPlOfGNHL2izCAr1seW+r2r+7DYtp+qzz0zhKXMOCPod3wkKM7clRoQnqEqce+YUZlpfaMzs3WniExdma1f8djj7xsXrrS1+pqhMnNt7705l9IK0dicmp5JP0iCz5ZqidU3lzJvzi0+d89/d0Z+4dSSHIIMr1edeWLdhFrclYfGpc8PfbYGgfw0ECQeChANBwoEg4bCghh+AVCBIONnx2BCQSkM3gnsM2MCjtaYAAAAASUVORK5CYII=" SearchSteps="Selector, Image" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8bd2c4e60c863c8bb407079a306dc8bb.png" xmlns="">0-Kt9PZ_-eESEaaEGvH3F6Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

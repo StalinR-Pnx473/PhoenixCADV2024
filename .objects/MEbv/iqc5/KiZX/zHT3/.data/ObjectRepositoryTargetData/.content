@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="FDtzjRRws0-dHtK11IwCvw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="c26b2d60-7381-4375-9b10-f5b570483d2c" CvElementArea="95, 263, 106, 21" CvType="InputBox" DesignTimeRectangle="96, 264, 104, 19" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;wnd ctrlname='usrUpdNamesDtl' /&gt;&lt;wnd ctrlname='grpPhysical' /&gt;&lt;wnd ctrlname='txtDLNbr' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='usrUpdNamesDtl' /&gt;&lt;wnd ctrlname='grpPhysical' /&gt;&lt;wnd ctrlname='txtDLNbr' /&gt;" Guid="679349fe-ea63-4469-b92e-3f513e9ac14b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGwAAAAXCAYAAADug6rPAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABgSURBVGhD7dGxCYBQFMBA919FrFzsbaCdjdr/wAUywW0zc7kzsNgP2H6cXvhPMK0ZsFjAYgGLBSwWsFjAYgGLBSwWsFjAYgGLBSwWsFjAYgGLBSzWL5jX/QXmxsBSz3UDXTBtTK4T1X4AAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmNameDtl' /&gt;" SearchSteps="Selector, FuzzySelector, Image, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c26b2d60-7381-4375-9b10-f5b570483d2c" CvTextArea="53, 264, 25, 13" CvTextArgument="DL#" CvType="Text" DesignTimeRectangle="35, 263, 44, 16" ElementType="Text" FullSelectorArgument="&lt;wnd ctrlname='usrUpdNamesDtl' /&gt;&lt;wnd ctrlname='grpPhysical' /&gt;&lt;wnd ctrlname='lblDLNo' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='usrUpdNamesDtl' /&gt;&lt;wnd ctrlname='grpPhysical' /&gt;&lt;wnd ctrlname='lblDLNo' check:text='DL#' /&gt;" Guid="80dd620f-ba5a-4f4d-a6a5-509f493d9a9a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAUCAYAAADLP76nAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADPSURBVFhH7ZXbDcMgDEW9G/N4GWbxJizCBm5dcMoz9AdIJT6OZBEjcZJrAt57/meOwG6OwG4mCRAjAEOBsa7oMWxdui/HWcOAdNX5/sBEgfJwjq15ixjLrtuTQwiMVNcpCwV0XQ8yEhBhfS41MjX6FguENxlicSNAWMUvUPcvF/jmevAFRCLmP6sLHiuQDm1vgIUHRigOeyNCm28hXf9liMsB7vUtFYhv9srynYA801snrWsmCowi0O75/CdkaPV/kdYNJgms4wjs5gjsxfMLdTKFlGAOWAgAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="76b0e148cb040221457c65afd0b24794.png" xmlns="">07rEFmGr1lkGSYJFPfD0L0A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

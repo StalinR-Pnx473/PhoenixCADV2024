@@ -1,0 +1,16 @@
+﻿{
+  "Id": "oGARLvyYT0ihuyuFnOc3vA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/oGARLvyYT0ihuyuFnOc3vA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/Qr6aw9Xjvke7hJVRkLuTKA",
+  "Name": "uIRoadArrowButton",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T13:11:46.2951907Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T13:11:59.206072Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

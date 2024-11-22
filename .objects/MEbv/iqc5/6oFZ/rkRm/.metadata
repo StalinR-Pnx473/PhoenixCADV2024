@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uINameTab",
+  "Type": "Element",
+  "TaxonomyType": "Tab",
+  "Id": "rkRmzJQqJkiEr8N0n8nZug",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/rkRmzJQqJkiEr8N0n8nZug",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/6oFZNLA_kUWbZBEpoZSy9g",
+  "Created": "2024-06-21T14:44:58.5853772Z",
+  "Updated": "2024-06-21T14:45:25.9604528Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

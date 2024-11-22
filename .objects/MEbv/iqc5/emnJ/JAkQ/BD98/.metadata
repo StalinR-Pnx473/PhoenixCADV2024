@@ -1,0 +1,16 @@
+﻿{
+  "Id": "BD98T3YXKkSUCk_bbCPOVQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/BD98T3YXKkSUCk_bbCPOVQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/JAkQOXWInk6rFxbLGYXYRQ",
+  "Name": "uITotalDueEdit",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T12:00:18.8528468Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T12:02:07.5009733Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

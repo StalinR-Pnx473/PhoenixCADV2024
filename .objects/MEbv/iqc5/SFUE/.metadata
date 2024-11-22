@@ -1,0 +1,15 @@
+﻿{
+  "Id": "SFUEBDwmQUCdd2iuk-Z8sw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/SFUEBDwmQUCdd2iuk-Z8sw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/iqc5IjgxGkefj9bmmSp_QA",
+  "Name": "F2InfoPanel",
+  "Type": "Screen",
+  "Created": "2024-01-17T06:38:06.2893488Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T06:40:08.3437713Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

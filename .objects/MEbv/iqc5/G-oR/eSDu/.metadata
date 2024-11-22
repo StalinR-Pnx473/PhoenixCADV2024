@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIDOBDropdownArrow",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "eSDug1X7TkO62oaLJzIENg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/eSDug1X7TkO62oaLJzIENg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/G-oR_yfRvUae3J-fNEIjYQ",
+  "Created": "2024-01-23T08:11:14.6388432Z",
+  "Updated": "2024-01-23T08:11:53.9403845Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

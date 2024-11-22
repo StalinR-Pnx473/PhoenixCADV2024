@@ -1,0 +1,16 @@
+﻿{
+  "Id": "DqvQwOJkt0KgAf1BoTAGkA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/DqvQwOJkt0KgAf1BoTAGkA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/aT0E-vpZYEmlb76E0mIHAQ",
+  "Name": "uILocationLabel",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T12:44:27.1964594Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T12:44:36.283647Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

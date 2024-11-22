@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIPlateIbubbleIcon",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "enYg50FDdUiRfAomTCZgMw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/enYg50FDdUiRfAomTCZgMw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/G-oR_yfRvUae3J-fNEIjYQ",
+  "Created": "2024-10-16T08:09:57.9341542Z",
+  "Updated": "2024-10-16T08:10:46.5201495Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

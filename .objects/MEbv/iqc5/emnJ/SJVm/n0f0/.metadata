@@ -1,0 +1,16 @@
+﻿{
+  "Id": "n0f08BVkc0GHwK_NC9GTRg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/n0f08BVkc0GHwK_NC9GTRg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/SJVmgy-nLkmYlfM_TvjICg",
+  "Name": "uIOmniBusCheckBox",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T07:57:07.5023866Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T07:57:20.2069948Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

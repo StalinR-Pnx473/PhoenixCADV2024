@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uISystemParameterIcon",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "LOiOv78SgE-9E0ADVW_Wcg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/LOiOv78SgE-9E0ADVW_Wcg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/tBnq8dOGpUm4ard4nLyOhQ",
+  "Created": "2024-06-10T14:46:00.6902654Z",
+  "Updated": "2024-06-10T14:46:12.6811024Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

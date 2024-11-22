@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIConditionEdit",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "iB4nhWWJOEGRJk2ulhSr-g",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/iB4nhWWJOEGRJk2ulhSr-g",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/KiZXiJaZrUa_LcvEA7CckA",
+  "Created": "2024-10-17T12:30:52.3371016Z",
+  "Updated": "2024-10-17T12:31:33.3611829Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

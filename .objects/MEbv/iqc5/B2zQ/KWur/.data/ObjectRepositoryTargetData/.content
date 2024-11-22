@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="I_IezjLMcUqvP0VmZr2Q7w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="461, 108, 15, 19" ElementType="CheckBox" FriendlyName="'Checkbox'" FullSelectorArgument="&lt;wnd ctrlname='CtrlAddIncNames' /&gt;&lt;wnd ctrlname='UpdateName' /&gt;&lt;wnd ctrlname='chkVerify' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='CtrlAddIncNames' /&gt;&lt;wnd ctrlname='UpdateName' /&gt;&lt;wnd ctrlname='chkVerify' /&gt;" Guid="67677753-e447-4cf4-9b02-a2a7d9e01cd9" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmAddIncNames' /&gt;" SearchSteps="Selector, FuzzySelector" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="47, 108, 48, 16" ElementType="Text" FriendlyName="'Name'" FullSelectorArgument="&lt;wnd ctrlname='CtrlAddIncNames' /&gt;&lt;wnd ctrlname='kpiWinLabel15' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='CtrlAddIncNames' /&gt;&lt;wnd ctrlname='kpiWinLabel15' check:text='Name' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADQAAAAUCAYAAADC1B7dAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEvSURBVFhH7ZXdEYMgDIBdTvfRaXQFV9AR3EA3cIGqD2mgJESKnj+9q3I+fNcTSOAL0UbjOEFIhCc0DBOExCN0dTYIddDEERSRIoNWzlWZHq8rMfZndgpFUOadnbu1UJxAqaUSaFoz5xNqC7OOkLdaQ41jqih9nvAaXaRZnNMJJo5zxgX0s3nLDiFMYgSKtP7MeYTaVGxM8AGcg61Be3AMSZrnBakdLacS2vbTEt4bwupzrLu5FaIYLoBTJI5xi8gxolMEO4XwmVsDnz1CspWYLyHbUrSec1B+E+PNp/mVEEJVLfG9Ur98GCNoPxxLN7RdyHdDaxwSkq3jE7Lgh0TFnhFy9mIWBA8KIeLwfBjxjtG4PvApIcU8r2L29yHYIHQvwhN6vSYIiUfo6gQmNMEbAvuUeBx7FhIAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4db861f4d25d64669ff735c805991a73.png" xmlns="">0pDdFKw9Vp0aGqX9m77Yb3Q</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

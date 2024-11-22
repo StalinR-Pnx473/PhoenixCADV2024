@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uILocalButton",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "kqtFJU3TO02-K99tTFv4Dg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/kqtFJU3TO02-K99tTFv4Dg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/PSk1PzSV5UyPEZiEMgGs2w",
+  "Created": "2024-06-26T13:13:05.2289317Z",
+  "Updated": "2024-06-26T13:13:16.3438334Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

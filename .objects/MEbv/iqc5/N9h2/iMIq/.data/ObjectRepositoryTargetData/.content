@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Nyrl0-pviUKVZA7JUsLahA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="ce182a95-cda5-4afb-bfd1-4c6a653d958f" CvTextArea="69, 64, 127, 14" CvType="AnyWordGroup" DesignTimeRectangle="70, 64, 132, 15" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;wnd ctrlid='65535' title='Call created successfully.' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='65535' /&gt;" Guid="9b4880d3-c1b2-439b-92d2-233769d40836" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' cls='#32770' title='Other agency call creation wizard.' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ce182a95-cda5-4afb-bfd1-4c6a653d958f" CvTextArea="15, 9, 180, 15" CvTextArgument="Other agency call creation wizard." CvType="Text" DesignTimeRectangle="15, 9, 180, 15" ElementType="Text" Guid="610fcf81-9759-4208-ad57-6886f0fef521" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="226b64025f0da21c86742353ddcfb97e.png" xmlns="">0dq2qmiph9EyxWzqQKMguUg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

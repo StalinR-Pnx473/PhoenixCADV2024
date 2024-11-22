@@ -1,0 +1,16 @@
+﻿{
+  "Id": "ppX5IsNIOE2k6GCsgTXWsQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/ppX5IsNIOE2k6GCsgTXWsQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/ATog21aGmUikpMronzSugw",
+  "Name": "uIAlcoholCheckBox",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T10:42:59.7376174Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T10:43:07.4518787Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

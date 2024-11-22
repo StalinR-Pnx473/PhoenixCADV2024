@@ -1,0 +1,16 @@
+﻿{
+  "Id": "gy1bd0qMoEWg4CJXFsePtA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/gy1bd0qMoEWg4CJXFsePtA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/kCbkHl_H-kmVAex0N0LEKQ",
+  "Name": "uIInsuranceSearchButton",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T08:18:25.4667987Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T08:18:34.806266Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

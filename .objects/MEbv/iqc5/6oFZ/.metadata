@@ -1,0 +1,15 @@
+﻿{
+  "Name": "F6 Query NCIC ScreenTab",
+  "Type": "Screen",
+  "Id": "6oFZNLA_kUWbZBEpoZSy9g",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/6oFZNLA_kUWbZBEpoZSy9g",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/iqc5IjgxGkefj9bmmSp_QA",
+  "Created": "2024-06-21T14:11:27.4813035Z",
+  "Updated": "2024-06-21T14:11:34.1647412Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

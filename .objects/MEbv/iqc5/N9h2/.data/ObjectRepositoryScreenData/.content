@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="lKNJkwJ4LEOtAjEHzhl6Vw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="0, 0, 0, 0" FilePath="D:\CAD Client\kpi.phoenix.cadclient.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAI0SURBVFhH7ZfbThNRFIZ70zPFUl4BLo2vJWhVegQUgyJ4luJFE69M+hyU46ggCljrocoh4TF6s1xr7dl7Nsze6b7QlMTu5MtMppn1rf+fq0YGZ3Cq5cLydKUI/YDcEdMPfxvP84xXghfodrt94fIt0Gg0oF6vM3Qvn197ewajr0+RE8itILVj5Ahyy8RvGHmFvPwFIy+IDmSfd+Dqm6Oec50byK2QMJCyUEk7Spp99gOyTwNMs3TcFzCm/IlCwhc++Q5XiMffmOGltnGWTmgBW1UyqUhpkS6hdPGr4BHR6jnXuYGgWimU0rYmRBZayBfIPEQeHBpn6TgvEKRsCxZRrIQtFg6zFJk/gKH7xL5xlk5oAVtVF6vNaCkZJUXm9mHo3mem11znBvSkISkJ51CIpO9+8tmD9OyecZaO8wJKiGSUVCZFIcokqZmPkJpGqrvGWTqhBWxV6UnTJKSUUsrCXQFKU5UdSJY/MPJ9G84NUFJZa3pGpvSFLBXCZPk9JEtI8R1jmqXjvAClPJeUUkopCX0SBQ8SU8Q2Y5qlE1rA9glSVSFUSaUUUyYKhC+9sw3x21uCW5vqfRvODUhpwq9WCVkqhUIaz29A7Caxbpyl474AiX1pnFIq6SbEUBjP4xWFzI01iE0iE03jLJ3QArZPwNVekLKYhVLahChKoxOrEL0ukO/bcG5gfH5HpMyfTxllaSDUGZv1jLN0nBf4V1yOBSqlqRrd9INKqVjz/x0Mzn97IpE/DGNOZZe1ZgIAAAAASUVORK5CYII=" Selector="&lt;wnd app='kpi.phoenix.cadclient.exe' cls='#32770' title='Other agency call creation wizard.' /&gt;" Title="Other agency call creation wizard.">
+      <imageRef attrName="InformativeScreenshot" originalValue="be523694a9d3c60ee05c0d381d02c831.png" xmlns="">00qJbA4S0AUyxWUDPd7_rnw</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

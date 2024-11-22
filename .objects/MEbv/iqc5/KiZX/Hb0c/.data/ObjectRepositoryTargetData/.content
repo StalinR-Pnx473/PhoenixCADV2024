@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="MYkZs3Cam0iUkvs_BAk0XA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="7c553f48-e282-44f4-99fb-8014c3a8da7e" CvElementArea="97, 115, 107, 23" CvType="InputBox" DesignTimeRectangle="99, 116, 104, 21" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;wnd ctrlname='usrUpdNamesDtl' /&gt;&lt;wnd ctrlname='cddSex' /&gt;&lt;wnd ctrlname='lstCoded' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='usrUpdNamesDtl' /&gt;&lt;wnd ctrlname='cddSex' /&gt;&lt;wnd ctrlname='lstCoded' check:text='--' /&gt;" Guid="e39ebb2c-63df-47e3-ae92-c7739a37d3be" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmNameDtl' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="7c553f48-e282-44f4-99fb-8014c3a8da7e" CvTextArea="64, 119, 22, 12" CvTextArgument="Sex" CvType="Text" DesignTimeRectangle="43, 118, 44, 16" ElementType="Text" FullSelectorArgument="&lt;wnd ctrlname='usrUpdNamesDtl' /&gt;&lt;wnd ctrlname='lblGender' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='usrUpdNamesDtl' /&gt;&lt;wnd ctrlname='lblGender' check:text='Sex' /&gt;" Guid="ec1fbe19-3b1e-4a6f-a49a-c91cfb7bc90f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAUCAYAAADLP76nAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADXSURBVFhH7ZTLDcQgDETpzfW4GWqhExqhAwfwAuaTPUS7WJE4zAEGJD88xoQQ6M06ANo6ANraA+AtgTFkitCtzz3QBgBHGItGV9aeLFry07ln+j9Afn0kt/KyGJC7A2R92ouQENcgQB0Kv2lbB8D6hceF1u6kImvR7PG9sYtNKjNQCxm7s1wDQerGzdzsARDyFloUBrA+RvL8fQS3A3AcJMCX+ZCAah2Iue7yn4exFC1zzr7DhfcBUZoB+cvMEZn8/NLzL9RFr95VidBvdQC0dQC09XKAQBepQ65gDMXpmgAAAABJRU5ErkJggg==" SearchSteps="Selector, FuzzySelector, Image, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="360ff4559f3efa1677849ef2b5ee43f9.png" xmlns="">0urclQqWn4EOdV7wSs-RmIQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="kXV9dHhHFUCATCvwNj70zQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="0, 0, 0, 0" FullSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='System Parameter - 1201 - Google Chrome' /&gt;&lt;ctrl name='ch68.prophoenix.com says' role='dialog' /&gt;&lt;ctrl name='OK' role='push button' /&gt;" Guid="d70c099e-8d38-4924-9ed2-34e64aeabbc6" SearchSteps="Selector" />
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

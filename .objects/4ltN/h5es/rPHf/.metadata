@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Camera Details Screen",
+  "Type": "Screen",
+  "Id": "rPHf10P5DE28ZIUa_sxd-Q",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/rPHf10P5DE28ZIUa_sxd-Q",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/h5es0EizPUSkHahTS7e1RA",
+  "Created": "2024-05-07T13:16:39.7820287Z",
+  "Updated": "2024-05-07T13:16:43.7295469Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

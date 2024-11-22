@@ -1,0 +1,13 @@
+﻿{
+  "Id": "Ht6jvH_oUEecPQU6pHPjNQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/Ht6jvH_oUEecPQU6pHPjNQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/PGoQVBiHe0mcxKQes8Rvww",
+  "Name": "uICallBackInfoEdit",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T11:40:06.7993962Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T11:40:06.7993962Z"
+}

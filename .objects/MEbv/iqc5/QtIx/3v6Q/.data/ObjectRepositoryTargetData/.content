@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="E47SP-MbT0CcTWZ2CWhdpg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="434, 95, 196, 20" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;wnd ctrlname='CtrlusrVehicleInfo' /&gt;&lt;wnd ctrlname='lblPlateType' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='CtrlusrVehicleInfo' /&gt;&lt;wnd ctrlname='lblPlateType' /&gt;" Guid="714d297a-3620-40cd-9dcc-e2f5d118b3e2" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmVehicleDetails' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="143157a8-4c50-49c8-8b60-35d8e03cc7e0" CvTextArea="359, 97, 67, 12" CvTextArgument="Plate Type :" CvType="Text" DesignTimeRectangle="328, 94, 100, 20" ElementType="Text" FullSelectorArgument="&lt;wnd ctrlname='CtrlusrVehicleInfo' /&gt;&lt;wnd ctrlname='label8' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='CtrlusrVehicleInfo' /&gt;&lt;wnd ctrlname='label8' check:text='Plate Type :' /&gt;" Guid="8453a4c0-1cbe-4126-a1dc-b7bc3c184dea" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGgAAAAYCAYAAAAWPrhgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHASURBVGhD7ZY7koJAEEC5i2fiFF6BmHCvQHkHqzA00UxDjUg00BOoaNDbA9PQwLAMW/tpdjt4Vcyvm+k3QxHk+QsUuagg4QSPxwsUuagg4aCgJz4oUlFBwlFBwpmGoGME87cZzBcJnF3jfxg5gq4JxEZCgwj2ZsxXEMUYLXINSSMv45cPhTxBVBDe/nZBNfslrscYydE9/tPIFVSdarxFXBDNqwhhdTXzM1gteP8M4m1WxD5vQ2e/i64gitvOg+2tfS8OOxx+edk+O2OSBZGU5fqDT5zdHPW7bpBdS8UpBVCxu7huEBW6iEE5HO9Fa4t53nkHBN3vTxDBpX0zENz4yYwd6kKY9s4WojOPYlDbNdeSHGzeFjS/OV4fhN2mlFWMt96raqO8sXn7kCeIFbeCFSK1G483GY7VhRsS5FuYvvllfwhx8XmLYGf6PQSNFdJmsoLKjQ8L6hRxgN7CUhwDCmj02diNtd55609cIb3F5ASdaB6HraEiGcpbxtZXhJBeWHxG/8nPILU/B9XaTlyW0znuyjsVQdL5gtv5GVSQJyf7c+C8ISro/4KCcnxQpKKChBPcbjkoclFBwlFBosnhHTyFl3pjp1eQAAAAAElFTkSuQmCC" SearchSteps="Selector, Image" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d6f7e7c4a737851a21696ae29e50d8b7.png" xmlns="">0ZVAr2uPQLU2wfkA96ceeIQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

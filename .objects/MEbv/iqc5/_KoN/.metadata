@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Citizen Link Screen",
+  "Type": "Screen",
+  "Id": "_KoNWNtFfkK2pL6B8z8ELw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/_KoNWNtFfkK2pL6B8z8ELw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/iqc5IjgxGkefj9bmmSp_QA",
+  "Created": "2024-05-07T15:30:26.069903Z",
+  "Updated": "2024-05-07T15:30:33.1774825Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

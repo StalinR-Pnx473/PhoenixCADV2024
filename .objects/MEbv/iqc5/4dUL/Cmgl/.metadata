@@ -1,0 +1,16 @@
+﻿{
+  "Id": "CmglpJObrU-cQKLw_BypAQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/CmglpJObrU-cQKLw_BypAQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/4dUL2P5akESqqPvH9ncmSw",
+  "Name": "uISOPTab",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T07:23:45.0119213Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T07:23:55.5718728Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,381 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="ATC_ID_41801_MTC_ID_23519__System_should_display_the_Citizen_Flags" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1094,3620" sap2010:WorkflowViewState.IdRef="ATC_ID_41801_MTC_ID_23519__System_should_display_the_Citizen_Flags_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.Testing</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Terminal</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.PDF.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Java.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>UiPath.Testing</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="ATC_ID_41801_MTC_ID_23519__System_should_display_the_Citizen_Flags" sap:VirtualizedContainerService.HintSize="746,3555" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Default="343 S Broad St;SOP" Name="Location" />
+      <Variable x:TypeArguments="x:String" Default="NAME: Raj Kamal" Name="CitizenFlagName" />
+      <Variable x:TypeArguments="x:String" Default="Phone#:" Name="CitizenPhoneNo" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Login" sap:VirtualizedContainerService.HintSize="698,3458" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="681e4976-68f1-47a0-8209-b8cc9c5a765c" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="664,3168" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="CADLogIn" sap:VirtualizedContainerService.HintSize="616,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="PhoenixCAD\Global Methods\Login.xaml">
+              <ui:InvokeWorkflowFile.Arguments>
+                <InArgument x:TypeArguments="x:String" x:Key="UserName">
+                  <Literal x:TypeArguments="x:String">Kamal</Literal>
+                </InArgument>
+                <InArgument x:TypeArguments="x:String" x:Key="Password">
+                  <Literal x:TypeArguments="x:String">Pnx@2016</Literal>
+                </InArgument>
+                <InArgument x:TypeArguments="x:String" x:Key="Terminal">
+                  <Literal x:TypeArguments="x:String">345CAD</Literal>
+                </InArgument>
+                <InArgument x:TypeArguments="x:String" x:Key="Database">
+                  <Literal x:TypeArguments="x:String">AutomationCAD</Literal>
+                </InArgument>
+              </ui:InvokeWorkflowFile.Arguments>
+            </ui:InvokeWorkflowFile>
+            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="F2 Call Take Screen" sap:VirtualizedContainerService.HintSize="616,2925" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="6c686a6f-186f-443c-b863-277b0182a341" Version="V2">
+              <uix:NApplicationCard.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="582,2635" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayBefore="5" DisplayName="enterAtLocation" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="534,217" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="6c686a6f-186f-443c-b863-277b0182a341" Text="[Location + &quot;[k(Tab)][k(Tab)]&quot;]" Version="V1">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable CVScreenId="97fa10d2-91a7-4efb-bbd5-809987b1118a" CvElementArea="74, 774, 511, 27" CvType="InputBox" DesignTimeRectangle="81, 776, 501, 23" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallTaking2019' /&gt;&lt;wnd ctrlname='flpContainer' /&gt;&lt;wnd ctrlname='pnlLocation' /&gt;&lt;wnd ctrlname='addrCallLocation' /&gt;&lt;wnd ctrlname='txtLocation' /&gt;&lt;wnd ctrlname='txtLocation_EmbeddableTextBox' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallTaking2019' /&gt;&lt;wnd ctrlname='flpContainer' /&gt;&lt;wnd ctrlname='pnlLocation' /&gt;&lt;wnd ctrlname='addrCallLocation' /&gt;&lt;wnd ctrlname='txtLocation' /&gt;&lt;wnd ctrlname='txtLocation_EmbeddableTextBox' /&gt;" Guid="c4354af9-230d-4c2c-ada9-672fc9b08be0" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAfkAAAAbCAYAAAB/TfbZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADISURBVHhe7dW7DcJAAETBS2iIthERdVCHsc3HZAiwDtkZIWS3mmB2S3hletQKAOQpu/2hAgB5Sn0e66JstusDAO0TeQAIJfIAEErkASCUyANAKJEHgFAiDwChRB4AQok8AIQSeQAIJfIAEErkASCUyANAKJEHgFAiDwChRB4AQok8AIQSeQAIJfIAEErkASCUyANAqK/IAwA5RB4AQq2RXwYAyFO67ll/dnpFO/UNGP7T/2tswPkdbbgEu+Yab3O08xTs3rq5fgAM+wH+XMFXxwAAAABJRU5ErkJggg==" InformativeScreenshot="ce1b2a7c5fe3822f218dc157cbb8e0c6.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmPhoenixMain' /&gt;&lt;wnd ctrlname='frmTakeCall' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target CVScreenId="97fa10d2-91a7-4efb-bbd5-809987b1118a" CvTextArea="16, 779, 55, 14" CvTextArgument="Location" CvType="Text" DesignTimeRectangle="7, 777, 68, 18" ElementType="Text" FullSelectorArgument="&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallTaking2019' /&gt;&lt;wnd ctrlname='flpContainer' /&gt;&lt;wnd ctrlname='pnlLocation' /&gt;&lt;wnd ctrlname='lblLocation' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallTaking2019' /&gt;&lt;wnd ctrlname='flpContainer' /&gt;&lt;wnd ctrlname='pnlLocation' /&gt;&lt;wnd ctrlname='lblLocation' check:text='Location' /&gt;" Guid="78d0b94c-6d65-4634-8bf5-756e3fe6e486" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEgAAAAWCAYAAABjadrAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGPSURBVFhH7ZWxkoIwEIZ9NBsfxpb3oMeOjuKO6uystDxH7ZVa38Fmb9lkIRuXi57CyE2c+QqyIez/keAEf8DkeQ7n83VQLpf35KP8IqKgDmo5cN1FQV1EQQGioABRUIAnBFWwnk6gSCul9jhac4+xgiX2viy12t8ZsaAKNvj8xXyl1F5HFBSgZ0FmzgLXNMxg/f1bPYGD22CZODUDH6HD3BmfZnC6OWJWIM/BZ2+2XOO5ck6dpXm2pUdBNjw2f+SxzzowS5L1uhkKTWHxeptBgb2IbwoJ46D+DnIF2RqvdXOvmSukiXpLf4KEDMZKwVB+nRrSpAgUCZogNaw7312H0cZ6FHRMZ9hkAnttHN/s3qu7TbXII8CEBJ3s2uK4IjROu+o/CLK7qRVQ44YYuaBnj5ge8j5BozhijQx8Y/yRNrvqzo+0EpL/uTgEXWuCWAavhRjhvN6AgvzvA9FI8ed07KimLneMCdXWizSTIUgi3+cHtJLsvVL2IIJei9vUOxEFBYiCAkRBAaKgAEbQDn4A8bgWQhAxHWkAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uta:VerifyControlAttribute AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="verifyAtLocation" sap:VirtualizedContainerService.HintSize="534,317" sap2010:WorkflowViewState.IdRef="VerifyControlAttribute_1" Operator="Equality" OutputArgument="Result" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False">
+                      <uta:VerifyControlAttribute.ActivityToTest>
+                        <ActivityAction>
+                          <uix:NGetAttributeGeneric x:TypeArguments="x:String" Attribute="text" DisplayName="getLocation" sap:VirtualizedContainerService.HintSize="334,207" sap2010:WorkflowViewState.IdRef="NGetAttributeGeneric`1_1" ScopeIdentifier="6c686a6f-186f-443c-b863-277b0182a341" Version="V3">
+                            <uix:NGetAttributeGeneric.OutUiElement>
+                              <OutArgument x:TypeArguments="ui:UiElement">
+                                <VariableReference x:TypeArguments="ui:UiElement">
+                                  <VariableReference.Variable>
+                                    <Variable x:TypeArguments="ui:UiElement" Name="_autogenerated_OutUiElement" />
+                                  </VariableReference.Variable>
+                                </VariableReference>
+                              </OutArgument>
+                            </uix:NGetAttributeGeneric.OutUiElement>
+                            <uix:NGetAttributeGeneric.Result>
+                              <OutArgument x:TypeArguments="x:String">
+                                <VariableReference x:TypeArguments="x:String">
+                                  <VariableReference.Variable>
+                                    <Variable x:TypeArguments="x:String" x:Name="__ReferenceID0" Name="_autogenerated_Result" />
+                                  </VariableReference.Variable>
+                                </VariableReference>
+                              </OutArgument>
+                            </uix:NGetAttributeGeneric.Result>
+                            <uix:NGetAttributeGeneric.Target>
+                              <uix:TargetAnchorable CVScreenId="c6f2d273-e295-4a88-9f42-e0637c71bd0f" CvElementArea="73, 774, 514, 28" CvType="InputBox" DesignTimeRectangle="75, 775, 509, 25" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallTaking2019' /&gt;&lt;wnd ctrlname='flpContainer' /&gt;&lt;wnd ctrlname='pnlLocation' /&gt;&lt;wnd ctrlname='addrCallLocation' /&gt;&lt;wnd ctrlname='txtLocation' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallTaking2019' /&gt;&lt;wnd ctrlname='flpContainer' /&gt;&lt;wnd ctrlname='pnlLocation' /&gt;&lt;wnd ctrlname='addrCallLocation' /&gt;&lt;wnd ctrlname='txtLocation' check:text='640 N Clinton Ave;SOP' /&gt;" Guid="1aaca361-0b57-4f1b-a781-dd7be6248824" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAgEAAAAdCAYAAAAzbb+oAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATESURBVHhe7ZlbbuQ2EEV7eb2gXk7vIMhXFuCt+G9eTjL5G0xiKKJaZBXJKlJSGx63dA5wgTGb4lPgvdScvv8YBoQQQggdT4QAhBBC6KA6ffr0cwj67fc/EEIIIXQAvfzzOikLAQAAALBvCAEAAAAHhRAAAABwUAgBAAAAB4UQAAAAcFAIAS5Pw+V0Gk6jztfnuex5uJ7LMgAAgMfkvhDwdJkMUXQZrdPg+Tqc5zqVeZZtXMwWEk8XqVsbsWXcDdS4tG5DMNrS9Tvj/JjInGSe78fz9Zz6FhnvTPVejTIGq9+FTOfrGNcAAKDH5hBgH8B2CHCN2zrsgxqHeN7veci9fnkIcA1klBsC7v4SENssx/1OrAxcb4esWy39zrTqBeXr1tpDN5ACAEBiWwhQZtI1w8J4pL66lc5mJDdF3ySrgz8LDMtCQHYjLQPHOF4/BNxJWotfEQJUgDnH+b+TUbrvSxiTjGFRWFT7leqrMr2375ZxAAAelA0hQN3Wuqes3HzP5Q1afVqXZvrGKwf/2OaG53Wd1hcHu61+mRcw7FurMuEiLAXly7usH5e03iGASFvSh9rXrD1rzrnZTsoGW7TvhgBF579aLHO3QoBux+0LAAAmNoQAfcDLv61DNx7Slyd1C411zFtxP2BkB39qI5qpbVgZypCcLmastjpl6YYtivVaIcD+7aa1/XgkE50N0zRQa0+MMne84s5FmYw9qlr73r4Y5m7NwQoLAABgsz4E6BuboXjwpsN4KqhDgBzW+pP0yhCg/57qWyads9wkOoZvlFlhpGuyzs1VjNZos9dPxdIQJu3FtamMVo03rV8qi+OS/mSN9fhF8ffuvrRCgKXmegAAQOC+EJBOa3XAh7JkMLUptE3IqFfQNiUZh/e89OuYTcJqa2mZMc6ANWdzHUaq8hX9lJh9dNqbFscwc7V+tYo5mEi/2TOqXXNfVoQAPR8AAPBZHwLUIS6HtZhFMA/vcE4KhrXCmDSW6elbZJRrBGaIsbDGsrTMHqcYncxZxl4YaFV3RT8Fi/Zjriv9jgEurVUMc/ZaazWXVKHbmebT2RdrnZbMHQAAfDaEgNzwb+QGtcx05JnYjmuICvvgV2OapY0yp6hbGE4Yw61oqeGvMGcr+Bg33ICsYf3pv9tPhlpnV3q9Y/1xHS7zfug1SnNYbvjTM8Y6l+3o90bPUfep59mfOwAAtNgQAkb0oZxJbow5Yrz6cNdGkKnhLu7Br2+SozITqWgb4617y3SXljnjLMYY10ubX6lN/Whapt0NINZzdeCKSm2kdudw4b4vQfqdae9L+X515w4AAE22hYBAaWjNg9gOAYEyCJS/l7QOft1Wr52AHUJaN+87Q8BI3qeYWj2W8mvIlhCgDTs30BvO787NW1MGhaA0rvh8etYxdyfsWfui5xwhBAAA3Mf2EADgkEy88UUHAAB+PYQAeHPiDZ0MAADwsSEEAAAAHBRCAAAAwEEhBAAAABwUQgAAAMBBcUMAQgghhPavKgS8iT7/u2t9/vIA+rpNX7bq2wPo5b9d6+ufO9Zf+9W3v193rZfvO9ZsoHsQIWCFTNP9aBqNeYtMg18iy3Q/mgzj3JNM89yLDPPciyzj3JNM89yLDDN9TL0O/wPdplL8tvZ49QAAAABJRU5ErkJggg==" InformativeScreenshot="d805d36a7227b2d737189358d584ed5e.png" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmPhoenixMain' /&gt;&lt;wnd ctrlname='frmTakeCall' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="c6f2d273-e295-4a88-9f42-e0637c71bd0f" CvTextArea="16, 779, 55, 14" CvTextArgument="Location" CvType="Text" DesignTimeRectangle="7, 777, 68, 18" ElementType="Text" FullSelectorArgument="&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallTaking2019' /&gt;&lt;wnd ctrlname='flpContainer' /&gt;&lt;wnd ctrlname='pnlLocation' /&gt;&lt;wnd ctrlname='lblLocation' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallTaking2019' /&gt;&lt;wnd ctrlname='flpContainer' /&gt;&lt;wnd ctrlname='pnlLocation' /&gt;&lt;wnd ctrlname='lblLocation' check:text='Location' /&gt;" Guid="84c90bd9-916b-481d-9d41-851ef6ffccbf" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEgAAAAWCAYAAABjadrAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGOSURBVFhH7ZW/koIwEId9NBsfxpb3oNeOjuKO6uystNQZ7ZVa3+Gavc2fhWxcLnoKIzfLzFeYDWF/HwlO8AKiKAq4XL4H5Xp9Tz6qL4sK6sDIMZcK6kAFJVBBCVRQgicE1bCZTqDMa6H2OFJzj7GGFfa+qqTa3xmxoBq2+PzlfC3UXocKStCzIDdniWs6ZrDZ/VbP4Bg2WGVBzUFH6DgPxqcLON8cMS+Q5uCzt3uq0Vw+x2Rpnu3pUZAPj82faOzTBCZJvG6asaFtWPy9X0CJvbBvihVGQeMdFAryNVrr5l43l0lj9Zb+BDEZhJeCoeK6bUiSwhAkSILEsOH8cB1CGutR0CmfYZMZHKRxfLOHqB421cKPAJESdPZrs+OK2HG7q/6DIL+bWgGGMMTIBT17xOSQ9wkaxRFrZOAbo4+021V3fqSFkPTPRSHsb0kQyaC1ECec1htQUPx9sDRS4jkdO6qp8x3jQrX1Ml/wEFYi3RcH9JL8vVz2IIJeS9jUO6GCEqigBCoogQpK4AQB/ADtAhrFvoXRwQAAAABJRU5ErkJggg==" SearchSteps="Selector, FuzzySelector, Image, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NGetAttributeGeneric.Target>
+                          </uix:NGetAttributeGeneric>
+                        </ActivityAction>
+                      </uta:VerifyControlAttribute.ActivityToTest>
+                      <uta:VerifyControlAttribute.ArgumentsBridgeActivity>
+                        <ActivityFunc x:TypeArguments="x:Object">
+                          <uta:ArgumentsBridge sap2010:WorkflowViewState.IdRef="ArgumentsBridge_1">
+                            <uta:ArgumentsBridge.Input>
+                              <InArgument x:TypeArguments="x:Object">
+                                <VariableValue x:TypeArguments="x:Object" Variable="{x:Reference __ReferenceID0}" />
+                              </InArgument>
+                            </uta:ArgumentsBridge.Input>
+                          </uta:ArgumentsBridge>
+                        </ActivityFunc>
+                      </uta:VerifyControlAttribute.ArgumentsBridgeActivity>
+                      <uta:VerifyControlAttribute.Expression>
+                        <InArgument x:TypeArguments="x:String">[Location]</InArgument>
+                      </uta:VerifyControlAttribute.Expression>
+                    </uta:VerifyControlAttribute>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="534,92" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[Location + &quot;Verified Partial location in location field&quot;]" />
+                    <uta:VerifyControlAttribute AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Control Attribute" sap:VirtualizedContainerService.HintSize="534,317" sap2010:WorkflowViewState.IdRef="VerifyControlAttribute_6" Operator="Equality" OutputArgument="Result" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False">
+                      <uta:VerifyControlAttribute.ActivityToTest>
+                        <ActivityAction>
+                          <uix:NGetAttributeGeneric x:TypeArguments="x:Boolean" Attribute="relativeVisibility" DisplayName="Get Attribute 'Citizen Flags'" sap:VirtualizedContainerService.HintSize="334,207" sap2010:WorkflowViewState.IdRef="NGetAttributeGeneric`1_6" ScopeIdentifier="6c686a6f-186f-443c-b863-277b0182a341" Version="V3">
+                            <uix:NGetAttributeGeneric.OutUiElement>
+                              <OutArgument x:TypeArguments="ui:UiElement">
+                                <VariableReference x:TypeArguments="ui:UiElement">
+                                  <VariableReference.Variable>
+                                    <Variable x:TypeArguments="ui:UiElement" Name="_autogenerated_OutUiElement" />
+                                  </VariableReference.Variable>
+                                </VariableReference>
+                              </OutArgument>
+                            </uix:NGetAttributeGeneric.OutUiElement>
+                            <uix:NGetAttributeGeneric.Result>
+                              <OutArgument x:TypeArguments="x:Boolean">
+                                <VariableReference x:TypeArguments="x:Boolean">
+                                  <VariableReference.Variable>
+                                    <Variable x:TypeArguments="x:Boolean" x:Name="__ReferenceID1" Name="_autogenerated_Result" />
+                                  </VariableReference.Variable>
+                                </VariableReference>
+                              </OutArgument>
+                            </uix:NGetAttributeGeneric.Result>
+                            <uix:NGetAttributeGeneric.Target>
+                              <uix:TargetAnchorable CVScreenId="d0954053-e26f-4ced-b225-05bc4d8ab3f1" CvElementArea="359, 124, 89, 24" CvTextArea="371, 130, 67, 14" CvTextArgument="Citizen Flags" CvType="Button" DesignTimeRectangle="361, 125, 88, 20" DesignTimeScaleFactor="1" ElementType="TabPage" FullSelectorArgument="&lt;wnd ctrlname='frmTakeCall' /&gt;&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallContextInfo' /&gt;&lt;wnd ctrlname='tbCallInfo' /&gt;&lt;ctrl name='Citizen Flags' role='page tab' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='frmTakeCall' /&gt;&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallContextInfo' /&gt;&lt;wnd ctrlname='tbCallInfo' /&gt;&lt;ctrl name='Citizen Flags' role='page tab' automationid='' check:text='Citizen Flags' /&gt;" Guid="8a5a5248-5759-4598-846e-5b1f9e8bb493" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFwAAAAYCAYAAAB3JpoiAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHFSURBVGhD7ZZLbsMgEEA5HOfhNJyFm3AEp5su2rqpupsyxMCAwXYdjNRqIr3IGWCAx8cRb98AzDhY+GDE7fYCr+9fME0TcwGlX/HxeffBeZ6ZCyj9CvxC8yHA9If6ZeEDYOGDYeGDYeGD6SrcKAFCJJRZyowCITXYon4z3gUDiozlgQRtXdml/W7TTbiXrQyJWdCSSA9YDXLIZFG4AlMr+/PCfyORhcfn08KtlsXuLogTfOx6f7zxN5l4eR3F4+/KfP4QD6J8WwWK5gv9eQ4Kx+fYZ56nfkXmV9XqBO/QTbjUtlrmoROkO5zGCdn1hHXIYsa+vKi0KNgmn3zlDqc5K/0iMU9WJ12P2VxPnNbBO9w97wj3uUhsvfMXcUXbuvBjV0rZx0rsUicuBKkXcx6ki/DdlT4ovJSN4ESrp6eT8HKzhDxlvnX+cD02+mjQR7gDB5TvcvIv5YhwfK4NvohHQbSt4xnhaUEbY16uJ4xjP6n+Rh8NuglHvPTluGVHrjJ4LzHGycu00t5LDvGQp5PwNJ51v2k+7uUc8+f1q6dvg67C/y+4IdIL+hlYeIPsVJ3YyS1Y+GBY+GAy4fiDGYcA/gz8APwAIv5V+uF7EvYAAAAASUVORK5CYII=" InformativeScreenshot="24bd23eb7492d5cec880574a1210397d.png" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmPhoenixMain' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+                            </uix:NGetAttributeGeneric.Target>
+                          </uix:NGetAttributeGeneric>
+                        </ActivityAction>
+                      </uta:VerifyControlAttribute.ActivityToTest>
+                      <uta:VerifyControlAttribute.ArgumentsBridgeActivity>
+                        <ActivityFunc x:TypeArguments="x:Object">
+                          <uta:ArgumentsBridge sap2010:WorkflowViewState.IdRef="ArgumentsBridge_5">
+                            <uta:ArgumentsBridge.Input>
+                              <InArgument x:TypeArguments="x:Object">
+                                <VariableValue x:TypeArguments="x:Object" Variable="{x:Reference __ReferenceID1}" />
+                              </InArgument>
+                            </uta:ArgumentsBridge.Input>
+                          </uta:ArgumentsBridge>
+                        </ActivityFunc>
+                      </uta:VerifyControlAttribute.ArgumentsBridgeActivity>
+                      <uta:VerifyControlAttribute.Expression>
+                        <InArgument x:TypeArguments="x:String">["True"]</InArgument>
+                      </uta:VerifyControlAttribute.Expression>
+                    </uta:VerifyControlAttribute>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="534,92" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[&quot;Verified the Citizen Flag tab is Displayed in CAD F2 Screen&quot;]" />
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'uICitizenFlagTab'" sap:VirtualizedContainerService.HintSize="534,157" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6c686a6f-186f-443c-b863-277b0182a341" Version="V3">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable CVScreenId="2ed6f52f-682e-4171-bc06-d04d3dc52679" ContentHash="4rur-N9BukSdkA4yOYvowA" CvElementArea="359, 124, 89, 24" CvTextArea="371, 130, 67, 14" CvTextArgument="Citizen Flags" CvType="Button" DesignTimeRectangle="361, 125, 88, 20" DesignTimeScaleFactor="1" ElementType="TabPage" FullSelectorArgument="&lt;wnd ctrlname='frmTakeCall' /&gt;&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallContextInfo' /&gt;&lt;wnd ctrlname='tbCallInfo' /&gt;&lt;ctrl name='Citizen Flags' role='page tab' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='frmTakeCall' /&gt;&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallContextInfo' /&gt;&lt;wnd ctrlname='tbCallInfo' /&gt;&lt;ctrl name='Citizen Flags' role='page tab' automationid='' check:text='Citizen Flags' /&gt;" Guid="ed0da205-44a7-4c41-973e-d78d6312664e" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFwAAAAYCAYAAAB3JpoiAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHFSURBVGhD7ZZLbsMgEEA5HOfhNJyFm3AEp5su2rqpupsyxMCAwXYdjNRqIr3IGWCAx8cRb98AzDhY+GDE7fYCr+9fME0TcwGlX/HxeffBeZ6ZCyj9CvxC8yHA9If6ZeEDYOGDYeGDYeGD6SrcKAFCJJRZyowCITXYon4z3gUDiozlgQRtXdml/W7TTbiXrQyJWdCSSA9YDXLIZFG4AlMr+/PCfyORhcfn08KtlsXuLogTfOx6f7zxN5l4eR3F4+/KfP4QD6J8WwWK5gv9eQ4Kx+fYZ56nfkXmV9XqBO/QTbjUtlrmoROkO5zGCdn1hHXIYsa+vKi0KNgmn3zlDqc5K/0iMU9WJ12P2VxPnNbBO9w97wj3uUhsvfMXcUXbuvBjV0rZx0rsUicuBKkXcx6ki/DdlT4ovJSN4ESrp6eT8HKzhDxlvnX+cD02+mjQR7gDB5TvcvIv5YhwfK4NvohHQbSt4xnhaUEbY16uJ4xjP6n+Rh8NuglHvPTluGVHrjJ4LzHGycu00t5LDvGQp5PwNJ51v2k+7uUc8+f1q6dvg67C/y+4IdIL+hlYeIPsVJ3YyS1Y+GBY+GAy4fiDGYcA/gz8APwAIv5V+uF7EvYAAAAASUVORK5CYII=" InformativeScreenshot="d717cf3bca97c7d672e279acaa3ba82a.png" Reference="THDf1UhB6U6EKgZN7HF2zw/WCZcN5UBS0yqm5zqvQO_cQ" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmPhoenixMain' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="2ed6f52f-682e-4171-bc06-d04d3dc52679" CvElementArea="293, 124, 68, 23" CvTextArea="305, 130, 45, 12" CvTextArgument="Contacts" CvType="Button" DesignTimeRectangle="294, 125, 67, 20" ElementType="TabPage" FullSelectorArgument="&lt;wnd ctrlname='frmTakeCall' /&gt;&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallContextInfo' /&gt;&lt;wnd ctrlname='tbCallInfo' /&gt;&lt;ctrl name='Contacts' role='page tab' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='frmTakeCall' /&gt;&lt;wnd ctrlname='pnlCallBase' /&gt;&lt;wnd ctrlname='ctrlUsrCallContextInfo' /&gt;&lt;wnd ctrlname='tbCallInfo' /&gt;&lt;ctrl name='Contacts' role='page tab' automationid='' check:text='Contacts' /&gt;" Guid="1dd56c8e-259a-4d76-8c7b-229ca636cc92" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEcAAAAYCAYAAACoaOA9AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFgSURBVFhH7ZVRTsMwDEBzuJwnp8lZcpMcYeOHD6CA+DO1wWmSuV7pIhCrK71JdewofnU79/QBYMiYHAV3Pj/A4/M7nE6nw9O7cC+vbxScpunw9C4c/qAlDhyd2oXJ6TA5CiZHweQoDJWTggPnFkKS8/4Lw+SQmJCqWIbodwrKEbyPkKW1a9xS2zFGzsADEfckJ0ffTc0llMOvHOemAM4HCPOEUZya+pq4co85XFdy1vbsaqcEgddnfjrFw+T4mMU1giQsTeErSPnUuIeYlzg1oDz9krO2Z1XbnGvHRP3K5JSDcwwbw3yhQUkOxsuEfE/AxZ5MXUvy900NMkTOtadyi5xePOdsklPg1y1AauI6Y+TM4GHb6an+rQQJ1NhGOYuEDXtWta1A/P78kRyEBHXjz2s0AbzGEtfklA8pNtN+VOt9xT2VWnHSFIbKuTdMjoLJUTA5Co0cvDFkHNi1cgF8AmiuX+APTVqqAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uta:VerifyControlAttribute AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Control Attribute" sap:VirtualizedContainerService.HintSize="534,317" sap2010:WorkflowViewState.IdRef="VerifyControlAttribute_2" Operator="Equality" OutputArgument="Result" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False">
+                      <uta:VerifyControlAttribute.ActivityToTest>
+                        <ActivityAction>
+                          <uix:NGetAttributeGeneric x:TypeArguments="x:String" Attribute="text" DisplayName="Get Attribute 'uICitizenFlagNameText'" sap:VirtualizedContainerService.HintSize="334,207" sap2010:WorkflowViewState.IdRef="NGetAttributeGeneric`1_2" ScopeIdentifier="6c686a6f-186f-443c-b863-277b0182a341" Version="V3">
+                            <uix:NGetAttributeGeneric.OutUiElement>
+                              <OutArgument x:TypeArguments="ui:UiElement">
+                                <VariableReference x:TypeArguments="ui:UiElement">
+                                  <VariableReference.Variable>
+                                    <Variable x:TypeArguments="ui:UiElement" Name="_autogenerated_OutUiElement" />
+                                  </VariableReference.Variable>
+                                </VariableReference>
+                              </OutArgument>
+                            </uix:NGetAttributeGeneric.OutUiElement>
+                            <uix:NGetAttributeGeneric.Result>
+                              <OutArgument x:TypeArguments="x:String">
+                                <VariableReference x:TypeArguments="x:String">
+                                  <VariableReference.Variable>
+                                    <Variable x:TypeArguments="x:String" x:Name="__ReferenceID2" Name="_autogenerated_Result" />
+                                  </VariableReference.Variable>
+                                </VariableReference>
+                              </OutArgument>
+                            </uix:NGetAttributeGeneric.Result>
+                            <uix:NGetAttributeGeneric.Target>
+                              <uix:TargetAnchorable CVScreenId="05ac0966-2ac3-4564-bd55-cef5768e11e3" CvTextArea="24, 18, 118, 13" CvTextArgument="NAME: Raj Kamal" CvType="Text" DesignTimeRectangle="25, 17, 117, 16" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl id='Table1' tableRow='1' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='B' /&gt;" FuzzySelectorArgument="&lt;webctrl id='Table1' tag='TABLE' /&gt;&lt;webctrl type='' tag='B' class='' aaname='  NAME: Raj  Kamal' check:text='NAME: Raj  Kamal' /&gt;" Guid="28d56f33-2810-4554-9a28-d0e77858ac05" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHkAAAAUCAYAAACpkJLNAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJ8SURBVGhD7ZVNbgIxDIW76aIHZMWq1+AAcwLugFhzCITEMRAcI00mduzYTuaHQguTJ1kqmcRx3uekH67p7dUgL0AN8gLUIC9ADfICRJAvO7f5+nTfXyt3uMBYr6Pb9uOdO8MI6tyFcWuN16mDb3rtdb+ib91Rj6nQe5dUy7PZ32DWsPBs2xMMZCp4ws5sr3u8rLoNyD7WO3eF4TJkHI+hDMwg8ya4ucOa1j0TcojfMd/w5B8ADhoP2QdBsyGjmZuui+uyxvDKILN8Yh8JuX7bsEGMlwNUzIP1wH6q2cSaSTe5Cji/DNkc9MJ7d5CvIvcp1Rw0ve4iZIJqQeZmF4xPpnZxPTYBjG/9ePz+N5DRjDwo72jIVcAaSAzwUnkOsV6pccw9p24N2cM4g1HREAMymxvAmcYyU+PGcX36W5iOOcyAOWNUzVNpDmmOZRZJ384+BusUTZogY12UF73EOkrNP6ZuE/KVbbY9acgKqoDei0HE+SlXmPdsyLw2Jjl/OuQAiPsFU4QwH63xg8o3/VIpr0FT6i5A9kII6elAyKUnKEZKziGm3DFXX3ABcqljx0rmITPIuKChGzAOMsuJ5+EvnoJWuMkTIM+puwzZCxfEgOLTYQqBty6DyDsfCngS5KB0jnQ2rEc3bs0sklwfRDnS3spT0RyTIc+ruwo5hxMTYxIFA9fLZgCI1DD2d7pxVhRugiG7WegcuVk65kP2ShdAQFRxL2Qdd0Dm5ocD4SaWyaKrBMSh34+F7CUBpN8+wpnx/KIpJ0H2Ss0MPmbnCrlh376+yZC9ZtRNkJsyRbPKzfRKapCl8Gb00SC/p/hziP9aXlwN8gLUIL+9nPsBc4uSaWfLAxoAAAAASUVORK5CYII=" InformativeScreenshot="a776b751d1d0a8fde8bc2382ae50e289.png" ScopeSelectorArgument="&lt;html app='kpi.phoenix.cadclient.exe' url='file:///D:/CAD%20Client/BaseHtml.htm' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V4" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="05ac0966-2ac3-4564-bd55-cef5768e11e3" CvTextArea="24, 34, 56, 13" CvTextArgument="Phone#:" CvType="Text" DesignTimeRectangle="25, 33, 55, 16" FullSelectorArgument="&lt;webctrl id='Table1' tableRow='1' tag='TABLE' /&gt;&lt;webctrl tableRow='3' tag='B' /&gt;" FuzzySelectorArgument="&lt;webctrl id='Table1' tag='TABLE' /&gt;&lt;webctrl type='' tag='B' class='' aaname=' Phone#: ' check:text='Phone#:' /&gt;" Guid="2ef7b747-d75b-40c6-8231-1a264cad8dd0" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADsAAAAUCAYAAAAz30VQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFOSURBVFhH7VTBDYMwDOynjw7Ii1fX6ABMwA6ob4aoKnUMBGO4TWIntjENVEitKCdZgti5+Bw7B/gj7GK3il3sVpHEdg1cTkc4G1bfMQZuUPu1Ch648j1gLtXt9T1AW9L3NGaJdRYE/5BYzJfndbkO3jWFsdiygR6XHPpr4cUGIiaWF0dXVBdO+BNHi9wWB50brIC2QwfhXqV1/806EP8154dixxYP0kLJIm+eQwolw24iIaZJ8XmxplFlU6I6MWqhRxX8qaVwnuKeMYfcQ/FsVDD5EScW0O9Xl2RhhljeQqkF7UQMv0MuxvQbFm8qxIh4dYsWsm0skUvUuBWHtcS63DDWNmO2GVYWu6SNFxaMw8fz+XwvkrC62MlxiLx5DvuB0jMe9odYVRjkW/waS8wQ66AFi0PncWjByYc37znlQxWRFfsH2MVuFbvYbQLgCRXUH6o+obKQAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NGetAttributeGeneric.Target>
+                          </uix:NGetAttributeGeneric>
+                        </ActivityAction>
+                      </uta:VerifyControlAttribute.ActivityToTest>
+                      <uta:VerifyControlAttribute.ArgumentsBridgeActivity>
+                        <ActivityFunc x:TypeArguments="x:Object">
+                          <uta:ArgumentsBridge sap2010:WorkflowViewState.IdRef="ArgumentsBridge_2">
+                            <uta:ArgumentsBridge.Input>
+                              <InArgument x:TypeArguments="x:Object">
+                                <VariableValue x:TypeArguments="x:Object" Variable="{x:Reference __ReferenceID2}" />
+                              </InArgument>
+                            </uta:ArgumentsBridge.Input>
+                          </uta:ArgumentsBridge>
+                        </ActivityFunc>
+                      </uta:VerifyControlAttribute.ArgumentsBridgeActivity>
+                      <uta:VerifyControlAttribute.Expression>
+                        <InArgument x:TypeArguments="x:String">[CitizenFlagName]</InArgument>
+                      </uta:VerifyControlAttribute.Expression>
+                    </uta:VerifyControlAttribute>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="534,92" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Verified in CAD it displayed the Citizen Name&quot;]" />
+                    <uta:VerifyControlAttribute AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Control Attribute" sap:VirtualizedContainerService.HintSize="534,317" sap2010:WorkflowViewState.IdRef="VerifyControlAttribute_3" Operator="Equality" OutputArgument="Result" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False">
+                      <uta:VerifyControlAttribute.ActivityToTest>
+                        <ActivityAction>
+                          <uix:NGetAttributeGeneric x:TypeArguments="x:String" Attribute="text" DisplayName="Get Attribute 'uICitizenFlagPhoneNumberLabel'" sap:VirtualizedContainerService.HintSize="334,207" sap2010:WorkflowViewState.IdRef="NGetAttributeGeneric`1_3" ScopeIdentifier="6c686a6f-186f-443c-b863-277b0182a341" Version="V3">
+                            <uix:NGetAttributeGeneric.OutUiElement>
+                              <OutArgument x:TypeArguments="ui:UiElement">
+                                <VariableReference x:TypeArguments="ui:UiElement">
+                                  <VariableReference.Variable>
+                                    <Variable x:TypeArguments="ui:UiElement" Name="_autogenerated_OutUiElement" />
+                                  </VariableReference.Variable>
+                                </VariableReference>
+                              </OutArgument>
+                            </uix:NGetAttributeGeneric.OutUiElement>
+                            <uix:NGetAttributeGeneric.Result>
+                              <OutArgument x:TypeArguments="x:String">
+                                <VariableReference x:TypeArguments="x:String">
+                                  <VariableReference.Variable>
+                                    <Variable x:TypeArguments="x:String" x:Name="__ReferenceID3" Name="_autogenerated_Result" />
+                                  </VariableReference.Variable>
+                                </VariableReference>
+                              </OutArgument>
+                            </uix:NGetAttributeGeneric.Result>
+                            <uix:NGetAttributeGeneric.Target>
+                              <uix:TargetAnchorable CVScreenId="fdc13f6b-35ae-4e4b-a86d-3375dc87fff4" CvTextArea="24, 34, 56, 13" CvTextArgument="Phone#:" CvType="Text" DesignTimeRectangle="25, 33, 55, 16" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl id='Table1' tableRow='1' tag='TABLE' /&gt;&lt;webctrl tableRow='3' tag='B' /&gt;" FuzzySelectorArgument="&lt;webctrl id='Table1' tag='TABLE' /&gt;&lt;webctrl type='' tag='B' class='' aaname=' Phone#: ' check:text='Phone#:' /&gt;" Guid="2ec73889-ad1f-4e9d-ae8c-75bd19062082" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADsAAAAUCAYAAAAz30VQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFSSURBVFhH7VRRDoIwDPXHDw/IF19ewwNwAu9g/OYQYOIxjByjuq3d2lIcGBIN8JImsHZvfV27HSDatl28rVPsGrCJXSqS2McFToc9HA073zAGGjj7tQruuPI7YC5V8/7uoC7pexijxDoLgv9ILObL8zpdO+8aQl9seYEnLjk8r4UXG4iYWF4cXVFdOOFPHDVyWxx0brAC6gc6CLcqrftv1oH4rzm/FNu3eJAWShZ58xxSKBl2EwkxTYrPizWNKpsS1YlRC92r4E8thfMU9/Q55B6KZ6OCyfc4sYB+v7okCyPE8hZKLWgnYvgdcjGm37B4UyFGxKtbtJBtY4lcosatOMwl1uWGsbYZs80ws9gpbTyxYBw+ns/nZ5GE2cUOjkPkzXPYD5Se8bA/xKrCIN/k11hihFgHLVgcOo5DC04+vHnPKR+qiKzYFWATu1RsYpcJgBdaVdYhGcDjJwAAAABJRU5ErkJggg==" InformativeScreenshot="f87c0bcdfd498647a468be872b461543.png" ScopeSelectorArgument="&lt;html app='kpi.phoenix.cadclient.exe' url='file:///D:/CAD%20Client/BaseHtml.htm' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V4" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="fdc13f6b-35ae-4e4b-a86d-3375dc87fff4" CvTextArea="25, 18, 116, 13" CvTextArgument="NAME: Raj Kamal" CvType="Text" DesignTimeRectangle="25, 17, 117, 16" FullSelectorArgument="&lt;webctrl id='Table1' tableRow='1' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='B' /&gt;" FuzzySelectorArgument="&lt;webctrl id='Table1' tag='TABLE' /&gt;&lt;webctrl type='' tag='B' class='' aaname='  NAME: Raj  Kamal' check:text='NAME: Raj  Kamal' /&gt;" Guid="a3e81442-4e0d-469c-85f2-18bd9a334038" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHkAAAAUCAYAAACpkJLNAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKDSURBVGhD7ZWBbSQhDEWvpu2HMkZbxShV7LQQaSrYrjgY+MbYhgzJZe8yh6UvZRkw5j9DfvkZl48J+T8Igvx8PqcuJsSEfGEhJuQLC1Egv6/e3W7+dnN+feeTN78c44vfWIKo7R7HrTVBjyV/02v3N1e+3Tc9pqT3bqmXx73t5hpLONvysL43PGFnttd9v3jdCANykFv9TgtbkDGepAysIPMm2P3qyrpXQo76M+YbnvwDgKPOQw4q0GzIMNPdl7SuaoygCjLLJ/aRkPu3DQ1ivBxZzTyoJ++nmk2sGbrJXcD1ZajmwIvg3SpfRe4T1Rx1vm5EE3KBakHmZjeMJ1OXtB5NkMeXMJ6+/x3IMKNWyXsachewBpKUvVSeZzmnxpF7pG6EhhxgbNmoZIgBmc2N4Exjmalp47Se/hamI4epPOeMunk6zSGhyt+19O089GGdokkJMuoqeeEl6mg1f69uhAl5Z5stDw1ZQRXQjzEGEfMpV5z3asi8ts78ccgREPfLml/ylTVhXPmmXyrlddaZuhENyGEBINDTAcitJyiJDskhUu6U6yi4AbnVsWcl8xQzinFRvRtg/a4FqCwnzsNfPAWtcZMHII/UjWhDZguScvF0mIZw6yqIvPNzQS+CHEXnoLOhHt24LfNqyfVRJQftrTwVzTEMeaxuRBdyDSclRhIFA+tlM2SIpWHs7+XGWWrchJhHyG6Wco7aLK3PQw6iCyAgKn0VstYXIHPz44GwiWWy6CoB8aPf3ws5SAKg30HxzDi/aMohyEHUzNnH6lwxd973qG8YchgbqBtRIB+bTEHJrHYz/QQhJmQp3IxDE/I1xZ9D/Gv5oUIQ5BnXjQn58uH9b1JBdQzMxDOAAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NGetAttributeGeneric.Target>
+                          </uix:NGetAttributeGeneric>
+                        </ActivityAction>
+                      </uta:VerifyControlAttribute.ActivityToTest>
+                      <uta:VerifyControlAttribute.ArgumentsBridgeActivity>
+                        <ActivityFunc x:TypeArguments="x:Object">
+                          <uta:ArgumentsBridge sap2010:WorkflowViewState.IdRef="ArgumentsBridge_3">
+                            <uta:ArgumentsBridge.Input>
+                              <InArgument x:TypeArguments="x:Object">
+                                <VariableValue x:TypeArguments="x:Object" Variable="{x:Reference __ReferenceID3}" />
+                              </InArgument>
+                            </uta:ArgumentsBridge.Input>
+                          </uta:ArgumentsBridge>
+                        </ActivityFunc>
+                      </uta:VerifyControlAttribute.ArgumentsBridgeActivity>
+                      <uta:VerifyControlAttribute.Expression>
+                        <InArgument x:TypeArguments="x:String">[CitizenPhoneNo]</InArgument>
+                      </uta:VerifyControlAttribute.Expression>
+                    </uta:VerifyControlAttribute>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="534,92" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Verified in CAD it displayed the Citizen Phone Number&quot;]" />
+                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="CADLogOut" sap:VirtualizedContainerService.HintSize="534,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="PhoenixCAD\Global Methods\CadLogOut.xaml">
+                      <ui:InvokeWorkflowFile.Arguments>
+                        <scg:Dictionary x:TypeArguments="x:String, Argument" />
+                      </ui:InvokeWorkflowFile.Arguments>
+                    </ui:InvokeWorkflowFile>
+                    <WriteLine DisplayName="TestCaseID - 41801" sap:VirtualizedContainerService.HintSize="534,62" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="TestCaseID - 41801 Executed Successfully" />
+                  </Sequence>
+                </ActivityAction>
+              </uix:NApplicationCard.Body>
+              <uix:NApplicationCard.TargetApp>
+                <uix:TargetApp Area="-8, -8, 1936, 1048" ContentHash="d_i1joHauEuKgwnz8kxwXg" FilePath="D:\CAD Client\kpi.phoenix.cadclient.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAXYSURBVFhHtVULTJVlGD6zJZJIc+LKGaFloCBpIl4RPQbJxYM3RAp1ajk9ZIRRiJlzKd5iCFpOyksTWV5QRiZLxUu4EFR0ysUQBRVBDZBQWKlMnr7n5XDkcsBzln3bs/8///+e93m+93m/99eYu3buT8P49z82C4w1/O35LSa+frsSFTV1HYIxjDX87fmtRgH38Io+Ez0X/o4+n57GWxHZcFR4IzwLvUIz0XvRaYn53wTkldyBQ3g2hsUUwnvzVei2FiNgWwl8Eq7BI+4K+n1xVmIsEsBgc0Bfs/Kvw33VRUzZUYIP95Ui7GC5YMGBWwhOvAGPdbkSY+r/7UFjia/pOUXw/a4Q+pQyrDj+J2KzqhCXXYXVGRVYfOg2pn5fJDGMNTevEmC+r6mn8hGSWIJl6Xex5UI1kq/VIqWkDj/m1YiIj/bckJhGAebl1Vjia9LR89DvvylkSX/cx6nKhzhT80iJqJVKRPxyS2IYa25ejSW+fpucgYTUrA7BGMaam1djia+5V8tQXH7vmWCsuXk1lvi6N/08UjLysP/kJew+cg670jIF/N30jmCsuXk1lviqDdZj3PQF8Jg8F4O1AUbwtzY4VGIIHllz82rM8TXup2NCYhgdsi6FhmJfYqLJgUMR0ckh8F07CNPXv4oRIXYm85Jb056v18qqUHjjjjRK2rFTGO03A/Hh4bi4eTMe6/WApyce2dhg4ciRbUTM3zgAvnpbRJ30xLpL/nINPqAzyaNp7l0T6Cm93bB1j+BAzEZk+vqiwdERGDoUT5YsEQExGg0uK8zWao0iSO43wxbRWV5CvqJAh4h8f/Rf3cOYvzlnm1Hc5DGx5Zs43H97EDIVSbmbG1h2iiCC1DMfBV4pjuTcJXdO8ui8iUby+QW+cPmhZwueJojq1itBEZEwQyWv6927RVBD374YaNsJn6t3RQqGxxr67RPZ3bjrpYUBWFQUgFkFEzAz1xuTT4/CuBNjTRM2X9xlnUp8x8qq3SZrLco/sp80W9OuI69MEnLuPCTPGzMuaDHtzBg4rOnevgA2V218PGBnJ7ueNnz4s9WqpZ34EoL01gha2Q1f5ngbyecV+rcgn5w5UmyIeBBlOi87m6hUu1+hcHWAk1kCho3oLE1HAXMPu7UgD7443kiu+80dXmkucE8Z0jYvyRqCgoBOnRCiyOnvVwqG1x2u/s5WYBXeXdoVE3a+LuT0neSB58Yayf2ODhYBJm0osLeX3Td1dZRCtrLiSLdu7Yqo8/OT7h8Y+BpYBbewrhgc/7KU3EiuGq85uS7ZUeI23FzTNm+plxdym+2azfjEwQGr1GlgPxCezs7G9/cCA8UmZ+2bsB/0IpxDrEXA+J+d2pDrDrpg4jZ7zNw1GmzYsHjvpwJqunSRYbK9GXn18uXApk0ybLBypQweVohNWuHkBIqVaahOCqtHG5zes4JLtA3cVaNNzRot5JOOvoPAVBf4rLNDTMEyyb8jay3mu9s9FVDfuTNKra1bCGA/SE+4ugJ5eSKmISFBwKHERuW72+rKaTgv0EmqwPKy07lrkk/Z6yjkOZVq5htWYW01ImPnPBXAxZl+vJUAEnDooLS0sRpEUpKAMY9V/HkFCj80olEAbRgSYyvNyJJzLFfUFqPs4d/Iuf8X0qvvyvWTMLeWAlovzJolAtgDJBRBfKbsoC31aWny7lcVus8gZJRrD7GBp2FubC9EHfoAqVWXhTS/9gHK/3kopGdvnZBjK0SmFv0lmexekfEZCQmphhLBZ7SDu28SEaMbCmcPGyw+/JmRmOWuq6/H5eJMrF8TJFZNm+OA3bnb2xdQO3t2447VV49lps8EfeeIvm64ZwNyamare4rgiWAzBn+tEwEkISkbjiVn8xkoOl5SXn5ulQU8HfzgELznMeU9S84rhVEQG5P3Y+a4wqvPC0bSDnfa3uKA4UTkQOJIZpdzKjZHtOHK97SBg4siDCn+26LvJCDoLRObAqvAzzXJOUFpgyGFBUuj+Rcda4inBvV2EAAAAABJRU5ErkJggg==" InformativeScreenshot="1223d256e20b12e9c514ec28de34e62c.png" Selector="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmPhoenixMain' /&gt;" />
+              </uix:NApplicationCard.TargetApp>
+            </uix:NApplicationCard>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 1920, 1032" FilePath="D:\CAD Client\kpi.phoenix.cadclient.exe" IconBase64="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" InformativeScreenshot="532128cc19061773ad181a31aa4b94dd.png" Selector="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmLogin' /&gt;" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

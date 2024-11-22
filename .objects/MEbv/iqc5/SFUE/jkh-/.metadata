@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIGeoInfoLabel",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "jkh-vmtOVEC28pegt7bGZA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/jkh-vmtOVEC28pegt7bGZA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/SFUEBDwmQUCdd2iuk-Z8sw",
+  "Created": "2024-06-19T09:36:25.9583589Z",
+  "Updated": "2024-06-19T09:36:39.6661394Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

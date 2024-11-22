@@ -1,0 +1,16 @@
+﻿{
+  "Id": "Igka-MZCgESLLujJ7HU04g",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/Igka-MZCgESLLujJ7HU04g",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/B2zQje3EkUSDl_J95zzCiw",
+  "Name": "uIWeightEdit",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T09:45:54.8879188Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T09:46:03.3638341Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

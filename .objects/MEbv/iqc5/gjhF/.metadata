@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Name Inquiry LookUp Screen",
+  "Type": "Screen",
+  "Id": "gjhFWZxht0aOLSi_Jt88OA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/gjhFWZxht0aOLSi_Jt88OA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/iqc5IjgxGkefj9bmmSp_QA",
+  "Created": "2024-08-05T16:37:12.5592768Z",
+  "Updated": "2024-08-05T16:37:17.2804122Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

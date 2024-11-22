@@ -1,0 +1,16 @@
+﻿{
+  "Id": "jLitAyFue0qWBwQ7DER5QA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/jLitAyFue0qWBwQ7DER5QA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/JAkQOXWInk6rFxbLGYXYRQ",
+  "Name": "uICountyDescriptionEdit",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T11:48:49.2285502Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T11:49:05.2964557Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

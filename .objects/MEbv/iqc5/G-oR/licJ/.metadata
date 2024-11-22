@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIClickAddressFlagsTab",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "licJwyx1mka-3lp1n0wB5g",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/licJwyx1mka-3lp1n0wB5g",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/G-oR_yfRvUae3J-fNEIjYQ",
+  "Created": "2024-02-06T12:50:45.6538381Z",
+  "Updated": "2024-02-06T12:51:40.3209045Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

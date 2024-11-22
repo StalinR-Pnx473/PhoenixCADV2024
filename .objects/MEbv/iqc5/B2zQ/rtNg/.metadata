@@ -1,0 +1,16 @@
+﻿{
+  "Id": "rtNgsCnRuE6gvFsDgyVnPA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/rtNgsCnRuE6gvFsDgyVnPA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/B2zQje3EkUSDl_J95zzCiw",
+  "Name": "uIDLClassEdit",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T09:50:39.7440497Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T09:50:52.8082042Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

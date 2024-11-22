@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="MsxBGSSbpkirUYo3gRd6Gg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="c26b2d60-7381-4375-9b10-f5b570483d2c" CvElementArea="95, 233, 106, 25" CvType="InputBox" DesignTimeRectangle="96, 234, 104, 23" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;wnd ctrlname='usrUpdNamesDtl' /&gt;&lt;wnd ctrlname='grpPhysical' /&gt;&lt;wnd ctrlname='cddEhnic' /&gt;&lt;wnd ctrlname='lstCoded' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='usrUpdNamesDtl' /&gt;&lt;wnd ctrlname='grpPhysical' /&gt;&lt;wnd ctrlname='cddEhnic' /&gt;&lt;wnd ctrlname='lstCoded' check:text='--' /&gt;" Guid="f2aaccea-2293-4ef8-8f8f-283d5ca4b2b5" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmNameDtl' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c26b2d60-7381-4375-9b10-f5b570483d2c" CvTextArea="46, 235, 36, 12" CvTextArgument="Ethnic" CvType="Text" DesignTimeRectangle="35, 233, 48, 16" ElementType="Text" FullSelectorArgument="&lt;wnd ctrlname='usrUpdNamesDtl' /&gt;&lt;wnd ctrlname='grpPhysical' /&gt;&lt;wnd ctrlname='lblEthnic' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='usrUpdNamesDtl' /&gt;&lt;wnd ctrlname='grpPhysical' /&gt;&lt;wnd ctrlname='lblEthnic' check:text='Ethnic' /&gt;" Guid="d35237c7-6739-45f2-b560-2f5aa9fc0d39" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADQAAAAUCAYAAADC1B7dAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC1SURBVFhH7ZTREcMgCEDZjXlYhlnchEXcgMaLFS61tmfT1Ovx8T4iJPIMCDln/SdCaHVCaHVCyEhKAAoPoLIccoUVgTT5tXeYeO9DoU7xvfis0AQhZIyERBldC6ZdiMhak1LNrbKj2P0ghLHlwJMDOn+GkFVa3P8hV2giy3sZq4WX9aNc28v4TcuV517Rg1gRQBb3/T4hZFwrdFHLdWZoY58HuxiITxDa+PKlsCYhtDohtDZZb/+uimG8EAAfAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a991ce5a8b7da3e573d09105b34f22c1.png" xmlns="">0hxqOkXicXUqyFlrDZ3hDDg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,16 @@
+﻿{
+  "Id": "Zh_B8wC5ZU-gFzTfQUHE4A",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/Zh_B8wC5ZU-gFzTfQUHE4A",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/JAkQOXWInk6rFxbLGYXYRQ",
+  "Name": "uICourtDateArrowButton",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T10:55:42.1659056Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T10:55:51.8851532Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

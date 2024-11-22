@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIMessageButton",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "PGBmOlpx3kG1PgVfttVRBg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/PGBmOlpx3kG1PgVfttVRBg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/PSk1PzSV5UyPEZiEMgGs2w",
+  "Created": "2024-06-26T13:17:19.9694976Z",
+  "Updated": "2024-06-26T13:17:34.550628Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

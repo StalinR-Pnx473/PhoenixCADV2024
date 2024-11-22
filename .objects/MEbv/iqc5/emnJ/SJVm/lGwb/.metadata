@@ -1,0 +1,16 @@
+﻿{
+  "Id": "lGwbq76p1Uq76zMRF7RrRw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/lGwbq76p1Uq76zMRF7RrRw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/SJVmgy-nLkmYlfM_TvjICg",
+  "Name": "uISelectVehilceDropdown",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T07:43:19.969258Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T07:48:39.7722829Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

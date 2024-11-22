@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uICityEdit",
+  "Type": "Element",
+  "TaxonomyType": "Text",
+  "Id": "gml3GTGKhkqXCwRKIkEDIg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/gml3GTGKhkqXCwRKIkEDIg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/fKim-pvEU0yZ2AdJDvBrQA",
+  "Created": "2024-05-06T13:44:02.8399771Z",
+  "Updated": "2024-05-06T13:44:11.594546Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

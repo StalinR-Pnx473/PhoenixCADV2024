@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Records Module",
+  "Type": "Screen",
+  "Id": "FgKONO6vWkq6VTrRCPK49g",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/FgKONO6vWkq6VTrRCPK49g",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/h5es0EizPUSkHahTS7e1RA",
+  "Created": "2024-09-11T12:28:52.3113964Z",
+  "Updated": "2024-09-11T12:28:59.1255522Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

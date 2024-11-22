@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6BSTrxssOkaO9Vn0bXrggQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="http://10.103.1.68/LAW/CCP/frmCitCameraSrch.aspx?KPIInt=TRUE&amp;RepositoryID=5617&amp;ModuleName=Citizen%20Services&amp;ScreenName=Live%20Video%20Link&amp;ScreenHeight=1080&amp;ScreenWidth=1920" CvElementArea="563, 193, 433, 23" CvType="InputBox" DesignTimeRectangle="563, 194, 433, 20" DesignTimeScaleFactor="1" ElementType="DropDown" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='lstJuris' tableRow='2' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='lstJuris' type='' tag='SELECT' class='' aaname='' /&gt;" Guid="ed746b32-ec70-490c-b3f8-820a85dc8e21" ScopeSelectorArgument="&lt;html app='chrome.exe' title=':: Police - Phoenix Public Safety Solution :: AutomationPoliceCAD;SOP' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArea="533, 199, 28, 11" CvTextArgument="Juris" CvType="Text" DesignTimeRectangle="534, 198, 26, 13" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='lblJuris' tableRow='2' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='lblJuris' type='' tag='SPAN' class='' aaname='Juris' check:innerText='Juris' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB4AAAARCAYAAADKZhx3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC4SURBVEhL7ZPBDYMwDAA9IEiZx8ogkcgcPGCOPDIDD0ZwMU0hFkZqBQ08eNzHtnyxk8A4DnQFj7gYJ4tbsoDUqTmJEEdfEQDM2F4Wno0ycaDG3EDcYX6Iba5GpHreUkVNkKvm/GeDYBzFFGcOi2XDTNyjyEXvxN0fn9iHlGMycXBpE/pj+59YxPgAfBVrXBG/C9XmaYpvxPxD9g7MLOL8KwG2S8G6sgmDZH9etdJzQpm4DI+4EAO9ACn3+Sizv47wAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6b73fcb25b0115e15c0dd79f89977cf8.png" xmlns="">008rq16jqPEaD_enGtSCBhw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

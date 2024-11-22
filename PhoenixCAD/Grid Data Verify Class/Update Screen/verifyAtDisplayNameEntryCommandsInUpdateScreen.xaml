@@ -1,0 +1,231 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="verifyAtDisplayNameEntryCommandsInUpdateScreen" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="DisplayCommand" Type="InOutArgument(x:String)" />
+  </x:Members>
+  <mva:VisualBasic.Settings>
+    <x:Null />
+  </mva:VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>1008,2228</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>verifyAtDisplayNameEntryCommandsInUpdateScreen_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.Testing</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.PDF.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Terminal</AssemblyReference>
+      <AssemblyReference>UiPath.Java.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Testing</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="verifyAtDisplayNameEntryCommandsInUpdateScreen" sap:VirtualizedContainerService.HintSize="886,2163" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Update Call Screen" sap:VirtualizedContainerService.HintSize="824,2052" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="83d285ea-2329-4016-a1c5-9975b337cd1f" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="790,1762" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:Int32" Name="rowCounter" />
+              <Variable x:TypeArguments="sd:DataTable" Name="TableValue" />
+              <Variable x:TypeArguments="x:Int32" Name="Tablerow" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Assign sap:VirtualizedContainerService.HintSize="728,82" sap2010:WorkflowViewState.IdRef="Assign_1">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:Int32">[rowCounter]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:Int32">0</InArgument>
+              </Assign.Value>
+            </Assign>
+            <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[TableValue]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Table' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-0' ReferenceIdx='0' Name='Column-0'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract-table get_columns_name='1' get_empty_columns='1' columns_name_source='Longest' /&gt;" sap:VirtualizedContainerService.HintSize="728,157" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="83d285ea-2329-4016-a1c5-9975b337cd1f" Version="V3">
+              <uix:NExtractData.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="27, 22, 927, 41" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl id='Table1' tableRow='1' tag='TABLE' /&gt;" Guid="e6eaab76-68e8-420b-a7cf-837b747114ba" InformativeScreenshot="22ac63ccb6396e38083631c7d9f8b83a.png" ScopeSelectorArgument="&lt;html app='kpi.phoenix.cadclient.exe' url='file:///H:/CAD%20Client/BaseHtml.htm' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+              </uix:NExtractData.Target>
+            </uix:NExtractData>
+            <Assign sap:VirtualizedContainerService.HintSize="728,82" sap2010:WorkflowViewState.IdRef="Assign_2">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:Int32">[Tablerow]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:Int32">[TableValue.Rows.Count]</InArgument>
+              </Assign.Value>
+            </Assign>
+            <ui:RepeatNumberOfTimesX DisplayName="Repeat Number of Times" sap:VirtualizedContainerService.HintSize="728,1233" sap2010:WorkflowViewState.IdRef="RepeatNumberOfTimesX_1" NumberOfTimes="[Tablerow]" StartAt="1">
+              <ui:RepeatNumberOfTimesX.Body>
+                <ActivityAction x:TypeArguments="x:Int32">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentItem" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="694,1069" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="x:String" Name="strRowCounter" />
+                      <Variable x:TypeArguments="x:String" Name="GetDisplayCommand" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <Assign sap:VirtualizedContainerService.HintSize="632,82" sap2010:WorkflowViewState.IdRef="Assign_3">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:Int32">[rowCounter]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:Int32">[rowCounter+1]</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <Assign DisplayName="CovertingRowCountValueAsString" sap:VirtualizedContainerService.HintSize="632,82" sap2010:WorkflowViewState.IdRef="Assign_4">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[strRowCounter]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">[rowCounter.ToString]</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <uix:NGetText DisplayName="Get Text 'New Names'" sap:VirtualizedContainerService.HintSize="632,157" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="83d285ea-2329-4016-a1c5-9975b337cd1f" TextString="[GetDisplayCommand]" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable CVScreenId="855272b5-f302-4468-9290-93d7cb58cfd9" CvTextArea="27, 46, 510, 14" CvType="AnyWordGroup" DesignTimeRectangle="27, 44, 927, 19" DesignTimeScaleFactor="1" FullSelectorArgument="[string.Format(&quot;&lt;webctrl id='Table1' idx='2' tableRow='1' tag='TABLE' /&gt;&lt;webctrl tableRow='{0}' tag='TD' /&gt;&quot;, strRowCounter)]" FuzzySelectorArgument="&lt;webctrl id='Table1' tag='TABLE' /&gt;&lt;webctrl type='' tag='TD' class='' /&gt;" Guid="2974bf7b-b5e5-4d65-8c6f-f3e0c7499864" InformativeScreenshot="c7dad9e926ae4c29ef4828383fe0f9c9.png" ScopeSelectorArgument="&lt;html app='kpi.phoenix.cadclient.exe' url='file:///H:/CAD%20Client/BaseHtml.htm' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="855272b5-f302-4468-9290-93d7cb58cfd9" CvTextArea="26, 25, 296, 19" CvTextArgument="08/07/2024 17:13:12 Opr-01236CAD" CvType="Text" DesignTimeRectangle="27, 22, 293, 22" FullSelectorArgument="&lt;webctrl id='Table1' tableRow='1' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='B' /&gt;" FuzzySelectorArgument="&lt;webctrl id='Table1' tag='TABLE' /&gt;&lt;webctrl type='' tag='B' class='' aaname='08/07/2024  17:13:12     Opr-01236CAD       ' check:text='08/07/2024  17:13:12     Opr-01236CAD' /&gt;" Guid="4caf2b61-230e-417e-a29d-65411363285c" ImageBase64="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" SearchSteps="FuzzySelector, Image, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="632,92" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[GetDisplayCommand]" />
+                    <If Condition="[DisplayCommand.Contains(GetDisplayCommand)]" sap:VirtualizedContainerService.HintSize="632,416" sap2010:WorkflowViewState.IdRef="If_1">
+                      <If.Then>
+                        <Sequence sap:VirtualizedContainerService.HintSize="596,229" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="534,60" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_1" Operator="Contains" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+                            <uta:VerifyExpressionWithOperator.FirstExpression>
+                              <InArgument x:TypeArguments="x:String">[DisplayCommand]</InArgument>
+                            </uta:VerifyExpressionWithOperator.FirstExpression>
+                            <uta:VerifyExpressionWithOperator.SecondExpression>
+                              <InArgument x:TypeArguments="x:String">[GetDisplayCommand]</InArgument>
+                            </uta:VerifyExpressionWithOperator.SecondExpression>
+                          </uta:VerifyExpressionWithOperator>
+                          <ui:Break sap:VirtualizedContainerService.HintSize="534,25" sap2010:WorkflowViewState.IdRef="Break_1" />
+                        </Sequence>
+                      </If.Then>
+                      <If.Else>
+                        <Sequence sap2010:WorkflowViewState.IdRef="Sequence_5">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </Sequence>
+                      </If.Else>
+                    </If>
+                  </Sequence>
+                </ActivityAction>
+              </ui:RepeatNumberOfTimesX.Body>
+            </ui:RepeatNumberOfTimesX>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" ContentHash="kzjzjmh_kUCMxY316auSFA" FilePath="D:\CAD Client\kpi.phoenix.cadclient.exe" IconBase64="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" InformativeScreenshot="f9d72f943d720978dfbac491e57d9bd9.png" Reference="THDf1UhB6U6EKgZN7HF2zw/fYZhLs7KtEWAodyFWW1i6A" Selector="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmUpdate' /&gt;" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

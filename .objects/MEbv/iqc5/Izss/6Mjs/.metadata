@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIExitCADButton",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "6MjsXYvY2E-J135JQ15GOQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/6MjsXYvY2E-J135JQ15GOQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/IzssZMi__UG9DaOzzPYjow",
+  "Created": "2024-08-13T13:41:55.8879528Z",
+  "Updated": "2024-08-13T13:42:24.261617Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,16 @@
+﻿{
+  "Id": "N-mYgqaKIkmxjuR7xcOGUg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/N-mYgqaKIkmxjuR7xcOGUg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/emnJxCfvZ0m1QDLryu6YUQ",
+  "Name": "Attachments Tab",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T13:32:14.3575938Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T13:32:23.2234422Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

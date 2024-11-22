@@ -1,0 +1,16 @@
+﻿{
+  "Id": "v8Pa-wpyrUyMVfhEwUPAdg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/v8Pa-wpyrUyMVfhEwUPAdg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/G-oR_yfRvUae3J-fNEIjYQ",
+  "Name": "uIPhone1TypeDropdown",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-16T14:49:34.6035906Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-16T14:49:47.6632821Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

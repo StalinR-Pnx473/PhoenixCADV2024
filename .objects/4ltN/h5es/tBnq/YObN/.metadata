@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uI1002AdditionSuccessfulAcknowledgePopup",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "YObN07jNJE6PX5gHgKtVAQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/YObN07jNJE6PX5gHgKtVAQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/tBnq8dOGpUm4ard4nLyOhQ",
+  "Created": "2024-05-07T13:25:19.8827668Z",
+  "Updated": "2024-05-07T13:25:46.7970318Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

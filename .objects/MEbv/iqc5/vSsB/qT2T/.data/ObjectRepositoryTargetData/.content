@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ga18JJgvlU6syw2ieR04Ag" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="636, 126, 80, 22" ElementType="CheckBox" FriendlyName="'Critical'" FullSelectorArgument="&lt;wnd ctrlname='PnlHtml' /&gt;&lt;wnd ctrlname='PnlCmtSortOptions' /&gt;&lt;wnd ctrlname='chkAllCritical' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='PnlHtml' /&gt;&lt;wnd ctrlname='PnlCmtSortOptions' /&gt;&lt;wnd ctrlname='chkAllCritical' check:fulltext='Critical' /&gt;" Guid="ccb9d490-5839-4322-8642-354bec185a06" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmHotComments' /&gt;" SearchSteps="Selector, FuzzySelector" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="593, 124, 35, 25" ElementType="Text" FriendlyName="'Sort'" FullSelectorArgument="&lt;wnd ctrlname='PnlHtml' /&gt;&lt;wnd ctrlname='PnlCmtSortOptions' /&gt;&lt;wnd ctrlname='lblSortCritical' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='PnlHtml' /&gt;&lt;wnd ctrlname='PnlCmtSortOptions' /&gt;&lt;wnd ctrlname='lblSortCritical' check:text='Sort' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACcAAAAdCAYAAAApQnX+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADnSURBVFhH7ZTRDYQgDEAZj4EYp7uwCptUpRApxZw04t0lfYkfCrSvBXT4w5icFpPTYnJaTE7Lf8rF4NC55vGAqYy9xVAui3UyJBswlvd5EoJ36OF+iQO5iGHvVBAW9H0mOOcROQripB0jgefbzgoqBQKgP8YCUMw690PsysWZo+BnYo+s4ERJ2xwkW7e9rGdH45HO9bSilDyLiAtyzKtFlM6xBi2Rq5zBr+Wq0Cq5GJrt4eQbu2f8YucoiEiepUvym2dugRwhfsLdpSAZPueUGck1a0TXx0ycufcxOS0mp8XktJicDsQNtN28q/3/WngAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a3df4e63ba6d46ad7e3ac8f9a206405d.png" xmlns="">0-ro6LQXjWUW5yy79B1f1EQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

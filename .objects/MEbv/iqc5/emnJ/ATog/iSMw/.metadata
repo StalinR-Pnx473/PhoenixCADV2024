@@ -1,0 +1,16 @@
+﻿{
+  "Id": "iSMwLCZjsU-ZeEL18FN1Yw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/iSMwLCZjsU-ZeEL18FN1Yw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/ATog21aGmUikpMronzSugw",
+  "Name": "uIIssueDateEdit",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T09:34:44.8652659Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T09:34:54.4419962Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

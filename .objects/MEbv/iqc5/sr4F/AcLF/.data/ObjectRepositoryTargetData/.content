@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="UX7dZjOII0OhGZhD3tmGMQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CvTextArea="177, 144, 269, 16" CvType="AnyWordGroup" DesignTimeRectangle="176, 141, 273, 24" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;wnd ctrlname='lblKeyText1' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='lblKeyText1' /&gt;" Guid="a98f8ffe-ff76-4de7-a1ff-1ad661d6dcd7" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmMessage' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V3" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArea="22, 146, 152, 13" CvTextArgument="Address match Found :" CvType="Text" DesignTimeRectangle="8, 143, 168, 22" ElementType="Text" FullSelectorArgument="&lt;wnd ctrlname='lblMessage1' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='lblMessage1' check:text='Address match Found :' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAKwAAAAaCAYAAAAqorewAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALXSURBVHhe7ZdNTgMxDIV7t6oSl+miEidhw4ZjdNMVh2DFjiOwZBcmk9ixYyeeKaVMhJE+UcYT/703A+ymrxD5/AqOs3ncsM5QuGGdoXDDOkPhhnWGwg3rDIUb1hmKPzbsR3g6pPrHyzXxf8b7S9jPej2Ep3clvnl+rud09taGfQ3HnHO3ewxn9R7gvxu27GrRfKsNS7Xg/M0+t2jYyyMuJdJvzA17L8NuY38bNOz5lPLtDw/z993pld9TGRrAAXpxKtglf8b89duEi/r2nPtR4r0Yg9Q/nsiZ2APrG36zaG84iBXxKGkPyrlYg9Tf07OHl/BG+0QWGBZzAmR2jMme988fy/qx9GZU+UX81oalA4phaRyWUj1xi+MEJmRtlJwHlkYWeZ4MZ8byzwipnxZKjJUfHHxgIU7y4oOB1xRDiR3ka2xOuL/aT65TMAxr7U3EW4Zt9INxmMXqt8ov4jc2LAoyiyeb4/F4jd9jxeUCVuatzrGzSkywQAAwbOmFIAwgDSVnIXTq6wKX/JxUX+uVPXCi36qe0Y+pZ665hulsSqAF1yGXVzfM3z78TBzAissFJXDxCnyxlCxCL1bTEahl2PJAUNqGrc8zDIOI+403rFaLaYb1rjOsqWeuuYbpbEqgBVehCg+kgeSC+ABWXC4o0RW5hvxNJUTuxSIdgTTDofjwJ4AwwP3esJpBtFrMZKLfqp7Rj6lnrrmG6WxKoAXXIMSZKQubB0RDNASz4mJBmcb1uLB4LvZWFsSX1otBHqQjENxPRRKCifmUetos8VrM0al/jWFLvnrfkL/18zLDmnrSXmaseW5m2HYhFC0bGY09U/67hAG6cU1MpCyDEs/xnOW6rMdjgo5AcIabtOrpMM0zfwYBJ8hbPZLyKLP8hmEjmBPgu23psciwnfN6P3czrOPcBzesMxRuWGco3LDOULhhnaFwwzpD4YZ1hsIN6wyFG9YZiBC+AaMTcbqc48HpAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4d4328a338311722846dbd23a28654b3.png" xmlns="">0nlWTIpdms0qZxa9Yl1n7LA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

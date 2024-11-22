@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="cwuDnEcOZUW41KRsVvrtBw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="94d51369-b8cc-4cde-be6a-7023e31a32ad" CvElementArea="1027, 7, 20, 21" CvType="CloseButton" DesignTimeRectangle="1027, 7, 21, 21" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Close' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Close' role='push button' automationid='' check:text='Close' /&gt;" Guid="b116e73b-7dd0-4a39-983f-47901a544d65" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABiSURBVEhL7Y9BCoAwDATz/3/m3CdUxiqIKG5DiyIZGGgvGdbqRMysuf2n8F7E3YcJGZGFjMhCd6SUsnp+3wmhJfvxpwBCKIJKAOGbS47HlRCElvQIGZGFjMjCZWQ0f4tYXQA4prkP0d2/nwAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmUpdate' /&gt;" SearchSteps="Selector, FuzzySelector, Image, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="94d51369-b8cc-4cde-be6a-7023e31a32ad" CvTextArea="14, 9, 45, 12" CvTextArgument="UPDATE" CvType="Text" DesignTimeRectangle="14, 9, 45, 12" ElementType="Text" Guid="8b1f6875-c48e-4b5b-93b1-34c0e5cf713a" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="da2d9b7c64e768e464085c8da621d210.png" xmlns="">06NI4GOzlBkKhOI76R-L18A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

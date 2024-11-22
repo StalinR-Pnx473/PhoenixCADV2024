@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="HLKkFzOTlkqUn3w0iWlqeQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="97, 93, 90, 19" FriendlyName="'WindowsForms10.Window.8…'" FullSelectorArgument="&lt;wnd ctrlname='lupColor' /&gt;&lt;wnd ctrlname='txtCode' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='lupColor' /&gt;&lt;wnd ctrlname='txtCode' /&gt;" Guid="06554abc-0b9a-4a35-a41c-882fea33b2a1" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAF4AAAAXCAYAAACChfjKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABkSURBVGhD7dCxDcAgFMTQ7L8KSpXF/gYgCpBSUHJubMkLvKequucXHnrDt/fz4D94u9tCnwkfTHgo4aGEhxIeSngo4aGEhxIeSngo4aGEhxIeSngo4aGEhzrCe+4N79mFR64+APfjgS2dZI33AAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmEditPlate' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="47, 93, 48, 19" ElementType="Text" FriendlyName="'Color1'" FullSelectorArgument="&lt;wnd ctrlname='kpiWinLabel2' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='kpiWinLabel2' check:text='Color1' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADQAAAAXCAYAAABEQGxzAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADrSURBVFhH7ZTRDcQgCEDdzXlcxlncxEXcgBO5Vm05tReusRc/XmKEEB+oKoQA/8QSmp0lNDtL6Ds8WK3Bei4my0UhB0YpUCXGMXlHpISwjgJtPRMjxoWcSQLGMbEuEkLUTB3rCAj1O3Oanrbg99hRqJdrwHkLOsXjOu47Q830VkIoFafCbJwRxgPk61gKjeRmkS1n4x4hNo5T2PYKoaHcz1f7HiF8X9W1QfCQ5VTe6yu5VQ4hI9TpmvyEfi4Uaf5yJNx+F+UERnPPyAkhqbv4YDO5OB10jzV/uSu5NbJCD2AJzc4Smp0lNDcBXvOT7RHyDOfAAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4b33b1afd130a807871f1caa25bf74ee.png" xmlns="">0pQVsx6KxnEOC3kkAbtf_Sw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

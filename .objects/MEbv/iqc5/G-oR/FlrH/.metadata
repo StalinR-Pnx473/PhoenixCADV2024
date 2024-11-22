@@ -1,0 +1,16 @@
+﻿{
+  "Id": "FlrH7RpUP06J3RmZrgnB3g",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/FlrH7RpUP06J3RmZrgnB3g",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/G-oR_yfRvUae3J-fNEIjYQ",
+  "Name": "uIJurisOKButton",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T06:42:25.1207947Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T06:42:52.48126Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

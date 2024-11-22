@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIVehicle",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "RRU45H-e2EKTiOJT9dntGg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/RRU45H-e2EKTiOJT9dntGg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/pDRNr9xiF0yVqEwz0zYLIg",
+  "Created": "2024-09-09T11:19:26.6995645Z",
+  "Updated": "2024-09-09T11:19:49.4578181Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

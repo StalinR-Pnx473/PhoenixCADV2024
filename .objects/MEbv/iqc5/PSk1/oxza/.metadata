@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIPlateNo",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "oxza4w6070m7q1E9Yigoeg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/oxza4w6070m7q1E9Yigoeg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/PSk1PzSV5UyPEZiEMgGs2w",
+  "Created": "2024-06-26T13:14:04.6713994Z",
+  "Updated": "2024-06-26T13:14:24.2845522Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

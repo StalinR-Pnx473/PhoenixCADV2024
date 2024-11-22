@@ -1,0 +1,13 @@
+﻿{
+  "Id": "6w72yrg_OEWPgO2letjJxg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/6w72yrg_OEWPgO2letjJxg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/TWMOkOYXy0mE93-JBhooZA",
+  "Name": "uIShareCommentCheckBox",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T11:43:28.1038934Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T11:43:28.1038934Z"
+}

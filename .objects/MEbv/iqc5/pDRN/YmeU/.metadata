@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIPatrolarea",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "YmeUHhchYk6A1jdFVXbW_w",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/YmeUHhchYk6A1jdFVXbW_w",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/pDRNr9xiF0yVqEwz0zYLIg",
+  "Created": "2024-09-09T11:30:42.9263832Z",
+  "Updated": "2024-09-09T11:31:51.41483Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

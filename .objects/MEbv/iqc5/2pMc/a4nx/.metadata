@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIAgreeButton",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "a4nxngQoV02BGyck15t0cg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/a4nxngQoV02BGyck15t0cg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/2pMcuOK5E0aizS4vFzew9Q",
+  "Created": "2024-10-24T08:08:18.78469Z",
+  "Updated": "2024-10-24T08:08:44.0334277Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

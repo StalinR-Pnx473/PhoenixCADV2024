@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIBusEdit",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "1TCfeGAF1UuOvXoQ9KQlUQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/1TCfeGAF1UuOvXoQ9KQlUQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/B2zQje3EkUSDl_J95zzCiw",
+  "Created": "2024-07-31T15:32:46.1699808Z",
+  "Updated": "2024-07-31T15:33:10.7401829Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

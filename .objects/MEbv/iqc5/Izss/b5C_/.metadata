@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIExitCADOkButton",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "b5C_2L5AcEmush2qCKkLOg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/b5C_2L5AcEmush2qCKkLOg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/IzssZMi__UG9DaOzzPYjow",
+  "Created": "2024-08-13T13:43:25.9527443Z",
+  "Updated": "2024-08-13T13:43:36.1229553Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,16 @@
+﻿{
+  "Id": "QxUS47OXKkCEDvSQuU5_sg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/QxUS47OXKkCEDvSQuU5_sg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/ATog21aGmUikpMronzSugw",
+  "Name": "uI2fFailureToWearSeatBeltCheckBox",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T10:21:12.9803185Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T10:21:22.0781642Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

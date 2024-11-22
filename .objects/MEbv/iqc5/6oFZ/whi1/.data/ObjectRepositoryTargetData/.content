@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="VQvooQ5B4kepVd6YabUvNQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="c18cd727-7783-49c7-8b78-f0852075cce8" CvElementArea="755, 133, 17, 16" CvTextArea="775, 130, 130, 27" CvTextArgument="Auto PopUp" CvType="CheckBox" DesignTimeRectangle="757, 126, 184, 32" DesignTimeScaleFactor="1" ElementType="CheckBox" FullSelectorArgument="&lt;wnd ctrlname='pnlNCICQry' /&gt;&lt;wnd ctrlname='chkAutoPop' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='pnlNCICQry' /&gt;&lt;wnd ctrlname='chkAutoPop' check:fulltext='Auto PopUp' /&gt;" Guid="22e385de-e841-451c-94aa-0dd6b1080b62" ImageBase64="" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmPhoenixMain' /&gt;&lt;wnd ctrlname='frmNCICRequest' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="51b76a545bd31bcb445dee7f2dfcb801.png" xmlns="">0fm8TTp75UkOxOnrUEhv0pA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

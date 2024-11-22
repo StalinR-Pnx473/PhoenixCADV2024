@@ -1,0 +1,16 @@
+﻿{
+  "Id": "aZ_BmLDI50yhls85Icv3Ow",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/aZ_BmLDI50yhls85Icv3Ow",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/fYZhLs7KtEWAodyFWW1i6A",
+  "Name": "uICFSLabel",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T08:11:18.7816475Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T08:11:31.666551Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

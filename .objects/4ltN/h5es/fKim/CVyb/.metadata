@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIAddIPCameraLinkButton",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "CVybH94VekCV83gI0aTkPg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/CVybH94VekCV83gI0aTkPg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/fKim-pvEU0yZ2AdJDvBrQA",
+  "Created": "2024-05-06T13:48:12.0725385Z",
+  "Updated": "2024-05-06T13:48:20.3849125Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0J3byqls1kuP7RrLzy3VYg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="103, 45, 131, 16" ElementType="InputBox" FriendlyName="'11'" FullSelectorArgument="&lt;wnd ctrlname='txtPlateNbr' /&gt;&lt;wnd ctrlname='txtPlateNbr_EmbeddableTextBox' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='txtPlateNbr' /&gt;&lt;wnd ctrlname='txtPlateNbr_EmbeddableTextBox' /&gt;" Guid="4aca752a-5c3f-4480-abaf-ced32c4389ea" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAIcAAAAUCAYAAACnFS7nAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACdSURBVGhD7dUhCsNQEEXRLCdL7A5q/zIKISrQXcQFKgp1MSELCDWvNv93HrR2uOKYJ0ZdmE7vWUBrGCcRB0JVHN3l8Rdd+6+DyIM4YBEHLOKAFcTxUtkkLWsVQrQTR25NHKvuOlRuu55VHPFOHLnFb6W0ccQ7ceRGHLCIAxZxwCIOWMQBK47jR8SRG3HAIg5YVRzAGXHAIg5YwzjpA+o5ut/ABdaiAAAAAElFTkSuQmCC" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='kpi.phoenix.cadclient.exe' ctrlname='frmEditPlate' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="17, 45, 78, 19" ElementType="Text" FriendlyName="'Plate/VIN'" FullSelectorArgument="&lt;wnd ctrlname='lblPlate' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='lblPlate' check:text='Plate/VIN' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFIAAAAXCAYAAACYuRhEAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGtSURBVFhH7ZXLkcMgDEDpjXrcjG9bQu4+uIMUwKSBVOAOWD4SEgKPd73Eyezo8A5EIKRnIGbbNq/8HRU5CBU5CBU5CBU5CBU5iAtELn41xn+ZyT+68f/BAJHO320UVbMuGD8h0s3+Zqy/u07sBzwmXkubB+PrgrXjHN6LqHeZYA37jfEykbTp70U+ZxvmnxUJ+00L5DH+Nrs2bmf/LLX3RIp114mkxrGB2ExXZDpxVHAVg4IJLhRzAUkGxgDeMO7D50E8S9oRaS3Ux/Z+p8hcbCuyvnoANNvGMK/Mw09Wzku14Jy2tpxfiJPjmBM/aDoMIXadSMmegIBzrHkppG0+IRsL1FICcAL5lex+1N29cBxrpb6SvPeI5BJakeXqcw5EdtckaF6eU6+r5IEMEi33wjHUWp6gML5OpGwAESKbZs6fyBqZh8gnd/KrPMFHIsvaUG94Nz9SJBEe9rieCajfScyLeQTiDePXusD3rEQfi5T7fo7IMp8KS1eSN1j9q/O89doIisNTRwI4JKMWLWvHscjDPsQLRSoRFTkIFTkIFTkIFTkIFTkIFTmEzX8D6+b4Blk1KQgAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7deb874f9947a5a60932f10fae30ffa6.png" xmlns="">00gyo7iTOF0ClSncQkLzQpQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

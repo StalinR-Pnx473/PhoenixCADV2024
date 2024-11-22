@@ -1,0 +1,16 @@
+﻿{
+  "Id": "2ALNk6Bs4kOfwwAlcCN1aw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/2ALNk6Bs4kOfwwAlcCN1aw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/ATog21aGmUikpMronzSugw",
+  "Name": "uIProhibitedAreaCheckBox",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T10:48:47.2919713Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T10:48:55.5598136Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

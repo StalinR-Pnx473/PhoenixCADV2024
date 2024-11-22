@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Records Module Call Search Screen",
+  "Type": "Screen",
+  "Id": "0kb2B_0gNkmiXbCQcdTseQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/0kb2B_0gNkmiXbCQcdTseQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/h5es0EizPUSkHahTS7e1RA",
+  "Created": "2024-09-12T07:46:22.4835256Z",
+  "Updated": "2024-09-12T07:46:28.408598Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

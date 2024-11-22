@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uICitizenLinksTab",
+  "Type": "Element",
+  "TaxonomyType": "Tab",
+  "Id": "J0VZGUcix02NPDYxqQbN4A",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/J0VZGUcix02NPDYxqQbN4A",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/G-oR_yfRvUae3J-fNEIjYQ",
+  "Created": "2024-05-07T14:02:51.5816957Z",
+  "Updated": "2024-05-07T14:03:05.6217147Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

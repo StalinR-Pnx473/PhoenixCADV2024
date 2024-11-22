@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Click",
+  "Type": "Element",
+  "Id": "qozQx6CYIUa-qVLTLywmaw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/qozQx6CYIUa-qVLTLywmaw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/NUe2wANE_E6HwAALtEMKWw",
+  "Created": "2024-11-18T13:02:19.231136Z",
+  "Updated": "2024-11-18T13:02:19.231136Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,16 @@
+﻿{
+  "Id": "jOn8ZIyGLkK_rTN6vKRlxw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/jOn8ZIyGLkK_rTN6vKRlxw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/VradmaExf0-8ZQ9PR-n0Hw",
+  "Name": "uIDispositionCodeEdit",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-19T06:45:52.7542058Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-19T06:46:09.7232735Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

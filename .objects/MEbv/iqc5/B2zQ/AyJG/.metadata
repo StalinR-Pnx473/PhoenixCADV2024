@@ -1,0 +1,16 @@
+﻿{
+  "Id": "AyJGNUkQs0ac8rG_LWawqw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/AyJGNUkQs0ac8rG_LWawqw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/B2zQje3EkUSDl_J95zzCiw",
+  "Name": "uIDLExpireArrowButton",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T09:50:10.3623075Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T09:50:20.1325439Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

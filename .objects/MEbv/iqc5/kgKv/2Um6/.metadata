@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIAddApt#ToGeoButton",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "2Um68zG1aEWfsYMedxzwiA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/2Um68zG1aEWfsYMedxzwiA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/kgKvS8H8kk6vEIMbBAQx4g",
+  "Created": "2024-04-15T14:01:05.2228905Z",
+  "Updated": "2024-04-15T14:01:43.897307Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

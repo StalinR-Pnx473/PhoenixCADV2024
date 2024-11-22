@@ -1,0 +1,16 @@
+﻿{
+  "Id": "iF1sms_I-ECUX2dYGbgMPA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/iF1sms_I-ECUX2dYGbgMPA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/aT0E-vpZYEmlb76E0mIHAQ",
+  "Name": "uIPlateStateDropdown",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T12:45:42.8886131Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T12:45:54.2944844Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

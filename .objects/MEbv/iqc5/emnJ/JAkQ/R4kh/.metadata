@@ -1,0 +1,16 @@
+﻿{
+  "Id": "R4kheEo_xUam5W0Bp6rtgw",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/R4kheEo_xUam5W0Bp6rtgw",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/JAkQOXWInk6rFxbLGYXYRQ",
+  "Name": "uIPayTimeEdit",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-18T11:51:05.2184045Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-18T11:51:17.5509761Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

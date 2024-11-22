@@ -1,0 +1,362 @@
+{
+  "name": "PhoenixCADV2024",
+  "projectId": "4d6f059b-c553-4454-bbe5-ba3ba325a616",
+  "description": "CAD F2 Screen scenario",
+  "main": "Main.xaml",
+  "dependencies": {
+    "ColorDetectorActivities": "[1.1.3]",
+    "Reply.GetCSSPropertyInfo.Activities": "[2.0.0]",
+    "Reply.GetUiElementInfo.Activities": "[1.0.0]",
+    "UiPath": "[24.12.109.62028-preview]",
+    "UiPath.ConnectionClient": "[2.0.9]",
+    "UiPath.Excel.Activities": "[2.24.3]",
+    "UiPath.Java.Activities": "[1.3.1]",
+    "UiPath.PDF.Activities": "[3.20.1]",
+    "UiPath.System.Activities": "[24.11.0-preview]",
+    "UiPath.Terminal.Activities": "[2.8.1]",
+    "UiPath.Testing.Activities": "[24.10.3]",
+    "UiPath.UIAutomation.Activities": "[24.12.1-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.4.1.0",
+  "projectVersion": "1.0.185356549",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": [
+        "PhoenixCAD/Scripts/F3 Screen Scripts/TestCaseID_29448_To verify DI - Dispatch.xaml",
+        "PhoenixCAD/Scripts/F3 Screen Scripts/F3_Test Scripts.xaml",
+        "PhoenixCAD/Scripts/F3 Screen Scripts/System Parameter/1620 System Parameter Script/1620AsFalse_TestCaseID-35415A_To verify the Summons feature in Update call.xaml",
+        "PhoenixCAD/Scripts/F3 Screen Scripts/System Parameter/1620 System Parameter Script/1620AsTrue_TestCaseID-35415_To verify the Summons feature in Update call.xaml",
+        "PhoenixCAD/Scripts/F3 Screen Scripts/System Parameter/2612 System Parameter Script/2612False_TestCaseID_35520.xaml",
+        "PhoenixCAD/Scripts/F3 Screen Scripts/System Parameter/2612 System Parameter Script/2612True_TestCaseID_35520.xaml"
+      ]
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "23ab6431-b514-4e80-81af-59b567435415",
+        "testCaseType": "TestCase",
+        "fileName": "TestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "f393113d-f09a-4799-a1e2-1be6c9f2c70f",
+        "dataVariationFilePath": ".variations\\LoadTestData_Sheet1.json",
+        "testCaseType": "TestCase",
+        "fileName": "Automation Load Test\\TestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "3c4f634c-7567-4a53-9fca-93e2cafb7472",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Quick Test\\TestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "7df7d526-da3b-42ec-ab20-9249bc3bf4af",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCase1.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "6668392e-6d79-47b1-8b6c-15ba929ee00f",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCase2.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "86a85970-49b8-40c2-9a6b-863636b5541a",
+        "testCaseType": "TestCase",
+        "fileName": "Quick Test\\TestCaseID_21406_21541_To ensure the CADWDA Basic call flow as quick test scenario1.68.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "01600c33-1ece-4d0d-8cda-d3b2c2459b0c",
+        "testCaseType": "TestCase",
+        "fileName": "Quick Test\\TestCaseID_21406_21541_To ensure the CADWDA Basic call flow as quick test scenario1.118.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "72558967-c987-4566-a3d6-713c7f401970",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F3 Screen Scripts\\TestCaseID_35370_To verify the addition of an existing O-Type name to the incident names.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "45cd95cc-4115-463e-b448-70b66cfaaa95",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F3 Screen Scripts\\TestCaseID_35422_To verify Add new A type Name.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "eed065f5-a122-4965-b5be-b3c384de63ed",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F3 Screen Scripts\\TestCaseID_35428_To_verify Add Existing A Type Name.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "22ef897b-3de6-4750-b02b-9f1e79e675e9",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F3 Screen Scripts\\TestCaseID_35430_To verify the addition of a new B-Type name to the incident names.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e0b54693-fad2-40f7-a303-f60fbc88ab42",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F3 Screen Scripts\\TestCaseID_35433_To verify the addition of a new J-Type name to the incident names.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "9f9544f9-ad92-4f76-a21f-ec1f95ee1941",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F3 Screen Scripts\\TestCaseID_35452_To verify the addition of a new O-Type name to the incident names.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "3426a2c4-3b8f-4b27-8281-473dc2d39712",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F3 Screen Scripts\\TestCaseID_35465_To verify the Create Case functionality in Update call.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e50eba62-d68e-4ae7-813d-0ba3ec514a65",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F3 Screen Scripts\\TestCaseID_35468_To verify OD - On Duty.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "7bd5e5d9-1950-45af-8f72-ff740c207496",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F3 Screen Scripts\\TestCaseID_35474_To verify the Attachment feature in Update call.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "3fbfba6b-132e-400d-84a1-58ff2593165f",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F3 Screen Scripts\\TestCaseID_35491_To verify the Other Agency feature in Update call.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "025d5f67-0a80-4bdc-bf14-2ba5fbcca6d2",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F3 Screen Scripts\\TestCaseID_35531_To verify the addition of an existing B-Type name to the incident names.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "4d91ab42-70fe-4609-99b7-19ca83191370",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F3 Screen Scripts\\TestCaseID_35532_To verify the addition of an existing J-Type name to the incident names.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d0055040-d670-47a1-a6d4-f556cc27c5b8",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F2 Screen Scripts\\TestCaseID_26796_Systemshoulddisplaythereportedlocation.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "04f3e475-2010-4680-945a-844050bdc739",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F2 Screen Scripts\\TestcaseID_26805_SystemshoulddisplaytheRA#configuredfortheeventlocation.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "c38e6af3-48d8-4dac-92bc-ac83480b22bd",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F2 Screen Scripts\\TestCaseID_18799_ToverifyLinkonlyfunctionfromF3Screen.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "59940f8f-e95a-444c-a3a8-b09aeb87b403",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F2 Screen Scripts\\TestCaseID_18800_To verify Link & Merge function from F3 Screen.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "adf0d6ea-c95a-4bb5-9cf9-f3c3a5f41437",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F2 Screen Scripts\\TestCaseID_18779_To_verify_call_taking_functionality_with_location_or_CFS_from_F2_screen_for_Fire_Call.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "2c6618e4-4105-4110-a547-7530bba9c4f6",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F2 Screen Scripts\\TestCaseID_18777_ToVerifyCADLogin.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "58b8dc4b-2ab7-4eab-aab7-141f21c0d136",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F2 Screen Scripts\\Test_Case_18786_To_verify_call_taking_functionality_with_including_name_plate_from_F2_screen_for_Police_call.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "5930af8b-8199-42a3-8abc-76a1976eac4f",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F2 Screen Scripts\\TestCase_18791_ToverifyaddanexistingnameinF2screenwhilecalltakingATypeName.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "76eae1dc-45d2-4787-b10e-6d941b68b55e",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F2 Screen Scripts\\TestCase_18811_To verify the traffic stop call taking functionality from CAD.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "73468e44-c04e-4b52-b676-fcb02c1cb352",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F2 Screen Scripts\\TestCase_18823_To verify the OI call taking functionality from CAD.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "0137717d-111f-4b4f-8aba-577625936661",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F2 Screen Scripts\\TestCaseID_18778_To verify call taking functionality with location CFS from F2 screen for Police call.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "d0d2ce48-885a-4b06-8ae0-d2f03600b664",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F2 Screen Scripts\\TestCaseID_18794_ToverifyaddanexistingnameinF2screenwhilecalltakingforJtypename.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "e8cc9d10-d2f6-42bb-be6d-7518053c85af",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F2 Screen Scripts\\TestCaseID_18796_ToverifyaddanexistingnameinF2screenwhilecalltakingforBtypename.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "a88e8950-15b0-4711-a616-723fd8d458f5",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F2 Screen Scripts\\TestCaseID_18797_ToverifyaddanexistingnameinF2screenwhilecalltakingforOtypename.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "cee4d6e5-84b5-4538-a4c9-86746e2bbdd4",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F2 Screen Scripts\\TestCaseID_18798_To verify add new name functions from F2 screen for A Type name.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "7f9eaacf-16e0-4b91-8e92-a1169e745393",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F2 Screen Scripts\\TestCaseID_20443_To verify add new name functions from F2 screen for J Type name.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "dcd9899d-44b5-4df3-8a16-48a388bbaccd",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F2 Screen Scripts\\TestCaseID_20445_To verify add new name functions from F2 screen for B Type name.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "bcf9128e-c0c3-4f6c-8932-0fee549fba92",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F2 Screen Scripts\\TestCaseID_20447_To verify add new name functions from F2 screen for O Type name.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "ee391453-c3b2-444d-8b79-8bb98028d7ea",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F2 Screen Scripts\\TestCaseID_26794_SystemshoulddisplaytheCADrefaddressforthereportedlocation.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "7c9a2897-ec7f-4c57-bf48-a14e39520a14",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F2 Screen Scripts\\TestCaseID_26800_OncecallcreatedsystemshouldupdateCallStackeddateandtime.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "879ee9fd-cf7c-43e9-9ee9-cbb3b9d9cb0a",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F2 Screen Scripts\\TestcaseID_26804_SystemshoulddisplaythecommentsaddedduringthecreationofIncident.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "13514aed-c346-4fec-93b2-ea018de44288",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F2 Screen Scripts\\TestCaseID_27146 System should display the Name added to the incident once call created.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "8a5c1473-8b4c-45e8-a3c2-39433170fc92",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F2 Screen Scripts\\TestCaseID_40518_Create Fire call.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "2cb8d01a-a140-4a61-b5f1-749f5ce24b4f",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F2 Screen Scripts\\TestCaseID_40724_To Verify the functionality of the Adding the New B type Name.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "2b5b0010-610e-4a59-93c9-e8bb0897f036",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F2 Screen Scripts\\TestCaseID_40726_To Verify the functionality of the Adding the New O type Name.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "cf8c5a56-1657-48ea-8fa0-c278e8d19d4b",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F2 Screen Scripts\\TestCaseID_40728_To Verify the functionality of the Adding the New J type Name.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "6ee81260-4fd5-40f6-8d02-2a4d955a7f31",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F2 Screen Scripts\\TestCaseID_40798_To Verify the functionality of the Adding the New A type Name.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "aa406d1c-8e31-40c3-8f47-ff8ae837400e",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F2 Screen Scripts\\TestCaseID_40800_ToverifytheExistingPlateFunctionality.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "87d7fc15-7f70-424d-ad22-7ba465009af2",
+        "testCaseType": "TestCase",
+        "fileName": "PhoenixCAD\\Scripts\\F2 Screen Scripts\\TestCaseID_40801_ToverifytheNewPlateFunctionality.xaml"
+      }
+    ],
+    "modernBehavior": false,
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}

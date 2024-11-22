@@ -1,0 +1,16 @@
+﻿{
+  "Id": "FF9gVgrq6kqLDB2KpWqXiQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/FF9gVgrq6kqLDB2KpWqXiQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/4dUL2P5akESqqPvH9ncmSw",
+  "Name": "uIMapButton",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T07:20:12.2786782Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T07:20:27.269299Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIZipSearchIcon",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "-X9WuOZeE0CQEAjZjeFYkA",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/-X9WuOZeE0CQEAjZjeFYkA",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/fKim-pvEU0yZ2AdJDvBrQA",
+  "Created": "2024-05-06T13:46:02.8333349Z",
+  "Updated": "2024-05-06T13:46:11.3624183Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

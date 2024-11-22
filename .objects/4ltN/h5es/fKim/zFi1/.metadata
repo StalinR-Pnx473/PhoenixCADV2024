@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uICitizenNameLastNameEdit",
+  "Type": "Element",
+  "TaxonomyType": "Text",
+  "Id": "zFi1_ytqtk2iY92mocmmMg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/zFi1_ytqtk2iY92mocmmMg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/fKim-pvEU0yZ2AdJDvBrQA",
+  "Created": "2024-05-06T13:38:15.6830292Z",
+  "Updated": "2024-05-06T13:38:27.9066151Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

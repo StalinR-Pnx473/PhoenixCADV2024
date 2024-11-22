@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIRemarksEdit",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "EWquXhHzD0u5Z2RLN5FF1Q",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/EWquXhHzD0u5Z2RLN5FF1Q",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/7Plt2J_RrUa9VElsuQozwA",
+  "Created": "2024-08-14T09:46:25.4120016Z",
+  "Updated": "2024-08-14T09:47:00.3104797Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

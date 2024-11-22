@@ -1,0 +1,15 @@
+﻿{
+  "Name": "CAD1.118LogInScreen",
+  "Type": "Screen",
+  "Id": "2pMcuOK5E0aizS4vFzew9Q",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/2pMcuOK5E0aizS4vFzew9Q",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/iqc5IjgxGkefj9bmmSp_QA",
+  "Created": "2024-10-24T07:56:45.1086353Z",
+  "Updated": "2024-10-24T07:57:07.4108585Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

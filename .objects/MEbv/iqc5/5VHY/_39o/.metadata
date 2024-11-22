@@ -1,0 +1,16 @@
+﻿{
+  "Name": "uIUseCallLocationCheckBox",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "_39o3WwgbkqBAmrLcSlMfQ",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/_39o3WwgbkqBAmrLcSlMfQ",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/5VHY118380ife2Xk7NFeZg",
+  "Created": "2024-02-19T11:11:12.7495139Z",
+  "Updated": "2024-02-19T11:11:37.6812516Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

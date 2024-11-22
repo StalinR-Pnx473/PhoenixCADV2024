@@ -1,0 +1,16 @@
+﻿{
+  "Id": "L87UpNQQUk6T80Ufbnkvog",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/L87UpNQQUk6T80Ufbnkvog",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/B2zQje3EkUSDl_J95zzCiw",
+  "Name": "uIStateDropdown",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T09:40:17.9025241Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T09:40:33.672197Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,16 @@
+﻿{
+  "Id": "i22ZX0DcOU-9cgb-nttgTg",
+  "Reference": "THDf1UhB6U6EKgZN7HF2zw/i22ZX0DcOU-9cgb-nttgTg",
+  "ParentRef": "THDf1UhB6U6EKgZN7HF2zw/aT0E-vpZYEmlb76E0mIHAQ",
+  "Name": "uIPlateTypeSearchButton",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-01-17T12:51:32.3263973Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-01-17T12:53:12.9412094Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
